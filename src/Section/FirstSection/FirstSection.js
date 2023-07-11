@@ -12,7 +12,7 @@ function FirstSection() {
         <img className={style.img} src={img} alt='handimg' />
       </div>
       <div className={style.rightBox}>
-       <Form/>
+     <div className={style.form}><Form/></div>  
       </div>
     </div>
   )
