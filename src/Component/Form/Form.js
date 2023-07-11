@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Form.module.css';
-import formImg from "../Image/form.png"
+import formImg from "../../Image/form.png"
 
 const Form = () => {
   const [fullName, setFullName] = useState('');
