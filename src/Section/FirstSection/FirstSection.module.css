@@ -30,4 +30,43 @@
 .img{
     margin-top:-6rem;
     filter: drop-shadow(1px 9px 7px );
+    height: 25rem;
+
+}
+@media (max-width:786px){
+    .main{
+        flex-direction: column;
+
+    }
+    html{
+        font-size: 15px;
+    }
+    .leftBox{
+        width: 100vw;
+    }
+    .rightBox{
+        width: 100vw;
+        align-items: center;
+    }
+  
+}
+@media (max-width:700px){
+    .img{
+        height: 20rem;
+    }
+}
+@media (max-width:620px){
+    .img{
+        height: 20rem;
+        width: 30rem;
+    }
+    html{
+        font-size: 10px;
+    }
+    .leftBox{
+     align-items: center;
+    }
+    .leftBox p{
+        margin-left: -20rem;
+    }
 }
