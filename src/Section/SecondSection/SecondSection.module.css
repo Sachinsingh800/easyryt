@@ -52,12 +52,25 @@
 .span{
     display: flex;
 }
+
+@media (max-width:1000px){
+    .bottominnerbox button{
+        width: 10rem;
+        height: 3.5rem;
+    }
+}
+@media (max-width:769px){
+    .bottominnerbox button{
+        width: 8rem;
+        height: 3rem;
+    }
+}
 @media (max-width:620px){
     .bottominnerbox{
         grid-template-columns: 1fr 1fr ;
     }
     .bottominnerbox button{
-        width: 10rem;
+        width: 13rem;
         height: 3.5rem;
     }
 }
