@@ -1,0 +1,63 @@
+.main {
+   
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding:2rem 0rem;
+    background-color: rgba(45, 45, 233, 0.1); /* Set a slight blue background color with opacity */
+    background-image: url(../../Image/bg.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(57, 65, 98);
+    color: white;
+  }
+  .main h1{
+    font-weight: 400;
+  }
+.innerbox{
+ 
+    width: 70%;
+    text-align: left;
+
+}
+.innerbox p{
+    margin-top: 1rem;
+
+}
+.bottominnerbox{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    width: 70%;
+    gap: 4rem;
+}
+.bottominnerbox p{
+    font-size: medium;
+}
+.bottominnerbox button{
+    width: 8rem;
+    height: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: none;
+    transition: background-color 0.5s ease;
+    font-size: medium;
+    border-radius: 15px;
+}
+.bottominnerbox button:hover{
+   background-color:rgb(255, 230, 0);
+}
+.span{
+    display: flex;
+}
+@media (max-width:620px){
+    .bottominnerbox{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .bottominnerbox button{
+        width: 10rem;
+        height: 3.5rem;
+    }
+}
