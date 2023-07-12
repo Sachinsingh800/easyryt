@@ -45,6 +45,8 @@ export default function HamburgerBtn() {
         </h1>
         <Accordion1/>
         <Accordion2/>
+        <Accordion3/>
+        <Accordion4/>
       </List>
     </Box>
   );
