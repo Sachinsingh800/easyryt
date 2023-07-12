@@ -13,7 +13,7 @@ export const Accordion1 = () => {
   return (
     <div className={`${styles.accordion} ${isOpen ? styles.open : ''}`}>
       <button className={styles['accordion-button']} onClick={toggleAccordion}>
-       <span>How it works</span>
+       <span>Services</span>
        {isOpen ? <span>▲</span> : <span>▼</span>  }
        
       </button>
@@ -39,7 +39,59 @@ export const Accordion2 = () => {
   return (
     <div className={`${styles.accordion} ${isOpen ? styles.open : ''}`}>
       <button className={styles['accordion-button']} onClick={toggleAccordion}>
-       <span>How it works</span>
+       <span>About</span>
+       {isOpen ? <span>▲</span> : <span>▼</span>  }
+       
+      </button>
+      {isOpen && (
+        <div className={styles.content}>
+          <p>Option 1</p>
+          <p>Option 2</p>
+          <p>Option 3</p>
+          <p>Option 4</p>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export const Accordion3 = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleAccordion = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <div className={`${styles.accordion} ${isOpen ? styles.open : ''}`}>
+      <button className={styles['accordion-button']} onClick={toggleAccordion}>
+       <span>Contact Us</span>
+       {isOpen ? <span>▲</span> : <span>▼</span>  }
+       
+      </button>
+      {isOpen && (
+        <div className={styles.content}>
+          <p>Option 1</p>
+          <p>Option 2</p>
+          <p>Option 3</p>
+          <p>Option 4</p>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export const Accordion4 = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleAccordion = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <div className={`${styles.accordion} ${isOpen ? styles.open : ''}`}>
+      <button className={styles['accordion-button']} onClick={toggleAccordion}>
+       <span>Blog</span>
        {isOpen ? <span>▲</span> : <span>▼</span>  }
        
       </button>
