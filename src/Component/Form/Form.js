@@ -1,12 +1,22 @@
 import React, { useState } from 'react';
 import styles from './Form.module.css';
 import formImg from "../../Image/form.png"
+import Swal from 'sweetalert2';
 
 const Form = () => {
   const [fullName, setFullName] = useState('');
   const [mobileNumber, setMobileNumber] = useState('');
   const [requestServices, setRequestServices] = useState('');
   const [email, setEmail] = useState('');
+
+
+  const showAlert = () => {
+    Swal.fire({
+      title: 'Verified!',
+      text: 'you are verified successfully !',
+      icon: 'success',
+    });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -16,6 +26,7 @@ const Form = () => {
     console.log('Mobile Number:', mobileNumber);
     console.log('Request Services:', requestServices);
     console.log('Email:', email);
+    showAlert()
   };
 
   return (
