@@ -1,0 +1,41 @@
+/* Accordion.module.css */
+.accordion {
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .accordion a{
+    color: black;
+  }
+  
+  .accordion-button {
+    background-color:transparent;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+  }
+  .accordion-button span{
+    font-size: 2.5rem;
+  }
+  
+  .accordion-button:hover {
+    /* background-color: #eaeaea; */
+  }
+  
+  .content {
+    display: none;
+    font-size: medium;
+
+    padding: 10px;
+  }
+  
+  .open .content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  

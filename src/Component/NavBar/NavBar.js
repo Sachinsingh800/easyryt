@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import style from "./NavBar.module.css";
 import logo from "../../Image/logo.png";
+import HamburgerBtn from '../HamburgerBtn/HamburgerBtn';
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState(null);
@@ -12,6 +13,7 @@ function NavBar() {
   return (
     <div className={style.main}>
       <img className={style.img} src={logo} alt='logo' />
+      <div className={style.HamburgerBtn}><HamburgerBtn/></div>
       <div className={style.innerBox}>
         <h4
           className={activeLink === 'services' ? style.active : ''}

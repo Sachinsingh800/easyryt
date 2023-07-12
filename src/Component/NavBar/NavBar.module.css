@@ -32,9 +32,18 @@
     border-bottom: 2px solid yellow;
     color: yellow;
 }
+.HamburgerBtn{
+    display: none;
+}
 
 @media (max-width:600px){
     .main{
         height: 7rem;
+    }
+    .HamburgerBtn{
+        display: unset;
+    }
+    .innerBox{
+        display: none;
     }
 }
