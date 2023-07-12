@@ -32,3 +32,9 @@
     border-bottom: 2px solid yellow;
     color: yellow;
 }
+
+@media (max-width:600px){
+    .main{
+        height: 7rem;
+    }
+}
