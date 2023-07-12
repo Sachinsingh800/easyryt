@@ -44,7 +44,7 @@
     border: none;
     transition: background-color 0.5s ease;
     font-size: medium;
-    border-radius: 15px;
+    border-radius: 4px;
 }
 .bottominnerbox button:hover{
    background-color:rgb(255, 230, 0);
