@@ -3,6 +3,7 @@ import style from "./Home.module.css"
 import NavBar from '../../Component/NavBar/NavBar'
 import FirstSection from '../../Section/FirstSection/FirstSection'
 import SecondSection from '../../Section/SecondSection/SecondSection'
+import ThirdSection from '../../Section/ThirdSection/ThirdSection'
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
         <NavBar/>
           <FirstSection/>
           <SecondSection/>
+          <ThirdSection/>
     </div>
   )
 }
