@@ -341,31 +341,39 @@
         display: unset;
     }
  }
- .logo{
-  -webkit-animation-name: zoomIn;
-  animation-name: zoomIn;
+ .optionContent,  .optionContent1,  .optionContent2,  .optionContent3,  .optionContent4,  .optionContent5,  .optionContent6 {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   }
-  @-webkit-keyframes zoomIn {
+  @-webkit-keyframes pulse {
   0% {
-  opacity: 0;
-  -webkit-transform: scale3d(.3, .3, .3);
-  transform: scale3d(.3, .3, .3);
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
   }
   50% {
-  opacity: 1;
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
   }
   }
-  @keyframes zoomIn {
+  @keyframes pulse {
   0% {
-  opacity: 0;
-  -webkit-transform: scale3d(.3, .3, .3);
-  transform: scale3d(.3, .3, .3);
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
   }
   50% {
-  opacity: 1;
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
   }
   } 
