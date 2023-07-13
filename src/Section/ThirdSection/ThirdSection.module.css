@@ -242,8 +242,67 @@
     font-size: 5rem;
     font-weight: 700;
     position: absolute;
-    margin-left:-3rem ;
-    margin-top: 5rem;
+    margin-left:-3.5rem ;
+    margin-top: -2rem;
+    color: #f3ecec ;
+    z-index: -1;
+  }
+  
+  .arrow1{
+    font-size: 5rem;
+    font-weight: 700;
+    position: absolute;
+    margin-left:-3.5rem ;
+    margin-top: 2rem;
+    color: #f3ecec ;
+    z-index: -1;
+  }
+  
+  .arrow2{
+    font-size: 5rem;
+    font-weight: 700;
+    position: absolute;
+    margin-left:-3.5rem ;
+    margin-top: 4.6rem;
+    color: #f3ecec ;
+    z-index: -1;
+  }
+  
+  .arrow3{
+    font-size: 5rem;
+    font-weight: 700;
+    position: absolute;
+    margin-left:-3.5rem ;
+    margin-top: 5.8rem;
+    color: #f3ecec ;
+    z-index: -1;
+  }
+  
+  .arrow4{
+    font-size: 5rem;
+    font-weight: 700;
+    position: absolute;
+    margin-left:-3.5rem ;
+    margin-top: 10rem;
+    color: #f3ecec ;
+    z-index: -1;
+  }
+  
+  .arrow5{
+    font-size: 5rem;
+    font-weight: 700;
+    position: absolute;
+    margin-left:-3.5rem ;
+    margin-top: 15rem;
+    color: #f3ecec ;
+    z-index: -1;
+  }
+  .arrow6{
+    font-size: 5rem;
+    font-weight: 700;
+    position: absolute;
+    margin-left:-3.5rem ;
+    margin-top: 19rem;
     color: #f3ecec ;
     z-index: -1;
   }

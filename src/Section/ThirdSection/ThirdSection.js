@@ -60,13 +60,18 @@ function ThirdSection() {
             Progressive Web App
             {hoveredOption === "Option 2" && (
               <div className={style.optionContent1}>
-                <span className={style.arrow}>◄</span>
+                <span className={style.arrow1}>◄</span>
                 <img className={style.logo} src={logo3} alt="img" />
                 <h4> Progressive Web App</h4>
                 <p>
-                  Progressive Web Apps (PWAs) are web-based applications that
-                  offer a native app-like experience, combining the reach of the
-                  web with the functionality of mobile apps.
+                  A Progressive Web App (PWA) is a web application that combines
+                  the best features of a website and a native app. It can be
+                  accessed through a web browser and offers an app-like
+                  experience, including offline functionality, push
+                  notifications, and device hardware access. PWAs are fast,
+                  responsive, and can be installed on the user's home screen,
+                  making them convenient and accessible across different
+                  platforms.
                 </p>
                 <a
                   href="https://en.wikipedia.org/wiki/Progressive_Web_Apps"
@@ -86,7 +91,7 @@ function ThirdSection() {
             Enterprise Application Development
             {hoveredOption === "Option 3" && (
               <div className={style.optionContent2}>
-                <span className={style.arrow}>◄</span>
+                <span className={style.arrow2}>◄</span>
                 <img className={style.logo} src={logo4} alt="img" />
                 <h4> Enterprise Application Development</h4>
                 <p>
@@ -115,7 +120,7 @@ function ThirdSection() {
             Design UI/UX
             {hoveredOption === "Option 4" && (
               <div className={style.optionContent3}>
-                <span className={style.arrow}>◄</span>
+                <span className={style.arrow3}>◄</span>
                 <img className={style.logo} src={logo1} alt="img" />
                 <h4> Design UI/UX</h4>
                 <p>
@@ -142,7 +147,7 @@ function ThirdSection() {
             Digital Marketing
             {hoveredOption === "Option 5" && (
               <div className={style.optionContent4}>
-                <span className={style.arrow}>◄</span>
+                <span className={style.arrow4}>◄</span>
                 <img className={style.logo} src={logo5} alt="img" />
                 <h4>Digital Marketing</h4>
                 <p>
@@ -170,7 +175,7 @@ function ThirdSection() {
             Product Management
             {hoveredOption === "Option 6" && (
               <div className={style.optionContent5}>
-                <span className={style.arrow}>◄</span>
+                <span className={style.arrow5}>◄</span>
                 <img className={style.logo} src={logo6} alt="img" />
                 <h4> Product Management</h4>
                 <p>
@@ -201,7 +206,7 @@ function ThirdSection() {
             Sap（system Application Product）
             {hoveredOption === "Option 7" && (
               <div className={style.optionContent6}>
-                <span className={style.arrow}>◄</span>
+                <span className={style.arrow6}>◄</span>
                 <img className={style.logo} src={logo7} alt="img" />
                 <h4> Sap（system Application Product）</h4>
                 <p>
