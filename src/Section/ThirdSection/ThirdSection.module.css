@@ -82,6 +82,9 @@
     height: 4rem;
     width: 4rem;
   }
+  .accodian{
+    display: none;
+  }
  @media (max-width:800px){
     .navBar {
         margin-left: 1rem;
@@ -91,5 +94,8 @@
  @media (max-width:669px){
     .navBar {
         display: none;
+    }
+    .accodian{
+        display: unset;
     }
  }

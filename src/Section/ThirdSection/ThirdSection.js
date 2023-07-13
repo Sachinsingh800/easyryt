@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import style from "./ThirdSection.module.css";
 import logo1 from "../../Image/graphic-design-.png" 
+import { Servicesaccordian } from '../../Component/Accordion/Accordion';
 
 function ThirdSection() {
   const [hoveredOption, setHoveredOption] = useState(null);
@@ -12,6 +13,9 @@ function ThirdSection() {
   return (
     <div className={style.main}>
         <h1>Our Services</h1>
+        <div className={style.accodian}>
+       < Servicesaccordian />
+        </div>
     <div className={style.navBar}>
       <ul className={style.optionList}>
         <li
