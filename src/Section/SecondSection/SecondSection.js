@@ -5,6 +5,7 @@ import { useIntersection } from 'react-use';
 import { Counter1, Counter2, Counter3, Counter4, Counter5 } from '../../Component/Counter/Counter';
 
 function SecondSection() {
+  
   const sectionRef = useRef(null);
   const intersection = useIntersection(sectionRef, {
     root: null,

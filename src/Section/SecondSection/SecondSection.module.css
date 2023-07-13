@@ -6,7 +6,6 @@
     align-items: center;
     gap: 4rem;
     padding:4rem 0rem;
-    background-color: rgba(45, 45, 233, 0.1); /* Set a slight blue background color with opacity */
     background-image: url(../../Image/bg.png);
     background-size: cover;
     background-blend-mode: multiply;
