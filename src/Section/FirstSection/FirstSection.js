@@ -10,6 +10,10 @@ function FirstSection() {
         <span>Smart Digital Solutions for Growing SMEs & MSMEs</span>
         <p>Trusted by over 1,000 ambitious brands</p>
         <img className={style.img} src={img} alt='handimg' />
+        <div className={style.btnbox}> 
+          <button className={style.btn}>Call</button>
+          <button className={style.btn}>Whatsapp</button>
+        </div>
       </div>
       <div className={style.rightBox}>
      <div className={style.form}><Form/></div>  
