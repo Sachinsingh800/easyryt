@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import style from "./ThirdSection.module.css";
 import logo1 from "../../Image/graphic-design-.png" 
+import logo2 from "../../Image/mob-logo.png" 
 import { Servicesaccordian } from '../../Component/Accordion/Accordion';
 
 function ThirdSection() {
@@ -26,8 +27,8 @@ function ThirdSection() {
           {hoveredOption === 'Option 1' && (
             <div className={style.optionContent}>
                 <span className={style.arrow}>◄</span>
-                <img className={style.logo} src={logo1} alt='img' />
-              <h4> Design  UI/UX</h4>
+                <img className={style.logo} src={logo2} alt='img' />
+              <h4> Mobile App Development</h4>
               <p>UI/UX design aims to create a positive user experience that encourages customers to stick with a brand or product.
               While a UX Designer  decides how the user interface works, the UI designer decides how the user interface looks.
             </p>
