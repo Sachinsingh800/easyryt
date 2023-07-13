@@ -59,7 +59,7 @@ function ThirdSection() {
           >
             Progressive Web App
             {hoveredOption === "Option 2" && (
-              <div className={style.optionContent}>
+              <div className={style.optionContent1}>
                 <span className={style.arrow}>◄</span>
                 <img className={style.logo} src={logo3} alt="img" />
                 <h4> Progressive Web App</h4>
@@ -85,7 +85,7 @@ function ThirdSection() {
           >
             Enterprise Application Development
             {hoveredOption === "Option 3" && (
-              <div className={style.optionContent}>
+              <div className={style.optionContent2}>
                 <span className={style.arrow}>◄</span>
                 <img className={style.logo} src={logo4} alt="img" />
                 <h4> Enterprise Application Development</h4>
@@ -114,7 +114,7 @@ function ThirdSection() {
           >
             Design UI/UX
             {hoveredOption === "Option 4" && (
-              <div className={style.optionContent}>
+              <div className={style.optionContent3}>
                 <span className={style.arrow}>◄</span>
                 <img className={style.logo} src={logo1} alt="img" />
                 <h4> Design UI/UX</h4>
@@ -141,7 +141,7 @@ function ThirdSection() {
           >
             Digital Marketing
             {hoveredOption === "Option 5" && (
-              <div className={style.optionContent}>
+              <div className={style.optionContent4}>
                 <span className={style.arrow}>◄</span>
                 <img className={style.logo} src={logo5} alt="img" />
                 <h4>Digital Marketing</h4>
@@ -169,7 +169,7 @@ function ThirdSection() {
           >
             Product Management
             {hoveredOption === "Option 6" && (
-              <div className={style.optionContent}>
+              <div className={style.optionContent5}>
                 <span className={style.arrow}>◄</span>
                 <img className={style.logo} src={logo6} alt="img" />
                 <h4> Product Management</h4>
@@ -200,7 +200,7 @@ function ThirdSection() {
           >
             Sap（system Application Product）
             {hoveredOption === "Option 7" && (
-              <div className={style.optionContent}>
+              <div className={style.optionContent6}>
                 <span className={style.arrow}>◄</span>
                 <img className={style.logo} src={logo7} alt="img" />
                 <h4> Sap（system Application Product）</h4>

@@ -4,6 +4,7 @@ import NavBar from '../../Component/NavBar/NavBar'
 import FirstSection from '../../Section/FirstSection/FirstSection'
 import SecondSection from '../../Section/SecondSection/SecondSection'
 import ThirdSection from '../../Section/ThirdSection/ThirdSection'
+import ForthSection from '../../Section/ForthSection/ForthSection'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
           <FirstSection/>
           <SecondSection/>
           <ThirdSection/>
+          <ForthSection/>
     </div>
   )
 }
