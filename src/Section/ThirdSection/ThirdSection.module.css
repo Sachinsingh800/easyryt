@@ -1,13 +1,12 @@
 .main{
     height: max-content;
     width: 100vw;
-    border: 1px red solid;
     padding: 4rem 0rem;
     padding-bottom: 9rem;
 }
 .navBar {
     width: 30rem;
-    margin-top: 6rem;
+    margin-top: 7rem;
     margin-left: 15rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   
@@ -63,6 +62,7 @@
      width: 14rem;
      height: 3rem;
     overflow: hidden;
+    font-size: 1.2rem;
   }
   
   .active {
