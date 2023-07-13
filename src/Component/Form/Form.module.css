@@ -55,7 +55,7 @@
   }
   
   .submitBtn:hover {
-    background: yellow;
+    background: orange;
     color: black;
   }
   @media (max-width:600px){

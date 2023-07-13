@@ -47,7 +47,7 @@
     border-radius: 4px;
 }
 .bottominnerbox button:hover{
-   background-color:rgb(255, 230, 0);
+   background-color:orange;
 }
 .span{
     display: flex;
