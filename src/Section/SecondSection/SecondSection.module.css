@@ -12,6 +12,7 @@
     background-blend-mode: multiply;
     background-color: rgb(57, 65, 98);
     color: white;
+    width: 100vw;
   }
   .main h1{
     font-weight: 400;
