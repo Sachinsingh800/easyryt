@@ -16,7 +16,7 @@
 display: grid;
 grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
 }
-.btnsbox button{
+.btn{
     height: 3rem;
     background: linear-gradient(170deg, rgba(12,5,71,1) 0%, rgba(2,21,88,1) 47%, rgba(27,41,163,1) 100%);
     border: 1px rgb(183, 178, 178) solid;
@@ -24,16 +24,17 @@ grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
     color: white;
 
 }
-.btnsbox button:hover{
-    background: orange;
-    color: black;
-    font-weight: 700;
 
-}
 .img{
     height: 4rem;
     width: 4rem;
     filter: drop-shadow(1px 4px 4px);
+}
+.active{
+    background-color: orange;
+    color: black;
+    font-weight: 700;
+    border: 1px rgb(183, 178, 178) solid;
 }
 .container{
     display: grid;

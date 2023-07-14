@@ -31,12 +31,12 @@ console.log(filteredData,"dakk")
         fastest-growing enterprises.
       </p>
       <div className={style.btnsbox}>
-<button onClick={() => handleButtonClick('programmingLang')}>PROGRAMMING LANGUAGE</button>
-<button onClick={() => handleButtonClick('Frontend')}>FRONTEND</button>
-<button onClick={() => handleButtonClick('backend')}>BACKEND</button>
-<button onClick={() => handleButtonClick('database')}>DATABASE</button>
-<button onClick={() => handleButtonClick('platforms')}>PLATFORMS</button>
-<button onClick={() => handleButtonClick('mobileapp')}>MOBILE APP</button>
+<button   className={selectedButton === "programmingLang" ? style.active : style.btn} onClick={() => handleButtonClick('programmingLang')}>PROGRAMMING LANGUAGE</button>
+<button  className={selectedButton === "Frontend" ? style.active : style.btn} onClick={() => handleButtonClick('Frontend')}>FRONTEND</button>
+<button  className={selectedButton === "backend" ? style.active : style.btn} onClick={() => handleButtonClick('backend')}>BACKEND</button>
+<button  className={selectedButton === "database" ? style.active : style.btn} onClick={() => handleButtonClick('database')}>DATABASE</button>
+<button  className={selectedButton === "platforms" ? style.active : style.btn} onClick={() => handleButtonClick('platforms')}>PLATFORMS</button>
+<button  className={selectedButton === "mobileapp" ? style.active : style.btn} onClick={() => handleButtonClick('mobileapp')}>MOBILE APP</button>
       </div>
       <div className={style.container}>
 {filteredData.map((item, index) => (
