@@ -59,6 +59,34 @@ export default function Slider() {
             alt="img 1"
           />
         </div>
+        <div>
+          <img
+            className={style.item}
+            src={logo}
+            alt="img 1"
+          />
+        </div>
+        <div>
+          <img
+            className={style.item}
+            src={logo1}
+            alt="img 1"
+          />
+        </div>
+        <div>
+          <img
+            className={style.item}
+            src={logo2}
+            alt="img 1"
+          />
+        </div>
+        <div>
+          <img
+            className={style.item}
+            src={logo3}
+            alt="img 1"
+          />
+        </div>
      
       </Carousel>
     </div>
