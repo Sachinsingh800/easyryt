@@ -75,17 +75,10 @@
     }
   
 }
-@media (max-width:700px){
-    .img{
-        height: 20rem;
-    }
-}
 
-@media (max-width:620px){
-    .img{
-        height: 20rem;
-        width: 30rem;
-    }
+
+@media (max-width:634px){
+
     html{
         font-size: 10px;
     }
@@ -95,6 +88,13 @@
     .leftBox p{
         margin-left: -20rem;
     }
+    .img{
+        height: 30rem;
+    }
+    .btn {
+        margin: 1rem;
+     }
+   
 }
 @media (max-width:600px){
     .btn {
