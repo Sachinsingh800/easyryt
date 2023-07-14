@@ -31,12 +31,12 @@ console.log(filteredData,"dakk")
         fastest-growing enterprises.
       </p>
       <div className={style.btnsbox}>
-<button onClick={() => handleButtonClick('programmingLang')}>programmingLang</button>
-<button onClick={() => handleButtonClick('Frontend')}>Frontend</button>
-<button onClick={() => handleButtonClick('backend')}>backend</button>
-<button onClick={() => handleButtonClick('database')}>database</button>
-<button onClick={() => handleButtonClick('platforms')}>platforms</button>
-<button onClick={() => handleButtonClick('mobileapp')}>mobileapp</button>
+<button onClick={() => handleButtonClick('programmingLang')}>PROGRAMMING LANGUAGE</button>
+<button onClick={() => handleButtonClick('Frontend')}>FRONTEND</button>
+<button onClick={() => handleButtonClick('backend')}>BACKEND</button>
+<button onClick={() => handleButtonClick('database')}>DATABASE</button>
+<button onClick={() => handleButtonClick('platforms')}>PLATFORMS</button>
+<button onClick={() => handleButtonClick('mobileapp')}>MOBILE APP</button>
       </div>
       <div className={style.container}>
 {filteredData.map((item, index) => (
