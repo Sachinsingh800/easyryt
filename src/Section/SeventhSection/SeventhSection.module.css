@@ -18,6 +18,7 @@
     padding: .5rem 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1rem;
+    border-radius: 5px;
 }
 .innerbox p:hover{
     background-color: rgb(230, 226, 226);
