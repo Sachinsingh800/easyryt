@@ -112,9 +112,33 @@ export const data = {
             name:"laravel",
             icon:logo9
         },
+        {
+            name:"Kotlin",
+            icon:logo6
+        },
+        {
+            name:"react.js",
+            icon:logo7
+        },
+        {
+            name:"django",
+            icon:logo8
+        },
       // Rest of the languages...
     ],
     platforms: [
+        {
+            name:"Kotlin",
+            icon:logo6
+        },
+        {
+            name:"react.js",
+            icon:logo7
+        },
+        {
+            name:"django",
+            icon:logo8
+        },
         {
             name:"Kotlin",
             icon:logo6
@@ -149,6 +173,18 @@ export const data = {
         {
             name:"laravel",
             icon:logo9
+        },
+        {
+            name:"Kotlin",
+            icon:logo6
+        },
+        {
+            name:"react.js",
+            icon:logo7
+        },
+        {
+            name:"django",
+            icon:logo8
         },
       // Rest of the languages...
     ]

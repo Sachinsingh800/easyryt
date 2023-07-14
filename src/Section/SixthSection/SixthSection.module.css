@@ -20,7 +20,7 @@ grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
     height: 3rem;
     background: linear-gradient(170deg, rgba(12,5,71,1) 0%, rgba(2,21,88,1) 47%, rgba(27,41,163,1) 100%);
     border: 1px rgb(183, 178, 178) solid;
-    transition: background-color 1s ease;
+  
     color: white;
 
 }
@@ -32,6 +32,7 @@ grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
 }
 .active{
     background-color: orange;
+    transition: background-color 1s ease;
     color: black;
     font-weight: 700;
     border: 1px rgb(183, 178, 178) solid;

@@ -1,0 +1,41 @@
+.main{
+    width: 100vw;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 2rem 4rem;
+   gap: 1rem;
+} 
+.para{
+    width: 30rem;
+}
+.innerbox{
+    width: 65rem;
+    text-align: left;
+}
+.innerbox p{
+    display: inline-table;
+    padding: .5rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1rem;
+}
+.innerbox p:hover{
+    background-color: rgb(230, 226, 226);
+    font-weight: 500;
+}
+@media (max-width:787px){
+    .innerbox{
+        text-align: center;
+    }
+    .innerbox{
+        width: 45rem;
+    }
+}
+@media (max-width:660px){
+    .innerbox{
+        text-align: center;
+    }
+    .innerbox{
+        width: 35rem;
+    }
+}
