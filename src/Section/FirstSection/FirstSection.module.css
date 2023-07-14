@@ -29,10 +29,9 @@
     padding: 4rem 0rem;
 }
 .img{
-    margin-top:-7rem;
+    margin-top:-13rem;
     filter: drop-shadow(1px 9px 7px );
-    height: 23rem;
-
+    height: 100%;
 }
 .btn {
     display: block;

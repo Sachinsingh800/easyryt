@@ -1,7 +1,7 @@
 import React from 'react'
 import style from "./FirstSection.module.css"
 import Form from '../../Component/Form/Form'
-import img from "../../Image/hand.png"
+import img from "../../Image/bg2.png"
 
 function FirstSection() {
 
