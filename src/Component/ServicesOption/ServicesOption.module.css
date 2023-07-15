@@ -1,0 +1,267 @@
+
+.navBar {
+    width: 30rem;
+    height: 100%;
+  }
+  
+  .optionList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+  }
+  
+ .optionList  li {
+    cursor: pointer;
+    padding: .68rem;
+    position: relative;
+    font-weight: 600;
+    font-size: medium;
+    color: #7a7676;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    border-radius: 0px 30px 30px 0px;
+  }
+  
+  .optionList  li:hover {
+    background-color: rgb(210, 210, 205);
+    color: black;
+  }
+  
+  .optionContent {
+    position: absolute;
+    top: -1%;
+    left: 100%;
+    background-color: rgb(210, 207, 204);
+    padding: .3rem 1rem;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+    color: black;
+    height: 20rem;
+    gap: .5rem;
+  }
+  .optionContent  p{
+    height: 14rem ;
+    overflow: hidden;
+  }
+  
+  .optionContent  h4{
+     width: 14rem;
+     height: 3rem;
+    overflow: hidden;
+    font-size: 1.2rem;
+  }
+  
+  .optionContent1 {
+    position: absolute;
+    top: -99%;
+    left: 100%;
+    background-color: rgb(210, 207, 204);
+    padding: .3rem 1rem;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+    color: black;
+    height: 20rem;
+    gap: .5rem;
+  }
+  .optionContent1  p{
+    height: 14rem ;
+    overflow: hidden;
+  }
+  
+  .optionContent1  h4{
+     width: 14rem;
+     max-height: 3rem;
+    overflow: hidden;
+    font-size: 1.2rem;
+  }
+  
+  .optionContent2 {
+    position: absolute;
+    top: -199%;
+    left: 100%;
+    background-color: rgb(210, 207, 204);
+    padding: .3rem 1rem;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+    color: black;
+    height: 20rem;
+    gap: .5rem;
+  }
+  .optionContent2  p{
+    height: 14rem ;
+    overflow: hidden;
+  }
+  
+  .optionContent2  h4{
+     width: 14rem;
+     max-height: 3rem;
+    overflow: hidden;
+    font-size: 1.2rem;
+  }
+  
+  .optionContent3 {
+    position: absolute;
+    top: -300%;
+    left: 100%;
+    background-color: rgb(210, 207, 204);
+    padding: .3rem 1rem;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+    color: black;
+    height: 20rem;
+    gap: .5rem;
+  }
+  .optionContent3  p{
+    height: 14rem ;
+    overflow: hidden;
+  }
+  
+  .optionContent3  h4{
+     width: 14rem;
+     max-height: 3rem;
+    overflow: hidden;
+    font-size: 1.2rem;
+  }
+  
+  .optionContent4 {
+    position: absolute;
+    top: -399%;
+    left: 100%;
+    background-color: rgb(210, 207, 204);
+    padding: .3rem 1rem;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+    color: black;
+    height: 20rem;
+    gap: .5rem;
+  }
+  .optionContent4  p{
+    height: 14rem ;
+    overflow: hidden;
+  }
+  
+  .optionContent4  h4{
+     width: 14rem;
+     max-height: 3rem;
+    overflow: hidden;
+    font-size: 1.2rem;
+  }
+  
+  .optionContent5 {
+    position: absolute;
+    top: -499%;
+    left: 100%;
+    background-color: rgb(210, 207, 204);
+    padding: .3rem 1rem;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+    color: black;
+    height: 20rem;
+    gap: .5rem;
+  }
+  .optionContent5  p{
+    height: 14rem ;
+    overflow: hidden;
+  }
+  
+  .optionContent5  h4{
+     width: 14rem;
+     max-height: 3rem;
+    overflow: hidden;
+    font-size: 1.2rem;
+  }
+  
+  .optionContent6 {
+    position: absolute;
+    top: -600%;
+    left: 100%;
+    background-color: rgb(210, 207, 204);
+    padding: .3rem 1rem;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+    color: black;
+    height: 20rem;
+    gap: .5rem;
+  }
+  .optionContent6  p{
+    height: 14rem ;
+    overflow: hidden;
+  }
+  
+  .optionContent6  h4{
+     width: 14rem;
+     max-height: 3rem;
+    overflow: hidden;
+    font-size: 1.2rem;
+  }
+  
+  .active {
+    background-color: rgb(210, 207, 204);
+    color: black;
+  }
+  
+  .arrow{
+    font-size: 5rem;
+    font-weight: 700;
+    position: absolute;
+    margin-left:-3.5rem ;
+    margin-top: -2rem;
+    color: rgb(234, 234, 232) ;
+    z-index: -1;
+  }
+  
+
+  .logo{
+    height: 4rem;
+    width: 4rem;
+    filter: drop-shadow(1px 3px 3px);
+  }
+  .accodian{
+    display: none;
+  }
+ @media (max-width:800px){
+    .navBar {
+        margin-left: 1rem;
+        width: 20rem;
+    }
+ }
+ @media (max-width:669px){
+    .navBar {
+        display: none;
+    }
+    .accodian{
+        display: unset;
+    }
+ }
+ 
