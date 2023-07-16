@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import style from "./NavBar.module.css";
 import logo from "../../Image/logo.png";
+import logo2 from "../../Image/opbg.png";
 import HamburgerBtn from "../HamburgerBtn/HamburgerBtn";
 import ServicesOption from "../ServicesOption/ServicesOption";
 
@@ -80,9 +81,12 @@ function NavBar() {
 
         {isServicesHovered && (
           <div onMouseLeave={handleServicesLeave} className={style.servicesDiv}>
-            {/* Content of the services div */}
-            {/* <p>This is the services section.</p> */}
             <ServicesOption/>
+            <div className={style.rightbox}>
+              <h3>Lets grow together <span>Partner with us</span></h3>
+              <button>Get A quote</button>
+              <img className={style.img2} src={logo2} alt="logo" />
+            </div>
           </div>
         )}
 

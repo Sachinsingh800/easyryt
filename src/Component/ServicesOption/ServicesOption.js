@@ -1,17 +1,10 @@
 import React, { useState } from "react";
 import style from "./ServicesOption.module.css";
-import logo1 from "../../Image/graphic-design-.png";
-import logo2 from "../../Image/mob-logo.png";
-import logo3 from "../../Image/PWA.png";
-import logo4 from "../../Image/erp.png";
-import logo5 from "../../Image/digitalmarketing.png";
-import logo6 from "../../Image/Pm.png";
-import logo7 from "../../Image/SAP_(6).png";
 import { Servicesaccordian } from "../../Component/Accordion/Accordion";
 import { Link } from "react-router-dom";
 
 function ServicesOption() {
-  const [hoveredOption, setHoveredOption] = useState(null);
+  const [hoveredOption, setHoveredOption] = useState("Option 1");
 
   const handleOptionHover = (option) => {
     setHoveredOption(option);
