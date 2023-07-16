@@ -14,9 +14,9 @@ function NavBar() {
 
   const handleServicesHover = (link) => {
     setIsServicesHovered(true);
-    setIsAboutHovered(false)
-     setIsBlogHovered(false)
-     setIsContactHovered(false)
+    setIsAboutHovered(false);
+    setIsBlogHovered(false);
+    setIsContactHovered(false);
     setActiveLink(link);
   };
 
@@ -28,8 +28,8 @@ function NavBar() {
   const handleAboutHover = (link) => {
     setIsAboutHovered(true);
     setIsServicesHovered(false);
-     setIsBlogHovered(false)
-     setIsContactHovered(false)
+    setIsBlogHovered(false);
+    setIsContactHovered(false);
     setActiveLink(link);
   };
 
@@ -41,9 +41,9 @@ function NavBar() {
   const handleContactHover = (link) => {
     setIsContactHovered(true);
     setIsServicesHovered(false);
-    setIsAboutHovered(false)
-     setIsBlogHovered(false)
- 
+    setIsAboutHovered(false);
+    setIsBlogHovered(false);
+
     setActiveLink(link);
   };
 
@@ -55,8 +55,8 @@ function NavBar() {
   const handleBlogHover = (link) => {
     setIsBlogHovered(true);
     setIsServicesHovered(false);
-    setIsAboutHovered(false)
-     setIsContactHovered(false)
+    setIsAboutHovered(false);
+    setIsContactHovered(false);
     setActiveLink(link);
   };
 
@@ -81,9 +81,11 @@ function NavBar() {
 
         {isServicesHovered && (
           <div onMouseLeave={handleServicesLeave} className={style.servicesDiv}>
-            <ServicesOption/>
+            <ServicesOption />
             <div className={style.rightbox}>
-              <h3>Lets grow together <span>Partner with us</span></h3>
+              <h3>
+                Lets grow together <span>Partner with us</span>
+              </h3>
               <button>Get A quote</button>
               <img className={style.img2} src={logo2} alt="logo" />
             </div>
@@ -98,8 +100,22 @@ function NavBar() {
         </h4>
         {isAboutHovered && (
           <div onMouseLeave={handleAboutLeave} className={style.servicesDiv}>
-            {/* Content of the services div */}
-            <p>This is the ABout section.</p>
+            <div className={style.rightbox2}>
+              <h3>
+                {" "}
+                <span>Company</span>
+              </h3>
+              <p>
+                We Provide Custom Web Design, Mobile App Development Solutions
+                for your venture or start-ups.We are professional and
+                experienced in delivering Customized & Superior quality Web
+                Design and App development solutions at the most reasonable
+                price. Here we assist you to Figure out the finest results out
+                of your funds through our digital services.
+              </p>
+              <button>About Company</button>
+            </div>
+            <ServicesOption />
           </div>
         )}
 
@@ -112,8 +128,14 @@ function NavBar() {
 
         {isContactHovered && (
           <div onMouseLeave={handleContactLeave} className={style.servicesDiv}>
-            {/* Content of the services div */}
-            <p>This is the COntact section.</p>
+            <ServicesOption />
+            <div className={style.rightbox}>
+              <h3>
+                Lets grow together <span>Partner with us</span>
+              </h3>
+              <button>Get A quote</button>
+              <img className={style.img2} src={logo2} alt="logo" />
+            </div>
           </div>
         )}
 
@@ -126,8 +148,14 @@ function NavBar() {
 
         {isBlogHovered && (
           <div onMouseLeave={handleBlogLeave} className={style.servicesDiv}>
-            {/* Content of the services div */}
-            <p>This is the blog section.</p>
+            <ServicesOption />
+            <div className={style.rightbox}>
+              <h3>
+                Lets grow together <span>Partner with us</span>
+              </h3>
+              <button>Get A quote</button>
+              <img className={style.img2} src={logo2} alt="logo" />
+            </div>
           </div>
         )}
       </div>

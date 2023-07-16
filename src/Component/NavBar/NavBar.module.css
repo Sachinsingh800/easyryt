@@ -64,7 +64,6 @@
     height: max-content;
     z-index: 9;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    justify-content: space-between;
 }
 .rightbox{
   display: flex;
@@ -73,6 +72,8 @@
   width: 27rem;
   padding-top: 1rem;
   gap: .5rem;
+margin-left:28.5rem ;
+
 
 }
 .rightbox h3{
@@ -100,6 +101,49 @@
     height: 11rem; 
 }
 .rightbox button:hover{
+   background: orange;
+   color: black;
+}
+
+.rightbox2{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 27rem;
+  padding: 1rem 2rem;
+  gap: .5rem;
+  background-image: url(../../Image/bg.png);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgb(57, 65, 98);
+  color: white;
+
+}
+.rightbox2 h3{
+    width: 14rem;
+    font-weight: 100;
+
+}
+.rightbox2 h3 span{
+    width: 15rem;
+    font-weight: 700;
+}
+.rightbox2 button{
+    width: 10rem;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 3rem;
+    background: rgb(12,5,71);
+    background: linear-gradient(170deg, rgba(12,5,71,1) 0%, rgba(2,21,88,1) 47%, rgba(27,41,163,1) 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+}
+.img2{
+    height: 11rem; 
+}
+.rightbox2 button:hover{
    background: orange;
    color: black;
 }
