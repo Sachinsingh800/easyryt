@@ -20,7 +20,7 @@ function NavBar() {
   };
 
   const handleServicesLeave = () => {
-    setIsServicesHovered(true);
+    setIsServicesHovered(false);
     setActiveLink(null);
   };
 
