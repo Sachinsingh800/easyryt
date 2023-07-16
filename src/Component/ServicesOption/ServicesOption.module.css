@@ -20,13 +20,23 @@
     position: relative;
     font-weight: 600;
     font-size: medium;
-    color: #7a7676;
+    color: #5e5959;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-    border-radius: 0px 30px 30px 0px;
   }
+  .options li{
+    cursor: pointer;
+    padding: .68rem;
+    position: relative;
+    font-weight: 600;
+    font-size: medium;
+    color: #5e5959;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    list-style: none;
+  }
+
   
   .optionList  li:hover {
-    background-color: rgb(210, 210, 205);
+    background-color: rgb(229, 229, 223);
     color: black;
   }
   
@@ -34,10 +44,11 @@
     position: absolute;
     top: -1%;
     left: 100%;
-    background-color: rgb(210, 207, 204);
-    padding: .3rem 1rem;
+    background-color: white;
+    padding: .3rem 0rem;
     border-left: none;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     justify-content: space-between;
     z-index: 1;
@@ -45,7 +56,9 @@
     color: black;
     height: 20rem;
     gap: .5rem;
+ 
   }
+
   .optionContent  p{
     height: 14rem ;
     overflow: hidden;
@@ -57,13 +70,14 @@
     overflow: hidden;
     font-size: 1.2rem;
   }
+
   
   .optionContent1 {
     position: absolute;
     top: -99%;
     left: 100%;
-    background-color: rgb(210, 207, 204);
-    padding: .3rem 1rem;
+    background-color: white;
+    padding: .3rem 0rem;
     border-left: none;
     display: flex;
     flex-direction: column;
@@ -90,8 +104,8 @@
     position: absolute;
     top: -199%;
     left: 100%;
-    background-color: rgb(210, 207, 204);
-    padding: .3rem 1rem;
+    background-color: white;
+    padding: .3rem 0rem;
     border-left: none;
     display: flex;
     flex-direction: column;
@@ -118,8 +132,8 @@
     position: absolute;
     top: -300%;
     left: 100%;
-    background-color: rgb(210, 207, 204);
-    padding: .3rem 1rem;
+    background-color: white;
+    padding: .3rem 0rem;
     border-left: none;
     display: flex;
     flex-direction: column;
@@ -146,8 +160,8 @@
     position: absolute;
     top: -399%;
     left: 100%;
-    background-color: rgb(210, 207, 204);
-    padding: .3rem 1rem;
+    background-color: white;
+    padding: .3rem 0rem;
     border-left: none;
     display: flex;
     flex-direction: column;
@@ -174,8 +188,8 @@
     position: absolute;
     top: -499%;
     left: 100%;
-    background-color: rgb(210, 207, 204);
-    padding: .3rem 1rem;
+    background-color: white;
+    padding: .3rem 0rem;
     border-left: none;
     display: flex;
     flex-direction: column;
@@ -202,8 +216,8 @@
     position: absolute;
     top: -600%;
     left: 100%;
-    background-color: rgb(210, 207, 204);
-    padding: .3rem 1rem;
+    background-color: white;
+    padding: .3rem 0rem;
     border-left: none;
     display: flex;
     flex-direction: column;
@@ -227,7 +241,7 @@
   }
   
   .active {
-    background-color: rgb(210, 207, 204);
+    background-color: white;
     color: black;
   }
   
@@ -264,4 +278,229 @@
         display: unset;
     }
  }
- 
+ .options li:nth-child(1)  {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-90%, 0, 0);
+  transform: translate3d(-90%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-90%, 0, 0);
+  transform: translate3d(-90%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+
+
+ .options li:nth-child(2)  {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-90%, 0, 0);
+  transform: translate3d(-90%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-90%, 0, 0);
+  transform: translate3d(-90%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+ .options li:nth-child(3)  {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1.3s;
+  animation-duration: 1.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-90%, 0, 0);
+  transform: translate3d(-90%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-90%, 0, 0);
+  transform: translate3d(-90%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+ .options li:nth-child(4)  {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1.4s;
+  animation-duration: 1.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-90%, 0, 0);
+  transform: translate3d(-90%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-90%, 0, 0);
+  transform: translate3d(-90%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+ .options li:nth-child(5)  {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-90%, 0, 0);
+  transform: translate3d(-90%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-90%, 0, 0);
+  transform: translate3d(-90%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+ .options li:nth-child(6)  {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1.6s;
+  animation-duration: 1.6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-90%, 0, 0);
+  transform: translate3d(-90%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-90%, 0, 0);
+  transform: translate3d(-90%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+ .options li:nth-child(7)  {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1.7s;
+  animation-duration: 1.7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-90%, 0, 0);
+  transform: translate3d(-90%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-90%, 0, 0);
+  transform: translate3d(-90%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
