@@ -91,8 +91,9 @@ function NavBar() {
             <ServicesOption />
             <div className={style.rightbox}>
               <h3>
-                Lets grow together <span>Partner with us</span>
+              Collaborate for success
               </h3>
+              <span>Join forces with us</span>
               <button>Get A quote</button>
               <img className={style.img2} src={logo2} alt="logo" />
             </div>
