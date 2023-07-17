@@ -43,7 +43,6 @@
   .submitBtn {
     display: block;
     width: 10rem;
-    margin-top: 4rem;
     padding: 10px;
     background: rgb(12,5,71);
     background: linear-gradient(170deg, rgba(12,5,71,1) 0%, rgba(2,21,88,1) 47%, rgba(27,41,163,1) 100%);

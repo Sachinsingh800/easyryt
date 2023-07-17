@@ -18,10 +18,11 @@
     text-align: left;
 }
 .leftBox p{
-    width: 15rem;
+    width: 10rem;
     text-align: left;
     margin-top: 1rem;
     z-index: 1;
+  
 }
 .rightBox{
     width: 50%;
@@ -32,6 +33,7 @@
     margin-top:-13rem;
     filter: drop-shadow(1px 9px 7px );
     height: 100%;
+    margin-left: 3rem;
 }
 .btn {
     display: block;
@@ -52,11 +54,7 @@
     background: orange;
     color: black;
   }
-  .btnbox{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 1rem;
-  }
+
   
 @media (max-width:786px){
     .main{

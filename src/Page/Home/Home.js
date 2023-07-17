@@ -10,8 +10,26 @@ import SixthSection from '../../Section/SixthSection/SixthSection'
 import SeventhSection from '../../Section/SeventhSection/SeventhSection'
 import EightSection from '../../Section/EightSection/EightSection'
 import NinthSection from '../../Section/NinthSection/NinthSection'
+import call from "../../Image/call.png"
+import whatsapp from "../../Image/whatsapp.png"
 
 function Home() {
+
+  const handleWhatsAppClick = () => {
+    // Replace the following phone number with the desired WhatsApp number
+    const phoneNumber = '1234567890';
+    const message = 'Hello! I have a question.';
+    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  };
+
+  const handleCallClick = () => {
+    // Replace the following phone number with the desired phone number
+    const phoneNumber = '1234567890';
+    const url = `tel:${phoneNumber}`;
+    window.location.href = url;
+  };
+
   return (
     <div className={style.main}>
         <NavBar/>
@@ -24,6 +42,12 @@ function Home() {
           <SeventhSection/>
           <EightSection/>
           <NinthSection/>
+          <div className={style.contactBox}>
+
+            <img onClick={handleCallClick} className={style.logo} src={call} alt='call' />
+            <img onClick={handleWhatsAppClick} className={style.logo} src={whatsapp} alt='whatsapp' />
+   
+          </div>
     </div>
   )
 }

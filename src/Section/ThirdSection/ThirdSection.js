@@ -11,7 +11,7 @@ import { Servicesaccordian } from "../../Component/Accordion/Accordion";
 import { Link } from "react-router-dom";
 
 function ThirdSection() {
-  const [hoveredOption, setHoveredOption] = useState(null);
+  const [hoveredOption, setHoveredOption] = useState("Option 1");
 
   const handleOptionHover = (option) => {
     setHoveredOption(option);
