@@ -2,11 +2,15 @@ import React, { useState } from "react";
 import style from "./SixthSection.module.css";
 import { data } from "../../Const/Const";
 
-function SixthSection() {
-  const [filteredData, setFilteredData] = useState([]);
-  const [selectedButton, setSelectedButton] = useState('');
 
-console.log(filteredData,"dakk")
+function SixthSection() {
+
+  const [newData,setNewData] = useState(data.programmingLang)
+
+  const [filteredData, setFilteredData] = useState(newData);
+  const [selectedButton, setSelectedButton] = useState('programmingLang');
+
+
 
   const handleButtonClick = (buttonName) => {
     setSelectedButton(buttonName);
