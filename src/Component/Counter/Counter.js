@@ -119,3 +119,47 @@ export const Counter5 = () => {
   return <div>{formattedCount}</div>;
 };
 
+
+export const RatingCounter = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      if (count < 800) {
+        setCount((prevCount) => prevCount + 10);
+      } else {
+        clearInterval(timer);
+      }
+    }, 100);
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, [count]);
+
+  const formattedCount = count.toLocaleString(); // Add comma every three digits
+
+  return <div>{formattedCount}</div>;
+};
+export const RatingCounter2 = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      if (count < 400) {
+        setCount((prevCount) => prevCount + 10);
+      } else {
+        clearInterval(timer);
+      }
+    }, 100);
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, [count]);
+
+  const formattedCount = count.toLocaleString(); // Add comma every three digits
+
+  return <div>{formattedCount}</div>;
+};
+

@@ -61,7 +61,7 @@
     left: 0;
     width: 100%;
     color: black;
-    height: max-content;
+    height: 20rem;
     z-index: 9;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
@@ -110,8 +110,8 @@ margin-left:28.5rem ;
   flex-direction: column;
   text-align: left;
   width: 27rem;
-  padding: 1rem 2rem;
-  gap: .5rem;
+  padding: .2rem 2rem;
+  gap: .3rem;
   background-image: url(../../Image/bg.png);
   background-size: cover;
   background-blend-mode: multiply;
@@ -147,3 +147,56 @@ margin-left:28.5rem ;
    background: orange;
    color: black;
 }
+.ratingBox{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.imgleaf{
+    height: 5rem;
+    /* filter: drop-shadow(1px 2px 1px ); */
+    
+}
+.innerRatingDiv{
+    display: flex;
+
+}
+.google{
+    height: 2.5rem;
+    /* filter: drop-shadow(1px 2px 1px ); */
+}
+.stars{
+    margin-top: -1rem;
+    position: relative;
+    /* filter: drop-shadow(1px 2px 1px ); */
+}
+.h5{
+    display: flex;
+    margin-top: -.5rem;
+}
+.mostinnerdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.innerRatingDiv {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+    @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    }

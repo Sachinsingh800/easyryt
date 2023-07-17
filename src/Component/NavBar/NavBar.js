@@ -4,6 +4,13 @@ import logo from "../../Image/logo.png";
 import logo2 from "../../Image/opbg.png";
 import HamburgerBtn from "../HamburgerBtn/HamburgerBtn";
 import ServicesOption from "../ServicesOption/ServicesOption";
+import AboutOption from "../AboutOption/AboutOption";
+import imgleaf1 from "../../Image/leftleaf.png";
+import imgleaf2 from "../../Image/rightleaf.png";
+import google from "../../Image/google (2) (1).png";
+import clutch from "../../Image/clutch.png";
+import {GoogleRating,ClutchRating} from "../Rating/Rating";
+import { RatingCounter,RatingCounter2 } from "../Counter/Counter";
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState(null);
@@ -115,7 +122,37 @@ function NavBar() {
               </p>
               <button>About Company</button>
             </div>
-            <ServicesOption />
+            <AboutOption />
+            <div className={style.ratingBox}>
+              <div className={style.innerRatingDiv}>
+                <img className={style.imgleaf} src={imgleaf1} alt="leftLeaf" />
+                <div className={style.mostinnerdiv}>
+                  <img className={style.google} src={google} alt="google" />
+                  <div className={style.stars}>
+                    <GoogleRating/>
+                  </div>
+                  <h6 className={style.h5}>
+                    <RatingCounter />
+                    &#8193;REVIEWS
+                  </h6>
+                </div>
+                <img className={style.imgleaf} src={imgleaf2} alt="rightLeaf" />
+              </div>
+              <div className={style.innerRatingDiv}>
+                <img className={style.imgleaf} src={imgleaf1} alt="leftLeaf" />
+                <div className={style.mostinnerdiv}>
+                  <img className={style.google} src={clutch} alt="clutch" />
+                  <div className={style.stars}>
+                    <ClutchRating />
+                  </div>
+                  <h6 className={style.h5}>
+                    <RatingCounter2 />
+                    &#8193;REVIEWS
+                  </h6>
+                </div>
+                <img className={style.imgleaf} src={imgleaf2} alt="rightLeaf" />
+              </div>
+            </div>
           </div>
         )}
 
