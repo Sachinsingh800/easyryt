@@ -6,6 +6,8 @@
     background-blend-mode: multiply;
     background-color: rgb(57, 65, 98);
     color: white;
+    background-image: url(../../Image/bg.png);
+    background-size: cover;
 }
 .leftBox{
     width: 50%;
