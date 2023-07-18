@@ -14,7 +14,7 @@ const Popup = () => {
     } else {
       const popupTimer = setInterval(() => {
         setShowPopup(true); // Show popup every 15 seconds
-      }, 5000);
+      }, 95000);
 
       return () => {
         clearInterval(popupTimer);
