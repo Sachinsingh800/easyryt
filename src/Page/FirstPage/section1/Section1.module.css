@@ -1,0 +1,39 @@
+.main {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    /* background-image: url(../../../Image/artboard-svg.png); */
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(57, 65, 98);
+    color: white;
+    width: 100vw;
+    padding-top: 10rem;
+  }
+  .main h1{
+    font-weight: 400;
+    transition-delay: 2s ease-in-out;
+  }
+
+.innercontain{
+    display: flex;
+    width: 90%;
+}
+
+.innercontain div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+    height: 100%;
+    padding: 1rem;
+    transition-delay: 2s ease-in-out;
+}
+.img{
+height: 25rem;
+filter: drop-shadow(-2px 0px 2px );
+transition-delay: 2s ease-in-out;
+}

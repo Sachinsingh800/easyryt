@@ -7,12 +7,17 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import FirstPage from './Page/FirstPage/FirstPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+  },
+  {
+    path: "/FirstPage",
+    element: <FirstPage/>,
   },
 ]);
 root.render(

@@ -25,7 +25,7 @@ function ServicesOption() {
             {hoveredOption === "Option 1" && (
               <div className={style.optionContent}>
                  <ul  className={style.options}>
-                  <li>Native Mobile App Development</li>
+                <Link to={"/FirstPage"}> <li>Native Mobile App Development</li></Link> 
                   <li>Cross-Platform App Development</li>
                   <li>Mobile Web Development</li>
                   <li>Progressive Web Apps (PWAs)</li>

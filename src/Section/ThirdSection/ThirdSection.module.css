@@ -41,7 +41,7 @@
     position: absolute;
     top: 0;
     left: 110%;
-    background-color: rgb(234, 234, 232);
+    background-color:  rgb(240, 240, 241);
     padding: .3rem 1rem;
     border-left: none;
     border-radius: .5rem;
@@ -73,7 +73,7 @@
     position: absolute;
     top: -100%;
     left: 110%;
-    background-color: rgb(234, 234, 232);
+    background-color:  rgb(240, 240, 241);
     padding: .5rem 1rem;
     border-left: none;
     border-radius: .5rem;
@@ -103,7 +103,7 @@
     position: absolute;
     top: -150%;
     left: 110%;
-    background-color: rgb(234, 234, 232);
+    background-color:  rgb(240, 240, 241);
     padding: .5rem 1rem;
     border-left: none;
     border-radius: .5rem;
@@ -133,7 +133,7 @@
     position: absolute;
     top: -180%;
     left: 110%;
-    background-color: rgb(234, 234, 232);
+    background-color:  rgb(240, 240, 241);
     padding: .5rem 1rem;
     border-left: none;
     border-radius: .5rem;
@@ -163,7 +163,7 @@
     position: absolute;
     top: -280%;
     left: 110%;
-    background-color: rgb(234, 234, 232);
+    background-color:  rgb(240, 240, 241);
     padding: .5rem 1rem;
     border-left: none;
     border-radius: .5rem;
@@ -193,7 +193,7 @@
     position: absolute;
     top: -380%;
     left: 110%;
-    background-color: rgb(234, 234, 232);
+    background-color:  rgb(240, 240, 241);
     padding: .5rem 1rem;
     border-left: none;
     border-radius: .5rem;
@@ -223,7 +223,7 @@
     position: absolute;
     top: -480%;
     left: 110%;
-    background-color:rgb(234, 234, 232);
+    background-color:  rgb(240, 240, 241);
     padding: .5rem 1rem;
     border-left: none;
     border-radius: .5rem;
@@ -248,7 +248,7 @@
   }
   
   .active {
-    background-color: rgb(234, 234, 232);
+    background-color:  rgb(240, 240, 241);
   }
   
   .arrow{

@@ -11,6 +11,7 @@ import google from "../../Image/google (2) (1).png";
 import clutch from "../../Image/clutch.png";
 import {GoogleRating,ClutchRating} from "../Rating/Rating";
 import { RatingCounter,RatingCounter2 } from "../Counter/Counter";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState(null);
@@ -74,7 +75,7 @@ function NavBar() {
 
   return (
     <div className={style.main}>
-      <img className={style.img} src={logo} alt="logo" />
+   <Link to={"/"}><img className={style.img} src={logo} alt="logo" /></Link>   
       <div className={style.HamburgerBtn}>
         <HamburgerBtn />
       </div>
