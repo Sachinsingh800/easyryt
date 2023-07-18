@@ -1,7 +1,36 @@
-import React from "react";
-import style from "./EightSection.module.css";
+import React, { useState, useEffect } from 'react';
+import style from './EightSection.module.css';
 
-function EightSection() {
+const EightSection = () => {
+  const features = [
+    'Usability First',
+    'Push Notification',
+    'FeedBack System',
+    'Social Integration',
+    'Customization',
+    'Augmented Reality',
+    'Google Indoor-Maps',
+    'Payment Gateway Integration',
+    'Advance Analytics',
+    'One-Click Contacting',
+    'QR/Barcode Scanner Integration',
+    'Security',
+  ];
+
+  const [currentFeatureIndex, setCurrentFeatureIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentFeatureIndex(getRandomIndex(features.length));
+    }, 2000); // 2-second delay
+
+    return () => clearInterval(interval);
+  }, []);
+
+  const getRandomIndex = (length) => {
+    return Math.floor(Math.random() * length);
+  };
+
   return (
     <div className={style.main}>
       <h1>Features Of Front End Development</h1>
@@ -10,21 +39,15 @@ function EightSection() {
         When Developing a Successful Application For Your Company
       </p>
       <div className={style.innerbox}>
-        <p>☑&#8193;Usability First</p>
-        <p>☑&#8193;Push Notification</p>
-        <p>☑&#8193;FeedBack System</p>
-        <p>☑&#8193;Social Integration</p>
-        <p>☑&#8193;Customization</p>
-        <p>☑&#8193;Augmented Reality</p>
-        <p>☑&#8193;Google Indoor-Maps</p>
-        <p>☑&#8193;Payment Gateway Integration</p>
-        <p>☑&#8193;Advance Analytics</p>
-        <p>☑&#8193;One-Click Contacting</p>
-        <p>☑&#8193;QR/Barcode Scanner Integration</p>
-        <p>☑&#8193;Security</p>
+        {features.map((feature, index) => (
+          <p key={index} className={index === currentFeatureIndex ? style.active : ''}>
+            ☑&#8193;{feature}
+          </p>
+        ))}
       </div>
     </div>
   );
-}
+};
 
 export default EightSection;
+

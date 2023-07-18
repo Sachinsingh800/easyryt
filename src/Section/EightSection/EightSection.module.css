@@ -24,6 +24,10 @@
     transition: background-color 0.4s ease-in-out;
 
 }
+.active{
+    background-color: black!important;
+   color: white;
+   }
 .innerbox p:hover{
     background-color: black;
     color: white;
