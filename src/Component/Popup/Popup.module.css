@@ -24,7 +24,7 @@
   }
   .popup_content1{
     width: 40%;
-    background-color: #fff; /* Popup box background color */
+    background-color: #f4ecec; /* Popup box background color */
     height: 30rem;
     display: flex;
     align-items: center;
@@ -33,6 +33,7 @@
   }
   .imgs{
     height: 40rem;
+    /* filter: drop-shadow(0px 5px 5px ); */
   }
   .close_btn {
     margin-top: 10px;
