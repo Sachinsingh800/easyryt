@@ -1,0 +1,143 @@
+
+
+/* Popup.css */
+.popup_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+  }
+  
+  .popup_content {
+    background-color: #fff; /* Popup box background color */
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+    height: 30rem;
+    overflow: hidden;
+  }
+  .popup_content1{
+    width: 40%;
+    background-color: #fff; /* Popup box background color */
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .imgs{
+    height: 40rem;
+  }
+  .close_btn {
+    margin-top: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  
+  .close_btn:hover {
+    background-color: #555;
+  }
+
+  
+
+  
+ 
+  label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #5d5f5d;
+
+  }
+
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+
+  .submitBtn {
+    display: block;
+    width: 10rem;
+    padding: 10px;
+    background: rgb(12,5,71);
+    background: linear-gradient(170deg, rgba(12,5,71,1) 0%, rgba(2,21,88,1) 47%, rgba(27,41,163,1) 100%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 12rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: background-color 0.5s ease;
+    margin-top: 2rem;
+  }
+  
+  .submitBtn:hover {
+    background: orange;
+    color: black;
+  }
+  @media (max-width:600px){
+    .submitBtn {
+      margin-left: 10rem;
+    }
+  }
+  @media (max-width:1246px){
+    .popup_content{
+  height: 40rem;
+    }
+    .popup_content1{
+  height: 40rem;
+    }
+  }
+  @media (max-width:787px){
+    .popup_content{
+  height: 40rem;
+  width: 50rem;
+    }
+    .popup_content1{
+     display: none;
+    }
+    .submitBtn {
+        margin-left: 18rem;
+      }
+  }
+  @media (max-width:526px){
+    .popup_content{
+        height: 40rem;
+        width: 38rem;
+          }
+          .submitBtn {
+            margin-left: 13rem;
+          }
+  }
+  @media (max-width:412px){
+    .popup_content{
+        height: 40rem;
+        width: 30rem;
+          }
+          .submitBtn {
+            margin-left: 8rem;
+          }
+  }

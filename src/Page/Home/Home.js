@@ -13,6 +13,7 @@ import NinthSection from '../../Section/NinthSection/NinthSection'
 import call from "../../Image/call.png"
 import whatsapp from "../../Image/whatsapp.png"
 import TenthSection from '../../Section/TenthSection/TenthSection'
+import Popup from '../../Component/Popup/Popup'
 
 function Home() {
 
@@ -34,6 +35,7 @@ function Home() {
   return (
     <div className={style.main}>
         <NavBar/>
+        <Popup/>
           <FirstSection/>
           <SecondSection/>
           <ThirdSection/>
