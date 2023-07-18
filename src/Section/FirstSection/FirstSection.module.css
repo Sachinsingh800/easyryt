@@ -30,10 +30,11 @@
     padding: 4rem 0rem;
 }
 .img{
-    margin-top:-13rem;
+    margin-top:5rem;
     filter: drop-shadow(1px 9px 7px );
-    height: 100%;
-    margin-left: 3rem;
+    height: 90%;
+    /* margin-left: 1rem; */
+    position: absolute;
 }
 .btn {
     display: block;
@@ -82,9 +83,10 @@
     }
     .leftBox{
      align-items: center;
+     height: 40rem;
     }
     .leftBox p{
-        margin-left: -20rem;
+        margin-left: -25rem;
     }
     .img{
         height: 30rem;

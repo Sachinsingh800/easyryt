@@ -2,6 +2,7 @@ import React from 'react'
 import style from "./SeventhSection.module.css"
 
 function SeventhSection() {
+  
   return (
     <div className={style.main}>
         <h1>Industries we serve</h1>
