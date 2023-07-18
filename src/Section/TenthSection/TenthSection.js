@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 import style from "./TenthSection.module.css";
 import logo1 from "../../Image/chart.gif";
-import logo2 from "../../Image/date.gif";
+import logo2 from "../../Image/frame.gif";
 import logo3 from "../../Image/id.gif";
 import logo4 from "../../Image/page.gif";
 import logo5 from "../../Image/setting.gif";
-import logo6 from "../../Image/message.gif";
+import logo6 from "../../Image/support.gif";
+import logo7 from "../../Image/deployment.gif";
+import logo8 from "../../Image/development.gif";
 
 const TenthSection = () => {
   const cardsData = [
@@ -47,13 +49,13 @@ const TenthSection = () => {
     },
     {
         no:7,
-      image: logo6,
+      image: logo7,
       heading: "Deployment",
       text: "Deployment refers to the process of releasing and making software applications, websites, or systems available for public use or internal implementation after development and testing phases are complete.",
     },
     {
         no:8,
-      image: logo6,
+      image: logo8,
       heading: "Development",
       text: "Development is the process of creating and building software applications, websites, or systems by writing code, designing interfaces, and implementing functionalities to meet specific requirements and objectives..",
     },
