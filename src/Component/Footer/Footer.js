@@ -37,7 +37,7 @@ function Footer() {
                 <li>info@easyryt.com</li>
                 <li>+91 723725656</li>
                 <li><h6>Address</h6></li>
-                <li>5675634 ,$$$,$$$ , Delhi-110056</li>
+                <li className={style.address}>5675634 ,$$$,$$$ , Delhi-110056</li>
             
             </ul>
         </div>
