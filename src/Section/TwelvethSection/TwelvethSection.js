@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./TwelvethSection.module.css";
 import img from "../../Image/system-outline-63-settings-cog (1).gif"
+import { ExperienceCounter1,ExperienceCounter2,ExperienceCounter3,ExperienceCounter4,ExperienceCounter5 } from "../../Component/Counter/Counter";
 
 function TwelvethSection() {
   return (
@@ -14,23 +15,23 @@ function TwelvethSection() {
       </p>
       <div className={style.container}>
         <div>
-            <h2>0</h2>
+            <h2><ExperienceCounter1/></h2>
             <h6>Year Experience</h6>
         </div>
         <div>
-            <h2>110</h2>
+            <h2><ExperienceCounter2/></h2>
             <h6>Year Experience</h6>
         </div>
         <div>
-            <h2>34</h2>
+            <h2><ExperienceCounter3/></h2>
             <h6>Year Experience</h6>
         </div>
         <div>
-            <h2>78</h2>
+            <h2><ExperienceCounter4/></h2>
             <h6>Year Experience</h6>
         </div>
         <div>
-            <h2>12</h2>
+            <h2><ExperienceCounter5/></h2>
             <h6>Year Experience</h6>
         </div>
 

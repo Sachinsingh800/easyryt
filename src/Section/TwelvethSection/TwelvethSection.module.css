@@ -26,7 +26,9 @@
  width: 90%;
  z-index: 9;
 }
-
+.container div h2{
+    color: blue;
+}
 .img{
  margin-top: -27rem;
  margin-right: 80rem;

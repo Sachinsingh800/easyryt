@@ -141,12 +141,119 @@ export const RatingCounter = () => {
 
   return <div>{formattedCount}</div>;
 };
+
 export const RatingCounter2 = () => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
       if (count < 400) {
+        setCount((prevCount) => prevCount + 10);
+      } else {
+        clearInterval(timer);
+      }
+    }, 100);
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, [count]);
+
+  const formattedCount = count.toLocaleString(); // Add comma every three digits
+
+  return <div>{formattedCount}</div>;
+};
+
+export const ExperienceCounter1 = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      if (count < 10) {
+        setCount((prevCount) => prevCount + 1);
+      } else {
+        clearInterval(timer);
+      }
+    }, 100);
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, [count]);
+
+  const formattedCount = count.toLocaleString(); // Add comma every three digits
+
+  return <div>{formattedCount}</div>;
+};
+export const ExperienceCounter2 = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      if (count < 100) {
+        setCount((prevCount) => prevCount + 5);
+      } else {
+        clearInterval(timer);
+      }
+    }, 100);
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, [count]);
+
+  const formattedCount = count.toLocaleString(); // Add comma every three digits
+
+  return <div>{formattedCount}</div>;
+};
+export const ExperienceCounter3 = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      if (count < 87) {
+        setCount((prevCount) => prevCount + 5);
+      } else {
+        clearInterval(timer);
+      }
+    }, 100);
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, [count]);
+
+  const formattedCount = count.toLocaleString(); // Add comma every three digits
+
+  return <div>{formattedCount}</div>;
+};
+export const ExperienceCounter4 = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      if (count < 8) {
+        setCount((prevCount) => prevCount + 1);
+      } else {
+        clearInterval(timer);
+      }
+    }, 100);
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, [count]);
+
+  const formattedCount = count.toLocaleString(); // Add comma every three digits
+
+  return <div>{formattedCount}</div>;
+};
+export const ExperienceCounter5 = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      if (count < 200) {
         setCount((prevCount) => prevCount + 10);
       } else {
         clearInterval(timer);
