@@ -10,7 +10,7 @@
     background-color: rgb(57, 65, 98);
     color: white;
     width: 100vw;
-    padding-top: 10rem;
+    padding-top: 6rem;
   }
   .main h1{
     font-weight: 400;
@@ -35,5 +35,5 @@
 .img{
 height: 25rem;
 filter: drop-shadow(-2px 0px 2px );
-transition-delay: 2s ease-in-out;
+transition-delay: 3s ease-in-out;
 }

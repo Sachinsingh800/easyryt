@@ -43,7 +43,7 @@ function Home() {
           <FifthSection/>
           <SixthSection/>
           <SeventhSection/>
-          <EightSection/>
+          {/* <EightSection/> */}
           <NinthSection/>
           <TenthSection/>
           <div className={style.contactBox}>

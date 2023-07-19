@@ -4,6 +4,9 @@ import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/Mobile-App-Development.png"
 import Section1 from "./section1/Section1";
 import Section2 from "./Section2/Section2";
+import Section3 from "./Section3/Section3";
+import TenthSection from "../../Section/TenthSection/TenthSection";
+import SixthSection from "../../Section/SixthSection/SixthSection";
 
 
 function FirstPage() {
@@ -27,6 +30,9 @@ function FirstPage() {
       </div>
       <Section1 />
       <Section2/>
+      <Section3/>
+      <TenthSection/>
+      <SixthSection />
     </div>
   );
 }
