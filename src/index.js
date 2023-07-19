@@ -8,6 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import FirstPage from './Page/FirstPage/FirstPage';
+import CrossPlatformAppDevelopment from './Page/CrossPlatformAppDevelopment/CrossPlatformAppDevelopment';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/FirstPage",
     element: <FirstPage/>,
+  },
+  {
+    path: "/CrossPlatformAppDevelopment",
+    element: <CrossPlatformAppDevelopment/>,
   },
 ]);
 root.render(

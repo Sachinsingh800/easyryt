@@ -26,7 +26,7 @@ function ServicesOption() {
               <div className={style.optionContent}>
                  <ul  className={style.options}>
                 <Link to={"/FirstPage"}> <li>Native Mobile App Development</li></Link> 
-                  <li>Cross-Platform App Development</li>
+                <Link to={"/CrossPlatformAppDevelopment"}> <li>Cross-Platform App Development</li></Link> 
                   <li>Mobile Web Development</li>
                   <li>Progressive Web Apps (PWAs)</li>
                   <li>Backend Development for Mobile Apps</li>
