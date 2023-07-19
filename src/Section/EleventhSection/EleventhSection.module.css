@@ -13,7 +13,7 @@
     margin-top: 2rem;
 }
 .img{
-    height: 13rem;
+    height: 17rem;
     position: absolute;
     transition: transform 0.5s ease-in-out;
 }
@@ -23,7 +23,7 @@
     border-radius: 15px 15px  0px 0px;
 }
 .card{
-    height: 20rem;
+    height: 28rem;
     width: 22rem;
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@
 }
 
 .imgbox{
-    height: 15rem;
+    height: 20rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,6 +108,6 @@
     }
     .card{
         width: 30rem;
-        height: 30rem;
+        height: 28rem;
     }
 }
