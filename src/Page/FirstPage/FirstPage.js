@@ -7,6 +7,7 @@ import Section2 from "./Section2/Section2";
 import Section3 from "./Section3/Section3";
 import TenthSection from "../../Section/TenthSection/TenthSection";
 import SixthSection from "../../Section/SixthSection/SixthSection";
+import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 
 
 function FirstPage() {
@@ -33,6 +34,7 @@ function FirstPage() {
       <Section3/>
       <TenthSection/>
       <SixthSection />
+      <EleventhSection/>
     </div>
   );
 }
