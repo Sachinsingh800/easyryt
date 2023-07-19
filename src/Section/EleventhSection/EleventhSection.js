@@ -19,8 +19,8 @@ const EleventhSection = () => {
     {
       bg: bg4,
       image: model2,
-      heading: "Improves Efficiency And Offers High Scalability",
-      text: "Improves efficiency and provides high scalability, boosting productivity, cost-efficiency, and adaptability to changing market demands for businesses' success. ",
+      heading: "Restaurant Website Development:",
+      text: "Restaurant website development involves creating a user-friendly and visually appealing online platform for restaurants to showcase their menus, services, and brand. ",
     },
     {
       bg: bg5,
@@ -90,9 +90,12 @@ const EleventhSection = () => {
               />
               <img className={style.img2} src={card.bg} alt="img2" />
             </div>
-
-            <h6>{card.heading}</h6>
+           <div className={style.infoBox}>
+           <h6>{card.heading}</h6>
             <p>{card.text}</p>
+            <p style={{ color: "blue" }}>View</p>
+           </div>
+          
           </div>
         ))}
       </div>
