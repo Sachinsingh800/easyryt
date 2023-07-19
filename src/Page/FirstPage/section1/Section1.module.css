@@ -11,6 +11,7 @@
     color: white;
     width: 100vw;
     padding-top: 6rem;
+    text-align: center;
   }
   .main h1{
     font-weight: 400;
@@ -36,4 +37,18 @@
 height: 25rem;
 filter: drop-shadow(-2px 0px 2px );
 transition-delay: 3s ease-in-out;
+}
+@media (max-width:784px){
+  .img{
+    height: 20rem;
+  }
+}
+@media (max-width:500px){
+  .main{
+    height: 35rem;
+    overflow: hidden;
+}
+.img{
+  height: 15rem;
+}
 }

@@ -49,9 +49,18 @@ color: white;
      font-weight: 700;
 }
 
-@media (max-width:800px){
+@media (max-width:799px){
     .innerbox{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width:787px){
+    .innerbox{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .card{
+        height: 20rem;
+        width: 20rem;
     }
 }
 @media (max-width:713px){

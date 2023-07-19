@@ -5,6 +5,10 @@
     align-items: center;
     gap: 1rem;
     padding: 3rem 0rem;
+    text-align: center;
+}
+.main h1{
+    text-align: center;
 }
 .innerbox{
     display: grid;
@@ -12,9 +16,14 @@
     gap: 2rem;
     margin-top: 2rem;
 }
+
 .img{
     height: 3rem;
     width: 3rem;
+}
+.para{
+    width: 30rem;
+    text-align: center;
 }
 .card{
     height: 20rem;
@@ -34,9 +43,18 @@
     transform: scale(1.01);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-@media (max-width:800px){
+@media (max-width:799px){
     .innerbox{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width:787px){
+    .innerbox{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .card{
+        height: 20rem;
+        width: 20rem;
     }
 }
 @media (max-width:713px){

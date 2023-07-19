@@ -5,12 +5,13 @@
     background: linear-gradient(170deg, rgba(12,5,71,1) 0%, rgba(2,21,88,1) 47%, rgba(27,41,163,1) 100%);
     color: white;
     padding: 2rem;
+    width: 100vw;
 }
 .main div{
  text-align: left;
 }
 .main div h4{
- margin-left: 1rem;
+ margin-left: 6%;
 }
 .ul {
     display: flex;
@@ -46,4 +47,15 @@
 }
 .address{
    margin-top: -2rem;
+}
+@media (max-width:800px){
+    .main{
+        display: grid;
+        grid-template-columns: 1fr ;
+        font-size: 1rem;
+
+    }
+    .main div h4{
+        margin-left: 2%;
+       }
 }

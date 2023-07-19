@@ -8,6 +8,7 @@ import Section3 from "./Section3/Section3";
 import TenthSection from "../../Section/TenthSection/TenthSection";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
+import Footer from "../../Component/Footer/Footer";
 
 
 function FirstPage() {
@@ -35,6 +36,7 @@ function FirstPage() {
       <TenthSection/>
       <SixthSection />
       <EleventhSection/>
+      <Footer/>
     </div>
   );
 }
