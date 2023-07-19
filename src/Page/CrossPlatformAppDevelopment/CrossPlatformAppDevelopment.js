@@ -2,7 +2,7 @@ import React from "react";
 import style from "./CrossPlatformAppDevelopment.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/cross-platform-app-development.png";
-import Section1 from "../FirstPage/section1/Section1";
+import Section1 from "./Section1/Section1";
 import Section2 from "../FirstPage/Section2/Section2";
 import Section3 from "../FirstPage/Section3/Section3";
 import TenthSection from "../../Section/TenthSection/TenthSection";
