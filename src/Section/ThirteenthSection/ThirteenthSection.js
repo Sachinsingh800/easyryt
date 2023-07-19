@@ -1,18 +1,7 @@
 import React, { useState, useEffect } from "react";
 import style from "./ThirteenthSection.module.css";
 
-import model2 from "../../Image/model2.png";
-import model3 from "../../Image/model3.png";
-import model4 from "../../Image/model4.png";
-import model5 from "../../Image/model5.png";
-import model6 from "../../Image/model6.png";
-import model7 from "../../Image/model7.png";
-import bg4 from "../../Image/bg4.png";
-import bg5 from "../../Image/bg5.png";
-import bg6 from "../../Image/bg6.png";
-import bg7 from "../../Image/bg7.png";
-import bg8 from "../../Image/bg8.png";
-import bg9 from "../../Image/bg9.png";
+
 
 const ThirteenthSection = () => {
   const cardsData = [
@@ -62,11 +51,10 @@ const ThirteenthSection = () => {
 
   return (
     <div className={style.main}>
-      <h1>Our Recent Project</h1>
+      <h1>Our Recent Blogs</h1>
       <p className={style.para}>
-        Here Are Some Of The MostPresenting The Wide Range Of Solutions That We
-        Have Successfully Delivered Our Client With The High Quality Standard
-        Know Advantages Of Mobile App Growth For Business.
+        Having Exclusive To Work With Startups To Corporate, We Have In-Depth
+        Insighs About The Versatile Needs Of Diversified Industry Domains.
       </p>
       <div className={style.innerbox}>
         {cardsData.map((card, index) => (
@@ -77,14 +65,17 @@ const ThirteenthSection = () => {
             }`}
           >
             <div className={style.imgbox}>
-              <img className={style.img2} src={card.bg}    alt={`img${index + 1}`} />
+              <img
+                className={style.img2}
+                src={card.bg}
+                alt={`img${index + 1}`}
+              />
             </div>
-           <div className={style.infoBox}>
-           <h6>{card.heading}</h6>
-            <p>{card.text}</p>
-            <p style={{ color: "blue" }}>View</p>
-           </div>
-          
+            <div className={style.infoBox}>
+              <h6>{card.heading}</h6>
+              <p>{card.text}</p>
+              <p style={{ color: "blue" }}>View</p>
+            </div>
           </div>
         ))}
       </div>
