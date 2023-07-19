@@ -14,6 +14,7 @@ import call from "../../Image/call.png"
 import whatsapp from "../../Image/whatsapp.png"
 import TenthSection from '../../Section/TenthSection/TenthSection'
 import Popup from '../../Component/Popup/Popup'
+import EleventhSection from '../../Section/EleventhSection/EleventhSection'
 
 function Home() {
 
@@ -46,6 +47,7 @@ function Home() {
           {/* <EightSection/> */}
           <NinthSection/>
           <TenthSection/>
+          <EleventhSection/>
           <div className={style.contactBox}>
 
             <img onClick={handleCallClick} className={style.logo} src={call} alt='call' />
