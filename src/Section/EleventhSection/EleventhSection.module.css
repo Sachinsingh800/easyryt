@@ -67,23 +67,32 @@
     }
 }
 @media (max-width:713px){
-
+    .innerbox{
+        grid-template-columns: 1fr ;
+    }
     .card{
-        height: 19rem;
-        width: 19rem;
+        width: 30rem;
+        height: 33rem;
     }
 }
 @media (max-width:620px){
 
     .card{
-        height: 25rem;
-        width: 20rem;
+        width: 40rem;
+        height: 30rem;
+    }
+    .para{
+        width: 30rem;
     }
 }
 @media (max-width:446px){
-
+    .innerbox{
+        width: 100vw;
+        place-content: center;
+        place-items: center;
+    }
     .card{
+        width: 30rem;
         height: 30rem;
-        width: 15rem;
     }
 }
