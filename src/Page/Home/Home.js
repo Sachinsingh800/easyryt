@@ -16,6 +16,7 @@ import TenthSection from '../../Section/TenthSection/TenthSection'
 import Popup from '../../Component/Popup/Popup'
 import EleventhSection from '../../Section/EleventhSection/EleventhSection'
 import Footer from '../../Component/Footer/Footer'
+import TwelvethSection from '../../Section/TwelvethSection/TwelvethSection'
 
 function Home() {
 
@@ -49,6 +50,7 @@ function Home() {
           <NinthSection/>
           <TenthSection/>
           <EleventhSection/>
+          <TwelvethSection/>
           <Footer/>
           <div className={style.contactBox}>
 

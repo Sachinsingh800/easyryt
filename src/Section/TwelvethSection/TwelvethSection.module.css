@@ -1,0 +1,48 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    overflow: hidden;
+    height: 25rem;
+    background-color: rgb(244, 244, 244);
+   
+}
+.main h1{
+    width: 30rem;
+    z-index: 9;
+}
+.main p{
+    width: 40rem;
+    z-index: 9;
+}
+.container{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ gap: 1rem;
+ width: 90%;
+ z-index: 9;
+}
+
+.img{
+ margin-top: -27rem;
+ margin-right: 80rem;
+}
+.img1{
+ margin-top: -6rem;
+ margin-right: 40rem;
+ height: 8rem;
+}
+.img2{
+ margin-top: -27rem;
+ margin-left:20rem;
+ height: 15rem;
+}
+.img3{
+ margin-top: 0rem;
+ margin-left: 60rem;
+ height: 20rem;
+}
