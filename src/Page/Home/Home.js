@@ -19,6 +19,7 @@ import Footer from '../../Component/Footer/Footer'
 import TwelvethSection from '../../Section/TwelvethSection/TwelvethSection'
 import ThirteenthSection from '../../Section/ThirteenthSection/ThirteenthSection'
 import FourteenSection from '../../Section/FourteenSection/FourteenSection'
+import ClientsAccordion from '../../Component/ClientsAccordion/ClientsAccordion'
 
 function Home() {
 
@@ -55,6 +56,7 @@ function Home() {
           <TwelvethSection/>
           <ThirteenthSection/>
           <FourteenSection/>
+          <ClientsAccordion/>
           <Footer/>
           <div className={style.contactBox}>
 
