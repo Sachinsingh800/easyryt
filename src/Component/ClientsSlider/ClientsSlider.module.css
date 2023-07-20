@@ -1,0 +1,38 @@
+.main{
+    width: 100vw;
+  }
+  
+  .item{
+    padding-top: .5rem;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    filter: drop-shadow(1px 2px 3px);
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(102,216,255,1) 43%, rgba(41,165,208,1) 100%);
+  }
+  .card{
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30rem;
+    width: 20rem;
+    background-color:  rgb(240, 240, 241);
+    border-radius: 5px 80px 5px 80px;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+  .innerbox{
+    /* border: 1px red solid; */
+    padding: 0rem 3rem;
+    height: 32rem;
+  }
+  /* .card p{
+    margin-top: 1rem;
+  } */
+  .Location{
+    margin-top: -1.5rem;
+  }

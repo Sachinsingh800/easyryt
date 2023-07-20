@@ -1,0 +1,9 @@
+.main{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 4rem;
+    gap: 2rem;
+}
