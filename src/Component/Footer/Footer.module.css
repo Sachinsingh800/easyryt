@@ -1,8 +1,8 @@
 .main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background: rgb(12,5,71);
-    background: linear-gradient(170deg, rgba(12,5,71,1) 0%, rgba(2,21,88,1) 47%, rgba(27,41,163,1) 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 48%, rgba(36,34,30,1) 100%, rgba(255,252,252,1) 100%);
     color: white;
     padding: 2rem;
     width: 100vw;
