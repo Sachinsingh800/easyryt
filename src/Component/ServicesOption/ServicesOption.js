@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import style from "./ServicesOption.module.css";
 import { Servicesaccordian } from "../../Component/Accordion/Accordion";
 import { Link } from "react-router-dom";
+import logo2 from "../../Image/opbg.png";
 
 function ServicesOption() {
   const [hoveredOption, setHoveredOption] = useState("Option 1");
@@ -27,13 +28,18 @@ function ServicesOption() {
                  <ul  className={style.options}>
                 <Link to={"/FirstPage"}> <li>Native Mobile App Development</li></Link> 
                 <Link to={"/CrossPlatformAppDevelopment"}> <li>Cross-Platform App Development</li></Link> 
-                  <li>Mobile Web Development</li>
-                  <li>Progressive Web Apps (PWAs)</li>
-                  <li>Backend Development for Mobile Apps</li>
-                  <li>Mobile App Testing and Quality Assurance:</li>
-                  <li>Mobile App UI/UX Design</li>
+                  <li>Android Application Development Services</li>
+                  <li>IOS Application Development Services</li>
+                  <li>Hybrid Application Development Services</li>
+                  <li>Mobile App Development</li>
+                  <li>App Backend Development</li>
                  </ul>
-              
+                 <ul  className={style.options}>
+               <li>Flutter App Development</li>
+                 <li>Cross-Platform App Development</li>
+                  <li>React Native App Development</li>
+                  <li>Mobile App Testing and Testing Quality Assurance</li>
+                 </ul>
               </div>
             )}
           </li>
@@ -41,17 +47,26 @@ function ServicesOption() {
             className={hoveredOption === "Option 2" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 2")}
           >
-            Progressive Web App
+           Digital Marketing
             {hoveredOption === "Option 2" && (
               <div className={style.optionContent1}>
                   <ul  className={style.options}>
-                  <li>Service Workers</li>
-                  <li>Web App Manifest</li>
-                  <li>Responsive Design</li>
-                  <li>Application Shell Architecture</li>
-                  <li>App Shell and Content Caching</li>
-                  <li>Push Notifications</li>
-                  <li>IndexedDB</li>
+                  <li>Search Engine Optimization (SEO)</li>
+                  <li>Pay-Per-Click (PPC) Advertising</li>
+                  <li>Social Media Advertising</li>
+                  <li>Google Advertising</li>
+                  <li>Facebook & Instagram Advertising</li>
+                  <li>Content Marketing</li>
+                  <li>Social Media Marketing</li>
+                 </ul>
+                  <ul  className={style.options}>
+                  <li>Email Marketing</li>
+                  <li>Analytics and Reporting</li>
+                  <li>Website Traffic Advertising</li>
+                  <li>E-Commerce Advertising</li>
+                  <li>App Install Advertising</li>
+                  <li>Android App Advertising</li>
+                  <li>IOS App Advertising</li>
                  </ul>
               </div>
             )}
@@ -61,18 +76,23 @@ function ServicesOption() {
             className={hoveredOption === "Option 3" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 3")}
           >
-            Enterprise Application Development
+        Website Development
             {hoveredOption === "Option 3" && (
               <div className={style.optionContent2}>
                 <ul  className={style.options}>
-                  <li>Backend Technologies</li>
-                  <li>Frontend Technologies</li>
-                  <li>Integration and Middleware</li>
-                  <li>Security and Identity Management</li>
-                  <li>Enterprise Resource Planning (ERP) Systems</li>
-                  <li>Business Process Management (BPM)</li>
-                  <li>Data Analytics and Business Intelligence (BI)</li>
+                  <li>E-Commerce Development</li>
+                  <li>Front-End Development</li>
+                  <li>Backend Development</li>
+                  <li>Full Stack Development Services</li>
                  </ul>
+                     <div className={style.rightbox}>
+              <h3>
+              Collaborate for success
+              </h3>
+              <span>Join forces with us</span>
+              <button>Get A quote</button>
+              <img className={style.img2} src={logo2} alt="logo" />
+            </div>
               </div>
             )}
           </li>
@@ -81,17 +101,23 @@ function ServicesOption() {
             className={hoveredOption === "Option 4" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 4")}
           >
-            Design UI/UX
+     WordPress Development
             {hoveredOption === "Option 4" && (
               <div className={style.optionContent3}>
                  <ul  className={style.options}>
-                  <li>Wireframing and Prototyping</li>
-                  <li>Visual Design</li>
-                  <li>UI Component Libraries</li>
-                  <li>Typography</li>
-                  <li>Color Palettes and Themes</li>
-                  <li>Interaction Design and Animation</li>
-                  <li>User Testing and Feedback</li>
+                  <li>Blog or Personal Website</li>
+                  <li>Business Website</li>
+                  <li>Ecommerce Website / Online Store</li>
+                  <li>Online Courses</li>
+                  <li>Podcast Website</li>
+                  <li>Affiliate Website</li>
+                  <li>Job Board Website</li>
+                 </ul>
+                 <ul  className={style.options}>
+                  <li>Portfolio Websites</li>
+                  <li>Travel Website</li>
+                  <li>Fashion / Lifestyle Website</li>
+               
                  </ul>
               </div>
             )}
@@ -101,18 +127,25 @@ function ServicesOption() {
             className={hoveredOption === "Option 5" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 5")}
           >
-            Digital Marketing
+      UI/UX Design
             {hoveredOption === "Option 5" && (
               <div className={style.optionContent4}>
                 <ul  className={style.options}>
-                  <li>Search Engine Optimization (SEO)</li>
-                  <li>Pay-Per-Click (PPC) Advertising</li>
-                  <li>Content Marketing</li>
+                  <li>Mobile App UI?UX Design Services</li>
+                  <li>Mobile App UI?UX Design Services</li>
+                  <li>Android App UI/UX Design Services</li>
                   <li>Social Media Marketing</li>
-                  <li>Email Marketing</li>
-                  <li>Conversion Rate Optimization (CRO)</li>
-                  <li>Analytics and Reporting</li>
+                  <li>ISO UI/UX Design Servicesg</li>
+                  <li>Website UI/UX Design Services</li>
                  </ul>
+                 <div className={style.rightbox}>
+              <h3>
+              Collaborate for success
+              </h3>
+              <span>Join forces with us</span>
+              <button>Get A quote</button>
+              <img className={style.img2} src={logo2} alt="logo" />
+            </div>
               </div>
             )}
           </li>
@@ -121,18 +154,24 @@ function ServicesOption() {
             className={hoveredOption === "Option 6" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 6")}
           >
-            Product Management
+Front End Development
             {hoveredOption === "Option 6" && (
               <div className={style.optionContent5}>
                 <ul  className={style.options}>
-                  <li>Market Research</li>
-                  <li>Product Strategy</li>
-                  <li>Product Planning</li>
-                  <li>Agile Development</li>
-                  <li>User Experience (UX) Design</li>
-                  <li>Feature Prioritization</li>
-                  <li>Roadmap Management</li>
+                  <li>React Js Development</li>
+                  <li>Next js Development</li>
+                  <li>Vue js Development</li>
+                  <li>Angular Dvelopment</li>
+                  <li>React Native Development</li>
                  </ul>
+                 <div className={style.rightbox}>
+              <h3>
+              Collaborate for success
+              </h3>
+              <span>Join forces with us</span>
+              <button>Get A quote</button>
+              <img className={style.img2} src={logo2} alt="logo" />
+            </div>
               </div>
             )}
           </li>
@@ -140,18 +179,50 @@ function ServicesOption() {
             className={hoveredOption === "Option 7" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 7")}
           >
-            Sap（system Application Product）
+      Backend Development
             {hoveredOption === "Option 7" && (
               <div className={style.optionContent6}>
              <ul  className={style.options}>
-                  <li>SAP ERP (Enterprise Resource Planning)</li>
-                  <li>SAP CRM (Customer Relationship Management)</li>
-                  <li>SAP SCM (Supply Chain Management)</li>
-                  <li>SAP SRM (Supplier Relationship Management)</li>
-                  <li>SAP HCM (Human Capital Management)</li>
-                  <li>SAP Analytics</li>
-                  <li>SAP Industry Solutions</li>
+                  <li>Node js</li>
+                  <li>Laravel</li>
+                  <li>Python</li>
+                  <li>API Development</li>
+                  <li>Database Design and Management</li>
+                  <li>Server Architecture and Configuration,</li>
+                  <li>Cloud Services Integration,SAP Industry Solutions</li>
                  </ul>
+             <ul  className={style.options}>
+                  <li>Backend Framework Development,</li>
+                  <li>Web Application Development</li>
+                  <li>Mobile Backend Development</li>
+                  <li>Real-Time Data Processing</li>
+                  <li>Performance Optimization</li>
+                  <li>Integration with Third-Party Services</li>
+                  <li>DevOps and Continuous Integration/Continuous Deployment (CI/CD)</li>
+                 </ul>
+              </div>
+            )}
+          </li>
+          <li
+            className={hoveredOption === "Option 8" ? style.active : ""}
+            onMouseOver={() => handleOptionHover("Option 8")}
+          >
+  Cloud
+            {hoveredOption === "Option 8" && (
+              <div className={style.optionContent7}>
+                <ul  className={style.options}>
+                  <li>Azure</li>
+                  <li>Aws</li>
+                  <li>Google Cloud</li>
+                 </ul>
+                 <div className={style.rightbox}>
+              <h3>
+              Collaborate for success
+              </h3>
+              <span>Join forces with us</span>
+              <button>Get A quote</button>
+              <img className={style.img2} src={logo2} alt="logo" />
+            </div>
               </div>
             )}
           </li>
