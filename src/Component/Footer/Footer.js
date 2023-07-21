@@ -2,9 +2,15 @@ import React from 'react'
 import style from "./Footer.module.css"
 import logo from "../../Image/logo.png";
 import { Link } from 'react-router-dom';
+import { BsInstagram } from 'react-icons/bs';
+import { BsFacebook } from 'react-icons/bs';
+import { BsTwitter } from 'react-icons/bs';
+import { AiFillLinkedin } from 'react-icons/ai';
+
 
 function Footer() {
   return (
+    <div className={style.containermain}>
     <div className={style.main}>
         <div>
         <Link to={"/"}><img className={style.img} src={logo} alt="logo" /></Link>   
@@ -40,8 +46,19 @@ function Footer() {
                 <li className={style.address}>5675634 ,$$$,$$$ , Delhi-110056</li>
             
             </ul>
+   
         </div>
-      
+
+    </div>
+    <hr />
+    <div className={style.bottomBox}>
+     
+     <h5><BsInstagram/></h5>
+     <h5><BsFacebook/></h5>
+     <h5><BsTwitter/></h5>
+     <h5><AiFillLinkedin/></h5>
+
+   </div>
     </div>
   )
 }
