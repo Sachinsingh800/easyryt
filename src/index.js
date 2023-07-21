@@ -11,6 +11,7 @@ import FirstPage from './Page/FirstPage/FirstPage';
 import CrossPlatformAppDevelopment from './Page/CrossPlatformAppDevelopment/CrossPlatformAppDevelopment';
 import AboutUs from './Page/AboutUs/AboutUs';
 import WhyChooseUs from './Page/WhyChooseUs/WhyChooseUs';
+import Blog from './Page/Blog/Blog';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/WhyChooseUs",
     element: <WhyChooseUs />,
+  },
+  {
+    path: "/Blog",
+    element: <Blog />,
   },
 ]);
 root.render(
