@@ -80,6 +80,14 @@ hr{
   display: flex;
   gap: 2rem;
  margin-left: 50rem;
+
+}
+.bottomBox h5{
+  transition: color 0.3s ease-in-out;
+}
+.bottomBox h5:hover{
+       color: orange;
+       transform: scale(1.1);
 }
 @media (max-width:500px){
   .bottomBox{

@@ -26,7 +26,7 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   }
   .innerbox{
-    /* border: 1px red solid; */
+    /* borvscode-file://vscode-app/c:/Users/sachi/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.htmlder: 1px red solid; */
     padding: 0rem 3rem;
     height: 32rem;
   }
@@ -35,4 +35,26 @@
   } */
   .Location{
     margin-top: -1.5rem;
+  }
+  @media (max-width:500px){
+    .card{
+      /* border: 1px red solid; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 32rem;
+      width: 30rem;
+      background-color:  rgb(240, 240, 241);
+      border-radius: 5px 80px 5px 80px;
+      text-align: center;
+      padding: 1rem;
+      gap: 1rem;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+    .innerbox{
+      /* borvscode-file://vscode-app/c:/Users/sachi/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.htmlder: 1px red solid; */
+      padding: 0rem 2.5rem;
+      height: 35rem;
+    
+    }
   }

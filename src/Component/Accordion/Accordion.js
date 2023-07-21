@@ -265,7 +265,7 @@ export function ClientServicesaccordian() {
 
       <Accordion.Item eventKey="0">
         <Accordion.Header> Q. What are AWS cloud services?</Accordion.Header>
-        <Accordion.Body>
+        <Accordion.Body  >
         AWS (Amazon Web Services) is a comprehensive and widely-used cloud
               computing platform provided by Amazon. It offers a vast array of
               cloud services and solutions that cater to a wide range of
