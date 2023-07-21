@@ -155,6 +155,14 @@ function NavBar() {
                 <img className={style.imgleaf} src={imgleaf2} alt="rightLeaf" />
               </div>
             </div>
+            <div className={style.rightbox}>
+              <h3>
+              Collaborate for success
+              </h3>
+              <span>Join forces with us</span>
+              <button>Get A quote</button>
+              <img className={style.img2} src={logo2} alt="logo" />
+            </div>
           </div>
         )}
 
@@ -165,19 +173,6 @@ function NavBar() {
           Contact Us
         </h4>
 
-        {isContactHovered && (
-          <div onMouseLeave={handleContactLeave} className={style.servicesDiv}>
-            <ServicesOption />
-            <div className={style.rightbox}>
-              <h3>
-                Lets grow together <span>Partner with us</span>
-              </h3>
-              <button>Get A quote</button>
-              <img className={style.img2} src={logo2} alt="logo" />
-            </div>
-          </div>
-        )}
-
         <h4
           className={activeLink === "blog" ? style.active : ""}
           onMouseEnter={() => handleBlogHover("blog")}
@@ -185,18 +180,6 @@ function NavBar() {
           Blog
         </h4>
 
-        {isBlogHovered && (
-          <div onMouseLeave={handleBlogLeave} className={style.servicesDiv}>
-            <ServicesOption />
-            <div className={style.rightbox}>
-              <h3>
-                Lets grow together <span>Partner with us</span>
-              </h3>
-              <button>Get A quote</button>
-              <img className={style.img2} src={logo2} alt="logo" />
-            </div>
-          </div>
-        )}
       </div>
     </div>
   );

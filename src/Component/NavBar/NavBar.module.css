@@ -73,7 +73,8 @@
   width: 27rem;
   padding-top: 1rem;
   gap: .5rem;
-margin-left:28.5rem ;
+right: 0;
+position: absolute;
 
 
 }
@@ -113,7 +114,7 @@ margin-left:28.5rem ;
   flex-direction: column;
   text-align: left;
   width: 27rem;
-  padding: .2rem 2rem;
+  padding: .2rem 1rem;
   gap: .3rem;
   background-image: url(../../Image/bg.png);
   background-size: cover;
@@ -152,12 +153,14 @@ margin-left:28.5rem ;
 }
 .ratingBox{
     position: absolute;
-    right: 0;
+    right: 25%;
     bottom: 0;
-    width: 40rem;
-    height: 10rem;
+    width: 20rem;
+    height: 20rem;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     gap: 2rem;
 }
 .imgleaf{
