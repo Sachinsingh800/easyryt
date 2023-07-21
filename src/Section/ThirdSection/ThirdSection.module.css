@@ -101,7 +101,7 @@
     gap: .5rem;
     justify-content: space-between;
     position: absolute;
-    top: -150%;
+    top: -180%;
     left: 110%;
     background-color:  rgb(240, 240, 241);
     padding: .5rem 1rem;
@@ -131,7 +131,7 @@
     gap: .5rem;
     justify-content: space-between;
     position: absolute;
-    top: -180%;
+    top: -280%;
     left: 110%;
     background-color:  rgb(240, 240, 241);
     padding: .5rem 1rem;
@@ -161,7 +161,7 @@
     gap: .5rem;
     justify-content: space-between;
     position: absolute;
-    top: -280%;
+    top: -380%;
     left: 110%;
     background-color:  rgb(240, 240, 241);
     padding: .5rem 1rem;
@@ -191,7 +191,7 @@
     gap: .5rem;
     justify-content: space-between;
     position: absolute;
-    top: -380%;
+    top: -480%;
     left: 110%;
     background-color:  rgb(240, 240, 241);
     padding: .5rem 1rem;
@@ -217,35 +217,7 @@
     font-size: 1.2rem;
   }
   
-  .optionContent6 {
-    gap: .5rem;
-    justify-content: space-between;
-    position: absolute;
-    top: -480%;
-    left: 110%;
-    background-color:  rgb(240, 240, 241);
-    padding: .5rem 1rem;
-    border-left: none;
-    border-radius: .5rem;
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    width: 20rem;
-    color: black;
-    height: 26rem;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  }
-  .optionContent6  p{
-    height: 14rem ;
-    overflow: hidden;
-  }
-  
-  .optionContent6  h4{
-     width: 14rem;
-     max-height: 3rem;
-    overflow: hidden;
-    font-size: 1.2rem;
-  }
+
   
   .active {
     background-color:  rgb(240, 240, 241);

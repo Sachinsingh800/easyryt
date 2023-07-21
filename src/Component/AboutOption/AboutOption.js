@@ -17,12 +17,15 @@ function AboutOption() {
       </div>
       <div className={style.navBar}>
         <ul className={style.optionList}>
-          <li
+        <Link to={"/AboutUs"}>
+        <li
             className={hoveredOption === "Option 1" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 1")}
           >
             About Easyryt
           </li>
+          </Link>    
+       
           <li
             className={hoveredOption === "Option 2" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 2")}

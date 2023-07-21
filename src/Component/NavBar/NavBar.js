@@ -166,7 +166,8 @@ function NavBar() {
           </div>
         )}
 
-        <h4
+
+    <h4
           className={activeLink === "contact" ? style.active : ""}
           onMouseEnter={() => handleContactHover("contact")}
         >
