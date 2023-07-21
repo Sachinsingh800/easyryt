@@ -52,8 +52,7 @@
       box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     }
     .innerbox{
-      /* borvscode-file://vscode-app/c:/Users/sachi/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.htmlder: 1px red solid; */
-      padding: 0rem 2.5rem;
+      padding-left: 4rem;
       height: 35rem;
     
     }
