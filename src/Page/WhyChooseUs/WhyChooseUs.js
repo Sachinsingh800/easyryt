@@ -1,29 +1,29 @@
 import React from "react";
-import style from "./AboutUs.module.css";
+import style from "./WhyChooseUs.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/Mobile-App-Development.png";
-import Section1 from "./section1/Section1";
 import TenthSection from "../../Section/TenthSection/TenthSection";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import ThirdSection from "../../Section/ThirdSection/ThirdSection";
+import Section1 from "./Section1/Section1";
 
-function AboutUs() {
+function WhyChooseUs() {
   return (
     <div className={style.main}>
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>We Transform Digital Solutions</h1>
+          <h1>Why Choose Us?</h1>
           <p>
-            Easyryt Software Solutions offers the tools you require to
-            revolutionize & expedite your business. We stand as a prominent
-            software development enterprise with over a decade of experience in
-            crafting cutting-edge resolutions.
+            We acknowledge the importance of your project, and here are several
+            compelling reasons to become a part of the Easyryt community and
+            join the ranks of over 500+ clients who have relied on us for the
+            past two decades.
           </p>
           <button type="submit" className={style.submitBtn}>
-          Join Now
+            Join Now
           </button>
         </div>
         <div>
@@ -31,7 +31,7 @@ function AboutUs() {
         </div>
       </div>
       <Section1 />
-      <ThirdSection/>
+      <ThirdSection />
 
       <TenthSection />
       <SixthSection />
@@ -41,4 +41,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default WhyChooseUs;

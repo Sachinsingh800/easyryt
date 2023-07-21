@@ -1,5 +1,5 @@
 import React ,{useState,useEffect} from "react";
-import style from "./Section2.module.css";
+import style from "./Section1.module.css";
 import logo1 from "../../../Image/chart.gif";
 import logo2 from "../../../Image/date.gif";
 import logo3 from "../../../Image/id.gif";
@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Android App",
+    title: "Expert Team",
     description:
-      "Our Android applications are renowned for their captivating User Interface UI/UX, rapid loading speeds, and reliable performance.",
+      "Our team consists of highly skilled professionals who are passionate about technology and committed to excellence. With a diverse skill set and a wealth of experience, we are equipped to tackle any challenge that comes our way.",
   },
   {
     logo: logo2,
-    title: "iOS App",
+    title: "Customer-Centric Approach",
     description:
-      "Our iOS apps embody innovative concepts, featuring intuitive GUIs. With our proficient iPhone application development team, you'll find the perfect solution for your needs.",
+      "We prioritize our clients' needs and goals. By understanding your business inside out, we tailor our services to align with your vision and objectives, ensuring that the solutions we provide yield maximum results.",
   },
   {
     logo: logo3,
-    title: "Tablet App development",
+    title: "Innovation and Quality",
     description:
-      "We offer extensive tablet app development solutions to diverse industries, catering to startups and leading enterprises alike.",
+      "Innovation is at the core of what we do. We stay abreast of the latest trends and emerging technologies, allowing us to deliver cutting-edge solutions that provide a competitive edge to our clients.",
   },
   {
     logo: logo4,
-    title: "iPad App Development",
+    title: "Timely Delivery",
     description:
-      "With years of proficiency in native app development, our team can fulfill your unique requirements. We provide impeccable, visually appealing iPad app development services using Flutter.",
+      "We value your time and understand the importance of meeting deadlines. Our streamlined project management process ensures that we deliver projects on time without compromising on quality.",
   },
   {
     logo: logo5,
-    title: "AR App Development",
+    title: "Long-Term Partnerships",
     description:
-      "Benefiting from over 15 years of expertise in 3D modeling and Augmented Reality (AR), we deliver top-notch AR software swiftly. Our team crafts cutting-edge virtual reality solutions, harnessing the latest tools and advancements.",
+      "We believe in nurturing long-lasting relationships with our clients. Beyond the completion of a project, we offer ongoing support, maintenance, and updates to ensure your technology remains relevant and effective.",
   },
   {
     logo: logo6,
-    title: "Marketing Automation Solutions",
+    title: "Data Security and Confidentiality",
     description:
-      "Catering to diverse user needs, our team develops Native applications that precisely align with their business requirements. Leveraging the finest native app development platform, we ensure optimal results for every project.",
+      "At Easyryt Software Solutions, we take data security and confidentiality seriously. We implement robust measures to safeguard your sensitive information and ensure that it remains protected from unauthorized access, maintaining your trust in our services..",
   },
 ];
 
@@ -55,9 +55,7 @@ const lightColors = [
   "#E0FF9F",
 ]; // You can add more light colors here
 
-
-
-function Section2() {
+function Section1() {
   const [randomColors, setRandomColors] = useState(lightColors);
 
   useEffect(() => {
@@ -83,11 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>The Expertise Of Our Native App Development Service</h1>
-      <p className={style.para}>
-        As a native app development company, we have expertise in developing
-        Native apps for different platforms. Take a look at our expertise:
-      </p>
+      <h1>Why Easyryt ?</h1>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (
           <div className={style.card} key={index} style={{ background: randomColors[index] }}>
@@ -101,4 +95,4 @@ function Section2() {
   );
 }
 
-export default Section2;
+export default Section1;
