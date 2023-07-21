@@ -90,14 +90,14 @@ function NavBar() {
         {isServicesHovered && (
           <div onMouseLeave={handleServicesLeave} className={style.servicesDiv}>
             <ServicesOption />
-            {/* <div className={style.rightbox}>
+            <div className={style.rightbox}>
               <h3>
               Collaborate for success
               </h3>
               <span>Join forces with us</span>
               <button>Get A quote</button>
               <img className={style.img2} src={logo2} alt="logo" />
-            </div> */}
+            </div>
           </div>
         )}
 

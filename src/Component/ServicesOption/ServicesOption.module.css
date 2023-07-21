@@ -173,7 +173,7 @@
     z-index: 1;
     width: 28.4rem;
     color: black;
-    height: max-content;
+    height: 20rem;
     gap: .5rem;
   }
   .optionContent4  p{
@@ -199,7 +199,7 @@
     z-index: 1;
     width: 28.4rem;
     color: black;
-    height: max-content;
+    height: 20rem;
     gap: .5rem;
   }
   .optionContent5  p{
@@ -250,10 +250,11 @@
     padding: .9rem 0rem;
     border-left: none;
     display: flex;
+    /* flex-direction: column; */
     z-index: 1;
     width: 28.4rem;
     color: black;
-    height: max-content;
+    height:20rem;
     gap: .5rem;
   }
   .optionContent7  p{
@@ -536,46 +537,3 @@
   } 
 
 
-  .rightbox{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 27rem;
-    gap: .5rem;
-  margin-left:15rem ;
-  
-  
-  }
-  .rightbox h3{
-      width: 20rem;
-      font-weight: 100;
-      font-size: 1.5rem;
-      text-align: center;
-  }
-  .rightbox  span{
-      width: 18rem;
-      font-weight: 700;
-      font-size: 1.5rem;
-      margin-top: -1.6rem;
-      text-align: center;
-  }
-  .rightbox button{
-      width: 8rem;
-      height: 3rem;
-      border: none;
-      color: white;
-      border-radius: 5px;
-      height: 3rem;
-      background: rgb(12,5,71);
-      background: linear-gradient(170deg, rgba(12,5,71,1) 0%, rgba(2,21,88,1) 47%, rgba(27,41,163,1) 100%);
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-      cursor: pointer;
-      transition: background-color 0.9s ease;
-  }
-  .img2{
-      height: 11rem; 
-  }
-  .rightbox button:hover{
-     background: orange;
-     color: black;
-  }

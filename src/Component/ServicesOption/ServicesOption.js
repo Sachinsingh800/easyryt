@@ -85,14 +85,6 @@ function ServicesOption() {
                   <li>Backend Development</li>
                   <li>Full Stack Development Services</li>
                  </ul>
-                     <div className={style.rightbox}>
-              <h3>
-              Collaborate for success
-              </h3>
-              <span>Join forces with us</span>
-              <button>Get A quote</button>
-              <img className={style.img2} src={logo2} alt="logo" />
-            </div>
               </div>
             )}
           </li>
@@ -138,14 +130,6 @@ function ServicesOption() {
                   <li>ISO UI/UX Design Servicesg</li>
                   <li>Website UI/UX Design Services</li>
                  </ul>
-                 <div className={style.rightbox}>
-              <h3>
-              Collaborate for success
-              </h3>
-              <span>Join forces with us</span>
-              <button>Get A quote</button>
-              <img className={style.img2} src={logo2} alt="logo" />
-            </div>
               </div>
             )}
           </li>
@@ -164,14 +148,6 @@ Front End Development
                   <li>Angular Dvelopment</li>
                   <li>React Native Development</li>
                  </ul>
-                 <div className={style.rightbox}>
-              <h3>
-              Collaborate for success
-              </h3>
-              <span>Join forces with us</span>
-              <button>Get A quote</button>
-              <img className={style.img2} src={logo2} alt="logo" />
-            </div>
               </div>
             )}
           </li>
@@ -215,14 +191,6 @@ Front End Development
                   <li>Aws</li>
                   <li>Google Cloud</li>
                  </ul>
-                 <div className={style.rightbox}>
-              <h3>
-              Collaborate for success
-              </h3>
-              <span>Join forces with us</span>
-              <button>Get A quote</button>
-              <img className={style.img2} src={logo2} alt="logo" />
-            </div>
               </div>
             )}
           </li>
