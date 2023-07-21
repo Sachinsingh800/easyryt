@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import style from "./ClientsAccordion.module.css";
-import { Servicesaccordian } from "../Accordion/Accordion";
+import { ClientServicesaccordian} from "../Accordion/Accordion";
 
 export default function ClientsAccordion() {
   const [expanded, setExpanded] = React.useState(false);
@@ -18,7 +18,7 @@ export default function ClientsAccordion() {
         to contact us in case of any query which is not mention below.
       </p>
       <div className={style.container}>
-          <Servicesaccordian/>
+          <ClientServicesaccordian/>
       </div>
     </div>
   );
