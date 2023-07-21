@@ -60,6 +60,9 @@
     background: orange;
     color: black;
   }
+  .phonebox{
+    border-bottom: 1px solid #ccc;
+  }
   @media (max-width:600px){
     .submitBtn {
       margin-left: 10rem;
