@@ -23,9 +23,10 @@ width: 40rem;
     grid-template-columns: 1fr 1fr;
     width: 30rem;
     place-items: center;
+    padding-top: 3rem;
 }
 .rightbox div{
-    height: 10rem;
+    height: 9rem;
     width: 12rem;
     border-radius:10px ;
     overflow: hidden;
@@ -34,6 +35,10 @@ width: 40rem;
     align-items: center;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.rightbox h3{
+    position: absolute;
+    margin-top: -35rem;
 }
 .rightbox div img{
     height: 3rem;

@@ -27,6 +27,7 @@ const ContactUs = () => {
       </p>
       <div className={style.container}>
         <div className={style.rightbox}>
+            <h3 >Trusted by Leading Brands</h3>
             <div>
             <img src={logo1} alt="logo" />
             </div>
