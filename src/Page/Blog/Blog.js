@@ -2,11 +2,13 @@
 import React, { useState ,useEffect} from 'react';
 import style from './Blog.module.css';
 import NavBar from '../../Component/NavBar/NavBar';
-import LeftSection from './LeftSection/LeftSection';
-import { Servicesaccordian } from '../../Component/Accordion/Accordion';
 import ThirteenthSection from '../../Section/ThirteenthSection/ThirteenthSection';
+import ClientsAccordion from '../../Component/ClientsAccordion/ClientsAccordion';
+import Footer from '../../Component/Footer/Footer';
 
 const Blog = () => {
+
+  const [search,setSearch]= useState("")
   const initialCardsData = [
     {
       heading: 'Heading1',
@@ -42,6 +44,7 @@ const Blog = () => {
   ];
 
   const [cardsData, setCardsData] = useState([initialCardsData[0]]);
+
 
 
 console.log(cardsData[0]?.heading,"dsdsds")
@@ -87,7 +90,12 @@ console.log(cardsData[0]?.heading,"dsdsds")
           </div>
         </div>
         <div className={style.rightBox}>
-          {initialCardsData.map((card, index) => (
+          <input  className={style.searchInputbox} onChange={(e)=>setSearch(e.target.value)} value={search}  placeholder='Search here...'/>
+          {initialCardsData
+           .filter((elem) => {
+            return elem.description.toLowerCase().includes(search.toLowerCase());
+          })
+          .map((card, index) => (
             <div className={style.card} key={index} onClick={() => handleCardClick(card.heading)}>
               <div className={style.imgbox2}>
                 <img src={card.image} alt={card.heading} />
@@ -100,6 +108,8 @@ console.log(cardsData[0]?.heading,"dsdsds")
       </div>
       <div className={style.section2}>
            <ThirteenthSection/>
+           <ClientsAccordion/>
+           <Footer/>
       </div>
 
     </div>

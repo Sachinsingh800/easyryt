@@ -97,6 +97,9 @@ transition: all 0.3s ease-in-out;
 .active{
     transform: scale(1.2);
 }
+.searchInputbox{
+    width: 25rem;
+}
 .bigCard {
     -webkit-animation-name: zoomIn;
     animation-name: zoomIn;
