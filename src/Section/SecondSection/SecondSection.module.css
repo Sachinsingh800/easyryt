@@ -6,17 +6,19 @@
     align-items: center;
     gap: 4rem;
     padding:4rem 0rem;
-    /* background-image: url(../../Image/opbg.png); */
+    background-image: url(../../Image/Animation-for-Business.png);
     background-size: cover;
     background-blend-mode: multiply;
-    background-color: rgb(35, 41, 63);
+    background-color: rgb(80, 89, 119);
     color: white;
     width: 100vw;
-    padding-top: 10rem;
+ 
+  
   
   }
   .main h1{
     font-weight: 400;
+  
   }
 .innerbox{
  
@@ -24,6 +26,7 @@
     text-align: left;
     transition-delay: 0.4s;
     transition: opacity 0.4s;
+  
 }
 .innerbox p{
     margin-top: 1rem;
@@ -56,6 +59,14 @@
 }
 .span{
     display: flex;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(8px);
+    padding-top: 2rem;
+    gap: 2rem;
 }
 
 @media (max-width:1000px){

@@ -29,6 +29,7 @@ function SecondSection() {
 
   return (
     <div className={style.main}>
+      <div className={style.container}>
       <h1 id="header" ref={sectionRef}>
         ABOUT US
       </h1>
@@ -72,6 +73,7 @@ function SecondSection() {
           <p>Repeat Clients</p>
         </h2>
         <button>Learn more</button>
+      </div>
       </div>
     </div>
   );
