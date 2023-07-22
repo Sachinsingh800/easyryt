@@ -3,6 +3,7 @@
     align-items: center;
     flex-direction: column;
     width: 100vw;
+    padding-bottom: 3rem;
 }
 .container{
     display: flex;
