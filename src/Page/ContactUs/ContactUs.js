@@ -2,6 +2,12 @@ import React, { useState } from "react";
 import style from "./ContactUs.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import ContactUsForm from "../../Component/ContactUsForm/ContactUsForm";
+import  logo1 from "../../Image/Dominos.png"
+import  logo2 from "../../Image/kotlin.png"
+import logo3 from '../../Image/800px-Kentucky_Fried_Chicken_201x_logo.svg.png';
+import logo4 from '../../Image/Mars.png';
+import logo5 from '../../Image/pngwing.com (2).png';
+import logo6 from "../../Image/SAP_(6).png"
 
 const ContactUs = () => {
 
@@ -16,6 +22,28 @@ const ContactUs = () => {
         sustainable, and equitable future Together.
       </p>
       <div className={style.container}>
+        <div className={style.rightbox}>
+            <div>
+            <img src={logo1} alt="logo" />
+            </div>
+            <div>
+            <img src={logo2} alt="logo" />
+            </div>
+            <div>
+            <img src={logo3} alt="logo" />
+            </div>
+            <div>
+            <img src={logo4} alt="logo" />
+            </div>
+            <div>
+            <img src={logo5} alt="logo" />
+            </div>
+            <div>
+            <img src={logo6} alt="logo" />
+            </div>
+     
+       
+        </div>
         <ContactUsForm/>
       </div>
    

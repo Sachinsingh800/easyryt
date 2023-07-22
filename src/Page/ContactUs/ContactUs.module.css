@@ -5,4 +5,38 @@
     text-align: center;
     background-color: aliceblue;
     padding-bottom: 3rem;
+    gap: 2rem;
+}
+.main h1{
+    margin-top: 2rem;
+}
+.main p{
+    margin-top: -2rem;
+    width: 40rem;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    padding: 1rem 3rem;
+}
+.rightbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 30rem;
+    place-items: center;
+}
+.rightbox div{
+    height: 10rem;
+    width: 12rem;
+    border-radius:10px ;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.rightbox div img{
+    height: 3rem;
 }
