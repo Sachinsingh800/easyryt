@@ -15,6 +15,7 @@ const Form = () => {
   const [requestServices, setRequestServices] = useState('');
   const [email, setEmail] = useState('');
 
+
   const showAlert = () => {
     Swal.fire({
       title: 'Verified!',
@@ -28,7 +29,7 @@ const Form = () => {
     // Perform form submission logic here
     console.log('Form submitted!');
     console.log('Full Name:', fullName);
-    console.log('Mobile Number:', countryCode + mobileNumber); // Combine country code and mobile number
+    console.log('Mobile Number:', mobileNumber); // Combine country code and mobile number
     console.log('Request Services:', requestServices);
     console.log('Email:', email);
     showAlert();
@@ -72,6 +73,9 @@ const Form = () => {
         <div className={styles.inputContainer}>
         <label htmlFor="requestServices">Mobile No</label>
         <PhoneInput
+             value={mobileNumber}
+             country={'in'}
+             onChange={(e) => setMobileNumber(e)}
         className={styles.phonebox}
         inputStyle={{border:"none", width: "100%"}}
         buttonStyle={{border:"none"}}
