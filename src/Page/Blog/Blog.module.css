@@ -32,6 +32,7 @@
 .card{
     width: 25rem;
     min-height: 20rem;
+    text-align: center;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -99,6 +100,12 @@ transition: all 0.3s ease-in-out;
 }
 .searchInputbox{
     width: 25rem;
+}
+.parainfo{
+    overflow: hidden;
+    height: 5rem;
+    padding: 0rem .5rem;
+ 
 }
 .bigCard {
     -webkit-animation-name: zoomIn;
