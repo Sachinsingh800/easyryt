@@ -35,6 +35,12 @@ const imagePaths = [
     name:"Sachin Singh",
     Location:"Delhi"
   },
+  {
+    logo: img,
+    about:"Mobile Application Development Organization Serving Customers With End To End Support Our Idealization Feasibility Assessment Of The Entire Software Development Being Unique Is Our Quality Sapphire Solutions Believe In The Things That Give Us On Edge Over Our Competitors We Are Renowned Software And",
+    name:"Sachin Singh",
+    Location:"Delhi"
+  },
 ];
 
 export default function ClientsSlider() {
@@ -64,7 +70,7 @@ export default function ClientsSlider() {
     const interval = setInterval(() => {
       if (carouselRef.current) {
         const nextSlide =
-          (activeSlide + 1) % carouselRef.current.state.totalItems;
+          (activeSlide + 3) % carouselRef.current.state.totalItems;
         carouselRef.current.goToSlide(nextSlide, false);
         setActiveSlide(nextSlide);
       }

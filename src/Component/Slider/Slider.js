@@ -33,7 +33,7 @@ export default function Slider() {
   useEffect(() => {
     const interval = setInterval(() => {
       if (carouselRef.current) {
-        const nextSlide = (activeSlide + 1) % carouselRef.current.state.totalItems;
+        const nextSlide = (activeSlide + 4) % carouselRef.current.state.totalItems;
         carouselRef.current.goToSlide(nextSlide, false);
         setActiveSlide(nextSlide);
       }
