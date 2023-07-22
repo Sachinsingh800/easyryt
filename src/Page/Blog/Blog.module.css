@@ -24,7 +24,7 @@
     flex-direction: column;
     gap: 1rem;
     align-items: center;
-    padding-top: 1rem;
+    padding: 1rem 0rem;
 }
 .rightBox::-webkit-scrollbar{
     display: none;
@@ -69,11 +69,13 @@
 .imgBox img{
     height: 100%;
     width: 100%;
+    transition: all 0.3s ease-in-out;
 }
 .para{
     height: 12rem;
     margin-top: -2rem;
     overflow: hidden;
+    width: 40rem;
 }
 .btn{
     margin-top: -2rem;
@@ -91,6 +93,9 @@ transition: all 0.3s ease-in-out;
     background-color: orange;
     color: black;
 
+}
+.active{
+    transform: scale(1.2);
 }
 .bigCard {
     -webkit-animation-name: zoomIn;
@@ -120,12 +125,3 @@ transition: all 0.3s ease-in-out;
     opacity: 1;
     }
     } 
-    .section2{
-        display: flex;
-        justify-content: space-between;
-        padding: 2rem;
-    }
-    
-    .righsection2{
-        padding-top: 4rem;
-    }

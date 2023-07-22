@@ -1,9 +1,10 @@
 
-import React, { useState } from 'react';
+import React, { useState ,useEffect} from 'react';
 import style from './Blog.module.css';
 import NavBar from '../../Component/NavBar/NavBar';
 import LeftSection from './LeftSection/LeftSection';
 import { Servicesaccordian } from '../../Component/Accordion/Accordion';
+import ThirteenthSection from '../../Section/ThirteenthSection/ThirteenthSection';
 
 const Blog = () => {
   const initialCardsData = [
@@ -50,6 +51,26 @@ console.log(cardsData[0]?.heading,"dsdsds")
     setCardsData(filteredCards);
   };
 
+
+  const [active, setActive] = useState(false);
+
+  useEffect(() => {
+    // Function to toggle the active state every 5 seconds
+    const toggleActive = () => {
+      setActive((prevActive) => !prevActive);
+    };
+
+    // Set up the interval to toggle the active state every 5 seconds
+    const intervalId = setInterval(toggleActive, 5000);
+
+    // Clean up the interval when the component is unmounted
+    return () => clearInterval(intervalId);
+  }, [])
+
+
+
+
+
   return (
     <div className={style.main}>
       <NavBar />
@@ -57,7 +78,7 @@ console.log(cardsData[0]?.heading,"dsdsds")
         <div className={style.leftBox}>
           <div className={style.bigCard}>
             <div className={style.imgBox}>
-              <img src={cardsData[0]?.image} />
+              <img className={active ? style.active: ""} src={cardsData[0]?.image} />
             </div>
             <h5>{cardsData[0]?.heading}</h5>
             <hr />
@@ -78,18 +99,7 @@ console.log(cardsData[0]?.heading,"dsdsds")
         </div>
       </div>
       <div className={style.section2}>
-      <LeftSection/>
-      <div className={style.rightBox}>
-          {initialCardsData.map((card, index) => (
-            <div className={style.card} key={index} onClick={() => handleCardClick(card.heading)}>
-              <div className={style.imgbox2}>
-                <img src={card.image} alt={card.heading} />
-              </div>
-              <h5>{card.heading}</h5>
-              <p>{card.description}</p>
-            </div>
-          ))}
-        </div>
+           <ThirteenthSection/>
       </div>
 
     </div>
