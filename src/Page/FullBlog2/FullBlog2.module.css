@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100vw;
+}
+.imgbox{
+    height: 30rem;
+    overflow: hidden;
+}
+.imgbox img{
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.infobox{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0rem 2rem;
+}
+.para{
+    width: 70rem;
+    margin-top: -2rem;
+}
+.active{
+    transform: scale(1.2);
+}

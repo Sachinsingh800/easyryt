@@ -4,6 +4,7 @@ import NavBar from "../../Component/NavBar/NavBar";
 import ThirteenthSection from "../../Section/ThirteenthSection/ThirteenthSection";
 import ClientsAccordion from "../../Component/ClientsAccordion/ClientsAccordion";
 import Footer from "../../Component/Footer/Footer";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   const [search, setSearch] = useState("");
@@ -53,8 +54,7 @@ const Blog = () => {
   ];
 
   const [cardsData, setCardsData] = useState([initialCardsData[0]]);
-
-  console.log(cardsData[0]?.heading, "dsdsds");
+  localStorage.setItem("blog",JSON.stringify(cardsData))
 
   const handleCardClick = (heading) => {
     const filteredCards = initialCardsData.filter(
@@ -93,7 +93,7 @@ const Blog = () => {
             <h5>{cardsData[0]?.heading}</h5>
             <hr />
             <p className={style.para}>{cardsData[0]?.description}</p>
-            <button className={style.btn}>Continue Reading→</button>
+        <Link to={"/FullBlog"}><button className={style.btn}>Continue Reading→</button></Link>   
           </div>
         </div>
         <div className={style.rightBox}>
