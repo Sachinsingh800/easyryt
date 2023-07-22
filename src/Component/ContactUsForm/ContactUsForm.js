@@ -131,7 +131,7 @@ function ContactUsForm() {
         </div>
         <div>
           <label htmlFor="file">Upload File:</label>
-          <input type="file" id="file" name="file" onChange={handleFileChange} />
+          <input className={style.upload}  type="file" id="file" name="file" onChange={handleFileChange} />
         </div>
         <div>
           <button type="button" onClick={handleScheduleMeeting}>
