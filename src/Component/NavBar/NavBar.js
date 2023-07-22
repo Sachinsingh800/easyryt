@@ -167,12 +167,15 @@ function NavBar() {
         )}
 
 
-    <h4
+  <Link to={"/ContactUs"}>
+  <h4
           className={activeLink === "contact" ? style.active : ""}
           onMouseEnter={() => handleContactHover("contact")}
         >
           Contact Us
         </h4>
+  </Link>
+
 
   <Link to={"/Blog"}>
   <h4

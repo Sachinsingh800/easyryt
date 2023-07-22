@@ -1,0 +1,81 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    padding-bottom: 3rem;
+}
+.container{
+    padding: 1rem;
+    width: 100vw;
+    margin-top: 2rem;
+}
+.main p{
+    width: 40rem;
+    text-align: center;
+}
+.main h1{
+    width: 60rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.form{
+    width: 50rem;
+    padding: 1rem;
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius:15px ;
+    gap: 2rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.form h6{
+    text-align: left;
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: -1rem;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 2rem;
+    width: 50rem;
+    background: rgb(12,5,71);
+    background: linear-gradient(170deg, rgba(12,5,71,1) 0%, rgba(2,21,88,1) 47%, rgba(27,41,163,1) 100%);
+   border-radius: 15px 15px 0px 0px;
+}
+.form div{
+    display: flex;
+    flex-direction: column;
+
+}
+.form div textarea{
+   width: 25rem;
+   height: 5rem;
+   padding: .5rem;
+   outline: none;
+}
+.form div select{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.form button{
+    margin: 1rem;
+    height: 2.5rem;
+    width: max-content;
+    padding: 0rem 1rem;
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background: rgb(12,5,71);
+    background: linear-gradient(170deg, rgba(12,5,71,1) 0%, rgba(2,21,88,1) 47%, rgba(27,41,163,1) 100%);
+   color: white;
+   transition: all 0.3s ease-in-out;
+}
+.form button:hover {
+    background: orange;
+    color: black;
+  }

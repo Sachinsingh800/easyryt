@@ -14,6 +14,7 @@ import WhyChooseUs from './Page/WhyChooseUs/WhyChooseUs';
 import Blog from './Page/Blog/Blog';
 import FullBlog from './Page/FullBlog/FullBlog';
 import FullBlog2 from './Page/FullBlog2/FullBlog2';
+import ContactUs from './Page/ContactUs/ContactUs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
   {
     path: "/FullBlog2",
     element: <FullBlog2 />,
+  },
+  {
+    path: "/ContactUs",
+    element: <ContactUs />,
   },
 ]);
 root.render(
