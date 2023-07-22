@@ -3,22 +3,20 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: aliceblue;
-    padding-bottom: 3rem;
     gap: 2rem;
+    overflow: hidden;
+    width: 100vw;
 }
-.main h1{
-    margin-top: 2rem;
-}
-.main p{
-    margin-top: -2rem;
-    width: 40rem;
-    text-align: center;
+.para{
+margin-top: -1rem;
+width: 40rem;
 }
 
 .container{
     display: flex;
     padding: 1rem 3rem;
+    background-color: aliceblue;
+    width: 100vw;
 }
 .rightbox{
     display: grid;
@@ -40,3 +38,31 @@
 .rightbox div img{
     height: 3rem;
 }
+.formbox{
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    }
+    @keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    } 

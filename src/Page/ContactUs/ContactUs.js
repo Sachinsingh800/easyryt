@@ -8,6 +8,10 @@ import logo3 from '../../Image/800px-Kentucky_Fried_Chicken_201x_logo.svg.png';
 import logo4 from '../../Image/Mars.png';
 import logo5 from '../../Image/pngwing.com (2).png';
 import logo6 from "../../Image/SAP_(6).png"
+import SecondSection from "../../Section/SecondSection/SecondSection";
+import TenthSection from "../../Section/TenthSection/TenthSection";
+import FourteenSection from "../../Section/FourteenSection/FourteenSection";
+import Footer from "../../Component/Footer/Footer";
 
 const ContactUs = () => {
 
@@ -15,8 +19,8 @@ const ContactUs = () => {
   return (
     <div className={style.main}>
       <NavBar />
-      <h1>Discover the Future of Technology Together!</h1>
-      <p>
+      <h1 className={style.heading}>Discover the Future of Technology Together!</h1>
+      <p className={style.para}>
         Every day, Easyryt professionals empower businesses worldwide to
         fast-track their digital evolution and create a more resilient,
         sustainable, and equitable future Together.
@@ -44,9 +48,14 @@ const ContactUs = () => {
      
        
         </div>
+        <div className={style.formbox}>
         <ContactUsForm/>
+        </div>
       </div>
-   
+      <SecondSection/>
+      <TenthSection/>
+      <FourteenSection/>
+      <Footer/>
     </div>
   );
 };

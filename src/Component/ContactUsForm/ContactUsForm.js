@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import style from './ContactUsForm.module.css';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import Swal from 'sweetalert2';
 
 function ContactUsForm() {
   const [name, setName] = useState('');
@@ -12,6 +13,13 @@ function ContactUsForm() {
   const [projectType, setProjectType] = useState('');
   const [projectDescription, setProjectDescription] = useState('');
   const [file, setFile] = useState(null);
+  const showAlert = () => {
+    Swal.fire({
+      title: 'Verified!',
+      text: 'you are verified successfully !',
+      icon: 'success',
+    });
+  };
 
 
   const handleFileChange = (event) => {
@@ -33,6 +41,7 @@ function ContactUsForm() {
     };
     // Perform form validation and submit data to backend if needed
     console.log(formData);
+    showAlert()
   };
 
   const handleScheduleMeeting = () => {
@@ -134,10 +143,13 @@ function ContactUsForm() {
           <input className={style.upload}  type="file" id="file" name="file" onChange={handleFileChange} />
         </div>
         <div>
-          <button type="button" onClick={handleScheduleMeeting}>
+         <div className={style.btnbox}>
+            {/* <button type="button" onClick={handleScheduleMeeting}>
             Schedule Meeting
-          </button>
+          </button> */}
           <button type="submit">Submit</button>
+        </div>
+         
         </div>
       </form>
     </div>
