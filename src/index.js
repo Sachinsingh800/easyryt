@@ -15,6 +15,8 @@ import Blog from './Page/Blog/Blog';
 import FullBlog from './Page/FullBlog/FullBlog';
 import FullBlog2 from './Page/FullBlog2/FullBlog2';
 import ContactUs from './Page/ContactUs/ContactUs';
+import AffiliateWebsite from './Page/AffiliateWebsite/AffiliateWebsite';
+import AndroidApplicationDevelopmentServices from './Page/AndroidApplicationDevelopmentServices/AndroidApplicationDevelopmentServices';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -53,6 +55,14 @@ const router = createBrowserRouter([
   {
     path: "/ContactUs",
     element: <ContactUs />,
+  },
+  {
+    path: "/AffiliateWebsite",
+    element: <AffiliateWebsite />,
+  },
+  {
+    path: "/AndroidApplicationDevelopmentServices",
+    element: <AndroidApplicationDevelopmentServices />,
   },
 ]);
 root.render(

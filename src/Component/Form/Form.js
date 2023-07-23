@@ -2,7 +2,6 @@ import React, { useState ,useEffect} from 'react';
 import styles from './Form.module.css';
 import formImg from '../../Image/form.png';
 import Swal from 'sweetalert2';
-import { countryCodes } from '../../Const/Const';
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
 
@@ -10,7 +9,6 @@ import 'react-phone-input-2/lib/style.css'
 
 const Form = () => {
   const [fullName, setFullName] = useState('');
-  const [countryCode, setCountryCode] = useState(countryCodes[0].code); // Default country code
   const [mobileNumber, setMobileNumber] = useState('');
   const [requestServices, setRequestServices] = useState('');
   const [email, setEmail] = useState('');
@@ -35,27 +33,10 @@ const Form = () => {
     showAlert();
   };
 
-  const [filteredCountryNames, setFilteredCountryNames] = useState(
-    countryCodes.map((country) => country.name)
-  );
 
-  useEffect(() => {
-    const handleKeyPress = (e) => {
-      const keyPressed = e.key.toLowerCase();
-      if (/^[a-z]$/.test(keyPressed)) {
-        const filteredNames = countryCodes
-          .map((country) => country.name)
-          .filter((name) => name.toLowerCase().startsWith(keyPressed));
-        setFilteredCountryNames(filteredNames);
-      }
-    };
 
-    document.addEventListener('keydown', handleKeyPress);
+ 
 
-    return () => {
-      document.removeEventListener('keydown', handleKeyPress);
-    };
-  }, []);
 
   return (
     <div className={styles.container}>

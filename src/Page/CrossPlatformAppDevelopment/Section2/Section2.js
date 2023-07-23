@@ -83,9 +83,9 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>The Expertise Of Our Native App Development Service</h1>
+      <h1>The Expertise Of Our  Cross Platform App Development Service</h1>
       <p className={style.para}>
-        As a native app development company, we have expertise in developing
+        As a  Cross Platform App development company, we have expertise in developing
         Native apps for different platforms. Take a look at our expertise:
       </p>
       <div className={style.innerbox}>

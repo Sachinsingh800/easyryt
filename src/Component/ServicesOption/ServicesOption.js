@@ -28,17 +28,16 @@ function ServicesOption() {
                  <ul  className={style.options}>
                 <Link to={"/FirstPage"}> <li>Native Mobile App Development</li></Link> 
                 <Link to={"/CrossPlatformAppDevelopment"}> <li>Cross-Platform App Development</li></Link> 
-                  <li>Android Application Development Services</li>
-                  <li>IOS Application Development Services</li>
-                  <li>Hybrid Application Development Services</li>
-                  <li>Mobile App Development</li>
-                  <li>App Backend Development</li>
+               <Link to={"/AndroidApplicationDevelopmentServices"}><li>Android Application Development Services</li></Link>   
+               <Link to={"/IOSApplicationDevelopmentServices"}>     <li>IOS Application Development Services</li></Link>          
+               <Link to={"/HybridApplicationDevelopmentServices"}>    <li>Hybrid Application Development Services</li></Link>           
+               <Link to={"/MobileAppDevelopment"}>   <li>Mobile App Development</li></Link>          
+               <Link to={"/AppBackendDevelopment"}><li>App Backend Development</li></Link>     
                  </ul>
                  <ul  className={style.options}>
-               <li>Flutter App Development</li>
-                 <li>Cross-Platform App Development</li>
-                  <li>React Native App Development</li>
-                  <li>Mobile App Testing and Testing Quality Assurance</li>
+                 <Link to={"/FlutterAppDevelopment"}>  <li>Flutter App Development</li></Link>        
+                 <Link to={"/ReactNativeAppDevelopment"}>   <li>React Native App Development</li></Link>    
+                 <Link to={"/MobileAppTestingandTestingQualityAssurance"}>  <li>Mobile App Testing and Testing Quality Assurance</li></Link>     
                  </ul>
               </div>
             )}
@@ -51,22 +50,22 @@ function ServicesOption() {
             {hoveredOption === "Option 2" && (
               <div className={style.optionContent1}>
                   <ul  className={style.options}>
-                  <li>Search Engine Optimization (SEO)</li>
-                  <li>Pay-Per-Click (PPC) Advertising</li>
-                  <li>Social Media Advertising</li>
-                  <li>Google Advertising</li>
-                  <li>Facebook & Instagram Advertising</li>
-                  <li>Content Marketing</li>
-                  <li>Social Media Marketing</li>
+                  <Link to={""}></Link>      <li>Search Engine Optimization (SEO)</li>
+                  <Link to={""}></Link>        <li>Pay-Per-Click (PPC) Advertising</li>
+                  <Link to={""}></Link>       <li>Social Media Advertising</li>
+                  <Link to={""}></Link>        <li>Google Advertising</li>
+                  <Link to={""}></Link>        <li>Facebook & Instagram Advertising</li>
+                  <Link to={""}></Link>        <li>Content Marketing</li>
+                  <Link to={""}></Link>         <li>Social Media Marketing</li>
                  </ul>
                   <ul  className={style.options}>
-                  <li>Email Marketing</li>
-                  <li>Analytics and Reporting</li>
-                  <li>Website Traffic Advertising</li>
-                  <li>E-Commerce Advertising</li>
-                  <li>App Install Advertising</li>
-                  <li>Android App Advertising</li>
-                  <li>IOS App Advertising</li>
+                  <Link to={""}></Link>          <li>Email Marketing</li>
+                  <Link to={""}></Link>          <li>Analytics and Reporting</li>
+                  <Link to={""}></Link>         <li>Website Traffic Advertising</li>
+                  <Link to={""}></Link>          <li>E-Commerce Advertising</li>
+                  <Link to={""}></Link>         <li>App Install Advertising</li>
+                  <Link to={""}></Link>         <li>Android App Advertising</li>
+                  <Link to={""}></Link>          <li>IOS App Advertising</li>
                  </ul>
               </div>
             )}
@@ -80,10 +79,10 @@ function ServicesOption() {
             {hoveredOption === "Option 3" && (
               <div className={style.optionContent2}>
                 <ul  className={style.options}>
-                  <li>E-Commerce Development</li>
-                  <li>Front-End Development</li>
-                  <li>Backend Development</li>
-                  <li>Full Stack Development Services</li>
+                <Link to={""}></Link>         <li>E-Commerce Development</li>
+                <Link to={""}></Link>        <li>Front-End Development</li>
+                <Link to={""}></Link>         <li>Backend Development</li>
+                <Link to={""}></Link>         <li>Full Stack Development Services</li>
                  </ul>
               </div>
             )}
@@ -97,18 +96,18 @@ function ServicesOption() {
             {hoveredOption === "Option 4" && (
               <div className={style.optionContent3}>
                  <ul  className={style.options}>
-                  <li>Blog or Personal Website</li>
-                  <li>Business Website</li>
-                  <li>Ecommerce Website / Online Store</li>
-                  <li>Online Courses</li>
-                  <li>Podcast Website</li>
-                  <li>Affiliate Website</li>
-                  <li>Job Board Website</li>
+                 <Link to={""}></Link>       <li>Blog or Personal Website</li>
+                 <Link to={""}></Link>       <li>Business Website</li>
+                 <Link to={""}></Link>         <li>Ecommerce Website / Online Store</li>
+                 <Link to={""}></Link>         <li>Online Courses</li>
+                 <Link to={""}></Link>        <li>Podcast Website</li>
+                 <Link to={""}></Link>        <li>Affiliate Website</li>
+                 <Link to={""}></Link>      <li>Job Board Website</li>
                  </ul>
                  <ul  className={style.options}>
-                  <li>Portfolio Websites</li>
-                  <li>Travel Website</li>
-                  <li>Fashion / Lifestyle Website</li>
+                 <Link to={""}></Link>      <li>Portfolio Websites</li>
+                 <Link to={""}></Link>       <li>Travel Website</li>
+                 <Link to={""}></Link>        <li>Fashion / Lifestyle Website</li>
                
                  </ul>
               </div>
@@ -123,12 +122,12 @@ function ServicesOption() {
             {hoveredOption === "Option 5" && (
               <div className={style.optionContent4}>
                 <ul  className={style.options}>
-                  <li>Mobile App UI?UX Design Services</li>
-                  <li>Mobile App UI?UX Design Services</li>
-                  <li>Android App UI/UX Design Services</li>
-                  <li>Social Media Marketing</li>
-                  <li>ISO UI/UX Design Servicesg</li>
-                  <li>Website UI/UX Design Services</li>
+                <Link to={""}></Link>          <li>Mobile App UI?UX Design Services</li>
+                <Link to={""}></Link>        <li>Mobile App UI?UX Design Services</li>
+                <Link to={""}></Link>        <li>Android App UI/UX Design Services</li>
+                <Link to={""}></Link>        <li>Social Media Marketing</li>
+                <Link to={""}></Link>        <li>ISO UI/UX Design Servicesg</li>
+                <Link to={""}></Link>       <li>Website UI/UX Design Services</li>
                  </ul>
               </div>
             )}
@@ -142,11 +141,11 @@ Front End Development
             {hoveredOption === "Option 6" && (
               <div className={style.optionContent5}>
                 <ul  className={style.options}>
-                  <li>React Js Development</li>
-                  <li>Next js Development</li>
-                  <li>Vue js Development</li>
-                  <li>Angular Dvelopment</li>
-                  <li>React Native Development</li>
+                <Link to={""}></Link>      <li>React Js Development</li>
+                <Link to={""}></Link>         <li>Next js Development</li>
+                <Link to={""}></Link>          <li>Vue js Development</li>
+                <Link to={""}></Link>         <li>Angular Dvelopment</li>
+                <Link to={""}></Link>       <li>React Native Development</li>
                  </ul>
               </div>
             )}
@@ -159,22 +158,22 @@ Front End Development
             {hoveredOption === "Option 7" && (
               <div className={style.optionContent6}>
              <ul  className={style.options}>
-                  <li>Node js</li>
-                  <li>Laravel</li>
-                  <li>Python</li>
-                  <li>API Development</li>
-                  <li>Database Design and Management</li>
-                  <li>Server Architecture and Configuration,</li>
-                  <li>Cloud Services Integration,SAP Industry Solutions</li>
+             <Link to={""}></Link>        <li>Node js</li>
+             <Link to={""}></Link>        <li>Laravel</li>
+             <Link to={""}></Link>        <li>Python</li>
+             <Link to={""}></Link>        <li>API Development</li>
+             <Link to={""}></Link>         <li>Database Design and Management</li>
+             <Link to={""}></Link>          <li>Server Architecture and Configuration,</li>
+             <Link to={""}></Link>        <li>Cloud Services Integration,SAP Industry Solutions</li>
                  </ul>
              <ul  className={style.options}>
-                  <li>Backend Framework Development,</li>
-                  <li>Web Application Development</li>
-                  <li>Mobile Backend Development</li>
-                  <li>Real-Time Data Processing</li>
-                  <li>Performance Optimization</li>
-                  <li>Integration with Third-Party Services</li>
-                  <li>DevOps and Continuous Integration/Continuous Deployment (CI/CD)</li>
+             <Link to={"/Backend Framework Development"}> <li>Backend Framework Development</li></Link>       
+             <Link to={"/WebApplicationDevelopment"}><li>Web Application Development</li></Link>      
+             <Link to={"/MobileBackendDevelopment"}><li>Mobile Backend Development</li></Link>   
+             <Link to={"/RealTimeDataProcessing"}><li>Real-Time Data Processing</li></Link>  
+             <Link to={"/Performance Optimization"}><li>Performance Optimization</li></Link>   
+             <Link to={"/IntegrationwithThirdPartyServices"}> <li>Integration with Third-Party Services</li></Link>      
+             <Link to={"/DevOpsandContinuousIntegration"}>   <li>DevOps and Continuous Integration/Continuous Deployment (CI/CD)</li></Link>    
                  </ul>
               </div>
             )}
@@ -187,9 +186,9 @@ Front End Development
             {hoveredOption === "Option 8" && (
               <div className={style.optionContent7}>
                 <ul  className={style.options}>
-                  <li>Azure</li>
-                  <li>Aws</li>
-                  <li>Google Cloud</li>
+                <Link to={"/Azure"}>  <li>Azure</li></Link>       
+                <Link to={"/Aws"}> <li>Aws</li></Link>        
+                <Link to={"/GoogleCloud"}>   <li>Google Cloud</li></Link>      
                  </ul>
               </div>
             )}
