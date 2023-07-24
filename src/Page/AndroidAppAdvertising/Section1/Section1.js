@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+      Digital Marketing Firm That Promises Assured Enhancements
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+          Digital Marketing Firm That Promises Assured Enhancements
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Supercharge your Android app's success with our top-tier Advertising
+            Services! Our dedicated team of experts specializes in crafting
+            targeted campaigns and strategic promotions to maximize app
+            visibility, drive installs, boost user engagement, and increase
+            revenue. We leverage data-driven insights and cutting-edge
+            techniques to reach the right audience at the right time, ensuring
+            your app gets the attention it deserves in the competitive market.
+            Whether you're launching a new app or looking to expand your user
+            base, our tailored solutions will help you achieve your goals
+            efficiently and effectively. Don't miss out on the opportunity to
+            unlock your app's true potential – try our Android App Advertising
+            Services today!
           </p>
         </div>
       </div>

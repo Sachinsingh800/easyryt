@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+      Digital Marketing Firm That Promises Assured Enhancements
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+          Digital Marketing Firm That Promises Assured Enhancements
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Enhance your online presence with our top-notch Website Traffic
+            Advertising Services. We specialize in driving targeted and relevant
+            traffic to your website, ensuring increased visibility and reaching
+            your desired audience. Utilizing advanced advertising strategies and
+            data-driven approaches, we optimize campaigns to maximize
+            conversions and deliver tangible results for your business. Our
+            expert team creates tailored solutions, whether you seek to attract
+            more visitors, generate leads, or boost sales. With a focus on
+            efficiency and effectiveness, we continuously monitor and fine-tune
+            campaigns to ensure optimal performance. Gain a competitive edge in
+            the digital landscape and unlock your website's full potential with
+            our reliable and results-oriented traffic advertising services.
           </p>
         </div>
       </div>

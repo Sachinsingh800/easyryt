@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./CrossPlatformAppDevelopment.module.css";
+import style from "./AppInstallAdvertising.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/cross-platform-app-development.png";
 import Section1 from "./Section1/Section1";
@@ -10,18 +10,17 @@ import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 
-function CrossPlatformAppDevelopment() {
+function AppInstallAdvertising() {
   return (
     <div className={style.main}>
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Cross-Platform App Development</h1>
+          <h1>App Install Advertising Services</h1>
           <p>
-            Cross Platform App Development Services: Expert solutions for
-            creating versatile mobile applications that work seamlessly across
-            multiple platforms, reducing development time and costs. Delivering
-            efficiency and wide audience reach.
+            App Install Advertising Services: Boost app downloads and user
+            acquisition with our targeted advertising solutions. Reach your
+            ideal audience across platforms and drive growth for your app.
           </p>
           <button type="submit" className={style.submitBtn}>
             Get Started
@@ -42,4 +41,4 @@ function CrossPlatformAppDevelopment() {
   );
 }
 
-export default CrossPlatformAppDevelopment;
+export default AppInstallAdvertising;

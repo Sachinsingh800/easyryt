@@ -33,6 +33,11 @@ import ContentMarketing from './Page/ContentMarketing/ContentMarketing';
 import SocialMediaMarketing from './Page/SocialMediaMarketing/SocialMediaMarketing';
 import EmailMarketing from './Page/EmailMarketing/EmailMarketing';
 import AnalyticsandReporting from './Page/AnalyticsandReporting/AnalyticsandReporting';
+import WebsiteTrafficAdvertising from './Page/WebsiteTrafficAdvertising/WebsiteTrafficAdvertising';
+import ECommerceAdvertising from './Page/ECommerceAdvertising/ECommerceAdvertising';
+import AppInstallAdvertising from './Page/AppInstallAdvertising/AppInstallAdvertising';
+import AndroidAppAdvertising from './Page/AndroidAppAdvertising/AndroidAppAdvertising';
+import IOSAppAdvertising from './Page/IOSAppAdvertising/IOSAppAdvertising';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -143,6 +148,26 @@ const router = createBrowserRouter([
   {
     path: "/AnalyticsandReporting",
     element: <AnalyticsandReporting />,
+  },
+  {
+    path: "/WebsiteTrafficAdvertising",
+    element: <WebsiteTrafficAdvertising />,
+  },
+  {
+    path: "/ECommerceAdvertising",
+    element: <ECommerceAdvertising />,
+  },
+  {
+    path: "/AppInstallAdvertising",
+    element: <AppInstallAdvertising />,
+  },
+  {
+    path: "/AndroidAppAdvertising",
+    element: <AndroidAppAdvertising />,
+  },
+  {
+    path: "/IOSAppAdvertising",
+    element: <IOSAppAdvertising/>,
   },
 ]);
 root.render(

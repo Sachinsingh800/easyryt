@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+      Digital Marketing Firm That Promises Assured Enhancements
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+          Digital Marketing Firm That Promises Assured Enhancements
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Elevate your app's performance with our cutting-edge iOS App
+            Advertising Services. Our expert team crafts targeted, data-driven
+            campaigns to reach your ideal audience and maximize app visibility.
+            Using advanced analytics, we optimize ad placements and refine
+            strategies for optimal user engagement and increased downloads.
+            Whether you're launching a new app or seeking to boost existing
+            downloads, we tailor our services to suit your goals and budget.
+            With a focus on ROI, we ensure cost-effective results and continuous
+            growth for your app. Embrace the power of effective advertising and
+            unlock your app's full potential in the competitive iOS market.
+            Partner with us and thrive in the app ecosystem!
           </p>
         </div>
       </div>
