@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting Backend Website Development For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom Backend Website Developmentwith dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Our Backend Website Development Services offer cutting-edge
+            solutions to power your online presence. We excel in building robust
+            backend systems that ensure seamless functionality and enhanced user
+            experiences. Our expert team crafts scalable APIs, implements
+            intricate server-side logic, and manages databases efficiently. With
+            a focus on security and performance, we deliver agile solutions that
+            adapt to your evolving business needs. Whether it's building from
+            scratch or optimizing existing infrastructure, we tailor our
+            services to meet your specific requirements. Trust us to create a
+            strong foundation that enables your website to handle increasing
+            traffic and complexity while driving your online success.
           </p>
         </div>
       </div>

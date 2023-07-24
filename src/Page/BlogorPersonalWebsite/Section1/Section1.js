@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting  Blog and Personal Website  For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom  Blog and Personal Website  with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Welcome to our exceptional Blog and Personal Website Development
+            Services! We specialize in creating bespoke online platforms that
+            represent your unique brand or individuality with utmost precision.
+            Our team of skilled developers and designers work collaboratively to
+            craft captivating user experiences, incorporating cutting-edge
+            technology for seamless functionality. From eye-catching aesthetics
+            to user-friendly interfaces, we ensure your website engages visitors
+            and leaves a lasting impression. Whether you're a passionate
+            blogger, an aspiring writer, or an individual seeking to showcase
+            your talents, our services cater to all. Let us bring your vision to
+            life, empowering you to share your story with the world in an
+            aesthetically pleasing and professionally designed digital space.
           </p>
         </div>
       </div>

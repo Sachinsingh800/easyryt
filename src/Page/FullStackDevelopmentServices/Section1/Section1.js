@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting Full Stack Website Development For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom Full Stack Website Development with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Our Full Stack Website Development Services provide a holistic
+            approach to building powerful and dynamic websites. Our expert team
+            is well-versed in both front-end and back-end technologies, ensuring
+            a seamless user experience and robust functionality. We excel in
+            creating responsive and visually appealing user interfaces, while
+            also proficiently handling server-side scripting and database
+            integration. From conceptualization to deployment, we deliver
+            end-to-end solutions tailored to meet your specific business needs.
+            With a keen focus on scalability and performance, our websites are
+            built to adapt and grow with your business. Trust us to create
+            user-friendly, secure, and high-performing websites that leave a
+            lasting impression on your audience.
           </p>
         </div>
       </div>

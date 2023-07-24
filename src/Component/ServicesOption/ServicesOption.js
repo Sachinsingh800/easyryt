@@ -96,18 +96,18 @@ function ServicesOption() {
             {hoveredOption === "Option 4" && (
               <div className={style.optionContent3}>
                  <ul  className={style.options}>
-                 <Link to={""}></Link>       <li>Blog or Personal Website</li>
-                 <Link to={""}></Link>       <li>Business Website</li>
-                 <Link to={""}></Link>         <li>Ecommerce Website / Online Store</li>
-                 <Link to={""}></Link>         <li>Online Courses</li>
-                 <Link to={""}></Link>        <li>Podcast Website</li>
-                 <Link to={""}></Link>        <li>Affiliate Website</li>
-                 <Link to={""}></Link>      <li>Job Board Website</li>
+                 <Link to={"/BlogorPersonalWebsite"}><li>Blog or Personal Website</li></Link>     
+                 <Link to={"/BusinessWebsite"}><li>Business Website</li></Link>    
+                 <Link to={"/EcommerceWebsiteOnlineStore"}><li>Ecommerce Website / Online Store</li></Link>         
+                 <Link to={"/OnlineCourses"}><li>Online Courses</li></Link>     
+                 <Link to={"/PodcastWebsite"}><li>Podcast Website</li></Link>       
+                 <Link to={"/Affiliate Website"}><li>Affiliate Website</li></Link>      
+                 <Link to={"/Job Board Website"}><li>Job Board Website</li></Link>   
                  </ul>
                  <ul  className={style.options}>
-                 <Link to={""}></Link>      <li>Portfolio Websites</li>
-                 <Link to={""}></Link>       <li>Travel Website</li>
-                 <Link to={""}></Link>        <li>Fashion / Lifestyle Website</li>
+                 <Link to={"/PortfolioWebsites"}> <li>Portfolio Websites</li></Link>     
+                 <Link to={"/TravelWebsite"}> <li>Travel Website</li></Link>      
+                 <Link to={"/FashionLifestyleWebsite"}><li>Fashion / Lifestyle Website</li></Link>        
                
                  </ul>
               </div>
@@ -122,12 +122,12 @@ function ServicesOption() {
             {hoveredOption === "Option 5" && (
               <div className={style.optionContent4}>
                 <ul  className={style.options}>
-                <Link to={""}></Link>          <li>Mobile App UI?UX Design Services</li>
-                <Link to={""}></Link>        <li>Mobile App UI?UX Design Services</li>
-                <Link to={""}></Link>        <li>Android App UI/UX Design Services</li>
-                <Link to={""}></Link>        <li>Social Media Marketing</li>
-                <Link to={""}></Link>        <li>ISO UI/UX Design Servicesg</li>
-                <Link to={""}></Link>       <li>Website UI/UX Design Services</li>
+                <Link to={"/MobileAppUIUXDesignServices"}><li>Mobile App UI /UX Design Services</li></Link>          
+                <Link to={"/MobileAppUIUXDesignServices"}>        <li>Mobile App UI/UX Design Services</li></Link>
+                <Link to={"/AndroidAppUIUXDesignServices"}>   <li>Android App UI/UX Design Services</li></Link>     
+                <Link to={"/SocialMediaMarketing"}> <li>Social Media Marketing</li></Link>       
+                <Link to={"/ISOUIUXDesignServicesg"}> <li>ISO UI/UX Design Servicesg</li></Link>       
+                <Link to={"/WebsiteUIUXDesignServices"}>  <li>Website UI/UX Design Services</li></Link>     
                  </ul>
               </div>
             )}
@@ -141,11 +141,11 @@ Front End Development
             {hoveredOption === "Option 6" && (
               <div className={style.optionContent5}>
                 <ul  className={style.options}>
-                <Link to={""}></Link>      <li>React Js Development</li>
-                <Link to={""}></Link>         <li>Next js Development</li>
-                <Link to={""}></Link>          <li>Vue js Development</li>
-                <Link to={""}></Link>         <li>Angular Dvelopment</li>
-                <Link to={""}></Link>       <li>React Native Development</li>
+                <Link to={"/ReactJsDevelopment"}><li>React Js Development</li></Link>      
+                <Link to={"/NextjsDevelopment"}> <li>Next js Development</li></Link>        
+                <Link to={"/VuejsDevelopment"}>     <li>Vue js Development</li></Link>     
+                <Link to={"/AngularDvelopment"}>   <li>Angular Dvelopment</li></Link>      
+                <Link to={"/ReactNativeDevelopment"}><li>React Native Development</li></Link>       
                  </ul>
               </div>
             )}
@@ -158,13 +158,13 @@ Front End Development
             {hoveredOption === "Option 7" && (
               <div className={style.optionContent6}>
              <ul  className={style.options}>
-             <Link to={""}></Link>        <li>Node js</li>
-             <Link to={""}></Link>        <li>Laravel</li>
-             <Link to={""}></Link>        <li>Python</li>
-             <Link to={""}></Link>        <li>API Development</li>
-             <Link to={""}></Link>         <li>Database Design and Management</li>
-             <Link to={""}></Link>          <li>Server Architecture and Configuration,</li>
-             <Link to={""}></Link>        <li>Cloud Services Integration,SAP Industry Solutions</li>
+             <Link to={"/Nodejs"}> <li>Node js</li></Link>       
+             <Link to={"/Laravel"}>  <li>Laravel</li></Link>      
+             <Link to={"/Python"}><li>Python</li></Link>        
+             <Link to={"/APIDevelopment"}><li>API Development</li></Link>        
+             <Link to={"DatabaseDesignandManagement"}> <li>Database Design and Management</li></Link>        
+             <Link to={"/ServerArchitectureandConfiguration"}>   <li>Server Architecture and Configuration</li></Link>       
+             <Link to={"/CloudServicesIntegrationSAPIndustrySolutions"}><li>Cloud Services Integration,SAP Industry Solutions</li></Link>        
                  </ul>
              <ul  className={style.options}>
              <Link to={"/Backend Framework Development"}> <li>Backend Framework Development</li></Link>       

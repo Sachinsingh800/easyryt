@@ -40,6 +40,11 @@ import AndroidAppAdvertising from './Page/AndroidAppAdvertising/AndroidAppAdvert
 import IOSAppAdvertising from './Page/IOSAppAdvertising/IOSAppAdvertising';
 import ECommerceDevelopment from './Page/ECommerceDevelopment/ECommerceDevelopment';
 import FrontEndDevelopment from './Page/FrontEndDevelopment/FrontEndDevelopment';
+import BackendDevelopment from './Page/BackendDevelopment/BackendDevelopment';
+import FullStackDevelopmentServices from './Page/FullStackDevelopmentServices/FullStackDevelopmentServices';
+import BlogorPersonalWebsite from './Page/BlogorPersonalWebsite/BlogorPersonalWebsite';
+import BusinessWebsite from './Page/BusinessWebsite/BusinessWebsite';
+import EcommerceWebsiteOnlineStore from './Page/EcommerceWebsiteOnlineStore/EcommerceWebsiteOnlineStore';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -178,6 +183,26 @@ const router = createBrowserRouter([
   {
     path: "/FrontEndDevelopment",
     element: <FrontEndDevelopment />,
+  },
+  {
+    path: "/BackendDevelopment",
+    element: <BackendDevelopment />,
+  },
+  {
+    path: "/FullStackDevelopmentServices",
+    element: <FullStackDevelopmentServices />,
+  },
+  {
+    path: "/BlogorPersonalWebsite",
+    element: <BlogorPersonalWebsite />,
+  },
+  {
+    path: "/BusinessWebsite",
+    element: <BusinessWebsite/>,
+  },
+  {
+    path: "/EcommerceWebsiteOnlineStore",
+    element: <EcommerceWebsiteOnlineStore/>,
   },
 ]);
 root.render(

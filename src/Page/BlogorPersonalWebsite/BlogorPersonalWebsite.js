@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./CrossPlatformAppDevelopment.module.css";
+import style from "./BlogorPersonalWebsite.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/cross-platform-app-development.png";
 import Section1 from "./Section1/Section1";
@@ -10,18 +10,17 @@ import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 
-function CrossPlatformAppDevelopment() {
+function BlogorPersonalWebsite() {
   return (
     <div className={style.main}>
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Cross-Platform App Development</h1>
+          <h1>Blog or Personal Website Development Services</h1>
           <p>
-            Cross Platform App Development Services: Expert solutions for
-            creating versatile mobile applications that work seamlessly across
-            multiple platforms, reducing development time and costs. Delivering
-            efficiency and wide audience reach.
+            Expert blog and personal website development services. Custom
+            designs, user-friendly interfaces, and seamless functionality to
+            showcase your brand or passion with professionalism and style.
           </p>
           <button type="submit" className={style.submitBtn}>
             Get Started
@@ -42,4 +41,4 @@ function CrossPlatformAppDevelopment() {
   );
 }
 
-export default CrossPlatformAppDevelopment;
+export default BlogorPersonalWebsite;

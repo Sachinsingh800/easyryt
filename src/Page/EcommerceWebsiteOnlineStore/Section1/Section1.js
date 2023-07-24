@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting Ecommerce Website For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering customEcommerce Website with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Unlock the full potential of your business with our comprehensive
+            Ecommerce Website Online Store Development Services. Our expert team
+            specializes in crafting cutting-edge online stores that elevate your
+            brand, drive sales, and enhance the customer experience. We
+            understand the unique needs of your business and create tailored
+            solutions to meet your specific requirements. From user-friendly
+            interfaces to secure payment gateways and seamless navigation, our
+            services are designed to optimize every aspect of your Ecommerce
+            website. Whether you're starting from scratch or looking to revamp
+            an existing platform, our team is ready to take your business to new
+            heights. Contact us today to discuss your project and embark on a
+            successful Ecommerce journey.
           </p>
         </div>
       </div>

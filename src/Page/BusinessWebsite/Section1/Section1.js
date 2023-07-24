@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting  Website Development For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,19 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom  Website Development with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Unlock your business's online potential with our comprehensive
+            Website Development Services. Our skilled team of web developers and
+            designers create stunning and intuitive websites that captivate
+            audiences and drive results. Whether you need a brand-new site from
+            scratch or want to revamp your existing one, we tailor solutions to
+            match your unique goals and brand identity. From responsive designs
+            that adapt to any device to seamless user experiences that boost
+            conversion rates, our services cover all aspects of modern web
+            development. Let us elevate your online presence, enhance user
+            engagement, and propel your business to new heights.
           </p>
         </div>
       </div>
