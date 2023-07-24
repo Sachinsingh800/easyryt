@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting E-Commerce website Development Services For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,22 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom E-Commerce website Development Services with
+            dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Welcome to our top-notch E-Commerce website development services! We
+            specialize in crafting dynamic, user-friendly online stores that
+            drive sales and customer satisfaction. Our team of skilled
+            developers will create a customized platform tailored to your unique
+            business needs, ensuring seamless navigation and an engaging
+            shopping experience for your customers. With a focus on security and
+            data privacy, we implement the latest technology and best practices
+            to safeguard your transactions and customer information. From
+            intuitive product catalogs to efficient checkout processes, our
+            E-Commerce solutions are optimized for success. Let us transform
+            your vision into a thriving online business, empowering you to reach
+            new heights in the digital marketplace.
           </p>
         </div>
       </div>

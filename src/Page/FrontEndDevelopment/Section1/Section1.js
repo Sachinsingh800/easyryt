@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting Front-End Website Development Services For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,22 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom Front-End Website Development Services with
+            dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Our Front-End Website Development Services offer the expertise and
+            creativity to craft visually stunning, user-friendly, and responsive
+            websites. With a keen eye for detail, we design intuitive user
+            interfaces that enhance user engagement and conversion rates. Our
+            skilled team combines the latest technologies and best practices to
+            ensure seamless performance across all devices. We prioritize user
+            experience, creating websites that leave a lasting impression and
+            foster customer loyalty. From concept to implementation, we work
+            closely with our clients to bring their visions to life and deliver
+            tailored solutions that meet their business objectives. Trust us to
+            transform your ideas into captivating, functional, and impactful web
+            experiences.
           </p>
         </div>
       </div>

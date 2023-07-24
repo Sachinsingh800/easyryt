@@ -38,6 +38,8 @@ import ECommerceAdvertising from './Page/ECommerceAdvertising/ECommerceAdvertisi
 import AppInstallAdvertising from './Page/AppInstallAdvertising/AppInstallAdvertising';
 import AndroidAppAdvertising from './Page/AndroidAppAdvertising/AndroidAppAdvertising';
 import IOSAppAdvertising from './Page/IOSAppAdvertising/IOSAppAdvertising';
+import ECommerceDevelopment from './Page/ECommerceDevelopment/ECommerceDevelopment';
+import FrontEndDevelopment from './Page/FrontEndDevelopment/FrontEndDevelopment';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -168,6 +170,14 @@ const router = createBrowserRouter([
   {
     path: "/IOSAppAdvertising",
     element: <IOSAppAdvertising/>,
+  },
+  {
+    path: "/ECommerceDevelopment",
+    element: <ECommerceDevelopment />,
+  },
+  {
+    path: "/FrontEndDevelopment",
+    element: <FrontEndDevelopment />,
   },
 ]);
 root.render(
