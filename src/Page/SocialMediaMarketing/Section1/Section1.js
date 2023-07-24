@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+      Digital Marketing Firm That Promises Assured Enhancements
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+          Digital Marketing Firm That Promises Assured Enhancements
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Unlock the power of social media with our comprehensive Social Media
+            Marketing Services. Our expert team crafts tailored strategies to
+            elevate your brand's online presence, engage your target audience,
+            and drive tangible results. From captivating content creation to
+            strategic ad campaigns, we ensure maximum reach and ROI. We harness
+            the potential of major platforms, including Facebook, Instagram,
+            Twitter, and LinkedIn, to amplify brand awareness and foster
+            meaningful connections with your customers. Stay ahead of the
+            competition and leave a lasting impression with our data-driven
+            approach, analytics, and continuous optimization. Let us transform
+            your social media presence into a dynamic marketing force that fuels
+            your business growth.
           </p>
         </div>
       </div>

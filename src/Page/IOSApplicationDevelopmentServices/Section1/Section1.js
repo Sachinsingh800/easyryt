@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting IOS Application Development Services For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom IOS apps with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Discover top-tier iOS Application Development Services that bring
+            your digital aspirations to life. Our skilled team of developers
+            excels at crafting cutting-edge iOS apps that redefine user
+            experiences. With a focus on innovation, usability, and performance,
+            we tailor every solution to match your unique business requirements.
+            From ideation to design and development, we ensure a seamless and
+            efficient process. Harness the power of advanced technologies and
+            the latest iOS frameworks to create intuitive, feature-rich
+            applications. Embrace the future of mobile technology and elevate
+            your brand's presence on the App Store. Partner with us to transform
+            your ideas into successful, user-centric iOS applications today.
           </p>
         </div>
       </div>

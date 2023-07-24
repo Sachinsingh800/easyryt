@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+      Digital Marketing Firm That Promises Assured Enhancements
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+          Digital Marketing Firm That Promises Assured Enhancements
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Analytics and Reporting encompass a comprehensive set of tools and
+            techniques that help businesses and organizations transform raw data
+            into valuable insights. Through data collection, analysis, and
+            interpretation, these processes enable stakeholders to measure
+            performance, track key metrics, and identify patterns and trends.
+            The data is then presented through visualizations, dashboards, and
+            reports, providing a clear and concise representation of complex
+            information. By leveraging analytics and reporting, decision-makers
+            can make informed choices, optimize processes, and identify
+            opportunities for growth and improvement. This data-driven approach
+            ensures businesses stay competitive, adapt to changing market
+            conditions, and achieve their goals effectively and efficiently
           </p>
         </div>
       </div>

@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+      Digital Marketing Firm That Promises Assured Enhancements
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+          Digital Marketing Firm That Promises Assured Enhancements
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            PPC Advertising Services offer a results-driven online marketing
+            approach, where advertisers only pay when their ads are clicked by
+            users. This targeted advertising model allows businesses to reach
+            their ideal audience precisely, appearing on search engines and
+            various platforms. With a set budget, advertisers can bid on
+            keywords relevant to their products or services, optimizing ad
+            placement and maximizing ROI. PPC campaigns provide real-time
+            analytics and performance data, enabling constant refinement and
+            improvement. As a cost-effective method, PPC drives traffic, boosts
+            brand visibility, and generates potential leads, making it an
+            essential component of any comprehensive digital marketing strategy
+            for businesses of all sizes.
           </p>
         </div>
       </div>

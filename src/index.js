@@ -17,6 +17,22 @@ import FullBlog2 from './Page/FullBlog2/FullBlog2';
 import ContactUs from './Page/ContactUs/ContactUs';
 import AffiliateWebsite from './Page/AffiliateWebsite/AffiliateWebsite';
 import AndroidApplicationDevelopmentServices from './Page/AndroidApplicationDevelopmentServices/AndroidApplicationDevelopmentServices';
+import HybridApplicationDevelopmentServices from './Page/HybridApplicationDevelopmentServices/HybridApplicationDevelopmentServices';
+import MobileAppDevelopment from './Page/MobileAppDevelopment/MobileAppDevelopment';
+import AppBackendDevelopment from './Page/AppBackendDevelopment/AppBackendDevelopment';
+import FlutterAppDevelopment from './Page/FlutterAppDevelopment/FlutterAppDevelopment';
+import ReactNativeAppDevelopment from './Page/ReactNativeAppDevelopment/ReactNativeAppDevelopment';
+import MobileAppTestingandTestingQualityAssurance from './Page/MobileAppTestingandTestingQualityAssurance/MobileAppTestingandTestingQualityAssurance';
+import IOSApplicationDevelopmentServices from './Page/IOSApplicationDevelopmentServices/IOSApplicationDevelopmentServices';
+import SearchEngineOptimization from './Page/SearchEngineOptimization/SearchEngineOptimization';
+import PayPerClickAdvertising from './Page/PayPerClickAdvertising/PayPerClickAdvertising';
+import SocialMediaAdvertising from './Page/SocialMediaAdvertising/SocialMediaAdvertising';
+import GoogleAdvertising from './Page/GoogleAdvertising/GoogleAdvertising';
+import FacebookInstagramAdvertising from './Page/Facebook&InstagramAdvertising/Facebook&InstagramAdvertising';
+import ContentMarketing from './Page/ContentMarketing/ContentMarketing';
+import SocialMediaMarketing from './Page/SocialMediaMarketing/SocialMediaMarketing';
+import EmailMarketing from './Page/EmailMarketing/EmailMarketing';
+import AnalyticsandReporting from './Page/AnalyticsandReporting/AnalyticsandReporting';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -63,6 +79,70 @@ const router = createBrowserRouter([
   {
     path: "/AndroidApplicationDevelopmentServices",
     element: <AndroidApplicationDevelopmentServices />,
+  },
+  {
+    path: "/HybridApplicationDevelopmentServices",
+    element: <HybridApplicationDevelopmentServices/>,
+  },
+  {
+    path: "/MobileAppDevelopment",
+    element: <MobileAppDevelopment/>,
+  },
+  {
+    path: "/AppBackendDevelopment",
+    element: <AppBackendDevelopment />,
+  },
+  {
+    path: "/FlutterAppDevelopment",
+    element: <FlutterAppDevelopment />,
+  },
+  {
+    path: "/ReactNativeAppDevelopment",
+    element: <ReactNativeAppDevelopment/>,
+  },
+  {
+    path: "/MobileAppTestingandTestingQualityAssurance",
+    element: <MobileAppTestingandTestingQualityAssurance />,
+  },
+  {
+    path: "/IOSApplicationDevelopmentServices",
+    element: <IOSApplicationDevelopmentServices />,
+  },
+  {
+    path: "/SearchEngineOptimization",
+    element: <SearchEngineOptimization/>,
+  },
+  {
+    path: "/PayPerClickAdvertising",
+    element: <PayPerClickAdvertising  />,
+  },
+  {
+    path: "/SocialMediaAdvertising",
+    element: <SocialMediaAdvertising />,
+  },
+  {
+    path: "/GoogleAdvertising",
+    element: <GoogleAdvertising />,
+  },
+  {
+    path: "/Facebook&InstagramAdvertising",
+    element: <FacebookInstagramAdvertising />,
+  },
+  {
+    path: "/ContentMarketing",
+    element: <ContentMarketing />,
+  },
+  {
+    path: "/SocialMediaMarketing",
+    element: <SocialMediaMarketing />,
+  },
+  {
+    path: "/EmailMarketing",
+    element: <EmailMarketing />,
+  },
+  {
+    path: "/AnalyticsandReporting",
+    element: <AnalyticsandReporting />,
   },
 ]);
 root.render(

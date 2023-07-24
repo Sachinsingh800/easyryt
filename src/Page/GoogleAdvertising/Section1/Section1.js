@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+      Digital Marketing Firm That Promises Assured Enhancements
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+          Digital Marketing Firm That Promises Assured Enhancements
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Google Ads Services: Propel your business to new heights with
+            Google's dynamic advertising platform. Unlock a world of potential
+            customers by reaching your target audience with precision and
+            relevance. Leverage a vast network of websites, apps, and search
+            engines to drive quality traffic to your website. Tailor your
+            campaigns to match specific goals, from brand awareness to lead
+            generation and sales conversion. Utilize advanced targeting tools,
+            real-time analytics, and data-driven insights to optimize your
+            campaigns for maximum impact. With Google Ads, discover measurable
+            results, increase ROI, and expand your business exponentially in the
+            digital realm.
           </p>
         </div>
       </div>

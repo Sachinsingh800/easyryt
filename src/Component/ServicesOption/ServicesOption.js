@@ -50,22 +50,22 @@ function ServicesOption() {
             {hoveredOption === "Option 2" && (
               <div className={style.optionContent1}>
                   <ul  className={style.options}>
-                  <Link to={""}></Link>      <li>Search Engine Optimization (SEO)</li>
-                  <Link to={""}></Link>        <li>Pay-Per-Click (PPC) Advertising</li>
-                  <Link to={""}></Link>       <li>Social Media Advertising</li>
-                  <Link to={""}></Link>        <li>Google Advertising</li>
-                  <Link to={""}></Link>        <li>Facebook & Instagram Advertising</li>
-                  <Link to={""}></Link>        <li>Content Marketing</li>
-                  <Link to={""}></Link>         <li>Social Media Marketing</li>
+                  <Link to={"/SearchEngineOptimization"}><li>Search Engine Optimization (SEO)</li></Link>  
+                  <Link to={"/PayPerClickAdvertising"}> <li>Pay-Per-Click (PPC) Advertising</li></Link>    
+                  <Link to={"/SocialMediaAdvertising"}> <li>Social Media Advertising</li></Link>      
+                  <Link to={"/GoogleAdvertising"}><li>Google Advertising</li></Link>        
+                  <Link to={"/Facebook&InstagramAdvertising"}> <li>Facebook & Instagram Advertising</li></Link> 
+                  <Link to={"/ContentMarketing"}><li>Content Marketing</li></Link>        
+                  <Link to={"/SocialMediaMarketing"}> <li>Social Media Marketing</li></Link> 
                  </ul>
                   <ul  className={style.options}>
-                  <Link to={""}></Link>          <li>Email Marketing</li>
-                  <Link to={""}></Link>          <li>Analytics and Reporting</li>
-                  <Link to={""}></Link>         <li>Website Traffic Advertising</li>
-                  <Link to={""}></Link>          <li>E-Commerce Advertising</li>
-                  <Link to={""}></Link>         <li>App Install Advertising</li>
-                  <Link to={""}></Link>         <li>Android App Advertising</li>
-                  <Link to={""}></Link>          <li>IOS App Advertising</li>
+                  <Link to={"/EmailMarketing"}>  <li>Email Marketing</li></Link>      
+                  <Link to={"/AnalyticsandReporting"}>  <li>Analytics and Reporting</li></Link>        
+                  <Link to={""}> <li>Website Traffic Advertising</li></Link>        
+                  <Link to={""}>  <li>E-Commerce Advertising</li></Link>        
+                  <Link to={""}>  <li>App Install Advertising</li></Link>      
+                  <Link to={""}> <li>Android App Advertising</li></Link>        
+                  <Link to={""}>  <li>IOS App Advertising</li></Link>        
                  </ul>
               </div>
             )}

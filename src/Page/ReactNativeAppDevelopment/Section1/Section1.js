@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting React Native Applications For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom React native apps with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Empower your business with cutting-edge React Native application
+            development services. Our team of expert developers crafts
+            high-performance, cross-platform mobile apps that seamlessly run on
+            both Android and iOS. Harness the power of native functionalities
+            combined with the flexibility of JavaScript to deliver exceptional
+            user experiences. We ensure smooth UI, rapid development, and
+            cost-effective solutions, tailored to meet your specific needs and
+            requirements. From concept to deployment, we guarantee top-notch
+            quality and timely delivery. Let us bring your vision to life and
+            reach a wider audience with our advanced React Native solutions. Get
+            in touch today to transform your ideas into reality.
           </p>
         </div>
       </div>

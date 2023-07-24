@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./CrossPlatformAppDevelopment.module.css";
+import style from "./GoogleAdvertising.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/cross-platform-app-development.png";
 import Section1 from "./Section1/Section1";
@@ -10,18 +10,17 @@ import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 
-function CrossPlatformAppDevelopment() {
+function GoogleAdvertising() {
   return (
     <div className={style.main}>
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Cross-Platform App Development</h1>
+          <h1>Google Ads Services</h1>
           <p>
-            Cross Platform App Development Services: Expert solutions for
-            creating versatile mobile applications that work seamlessly across
-            multiple platforms, reducing development time and costs. Delivering
-            efficiency and wide audience reach.
+            Google Ads Services: Reach your target audience with precision
+            through Google's powerful advertising platform. Drive traffic, boost
+            sales, and grow your business with targeted, measurable campaigns.
           </p>
           <button type="submit" className={style.submitBtn}>
             Get Started
@@ -42,4 +41,4 @@ function CrossPlatformAppDevelopment() {
   );
 }
 
-export default CrossPlatformAppDevelopment;
+export default GoogleAdvertising;

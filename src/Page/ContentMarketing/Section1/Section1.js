@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+      Digital Marketing Firm That Promises Assured Enhancements
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+          Digital Marketing Firm That Promises Assured Enhancements
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Our Content Marketing Services are designed to elevate your brand to
+            new heights in the digital landscape. We craft compelling and
+            relevant content that resonates with your target audience, creating
+            a strong connection between your brand and potential customers.
+            Through strategic distribution across various platforms, we increase
+            brand visibility and engagement, driving organic traffic to your
+            website and social channels. Our team of experienced content
+            creators, strategists, and data analysts work in harmony to optimize
+            your content's performance and ensure maximum ROI. With our
+            comprehensive approach, we help you build trust, authority, and
+            credibility, ultimately converting prospects into loyal customers.
           </p>
         </div>
       </div>

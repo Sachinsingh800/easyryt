@@ -16,12 +16,11 @@ function AnalyticsandReporting() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Cross-Platform App Development</h1>
+          <h1>Analytics and Reporting</h1>
           <p>
-            Cross Platform App Development Services: Expert solutions for
-            creating versatile mobile applications that work seamlessly across
-            multiple platforms, reducing development time and costs. Delivering
-            efficiency and wide audience reach.
+            Analytics and Reporting: Data-driven insights and visualizations to
+            track, measure, and interpret performance, enabling informed
+            decision-making for businesses and organizations.
           </p>
           <button type="submit" className={style.submitBtn}>
             Get Started

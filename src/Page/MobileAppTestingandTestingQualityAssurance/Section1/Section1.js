@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting  Mobile  Applications For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,22 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom   Mobile apps with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Mobile App Testing is the meticulous process of evaluating mobile
+            applications to identify and rectify defects, ensure functionality,
+            and optimize user experience across different devices and operating
+            systems. It involves various testing techniques like functional,
+            performance, security, and usability testing. Testing Quality
+            Assurance (QA) is a comprehensive approach to guaranteeing software
+            quality. It involves defining and implementing QA processes,
+            standards, and methodologies to verify that software products meet
+            specified requirements, are free of defects, and perform reliably.
+            QA encompasses all stages of the software development life cycle and
+            ensures that rigorous testing, continuous monitoring, and feedback
+            mechanisms are in place to deliver high-quality and dependable
+            software solutions to users.
           </p>
         </div>
       </div>

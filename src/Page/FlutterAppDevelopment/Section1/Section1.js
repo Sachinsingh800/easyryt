@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting Flutter  Applications For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom Flutter  apps with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Experience the power of Flutter app development with our expert
+            services. Our team of skilled developers will bring your ideas to
+            life with stunning cross-platform mobile applications. Harness the
+            benefits of Flutter's expressive UI, fast performance, and
+            native-like experience on iOS and Android devices. Whether you need
+            a simple business app or a complex enterprise solution, we tailor
+            our services to meet your specific requirements. From concept to
+            deployment, we ensure a smooth and efficient development process.
+            Stand out in the competitive app market with our cutting-edge
+            Flutter applications that deliver exceptional user experiences.
+            Let's create something extraordinary together!
           </p>
         </div>
       </div>

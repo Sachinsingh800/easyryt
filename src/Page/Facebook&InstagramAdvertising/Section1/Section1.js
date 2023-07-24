@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Digital Marketing Firm That Promises Assured Enhancements
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Digital Marketing Firm That Promises Assured Enhancements
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Supercharge your business growth with our highly effective Facebook
+            & Instagram Advertising Services. Our team of skilled marketers will
+            design and execute compelling ad campaigns tailored to your target
+            audience, ensuring maximum reach and engagement. Increase brand
+            visibility, drive website traffic, and boost sales with our
+            data-driven strategies. We monitor and optimize campaigns
+            continuously to achieve the best return on investment (ROI) for your
+            advertising budget. Stay ahead of the competition and harness the
+            power of social media to connect with potential customers and build
+            lasting relationships. Elevate your business to new heights with our
+            Facebook & Instagram Advertising Services today.
           </p>
         </div>
       </div>

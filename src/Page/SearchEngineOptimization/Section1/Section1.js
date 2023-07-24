@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+      Digital Marketing Firm That Promises Assured Enhancements
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+          Digital Marketing Firm That Promises Assured Enhancements
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            SEO Services are a vital component of any successful online
+            strategy. They involve optimizing websites to improve their
+            visibility and rankings on search engines like Google, Bing, and
+            Yahoo. Skilled professionals utilize various techniques, including
+            keyword research, content optimization, backlink building, and
+            technical SEO, to enhance organic traffic and attract potential
+            customers. By aligning with search engine algorithms, SEO experts
+            ensure that websites gain a competitive edge in search results.
+            Increased online visibility leads to higher brand exposure, improved
+            credibility, and ultimately, enhanced business growth. As a result,
+            SEO Services play a crucial role in helping businesses thrive in the
+            highly competitive digital landscape.
           </p>
         </div>
       </div>

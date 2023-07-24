@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting Mobile  Applications For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom Mobile  apps with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Unlock your business's full potential with our top-notch Mobile
+            Application Development Services. Our team of skilled developers and
+            designers will bring your ideas to life, crafting custom mobile apps
+            with seamless functionality for both Android and iOS platforms. From
+            concept to launch, we provide comprehensive support, ensuring your
+            app meets your specific requirements and exceeds user expectations.
+            Whether you need a productivity tool, e-commerce solution, or a
+            game-changing app, we've got you covered. Elevate your brand, boost
+            customer engagement, and stay ahead of the competition with our
+            innovative mobile app solutions. Let's collaborate and transform
+            your vision into a successful reality!
           </p>
         </div>
       </div>
