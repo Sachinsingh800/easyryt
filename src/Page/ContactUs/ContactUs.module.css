@@ -71,3 +71,32 @@ width: 40rem;
     opacity: 1;
     }
     } 
+    .rightbox  {
+        perspective: 500px;
+      }
+      
+      .rightbox div {
+        width: 200px;
+        height: 150px;
+        border-radius: 4px;
+        position: relative;
+        transform-style: preserve-3d;
+        will-change: transform;
+        transition: transform .5s;
+      }
+      
+      .rightbox div:hover {
+        transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+      }
+      .rightbox div:hover .img  {
+        transform: translateZ(100px);
+        filter: drop-shadow(1px 5px 6px);
+        transform: translateY(-10%);
+        transition: transform .5s;
+        position: absolute;
+      }
+      
+    
+     
+      
+    

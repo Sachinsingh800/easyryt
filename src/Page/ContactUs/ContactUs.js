@@ -29,22 +29,22 @@ const ContactUs = () => {
         <div className={style.rightbox}>
             <h3 >Trusted by Leading Brands</h3>
             <div>
-            <img src={logo1} alt="logo" />
+            <img className={style.img} src={logo1} alt="logo" />
             </div>
             <div>
-            <img src={logo2} alt="logo" />
+            <img  className={style.img}  src={logo2} alt="logo" />
             </div>
             <div>
-            <img src={logo3} alt="logo" />
+            <img   className={style.img}  src={logo3} alt="logo" />
             </div>
             <div>
-            <img src={logo4} alt="logo" />
+            <img  className={style.img}  src={logo4} alt="logo" />
             </div>
             <div>
-            <img src={logo5} alt="logo" />
+            <img  className={style.img}  src={logo5} alt="logo" />
             </div>
             <div>
-            <img src={logo6} alt="logo" />
+            <img  className={style.img}  src={logo6} alt="logo" />
             </div>
      
        
