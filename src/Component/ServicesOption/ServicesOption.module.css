@@ -19,11 +19,14 @@
     flex-direction: column;
     width: 100%;
     text-align: left;
+  
   }
   
  .optionList  li {
+
     cursor: pointer;
     padding: .5rem;
+    padding-left: 2rem;
     position: relative;
     font-weight: 600;
     font-size: medium;
