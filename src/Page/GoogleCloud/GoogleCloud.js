@@ -16,7 +16,7 @@ function GoogleCloud() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Android Application Development Services</h1>
+          <h1>Google Cloud Services</h1>
           <p>
             Google Cloud is a powerful and scalable cloud computing platform
             offering a suite of services for storage, analytics, machine

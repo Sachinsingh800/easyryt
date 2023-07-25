@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Google CloudFor Multiple Platforms
+        Crafting Google Cloud For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>

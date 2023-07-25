@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import style from "./EleventhSection.module.css";
 
-import model2 from "../../Image/model2.png";
-import model3 from "../../Image/model3.png";
+import model2 from "../../Image/zulures (2).png";
+import model3 from "../../Image/ssu.png";
 import model4 from "../../Image/model4.png";
 import model5 from "../../Image/model5.png";
 import model6 from "../../Image/model6.png";
@@ -19,14 +19,14 @@ const EleventhSection = () => {
     {
       bg: bg4,
       image: model2,
-      heading: "Restaurant Website Development:",
+      heading: "Zulures Website Development:",
       text: "Restaurant website development involves creating a user-friendly and visually appealing online platform for restaurants to showcase their menus, services, and brand. ",
     },
     {
       bg: bg5,
       image: model3,
-      heading: "Designs,Wireframes & Mockups",
-      text: "Designs, wireframes, and mockups are essential elements in the development process, ensuring cohesive visual representation and user experience for web and app projects.",
+      heading: "SSU Website Development",
+      text: "The SSU Scholarship Website is an online platform dedicated to providing valuable information and resources for students seeking financial assistance for their higher education",
     },
     {
       bg: bg6,
