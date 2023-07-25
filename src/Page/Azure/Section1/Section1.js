@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting   Azure For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom   Azure with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Azure is Microsoft's powerful and versatile cloud computing platform
+            that caters to businesses and developers alike. It provides a vast
+            array of services, including virtual machines, databases, AI, and
+            analytics tools, enabling organizations to build, deploy, and manage
+            applications with ease. Azure offers high scalability, security, and
+            global reach, allowing businesses to innovate and scale on-demand
+            without upfront infrastructure costs. With a broad range of
+            integration options, seamless hybrid capabilities, and a thriving
+            ecosystem, Azure facilitates digital transformation by empowering
+            users to harness the full potential of the cloud and gain a
+            competitive edge in today's rapidly evolving technology landscape.
           </p>
         </div>
       </div>

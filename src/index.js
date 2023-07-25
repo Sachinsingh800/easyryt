@@ -75,6 +75,9 @@ import RealTimeDataProcessing from './Page/RealTimeDataProcessing/PodcasRealTime
 import PerformanceOptimization from './Page/PerformanceOptimization/PerformanceOptimization';
 import IntegrationwithThirdPartyServices from './Page/IntegrationwithThirdPartyServices/IntegrationwithThirdPartyServices';
 import DevOpsandContinuousIntegration from './Page/DevOpsandContinuousIntegration/DevOpsandContinuousIntegration';
+import Azure from './Page/Azure/Azure';
+import Aws from './Page/Aws/Aws';
+import GoogleCloud from './Page/GoogleCloud/GoogleCloud';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -357,6 +360,18 @@ const router = createBrowserRouter([
   {
     path: "/DevOpsandContinuousIntegration",
     element: <DevOpsandContinuousIntegration />,
+  },
+  {
+    path: "/Azure",
+    element: <Azure/>,
+  },
+  {
+    path: "/Aws",
+    element: <Aws  />,
+  },
+  {
+    path: "/GoogleCloud",
+    element: <GoogleCloud  />,
   },
 ]);
 root.render(

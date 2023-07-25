@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./PodcastWebsite.module.css";
+import style from "./Aws.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/cross-platform-app-development.png";
 import Section1 from "./Section1/Section1";
@@ -10,17 +10,18 @@ import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 
-function PodcastWebsite() {
+function Aws() {
   return (
     <div className={style.main}>
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Podcast Website Development Services</h1>
+          <h1>AWS Services</h1>
           <p>
-            Expert podcast website development services to launch your audio
-            platform. User-friendly designs, seamless integration, and
-            optimization for an engaging listening experience
+            AWS (Amazon Web Services) is a leading cloud computing platform
+            offering a wide range of scalable and flexible services, allowing
+            individuals and businesses to build, deploy, and manage applications
+            and data securely.
           </p>
           <button type="submit" className={style.submitBtn}>
             Get Started
@@ -41,4 +42,4 @@ function PodcastWebsite() {
   );
 }
 
-export default PodcastWebsite;
+export default Aws;
