@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting  Angular Development For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom  Angular Development with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Angular Development Services: Our team of skilled Angular developers
+            provides comprehensive solutions for businesses seeking robust web
+            applications. Leveraging the power of Angular, we create dynamic,
+            responsive, and user-friendly interfaces that enhance customer
+            engagement and drive growth. Our services encompass everything from
+            custom application development to seamless integration of APIs,
+            ensuring your business stays ahead in the digital landscape. With a
+            focus on performance optimization, cross-platform compatibility, and
+            cutting-edge technologies, we deliver scalable solutions that meet
+            your specific needs. Trust us to elevate your web presence and
+            empower your business with top-notch Angular development services.
           </p>
         </div>
       </div>

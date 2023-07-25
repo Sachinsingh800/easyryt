@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting  Next.js Development For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom  Next.js Development with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Next.js Development Services: Empower your web application with the
+            cutting-edge capabilities of Next.js. Our expert team leverages this
+            powerful React framework to build high-performance, feature-rich,
+            and SEO-friendly applications. With server-side rendering, automatic
+            code-splitting, and simplified routing, we ensure blazing-fast load
+            times and enhanced user experiences. Harness the benefits of
+            efficient client-side navigation and optimized performance, enabling
+            seamless scalability to handle growing user demands. From e-commerce
+            platforms to enterprise solutions, our Next.js development services
+            deliver robust, secure, and future-proof applications. Stay ahead of
+            the competition and provide your users with a smooth, engaging, and
+            interactive web experience with Next.js.
           </p>
         </div>
       </div>

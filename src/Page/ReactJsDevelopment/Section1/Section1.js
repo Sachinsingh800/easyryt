@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting React JS Development For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom React JS Development with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Experience top-tier React JS Development Services tailored to
+            elevate your digital presence. Our proficient team of React
+            developers leverages the cutting-edge framework's capabilities to
+            deliver high-performance, interactive, and scalable web
+            applications. From concept to deployment, we prioritize user-centric
+            design, seamless navigation, and optimized functionality. Whether
+            you need a custom web app, e-commerce platform, or a progressive web
+            application, we ensure the highest coding standards and best
+            practices. Stay ahead of the competition with our agile development
+            process, continuous integration, and robust testing methodologies.
+            Let us transform your ideas into reality and drive your business
+            growth with the power of React JS.
           </p>
         </div>
       </div>

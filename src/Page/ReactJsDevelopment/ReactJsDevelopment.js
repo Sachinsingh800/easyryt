@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./PodcastWebsite.module.css";
+import style from "./ReactJsDevelopment.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/cross-platform-app-development.png";
 import Section1 from "./Section1/Section1";
@@ -10,17 +10,17 @@ import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 
-function PodcastWebsite() {
+function ReactJsDevelopment() {
   return (
     <div className={style.main}>
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Podcast Website Development Services</h1>
+          <h1>React Js Development Services</h1>
           <p>
-            Expert podcast website development services to launch your audio
-            platform. User-friendly designs, seamless integration, and
-            optimization for an engaging listening experience
+            Expert React JS Development Services: Harness the power of React JS
+            with our skilled team. We create dynamic, efficient, and seamless
+            web applications for your business needs.
           </p>
           <button type="submit" className={style.submitBtn}>
             Get Started
@@ -41,4 +41,4 @@ function PodcastWebsite() {
   );
 }
 
-export default PodcastWebsite;
+export default ReactJsDevelopment;

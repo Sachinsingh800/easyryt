@@ -56,6 +56,11 @@ import AndroidAppUIUXDesignServices from './Page/AndroidAppUIUXDesignServices/An
 import UIUXDesignServices from './Page/UIUXDesignServices/UIUXDesignServices';
 import ISOUIUXDesignServices from './Page/ISOUIUXDesignServices/ISOUIUXDesignServices';
 import WebsiteUIUXDesignServices from './Page/WebsiteUIUXDesignServices/WebsiteUIUXDesignServices';
+import ReactJsDevelopment from './Page/ReactJsDevelopment/ReactJsDevelopment';
+import NextjsDevelopment from './Page/NextjsDevelopment/NextjsDevelopment';
+import VuejsDevelopment from './Page/VuejsDevelopment/VuejsDevelopment';
+import ReactNativeDevelopment from './Page/ReactNativeDevelopment/ReactNativeDevelopment';
+import AngularDvelopment from './Page/AngularDvelopment/AngularDvelopment';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -262,6 +267,26 @@ const router = createBrowserRouter([
   {
     path: "/WebsiteUIUXDesignServices",
     element: <WebsiteUIUXDesignServices/>,
+  },
+  {
+    path: "/ReactJsDevelopment",
+    element: <ReactJsDevelopment/>,
+  },
+  {
+    path: "/NextjsDevelopment",
+    element: <NextjsDevelopment/>,
+  },
+  {
+    path: "/VuejsDevelopment",
+    element: <VuejsDevelopment/>,
+  },
+  {
+    path: "/ReactNativeDevelopment",
+    element: <ReactNativeDevelopment/>,
+  },
+  {
+    path: "/AngularDvelopment",
+    element: <AngularDvelopment/>,
   },
 ]);
 root.render(

@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting React Native development For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom React Native development with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Our React Native development services offer cutting-edge solutions
+            for creating high-performance, cross-platform mobile applications.
+            Leveraging the power of JavaScript and native components, we deliver
+            seamless user experiences on both iOS and Android platforms. Our
+            team of skilled developers excels at crafting feature-rich apps with
+            a focus on efficiency, scalability, and rapid deployment. Whether
+            you need a new app from scratch or want to optimize an existing one,
+            we provide end-to-end services, including design, development,
+            testing, and maintenance. Stay ahead in the mobile market with our
+            expertise, ensuring your app reaches a wider audience while
+            maintaining native-like performance and functionality.
           </p>
         </div>
       </div>

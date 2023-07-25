@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting Vue.js Development For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom Vue.js Development with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Vue.js Development Services: Harness the power of Vue.js with our
+            professional development services. Our team of skilled developers
+            excels at crafting dynamic, responsive, and high-performance web
+            applications tailored to your unique business needs. From crafting
+            engaging user interfaces to integrating Vue.js seamlessly with
+            existing systems, we deliver innovative solutions that enhance your
+            online presence. Benefit from our expertise in building custom
+            components, optimizing application performance, and ensuring
+            cross-browser compatibility. Whether you require a full-scale Vue.js
+            application or enhancements to an existing project, we are committed
+            to delivering exceptional results that drive growth, improve user
+            experiences, and exceed your expectations.
           </p>
         </div>
       </div>
