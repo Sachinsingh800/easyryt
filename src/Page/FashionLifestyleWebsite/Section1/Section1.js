@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting Fashion Lifestyle Website For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom Fashion Lifestyle Websitewith dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Welcome to our Fashion Lifestyle Website Development Services! Step
+            into the world of unparalleled digital elegance as we craft
+            captivating and user-centric platforms tailored to your brand's
+            unique style. Our team of expert designers and developers combines
+            creativity and technical finesse to create visually stunning
+            websites that resonate with fashion enthusiasts worldwide. From
+            seamless user experiences to responsive design, we prioritize the
+            latest trends in web development to ensure your brand shines in the
+            digital realm. Let us transform your vision into a virtual reality,
+            providing you with a powerful online presence to connect, inspire,
+            and engage your audience. Elevate your fashion brand today!
           </p>
         </div>
       </div>

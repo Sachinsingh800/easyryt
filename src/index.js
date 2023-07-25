@@ -49,6 +49,8 @@ import OnlineCourses from './Page/OnlineCourses/OnlineCourses';
 import PodcastWebsite from './Page/PodcastWebsite/PodcastWebsite';
 import JobBoardWebsite from './Page/JobBoardWebsite/JobBoardWebsite';
 import PortfolioWebsites from './Page/PortfolioWebsites/PortfolioWebsites';
+import TravelWebsite from './Page/TravelWebsite/TravelWebsite';
+import FashionLifestyleWebsite from './Page/FashionLifestyleWebsite/FashionLifestyleWebsite';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -227,6 +229,14 @@ const router = createBrowserRouter([
   {
     path: "/PortfolioWebsites",
     element: <PortfolioWebsites/>,
+  },
+  {
+    path: "/TravelWebsite",
+    element: <TravelWebsite/>,
+  },
+  {
+    path: "/FashionLifestyleWebsite",
+    element: <FashionLifestyleWebsite/>,
   },
 ]);
 root.render(

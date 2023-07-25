@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting Travel Website For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom Travel Website with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Elevate your travel business with our premier Travel Website
+            Development Services. Our team of skilled developers and designers
+            craft cutting-edge platforms tailored to your unique needs, ensuring
+            a seamless user experience for travelers worldwide. From intuitive
+            booking systems and interactive maps to engaging content and secure
+            payment gateways, we integrate the latest technologies to drive
+            conversions and customer satisfaction. Whether you run a travel
+            agency, tour operator, or hotel chain, our custom solutions cater to
+            your specific goals and branding. Stay ahead in the competitive
+            travel industry and unlock new opportunities for growth with our
+            expertise in creating dynamic and responsive travel websites
           </p>
         </div>
       </div>
