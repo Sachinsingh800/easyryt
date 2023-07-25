@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting Portfolio Website For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom Portfolio Website with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Unlock your potential with our top-notch portfolio website
+            development services. We craft bespoke online showcases that
+            captivate your audience, highlighting your skills, projects, and
+            achievements in an eye-catching and professional manner. Our expert
+            team ensures your portfolio is not only visually stunning but also
+            fully responsive, adapting seamlessly to various devices. With a
+            user-friendly interface and seamless navigation, visitors will
+            experience the true essence of your work. Elevate your online
+            presence and impress potential clients, employers, or collaborators
+            with a captivating portfolio that reflects your unique personality
+            and talents. Stay ahead in the digital world with a personalized and
+            impactful portfolio website tailored just for you.
           </p>
         </div>
       </div>

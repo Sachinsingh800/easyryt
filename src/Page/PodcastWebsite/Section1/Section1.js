@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting Podcast Website For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom Podcast Website with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Transform your podcasting vision into reality with our professional
+            website development services. We specialize in creating bespoke
+            platforms that showcase your unique audio content. Our expert team
+            designs user-friendly interfaces, ensuring a seamless and immersive
+            experience for your listeners. With cutting-edge technology and
+            seamless integration of audio players, RSS feeds, and social media,
+            we elevate your podcast's reach and engagement. From mobile
+            responsiveness to search engine optimization, we ensure your website
+            performs at its best across all devices. Whether you're a seasoned
+            podcaster or just starting, our tailored solutions will captivate
+            your audience and establish a strong online presence in the
+            ever-evolving world of podcasting.
           </p>
         </div>
       </div>

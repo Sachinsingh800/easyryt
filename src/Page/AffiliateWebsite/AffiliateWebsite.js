@@ -16,12 +16,11 @@ function AffiliateWebsite() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Cross-Platform App Development</h1>
+          <h1>Affiliate Marketing Website Development Services</h1>
           <p>
-            Cross Platform App Development Services: Expert solutions for
-            creating versatile mobile applications that work seamlessly across
-            multiple platforms, reducing development time and costs. Delivering
-            efficiency and wide audience reach.
+            Expertly crafted affiliate marketing websites. Boost revenue with
+            our tailored designs, seamless integrations, and conversion-focused
+            approach. Drive success today!
           </p>
           <button type="submit" className={style.submitBtn}>
             Get Started

@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting Online Courses Website For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,22 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom Online Courses Website with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Discover our comprehensive Online Courses Website Development
+            Services, where we harness the latest technologies to craft dynamic
+            e-learning platforms. Our expert team of developers and designers
+            collaborates to create engaging, user-friendly websites that
+            facilitate seamless navigation and optimal learning experiences.
+            With a focus on interactivity and customization, we ensure that your
+            online courses are delivered efficiently, catering to diverse
+            learners. From course management systems to secure payment gateways,
+            we integrate advanced features to meet your specific requirements.
+            Trust us to build a robust, scalable, and responsive platform that
+            empowers educators to connect with a global audience and learners to
+            access knowledge anytime, anywhere. Start your journey towards a
+            successful e-learning venture with our innovative solutions.
           </p>
         </div>
       </div>

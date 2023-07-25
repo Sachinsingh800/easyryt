@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting Affiliate Marketing Website For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering customAffiliate Marketing Website with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Elevate your affiliate marketing game with our specialized website
+            development services. We excel at crafting high-conversion platforms
+            that maximize your revenue potential. Our team of experts ensures
+            seamless integration of affiliate programs and user-friendly
+            navigation, making it effortless for visitors to discover and
+            purchase products. Tailored to your unique needs, our websites
+            combine stunning designs with cutting-edge technology, ensuring an
+            engaging user experience that keeps your audience coming back for
+            more. Unlock the true potential of affiliate marketing and achieve
+            unprecedented success with our results-driven approach. Let us build
+            the foundation for your online prosperity and take your business to
+            new heights today!
           </p>
         </div>
       </div>

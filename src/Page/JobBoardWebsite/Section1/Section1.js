@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
+        Crafting Job Board Website For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,22 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
+            Delivering custom Job Board Website with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Cross Platform App Development Services offer comprehensive
-            solutions to businesses and entrepreneurs seeking to reach a broader
-            audience through mobile applications. By leveraging cutting-edge
-            technologies and frameworks, these services enable the creation of
-            versatile apps that function seamlessly across various platforms,
-            including iOS, Android, and Windows. This approach streamlines the
-            development process, reducing time-to-market and costs while
-            maintaining app performance and user experience consistency. With a
-            team of skilled developers experienced in cross-platform
-            development, businesses can achieve wider market penetration, higher
-            user engagement, and increased brand visibility. Embrace the future
-            of app development with these services, unlocking the potential for
-            success in the competitive digital landscape.
+            Our Job Board Website Development Services offer expert solutions to
+            create powerful and customized platforms that effectively connect
+            job seekers and employers. With user-friendly interfaces and
+            seamless integration, we ensure a smooth and efficient experience
+            for both parties. Our team of skilled developers will tailor the
+            website to meet your specific needs, incorporating advanced search
+            features, resume upload capabilities, and automated job posting
+            options. Whether you are a startup or an established recruitment
+            agency, our services will help you boost your online recruiting
+            success and streamline the job search process. Stay ahead in the
+            competitive job market with our top-notch job board website
+            development services.
           </p>
         </div>
       </div>

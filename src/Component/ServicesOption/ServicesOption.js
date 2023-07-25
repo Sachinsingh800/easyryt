@@ -101,8 +101,8 @@ function ServicesOption() {
                  <Link to={"/EcommerceWebsiteOnlineStore"}><li>Ecommerce Website / Online Store</li></Link>         
                  <Link to={"/OnlineCourses"}><li>Online Courses</li></Link>     
                  <Link to={"/PodcastWebsite"}><li>Podcast Website</li></Link>       
-                 <Link to={"/Affiliate Website"}><li>Affiliate Website</li></Link>      
-                 <Link to={"/Job Board Website"}><li>Job Board Website</li></Link>   
+                 <Link to={"/AffiliateWebsite"}><li>Affiliate Website</li></Link>      
+                 <Link to={"/JobBoardWebsite"}><li>Job Board Website</li></Link>   
                  </ul>
                  <ul  className={style.options}>
                  <Link to={"/PortfolioWebsites"}> <li>Portfolio Websites</li></Link>     
@@ -167,11 +167,11 @@ Front End Development
              <Link to={"/CloudServicesIntegrationSAPIndustrySolutions"}><li>Cloud Services Integration,SAP Industry Solutions</li></Link>        
                  </ul>
              <ul  className={style.options}>
-             <Link to={"/Backend Framework Development"}> <li>Backend Framework Development</li></Link>       
+             <Link to={"/BackendFrameworkDevelopment"}> <li>Backend Framework Development</li></Link>       
              <Link to={"/WebApplicationDevelopment"}><li>Web Application Development</li></Link>      
              <Link to={"/MobileBackendDevelopment"}><li>Mobile Backend Development</li></Link>   
              <Link to={"/RealTimeDataProcessing"}><li>Real-Time Data Processing</li></Link>  
-             <Link to={"/Performance Optimization"}><li>Performance Optimization</li></Link>   
+             <Link to={"/PerformanceOptimization"}><li>Performance Optimization</li></Link>   
              <Link to={"/IntegrationwithThirdPartyServices"}> <li>Integration with Third-Party Services</li></Link>      
              <Link to={"/DevOpsandContinuousIntegration"}>   <li>DevOps and Continuous Integration/Continuous Deployment (CI/CD)</li></Link>    
                  </ul>

@@ -45,6 +45,10 @@ import FullStackDevelopmentServices from './Page/FullStackDevelopmentServices/Fu
 import BlogorPersonalWebsite from './Page/BlogorPersonalWebsite/BlogorPersonalWebsite';
 import BusinessWebsite from './Page/BusinessWebsite/BusinessWebsite';
 import EcommerceWebsiteOnlineStore from './Page/EcommerceWebsiteOnlineStore/EcommerceWebsiteOnlineStore';
+import OnlineCourses from './Page/OnlineCourses/OnlineCourses';
+import PodcastWebsite from './Page/PodcastWebsite/PodcastWebsite';
+import JobBoardWebsite from './Page/JobBoardWebsite/JobBoardWebsite';
+import PortfolioWebsites from './Page/PortfolioWebsites/PortfolioWebsites';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -203,6 +207,26 @@ const router = createBrowserRouter([
   {
     path: "/EcommerceWebsiteOnlineStore",
     element: <EcommerceWebsiteOnlineStore/>,
+  },
+  {
+    path: "/OnlineCourses",
+    element: <OnlineCourses/>,
+  },
+  {
+    path: "/PodcastWebsite",
+    element: <PodcastWebsite/>,
+  },
+  {
+    path: "/AffiliateWebsite",
+    element: <AffiliateWebsite/>,
+  },
+  {
+    path: "/JobBoardWebsite",
+    element: <JobBoardWebsite/>,
+  },
+  {
+    path: "/PortfolioWebsites",
+    element: <PortfolioWebsites/>,
   },
 ]);
 root.render(
