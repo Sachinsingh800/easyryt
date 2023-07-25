@@ -51,6 +51,11 @@ import JobBoardWebsite from './Page/JobBoardWebsite/JobBoardWebsite';
 import PortfolioWebsites from './Page/PortfolioWebsites/PortfolioWebsites';
 import TravelWebsite from './Page/TravelWebsite/TravelWebsite';
 import FashionLifestyleWebsite from './Page/FashionLifestyleWebsite/FashionLifestyleWebsite';
+import MobileAppUIUXDesignServices from './Page/MobileAppUIUXDesignServices/MobileAppUIUXDesignServices';
+import AndroidAppUIUXDesignServices from './Page/AndroidAppUIUXDesignServices/AndroidAppUIUXDesignServices';
+import UIUXDesignServices from './Page/UIUXDesignServices/UIUXDesignServices';
+import ISOUIUXDesignServices from './Page/ISOUIUXDesignServices/ISOUIUXDesignServices';
+import WebsiteUIUXDesignServices from './Page/WebsiteUIUXDesignServices/WebsiteUIUXDesignServices';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -237,6 +242,26 @@ const router = createBrowserRouter([
   {
     path: "/FashionLifestyleWebsite",
     element: <FashionLifestyleWebsite/>,
+  },
+  {
+    path: "/MobileAppUIUXDesignServices",
+    element: <MobileAppUIUXDesignServices/>,
+  },
+  {
+    path: "/AndroidAppUIUXDesignServices",
+    element: <AndroidAppUIUXDesignServices/>,
+  },
+  {
+    path: "/UIUXDesignServices",
+    element: <UIUXDesignServices/>,
+  },
+  {
+    path: "/ISOUIUXDesignServices",
+    element: <ISOUIUXDesignServices/>,
+  },
+  {
+    path: "/WebsiteUIUXDesignServices",
+    element: <WebsiteUIUXDesignServices/>,
   },
 ]);
 root.render(

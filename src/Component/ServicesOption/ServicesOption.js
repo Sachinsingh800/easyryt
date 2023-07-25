@@ -123,10 +123,9 @@ function ServicesOption() {
               <div className={style.optionContent4}>
                 <ul  className={style.options}>
                 <Link to={"/MobileAppUIUXDesignServices"}><li>Mobile App UI /UX Design Services</li></Link>          
-                <Link to={"/MobileAppUIUXDesignServices"}>        <li>Mobile App UI/UX Design Services</li></Link>
                 <Link to={"/AndroidAppUIUXDesignServices"}>   <li>Android App UI/UX Design Services</li></Link>     
-                <Link to={"/SocialMediaMarketing"}> <li>Social Media Marketing</li></Link>       
-                <Link to={"/ISOUIUXDesignServicesg"}> <li>ISO UI/UX Design Servicesg</li></Link>       
+                <Link to={"/UIUXDesignServices"}> <li>UI/UX Design Services</li></Link>       
+                <Link to={"/ISOUIUXDesignServices"}> <li>ISO UI/UX Design Servicesg</li></Link>       
                 <Link to={"/WebsiteUIUXDesignServices"}>  <li>Website UI/UX Design Services</li></Link>     
                  </ul>
               </div>
