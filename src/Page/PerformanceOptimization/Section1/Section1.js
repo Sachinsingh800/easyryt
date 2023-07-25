@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting Performance Optimization For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,22 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom Performance Optimization with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Our Performance Optimization Services are designed to elevate your
+            organization's efficiency and productivity to new heights. Through
+            meticulous analysis and fine-tuning, we optimize your systems,
+            applications, and processes, ensuring peak performance and seamless
+            user experiences. Our expert team identifies bottlenecks, eliminates
+            redundancies, and maximizes resource utilization, delivering
+            significant speed and responsiveness improvements. Whether it's web
+            applications, databases, or server configurations, we tailor
+            solutions to meet your specific needs. With our cutting-edge
+            techniques and industry best practices, you can stay ahead of the
+            competition and provide your customers with unparalleled
+            satisfaction. Experience heightened productivity and reduced
+            downtime with our Performance Optimization Services today
           </p>
         </div>
       </div>

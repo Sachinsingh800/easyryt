@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting  Cloud Services Integration For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,22 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom  Cloud Services Integration with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Cloud Services Integration Services offer comprehensive solutions to
+            connect, unify, and streamline cloud-based applications, data, and
+            systems. By leveraging integration tools and middleware, these
+            services enable seamless communication, data synchronization, and
+            process automation between different cloud platforms and on-premises
+            environments. They facilitate efficient data transfer, real-time
+            updates, and secure access to cloud resources, enhancing
+            collaboration and productivity. With scalable and flexible
+            integration options, businesses can optimize their workflows,
+            enhance customer experiences, and harness the full potential of
+            their cloud investments. Whether for data migration, API management,
+            or application integration, these services ensure smooth, reliable,
+            and agile operations in the cloud ecosystem.
           </p>
         </div>
       </div>

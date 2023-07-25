@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting   Python Development For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom   Python Development with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Python Development Services: Unlock the full potential of Python
+            with our comprehensive development solutions. Our expert team of
+            Python developers crafts efficient, scalable, and reliable
+            applications for web, software, and data projects. From prototyping
+            to deployment, we ensure seamless integration of cutting-edge
+            technologies and best practices, providing you with innovative
+            solutions tailored to your specific needs. Leverage Python's
+            versatility, ease of use, and robust libraries to accelerate your
+            project's development and stay ahead of the competition. Whether you
+            need custom web applications, data analysis tools, or automation
+            scripts, our Python Development Services guarantee top-notch quality
+            and exceptional performance for your business.
           </p>
         </div>
       </div>

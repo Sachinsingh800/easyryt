@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./PodcastWebsite.module.css";
+import style from "./DevOpsandContinuousIntegration.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/cross-platform-app-development.png";
 import Section1 from "./Section1/Section1";
@@ -10,17 +10,22 @@ import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 
-function PodcastWebsite() {
+function DevOpsandContinuousIntegration() {
   return (
     <div className={style.main}>
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Podcast Website Development Services</h1>
+          <h1>
+            DevOps and Continuous Integration Continuous Deployment (CICD)
+          </h1>
           <p>
-            Expert podcast website development services to launch your audio
-            platform. User-friendly designs, seamless integration, and
-            optimization for an engaging listening experience
+            DevOps: An approach that unifies software development (Dev) and IT
+            operations (Ops), enhancing collaboration and automation for faster
+            and more reliable software delivery. CI/CD: A practice automating
+            code integration, testing, and deployment, enabling rapid and
+            frequent releases, ensuring a streamlined and error-free software
+            delivery pipeline.
           </p>
           <button type="submit" className={style.submitBtn}>
             Get Started
@@ -41,4 +46,4 @@ function PodcastWebsite() {
   );
 }
 
-export default PodcastWebsite;
+export default DevOpsandContinuousIntegration;

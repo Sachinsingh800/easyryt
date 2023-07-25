@@ -161,7 +161,7 @@ Front End Development
              <Link to={"/Laravel"}>  <li>Laravel</li></Link>      
              <Link to={"/Python"}><li>Python</li></Link>        
              <Link to={"/APIDevelopment"}><li>API Development</li></Link>        
-             <Link to={"DatabaseDesignandManagement"}> <li>Database Design and Management</li></Link>        
+             <Link to={"/DatabaseDesignandManagement"}> <li>Database Design and Management</li></Link>        
              <Link to={"/ServerArchitectureandConfiguration"}>   <li>Server Architecture and Configuration</li></Link>       
              <Link to={"/CloudServicesIntegrationSAPIndustrySolutions"}><li>Cloud Services Integration,SAP Industry Solutions</li></Link>        
                  </ul>

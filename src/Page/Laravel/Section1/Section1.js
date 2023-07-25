@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting  Laravel Development For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,22 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom  Laravel Development with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Laravel Development Services offer comprehensive solutions
+            leveraging the powerful Laravel framework. Our team of skilled
+            developers specializes in crafting dynamic web applications, custom
+            software, and seamless API integrations. With a focus on
+            reliability, scalability, and performance optimization, we deliver
+            tailored solutions that align perfectly with your business
+            requirements. From ideation to deployment, our expertise ensures
+            smooth project execution, timely delivery, and post-launch support.
+            Whether it's building a new application from scratch or enhancing an
+            existing one, we are committed to delivering high-quality solutions
+            that empower your digital presence and drive business growth. Trust
+            us to bring your Laravel-based projects to life with innovation and
+            precision.
           </p>
         </div>
       </div>

@@ -61,6 +61,20 @@ import NextjsDevelopment from './Page/NextjsDevelopment/NextjsDevelopment';
 import VuejsDevelopment from './Page/VuejsDevelopment/VuejsDevelopment';
 import ReactNativeDevelopment from './Page/ReactNativeDevelopment/ReactNativeDevelopment';
 import AngularDvelopment from './Page/AngularDvelopment/AngularDvelopment';
+import Nodejs from './Page/Nodejs/Nodejs';
+import Laravel from './Page/Laravel/Laravel';
+import Python from './Page/Python/Python';
+import APIDevelopment from './Page/APIDevelopment/APIDevelopment';
+import DatabaseDesignandManagement from './Page/DatabaseDesignandManagement/DatabaseDesignandManagement';
+import ServerArchitectureandConfiguration from './Page/ServerArchitectureandConfiguration/ServerArchitectureandConfiguration';
+import CloudServicesIntegrationSAPIndustrySolutions from './Page/CloudServicesIntegrationSAPIndustrySolutions/CloudServicesIntegrationSAPIndustrySolutions';
+import BackendFrameworkDevelopment from './Page/BackendFrameworkDevelopment/BackendFrameworkDevelopment';
+import WebApplicationDevelopment from './Page/WebApplicationDevelopment/WebApplicationDevelopment';
+import MobileBackendDevelopment from './Page/MobileBackendDevelopment/MobileBackendDevelopment';
+import RealTimeDataProcessing from './Page/RealTimeDataProcessing/PodcasRealTimeDataProcessingtWebsite';
+import PerformanceOptimization from './Page/PerformanceOptimization/PerformanceOptimization';
+import IntegrationwithThirdPartyServices from './Page/IntegrationwithThirdPartyServices/IntegrationwithThirdPartyServices';
+import DevOpsandContinuousIntegration from './Page/DevOpsandContinuousIntegration/DevOpsandContinuousIntegration';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -287,6 +301,62 @@ const router = createBrowserRouter([
   {
     path: "/AngularDvelopment",
     element: <AngularDvelopment/>,
+  },
+  {
+    path: "/Nodejs",
+    element: <Nodejs/>,
+  },
+  {
+    path: "/Laravel",
+    element: <Laravel/>,
+  },
+  {
+    path: "/Python",
+    element: <Python/>,
+  },
+  {
+    path: "/APIDevelopment",
+    element: <APIDevelopment />,
+  },
+  {
+    path: "/DatabaseDesignandManagement",
+    element: <DatabaseDesignandManagement />,
+  },
+  {
+    path: "/ServerArchitectureandConfiguration",
+    element: <ServerArchitectureandConfiguration />,
+  },
+  {
+    path: "/CloudServicesIntegrationSAPIndustrySolutions",
+    element: <CloudServicesIntegrationSAPIndustrySolutions/>,
+  },
+  {
+    path: "/BackendFrameworkDevelopment",
+    element: <BackendFrameworkDevelopment/>,
+  },
+  {
+    path: "/WebApplicationDevelopment",
+    element: <WebApplicationDevelopment />,
+  },
+  {
+    path: "/MobileBackendDevelopment",
+    element: <MobileBackendDevelopment/>,
+  },
+  {
+    path: "/RealTimeDataProcessing",
+    element: <RealTimeDataProcessing />,
+  },
+  {
+    path: "/PerformanceOptimization",
+    element: <PerformanceOptimization />,
+  },
+  {
+    path: "/IntegrationwithThirdPartyServices",
+    element: <IntegrationwithThirdPartyServices />,
+  },
+  {
+    path: "/DevOpsandContinuousIntegration",
+    element: <DevOpsandContinuousIntegration />,
   },
 ]);
 root.render(

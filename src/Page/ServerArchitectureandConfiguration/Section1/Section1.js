@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting  Server Architecture For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,22 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom  Server Architecture with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Server Architecture and Configuration Services offer comprehensive
+            solutions for businesses seeking to establish robust and efficient
+            server infrastructures. These services encompass the entire
+            lifecycle of server management, from planning and designing tailored
+            architectures to deploying and configuring servers according to
+            specific needs. Expert technicians ensure optimal performance,
+            scalability, and security while adhering to industry best practices.
+            By leveraging cutting-edge technologies and systematic approaches,
+            these services optimize resource utilization, enhance data
+            accessibility, and minimize downtime risks. Ultimately, businesses
+            benefit from reliable and high-performing server setups that cater
+            to their unique demands, empowering them to focus on core activities
+            while leaving server management to the experts
           </p>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./PodcastWebsite.module.css";
+import style from "./APIDevelopment.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/cross-platform-app-development.png";
 import Section1 from "./Section1/Section1";
@@ -10,17 +10,18 @@ import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 
-function PodcastWebsite() {
+function APIDevelopment() {
   return (
     <div className={style.main}>
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Podcast Website Development Services</h1>
+          <h1>API Development Development Services</h1>
           <p>
-            Expert podcast website development services to launch your audio
-            platform. User-friendly designs, seamless integration, and
-            optimization for an engaging listening experience
+            Expert API development services to create, deploy, and manage robust
+            Application Programming Interfaces, enabling seamless data
+            integration and enhancing software functionality for optimal user
+            experiences.
           </p>
           <button type="submit" className={style.submitBtn}>
             Get Started
@@ -41,4 +42,4 @@ function PodcastWebsite() {
   );
 }
 
-export default PodcastWebsite;
+export default APIDevelopment;

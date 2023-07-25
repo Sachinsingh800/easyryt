@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting   Integration with third-party For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,22 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom   Integration with third-party with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Integration with third-party services refers to the process of
+            incorporating external functionalities, tools, or data from trusted
+            sources into a platform, application, or system. This collaboration
+            allows businesses and developers to extend the capabilities of their
+            own offerings without building everything from scratch. Through
+            well-established APIs or other integration methods, companies can
+            access various services, such as payment gateways, social media
+            platforms, cloud storage, or analytics tools, seamlessly merging
+            them with their own solutions. This streamlined approach enhances
+            user experience, boosts efficiency, and fosters innovation by
+            leveraging the strengths of multiple reliable providers, ultimately
+            providing users with a more comprehensive and feature-rich
+            experience.
           </p>
         </div>
       </div>

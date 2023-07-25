@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting Backend Framework Development For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom Backend Framework Development with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Our Backend Framework Development Services are designed to empower
+            your web applications with cutting-edge technology and seamless
+            functionality. Our expert team crafts robust, scalable, and
+            efficient backend solutions tailored to your unique needs. Whether
+            you require API development, database management, or server-side
+            optimization, we've got you covered. By leveraging the latest tools
+            and technologies, we ensure your application operates at peak
+            performance, handling heavy workloads and user interactions with
+            ease. Trust us to build a solid foundation for your project,
+            enabling you to focus on delivering an exceptional user experience
+            while we take care of the technical intricacies behind the scenes.
           </p>
         </div>
       </div>

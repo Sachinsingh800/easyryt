@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting  Node.js Development For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,22 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom  Node.js Development with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Node.js Development Services provide a comprehensive range of
+            solutions leveraging the power of Node.js, a server-side JavaScript
+            runtime. With a focus on speed, scalability, and efficiency, expert
+            developers craft cutting-edge applications, APIs, and real-time web
+            solutions. Node.js enables seamless handling of concurrent
+            connections, making it ideal for data-intensive and high-traffic
+            applications. From building interactive web applications to
+            designing robust backends, Node.js development services offer
+            versatility across industries. Leveraging the vast ecosystem of
+            Node.js libraries and tools, these services ensure rapid development
+            and deployment while maintaining the highest standards of
+            performance and security. Embrace Node.js to unlock the potential of
+            modern, real-time web development for your business needs.
           </p>
         </div>
       </div>

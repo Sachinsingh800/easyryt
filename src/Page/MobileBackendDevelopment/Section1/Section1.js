@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting  Mobile Backend Development For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom  Mobile Backend Development with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Mobile Backend Development Services: Our team of skilled developers
+            empowers your mobile applications with robust backend solutions. We
+            specialize in designing, building, and maintaining scalable
+            architectures that ensure smooth data management, seamless user
+            authentication, and efficient communication between your app and
+            server. With a focus on security and performance, we deliver
+            reliable APIs and cloud integrations, enabling your app to handle
+            high user loads effortlessly. Our expertise spans various platforms
+            and frameworks, allowing us to tailor the backend to your specific
+            needs. From real-time updates to data storage and analytics, our
+            comprehensive solutions ensure your mobile app functions flawlessly,
+            providing an exceptional user experience.
           </p>
         </div>
       </div>

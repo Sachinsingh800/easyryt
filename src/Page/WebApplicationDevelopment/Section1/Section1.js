@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Podcast Website For Multiple Platforms
+        Crafting Web Application Development For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,21 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Podcast Website with dedicated expertise
+            Delivering custom Web Application Development with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Transform your podcasting vision into reality with our professional
-            website development services. We specialize in creating bespoke
-            platforms that showcase your unique audio content. Our expert team
-            designs user-friendly interfaces, ensuring a seamless and immersive
-            experience for your listeners. With cutting-edge technology and
-            seamless integration of audio players, RSS feeds, and social media,
-            we elevate your podcast's reach and engagement. From mobile
-            responsiveness to search engine optimization, we ensure your website
-            performs at its best across all devices. Whether you're a seasoned
-            podcaster or just starting, our tailored solutions will captivate
-            your audience and establish a strong online presence in the
-            ever-evolving world of podcasting.
+            Our Web Application Development Services are designed to elevate
+            your online presence and streamline your business processes. With a
+            team of skilled developers, we craft tailored solutions that align
+            with your specific requirements and industry standards. From
+            conceptualization to deployment, we ensure a smooth and
+            collaborative development journey, leveraging the latest
+            technologies to deliver high-performance web applications. Our focus
+            on user experience and intuitive interfaces guarantees that your
+            customers will enjoy seamless interactions with your platform.
+            Whether it's a simple web app or a complex enterprise-level
+            solution, we are dedicated to bringing your vision to life and
+            empowering your business for success in the digital landscape.
           </p>
         </div>
       </div>
