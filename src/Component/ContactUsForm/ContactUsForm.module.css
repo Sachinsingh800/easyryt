@@ -1,13 +1,14 @@
-.container{
+.main{
     padding: 1rem;
     margin-top: 2rem;
+ 
 }
 .main p{
     width: 40rem;
     text-align: center;
 }
 .main h1{
-    width: 60rem;
+   width: 100%;
     text-align: center;
     margin-top: 1rem;
 }
@@ -91,4 +92,42 @@
 }
 .btnbox{
     display: flex;
+}
+
+
+@media (max-width:786px){
+    .form{
+        grid-template-columns: 1fr;
+        margin-left: -10rem;
+        width: 30rem;
+        
+    }
+    .main{
+        padding: 1rem;
+        margin-top: 2rem;
+        width: 30rem;
+    }
+    .form h6{
+        width: 30rem;
+    }
+
+}
+@media (max-width:451px){
+    .form{
+        grid-template-columns: 1fr;
+        width: 25rem;
+        padding-left: 0;
+        margin-left:-10rem;
+        place-items: center;
+        place-content: center;
+        
+    }
+    .main{
+        width: 25rem;
+    }
+    .form h6{
+        display: none;
+    }
+  
+
 }

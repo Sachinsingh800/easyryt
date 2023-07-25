@@ -27,7 +27,7 @@ width: 40rem;
 }
 .rightbox div{
     height: 9rem;
-    width: 12rem;
+    width: 10rem;
     border-radius:10px ;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
@@ -97,6 +97,32 @@ width: 40rem;
       }
       
     
-     
-      
+      @media (max-width:1279px){
+        .rightbox {
+          display: none;
+        }
+        .container{
+           display: flex;
+           padding-left: 18rem;
+        }
+
+      }  
+  
+    
+      @media (max-width:786px){
+
+        .container{
+           display: flex;
+           padding-right:25rem ;
+        }
+
+      }  
+      @media (max-width:451px){
+        .main h1{
+   width: 35rem;
+        }
+        .main p{
+   width: 30rem;
+        }
+      }
     
