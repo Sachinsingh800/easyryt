@@ -73,7 +73,7 @@ function SecondSection() {
           </span>
           <p>Repeat Clients</p>
         </h2>
-        <Link to={"/ContactUs"}><button>Learn more</button></Link>
+        <Link to={"/AboutUs"}><button>Learn more</button></Link>
       </div>
       </div>
     </div>
