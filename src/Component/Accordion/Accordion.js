@@ -22,7 +22,7 @@ export const Accordion1 = () => {
       {isOpen && (
         <div className={styles.content}>
           <ul>
-            <li >Mobile App Development</li>
+            <li className={styles.heading} >Mobile App Development</li>
             <Link to={"/FirstPage"}> <li>Native Mobile App Development</li></Link> 
                 <Link to={"/CrossPlatformAppDevelopment"}> <li>Cross-Platform App Development</li></Link> 
                <Link to={"/AndroidApplicationDevelopmentServices"}><li>Android Application Development Services</li></Link>   
@@ -35,7 +35,7 @@ export const Accordion1 = () => {
                  <Link to={"/MobileAppTestingandTestingQualityAssurance"}>  <li>Mobile App Testing and Testing Quality Assurance</li></Link>  
             </ul>
           <ul>
-              <li>Digital Marketing</li>
+              <li className={styles.heading} >Digital Marketing</li>
               <Link to={"/SearchEngineOptimization"}><li>Search Engine Optimization (SEO)</li></Link>  
                   <Link to={"/PayPerClickAdvertising"}> <li>Pay-Per-Click (PPC) Advertising</li></Link>    
                   <Link to={"/SocialMediaAdvertising"}> <li>Social Media Advertising</li></Link>      
@@ -52,14 +52,14 @@ export const Accordion1 = () => {
                   <Link to={"/IOSAppAdvertising"}>  <li>IOS App Advertising</li></Link>    
             </ul>
           <ul>
-            <li>Website Development</li>
+            <li className={styles.heading} >Website Development</li>
             <Link to={"/ECommerceDevelopment"}> <li>E-Commerce Development</li></Link>   
                 <Link to={"/FrontEndDevelopment"}>    <li>Front-End Development</li></Link>    
                 <Link to={"/BackendDevelopment"}>  <li>Backend Development</li></Link>       
                 <Link to={"/FullStackDevelopmentServices"}> <li>Full Stack Development Services</li></Link>        
             </ul>
           <ul>
-            <li>WordPress Development</li>
+            <li className={styles.heading} >WordPress Development</li>
             <Link to={"/BlogorPersonalWebsite"}><li>Blog or Personal Website</li></Link>     
                  <Link to={"/BusinessWebsite"}><li>Business Website</li></Link>    
                  <Link to={"/EcommerceWebsiteOnlineStore"}><li>Ecommerce Website / Online Store</li></Link>         
@@ -72,7 +72,7 @@ export const Accordion1 = () => {
                  <Link to={"/FashionLifestyleWebsite"}><li>Fashion / Lifestyle Website</li></Link>     
           </ul>
           <ul>
-          <li>UI/UX Design</li>
+          <li className={styles.heading} >UI/UX Design</li>
           <Link to={"/MobileAppUIUXDesignServices"}><li>Mobile App UI /UX Design Services</li></Link>          
                 <Link to={"/AndroidAppUIUXDesignServices"}>   <li>Android App UI/UX Design Services</li></Link>     
                 <Link to={"/UIUXDesignServices"}> <li>UI/UX Design Services</li></Link>       
@@ -80,7 +80,7 @@ export const Accordion1 = () => {
                 <Link to={"/WebsiteUIUXDesignServices"}>  <li>Website UI/UX Design Services</li></Link>     
             </ul>
           <ul>
-            <li>Front End Development</li>
+            <li className={styles.heading} >Front End Development</li>
             <Link to={"/ReactJsDevelopment"}><li>React Js Development</li></Link>      
                 <Link to={"/NextjsDevelopment"}> <li>Next js Development</li></Link>        
                 <Link to={"/VuejsDevelopment"}>     <li>Vue js Development</li></Link>     
@@ -88,7 +88,7 @@ export const Accordion1 = () => {
                 <Link to={"/ReactNativeDevelopment"}><li>React Native Development</li></Link>     
             </ul>
           <ul>
-            <li>Backend Development</li>
+            <li className={styles.heading} >Backend Development</li>
             <Link to={"/Nodejs"}> <li>Node js</li></Link>       
              <Link to={"/Laravel"}>  <li>Laravel</li></Link>      
              <Link to={"/Python"}><li>Python</li></Link>        
@@ -105,7 +105,7 @@ export const Accordion1 = () => {
              <Link to={"/DevOpsandContinuousIntegration"}>   <li> (CI/CD)</li></Link>     
             </ul>
           <ul>
-         <li> Cloud</li>
+         <li className={styles.heading} > Cloud</li>
          <Link to={"/Azure"}>  <li>Azure</li></Link>       
                 <Link to={"/Aws"}> <li>Aws</li></Link>        
                 <Link to={"/GoogleCloud"}>   <li>Google Cloud</li></Link>      

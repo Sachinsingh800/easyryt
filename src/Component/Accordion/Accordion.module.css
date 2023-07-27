@@ -41,4 +41,8 @@
     flex-direction: column;
     gap: 3rem;
   }
-  
+  .heading{
+    color: blue;
+    font-weight: 500;
+    list-style: none;
+  }
