@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 
 const Blog = () => {
+  const [cardsData, setCardsData] = useState([]);
   const [search, setSearch] = useState("");
   const [initialCardsData, setData] = useState([]);
 
@@ -17,6 +18,7 @@ const Blog = () => {
       try {
         const response = await axios.get('https://easyryt.onrender.com/admin/getAllBlog');
         setData(response.data.data);
+        setCardsData([response.data.data[0]])
       } catch (error) {
         console.log(error);
       }
@@ -28,7 +30,8 @@ const Blog = () => {
 
 
 
-  const [cardsData, setCardsData] = useState([initialCardsData[0]]);
+
+  console.log(cardsData,"ss")
   localStorage.setItem("blog",JSON.stringify(cardsData))
 
   const handleCardClick = (heading) => {
