@@ -3,6 +3,7 @@ import style from './SecondSection.module.css';
 import { gsap } from 'gsap';
 import { useIntersection } from 'react-use';
 import { Counter1, Counter2, Counter3, Counter4, Counter5 } from '../../Component/Counter/Counter';
+import { Link } from 'react-router-dom';
 
 function SecondSection() {
   
