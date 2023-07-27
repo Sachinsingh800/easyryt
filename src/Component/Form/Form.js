@@ -4,10 +4,14 @@ import formImg from '../../Image/form.png';
 import Swal from 'sweetalert2';
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
+import axios from 'axios';
+
 
 
 
 const Form = () => {
+  const [message,setMessage] = useState("")
+const [error,setError] = useState("")
   const [name, setFullName] = useState('');
   const [phone, setMobileNumber] = useState('');
   const [requestServices, setRequestServices] = useState('');
