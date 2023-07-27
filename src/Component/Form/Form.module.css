@@ -38,6 +38,15 @@
     border-radius: 4px;
     font-size: 16px;
   }
+  select{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
   
 
   .submitBtn {

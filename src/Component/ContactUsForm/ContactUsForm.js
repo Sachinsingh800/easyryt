@@ -56,7 +56,10 @@ function ContactUsForm() {
         text: "form Submitted Successfully",
         icon: 'success',
       });
-      setFormData("")
+      setFormData(
+        formData.name=""
+      )
+      window.location.href="/";
     } catch (error) {
       console.error(error);
       setError(error.response.data.message);
