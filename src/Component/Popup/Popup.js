@@ -2,9 +2,17 @@ import React, { useState, useEffect } from 'react';
 import style from "./Popup.module.css";
 import img from "../../Image/popup.gif"
 import Swal from 'sweetalert2';
+import axios from 'axios';
 
 const Popup = () => {
   const [showPopup, setShowPopup] = useState(false);
+  const [name, setFullName] = useState('');
+  const [phone, setMobileNumber] = useState('');
+  const [requestServices, setRequestServices] = useState('');
+  const [email, setEmail] = useState('');
+
+  const [message,setMessage] = useState("")
+const [error,setError] = useState("")
 
   useEffect(() => {
  
@@ -22,22 +30,12 @@ const Popup = () => {
     }
   }, []); // Empty dependency array to run the effect only once
 
+
+
+
   const handleClose = () => {
     setShowPopup(false);
   };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    localStorage.setItem('popupSubmitted', 'true');
-    setShowPopup(false);
-    showAlert()
-    window.location.href = '/';
-  };
-
-  const [fullName, setFullName] = useState('');
-  const [mobileNumber, setMobileNumber] = useState('');
-  const [requestServices, setRequestServices] = useState('');
-  const [email, setEmail] = useState('');
 
 
   const showAlert = () => {
@@ -46,6 +44,27 @@ const Popup = () => {
       text: 'you are verified successfully !',
       icon: 'success',
     });
+  };
+
+
+
+  const handleSubmit= async (event) => {
+    event.preventDefault();
+    const formData = {
+      name,
+      email,
+      phone,
+      requestServices,
+    };
+    try {
+      const response = await axios.post('https://easyryt.onrender.com/client/clientInfo', formData);
+     console.log(response,"contact info")
+      setMessage(response.data.message);
+      showAlert()
+    } catch (error) {
+      setError(error.response.data.message);
+      alert(error.response.data.message)
+    }
   };
 
 
@@ -64,7 +83,7 @@ const Popup = () => {
           <input
             type="text"
             id="fullName"
-            value={fullName}
+            value={name}
             onChange={(e) => setFullName(e.target.value)}
           />
         </div>
@@ -73,7 +92,7 @@ const Popup = () => {
           <input
             type="text"
             id="mobileNumber"
-            value={mobileNumber}
+            value={phone}
             onChange={(e) => setMobileNumber(e.target.value)}
           />
         </div>
