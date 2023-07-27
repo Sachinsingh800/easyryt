@@ -21,18 +21,95 @@ export const Accordion1 = () => {
       </button>
       {isOpen && (
         <div className={styles.content}>
-          <select>
-            <option> Option 1</option>
-            <option> Option 1</option>
-            <option> Option 1</option>
-            <option> Option 1</option>
-            <option> Option 1</option>
-            <option> Option 1</option>
-        
-            </select>
-          <p>Option 2</p>
-          <p>Option 3</p>
-          <p>Option 4</p>
+          <ul>
+            <li >Mobile App Development</li>
+            <Link to={"/FirstPage"}> <li>Native Mobile App Development</li></Link> 
+                <Link to={"/CrossPlatformAppDevelopment"}> <li>Cross-Platform App Development</li></Link> 
+               <Link to={"/AndroidApplicationDevelopmentServices"}><li>Android Application Development Services</li></Link>   
+               <Link to={"/IOSApplicationDevelopmentServices"}>     <li>IOS Application Development Services</li></Link>          
+               <Link to={"/HybridApplicationDevelopmentServices"}>    <li>Hybrid Application Development Services</li></Link>           
+               <Link to={"/MobileAppDevelopment"}>   <li>Mobile App Development</li></Link>          
+               <Link to={"/AppBackendDevelopment"}><li>App Backend Development</li></Link>      
+               <Link to={"/FlutterAppDevelopment"}>  <li>Flutter App Development</li></Link>        
+                 <Link to={"/ReactNativeAppDevelopment"}>   <li>React Native App Development</li></Link>    
+                 <Link to={"/MobileAppTestingandTestingQualityAssurance"}>  <li>Mobile App Testing and Testing Quality Assurance</li></Link>  
+            </ul>
+          <ul>
+              <li>Digital Marketing</li>
+              <Link to={"/SearchEngineOptimization"}><li>Search Engine Optimization (SEO)</li></Link>  
+                  <Link to={"/PayPerClickAdvertising"}> <li>Pay-Per-Click (PPC) Advertising</li></Link>    
+                  <Link to={"/SocialMediaAdvertising"}> <li>Social Media Advertising</li></Link>      
+                  <Link to={"/GoogleAdvertising"}><li>Google Advertising</li></Link>        
+                  <Link to={"/Facebook&InstagramAdvertising"}> <li>Facebook & Instagram Advertising</li></Link> 
+                  <Link to={"/ContentMarketing"}><li>Content Marketing</li></Link>        
+                  <Link to={"/SocialMediaMarketing"}> <li>Social Media Marketing</li></Link> 
+                  <Link to={"/EmailMarketing"}>  <li>Email Marketing</li></Link>      
+                  <Link to={"/AnalyticsandReporting"}>  <li>Analytics and Reporting</li></Link>        
+                  <Link to={"/WebsiteTrafficAdvertising"}> <li>Website Traffic Advertising</li></Link>        
+                  <Link to={"/ECommerceAdvertising"}>  <li>E-Commerce Advertising</li></Link>        
+                  <Link to={"/AppInstallAdvertising"}>  <li>App Install Advertising</li></Link>      
+                  <Link to={"/AndroidAppAdvertising"}> <li>Android App Advertising</li></Link>        
+                  <Link to={"/IOSAppAdvertising"}>  <li>IOS App Advertising</li></Link>    
+            </ul>
+          <ul>
+            <li>Website Development</li>
+            <Link to={"/ECommerceDevelopment"}> <li>E-Commerce Development</li></Link>   
+                <Link to={"/FrontEndDevelopment"}>    <li>Front-End Development</li></Link>    
+                <Link to={"/BackendDevelopment"}>  <li>Backend Development</li></Link>       
+                <Link to={"/FullStackDevelopmentServices"}> <li>Full Stack Development Services</li></Link>        
+            </ul>
+          <ul>
+            <li>WordPress Development</li>
+            <Link to={"/BlogorPersonalWebsite"}><li>Blog or Personal Website</li></Link>     
+                 <Link to={"/BusinessWebsite"}><li>Business Website</li></Link>    
+                 <Link to={"/EcommerceWebsiteOnlineStore"}><li>Ecommerce Website / Online Store</li></Link>         
+                 <Link to={"/OnlineCourses"}><li>Online Courses</li></Link>     
+                 <Link to={"/PodcastWebsite"}><li>Podcast Website</li></Link>       
+                 <Link to={"/AffiliateWebsite"}><li>Affiliate Website</li></Link>      
+                 <Link to={"/JobBoardWebsite"}><li>Job Board Website</li></Link>   
+                 <Link to={"/PortfolioWebsites"}> <li>Portfolio Websites</li></Link>     
+                 <Link to={"/TravelWebsite"}> <li>Travel Website</li></Link>      
+                 <Link to={"/FashionLifestyleWebsite"}><li>Fashion / Lifestyle Website</li></Link>     
+          </ul>
+          <ul>
+          <li>UI/UX Design</li>
+          <Link to={"/MobileAppUIUXDesignServices"}><li>Mobile App UI /UX Design Services</li></Link>          
+                <Link to={"/AndroidAppUIUXDesignServices"}>   <li>Android App UI/UX Design Services</li></Link>     
+                <Link to={"/UIUXDesignServices"}> <li>UI/UX Design Services</li></Link>       
+                <Link to={"/ISOUIUXDesignServices"}> <li>ISO UI/UX Design Servicesg</li></Link>       
+                <Link to={"/WebsiteUIUXDesignServices"}>  <li>Website UI/UX Design Services</li></Link>     
+            </ul>
+          <ul>
+            <li>Front End Development</li>
+            <Link to={"/ReactJsDevelopment"}><li>React Js Development</li></Link>      
+                <Link to={"/NextjsDevelopment"}> <li>Next js Development</li></Link>        
+                <Link to={"/VuejsDevelopment"}>     <li>Vue js Development</li></Link>     
+                <Link to={"/AngularDvelopment"}>   <li>Angular Dvelopment</li></Link>      
+                <Link to={"/ReactNativeDevelopment"}><li>React Native Development</li></Link>     
+            </ul>
+          <ul>
+            <li>Backend Development</li>
+            <Link to={"/Nodejs"}> <li>Node js</li></Link>       
+             <Link to={"/Laravel"}>  <li>Laravel</li></Link>      
+             <Link to={"/Python"}><li>Python</li></Link>        
+             <Link to={"/APIDevelopment"}><li>API Development</li></Link>        
+             <Link to={"/DatabaseDesignandManagement"}> <li>Database Design and Management</li></Link>        
+             <Link to={"/ServerArchitectureandConfiguration"}>   <li>Server Architecture and Configuration</li></Link>       
+             <Link to={"/CloudServicesIntegrationSAPIndustrySolutions"}><li>Cloud Services Integration,SAP Industry Solutions</li></Link>  
+             <Link to={"/BackendFrameworkDevelopment"}> <li>Backend Framework Development</li></Link>       
+             <Link to={"/WebApplicationDevelopment"}><li>Web Application Development</li></Link>      
+             <Link to={"/MobileBackendDevelopment"}><li>Mobile Backend Development</li></Link>   
+             <Link to={"/RealTimeDataProcessing"}><li>Real-Time Data Processing</li></Link>  
+             <Link to={"/PerformanceOptimization"}><li>Performance Optimization</li></Link>   
+             <Link to={"/IntegrationwithThirdPartyServices"}> <li>Integration with Third-Party Services</li></Link>      
+             <Link to={"/DevOpsandContinuousIntegration"}>   <li> (CI/CD)</li></Link>     
+            </ul>
+          <ul>
+         <li> Cloud</li>
+         <Link to={"/Azure"}>  <li>Azure</li></Link>       
+                <Link to={"/Aws"}> <li>Aws</li></Link>        
+                <Link to={"/GoogleCloud"}>   <li>Google Cloud</li></Link>      
+            </ul>
         </div>
       )}
     </div>
@@ -49,18 +126,18 @@ export const Accordion2 = () => {
   return (
     <div className={`${styles.accordion} ${isOpen ? styles.open : ''}`}>
       <button className={styles['accordion-button']} onClick={toggleAccordion}>
-       <span>About</span>
-       {isOpen ? <span>▲</span> : <span>▼</span>  }
+    <Link className={styles.a} to={"/AboutUs"}><span>About</span></Link>   
+       {/* {isOpen ? <span>▲</span> : <span>▼</span>  } */}
        
       </button>
-      {isOpen && (
+      {/* {isOpen && (
         <div className={styles.content}>
           <p>Option 1</p>
           <p>Option 2</p>
           <p>Option 3</p>
           <p>Option 4</p>
         </div>
-      )}
+      )} */}
     </div>
   );
 };
@@ -75,18 +152,18 @@ export const Accordion3 = () => {
   return (
     <div className={`${styles.accordion} ${isOpen ? styles.open : ''}`}>
       <button className={styles['accordion-button']} onClick={toggleAccordion}>
-       <span>Contact Us</span>
-       {isOpen ? <span>▲</span> : <span>▼</span>  }
+     <Link className={styles.a} to={"/ContactUs"}><span>Contact Us</span></Link> 
+       {/* {isOpen ? <span>▲</span> : <span>▼</span>  } */}
        
       </button>
-      {isOpen && (
+      {/* {isOpen && (
         <div className={styles.content}>
           <p>Option 1</p>
           <p>Option 2</p>
           <p>Option 3</p>
           <p>Option 4</p>
         </div>
-      )}
+      )} */}
     </div>
   );
 };
@@ -101,18 +178,18 @@ export const Accordion4 = () => {
   return (
     <div className={`${styles.accordion} ${isOpen ? styles.open : ''}`}>
       <button className={styles['accordion-button']} onClick={toggleAccordion}>
-       <span>Blog</span>
-       {isOpen ? <span>▲</span> : <span>▼</span>  }
+      <Link className={styles.a} to={"/Blog"}><span>Blog</span></Link>
+       {/* {isOpen ? <span>▲</span> : <span>▼</span>  } */}
        
       </button>
-      {isOpen && (
+      {/* {isOpen && (
         <div className={styles.content}>
           <p>Option 1</p>
           <p>Option 2</p>
           <p>Option 3</p>
           <p>Option 4</p>
         </div>
-      )}
+      )} */}
     </div>
   );
 };
