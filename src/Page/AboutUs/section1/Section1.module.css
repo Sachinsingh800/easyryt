@@ -52,3 +52,13 @@ transition-delay: 3s ease-in-out;
   height: 15rem;
 }
 }
+@media (max-width:360px){
+  .innercontain div{
+     justify-content: center;
+    height: 40rem;
+  }
+  .main{
+    height: max-content;
+    padding-top: 7rem;
+  }
+}

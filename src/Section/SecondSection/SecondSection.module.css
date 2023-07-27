@@ -90,3 +90,9 @@
         height: 3.5rem;
     }
 }
+@media (max-width:360px){
+    .main {
+        padding-top: 8rem;
+        height: max-content;
+    }
+}

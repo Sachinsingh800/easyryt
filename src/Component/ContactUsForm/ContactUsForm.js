@@ -114,7 +114,7 @@ function ContactUsForm() {
         </div>
         <div>
           <label>Project File:</label>
-          <input type="file" name="projectFile" onChange={handleFileChange} required />
+          <input className={style.imginput} type="file" name="projectFile" onChange={handleFileChange} required />
         </div>
         <button type="submit">Submit</button>
       </form>

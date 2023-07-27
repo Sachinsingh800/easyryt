@@ -38,6 +38,9 @@ function Section1() {
 
   return (
     <div className={style.main}>
+        <h2 id="header" ref={sectionRef}>
+            Welcome to Easyryt!
+          </h2>
       <div className={style.innercontain}>
         <div>
           <img
@@ -49,9 +52,7 @@ function Section1() {
           />
         </div>
         <div>
-          <h2 id="header" ref={sectionRef}>
-            Welcome to Easyryt!
-          </h2>
+        
           <p id="header" ref={sectionRef}>
             At Easyryt, we are dedicated to transforming your vision into
             reality through cutting-edge technology and innovative solutions. As

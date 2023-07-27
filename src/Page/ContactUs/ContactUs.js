@@ -12,6 +12,7 @@ import SecondSection from "../../Section/SecondSection/SecondSection";
 import TenthSection from "../../Section/TenthSection/TenthSection";
 import FourteenSection from "../../Section/FourteenSection/FourteenSection";
 import Footer from "../../Component/Footer/Footer";
+import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 
 const ContactUs = () => {
 
@@ -53,9 +54,8 @@ const ContactUs = () => {
         <ContactUsForm/>
         </div>
       </div>
-      <SecondSection/>
-      <TenthSection/>
       <FourteenSection/>
+      <EleventhSection />
       <Footer/>
     </div>
   );
