@@ -21,7 +21,15 @@ export const Accordion1 = () => {
       </button>
       {isOpen && (
         <div className={styles.content}>
-          <p>Option 1</p>
+          <select>
+            <option> Option 1</option>
+            <option> Option 1</option>
+            <option> Option 1</option>
+            <option> Option 1</option>
+            <option> Option 1</option>
+            <option> Option 1</option>
+        
+            </select>
           <p>Option 2</p>
           <p>Option 3</p>
           <p>Option 4</p>

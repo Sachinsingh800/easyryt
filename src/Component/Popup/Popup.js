@@ -61,7 +61,6 @@ const [error,setError] = useState("")
      console.log(response,"contact info")
       setMessage(response.data.message);
       showAlert()
-      
     } catch (error) {
       setError(error.response.data.message);
       Swal.fire({
