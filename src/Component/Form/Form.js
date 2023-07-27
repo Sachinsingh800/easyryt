@@ -8,8 +8,8 @@ import 'react-phone-input-2/lib/style.css'
 
 
 const Form = () => {
-  const [fullName, setFullName] = useState('');
-  const [mobileNumber, setMobileNumber] = useState('');
+  const [name, setFullName] = useState('');
+  const [phone, setMobileNumber] = useState('');
   const [requestServices, setRequestServices] = useState('');
   const [email, setEmail] = useState('');
 
@@ -22,18 +22,26 @@ const Form = () => {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Perform form submission logic here
-    console.log('Form submitted!');
-    console.log('Full Name:', fullName);
-    console.log('Mobile Number:', mobileNumber); // Combine country code and mobile number
-    console.log('Request Services:', requestServices);
-    console.log('Email:', email);
-    showAlert();
+ 
+
+  const handleSubmit= async (event) => {
+    event.preventDefault();
+    const formData = {
+      name,
+      email,
+      phone,
+      requestServices,
+    };
+    try {
+      const response = await axios.post('https://easyryt.onrender.com/client/clientProject', formData);
+     console.log(response,"contact info")
+      setMessage(response.data.message);
+      showAlert()
+    } catch (error) {
+      setError(error.response.data.message);
+      alert(error.response.data.message)
+    }
   };
-
-
 
  
 
@@ -47,14 +55,14 @@ const Form = () => {
           <input
             type="text"
             id="fullName"
-            value={fullName}
+            value={name}
             onChange={(e) => setFullName(e.target.value)}
           />
         </div>
         <div className={styles.inputContainer}>
         <label htmlFor="requestServices">Mobile No</label>
         <PhoneInput
-             value={mobileNumber}
+             value={phone}
              country={'in'}
              onChange={(e) => setMobileNumber(e)}
         className={styles.phonebox}
