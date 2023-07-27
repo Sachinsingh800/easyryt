@@ -37,7 +37,7 @@ const [error,setError] = useState("")
       requestServices,
     };
     try {
-      const response = await axios.post('https://easyryt.onrender.com/client/clientProject', formData);
+      const response = await axios.post('https://easyryt.onrender.com/client/clientInfo', formData);
      console.log(response,"contact info")
       setMessage(response.data.message);
       showAlert()
