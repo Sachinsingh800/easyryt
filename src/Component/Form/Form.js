@@ -43,7 +43,11 @@ const [error,setError] = useState("")
       showAlert()
     } catch (error) {
       setError(error.response.data.message);
-      alert(error.response.data.message)
+      Swal.fire({
+        title: 'Error',
+        text: error.response?.data?.message || 'Internal Server Error',
+        icon: 'error',
+      });
     }
   };
 

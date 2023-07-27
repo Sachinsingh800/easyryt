@@ -61,9 +61,14 @@ const [error,setError] = useState("")
      console.log(response,"contact info")
       setMessage(response.data.message);
       showAlert()
+      
     } catch (error) {
       setError(error.response.data.message);
-      alert(error.response.data.message)
+      Swal.fire({
+        title: 'Error',
+        text: error.response?.data?.message || 'Internal Server Error',
+        icon: 'error',
+      });
     }
   };
 
