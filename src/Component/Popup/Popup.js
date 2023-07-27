@@ -18,7 +18,8 @@ const Popup = () => {
 
   useEffect(() => {
     const isPopupSubmitted = localStorage.getItem('popupSubmitted');
-    if (isPopupSubmitted) {
+    console.log(isPopupSubmitted, "status")
+    if (isPopupSubmitted === "true") {
       setShowPopup(false);
     } else {
       const popupTimer = setInterval(() => {
@@ -29,7 +30,7 @@ const Popup = () => {
         clearInterval(popupTimer);
       };
     }
-  }, []); // Empty dependency array to run the effect only once
+  }); // Empty dependency array to run the effect only once
 
   const handleClose = () => {
     setShowPopup(false);
