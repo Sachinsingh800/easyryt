@@ -11,7 +11,6 @@ const Blog = () => {
   const [search, setSearch] = useState("");
   const [initialCardsData, setData] = useState([]);
 
-console.log(initialCardsData,"aa raha ")
 
   useEffect(() => {
     const handlegetData = async () => {
