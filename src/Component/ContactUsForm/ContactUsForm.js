@@ -3,16 +3,23 @@ import style from './ContactUsForm.module.css';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 import Swal from 'sweetalert2';
+import axios from 'axios';
 
 function ContactUsForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [mobileNumber, setMobileNumber] = useState('');
+  const [phone, setMobileNumber] = useState('');
   const [interestedService, setInterestedService] = useState('');
-  const [projectBudget, setProjectBudget] = useState('');
+  const [amount, setProjectBudget] = useState('');
   const [projectType, setProjectType] = useState('');
-  const [projectDescription, setProjectDescription] = useState('');
-  const [file, setFile] = useState(null);
+  const [description, setProjectDescription] = useState('');
+  const [requestServices,setRequestService] = useState("true")
+  const [ projectFile, setFile] = useState(null);
+  const [message,setMessage] = useState("")
+  const [error,setError] = useState("")
+
+console.log(projectFile,"dsadsd")
+
   const showAlert = () => {
     Swal.fire({
       title: 'Verified!',
@@ -27,22 +34,34 @@ function ContactUsForm() {
     setFile(file);
   };
 
-  const handleSubmit = (event) => {
+
+  const handleSubmit= async (event) => {
+
     event.preventDefault();
     const formData = {
       name,
       email,
-      mobileNumber,
       interestedService,
-      projectBudget,
+      phone,
+      amount,
+      description,
       projectType,
-      projectDescription,
-      file,
+      requestServices,
+      projectFile,
     };
-    // Perform form validation and submit data to backend if needed
-    console.log(formData);
-    showAlert()
+    try {
+      const response = await axios.post('https://easyryt.onrender.com/client/clientProject', formData);
+     console.log(response,"contact info")
+      setMessage(response.data.message);
+      showAlert()
+    } catch (error) {
+      setError(error.response.data.message);
+      alert(error.response.data.message)
+    }
   };
+
+
+
 
   const handleScheduleMeeting = () => {
     // Implement the logic for scheduling a meeting
@@ -76,7 +95,7 @@ function ContactUsForm() {
         <div>
           <label htmlFor="mobileNumber">Mobile Number:</label>
           <PhoneInput
-             value={mobileNumber}
+             value={phone}
              country={'in'}
              onChange={(e) => setMobileNumber(e)}
         className={style.phonebox}
@@ -104,7 +123,7 @@ function ContactUsForm() {
           <select
             id="projectBudget"
             name="projectBudget"
-            value={projectBudget}
+            value={amount}
             onChange={(e) => setProjectBudget(e.target.value)}
           >
             <option value="">Select an option</option>
@@ -134,7 +153,7 @@ function ContactUsForm() {
           <textarea
             id="projectDescription"
             name="projectDescription"
-            value={projectDescription}
+            value={description}
             onChange={(e) => setProjectDescription(e.target.value)}
           />
         </div>

@@ -7,40 +7,41 @@ import img from "../../Image/User-Profile-PNG.png";
 const imagePaths = [
   {
     logo: img,
-    about:"Mobile Application Development Organization Serving Customers With End To End Support Our Idealization Feasibility Assessment Of The Entire Software Development Being Unique Is Our Quality Sapphire Solutions Believe In The Things That Give Us On Edge Over Our Competitors We Are Renowned Software And",
+    about:"Mobile App Development Company Offering Comprehensive Customer Support Our Vision and Feasibility Evaluation of the Complete Software Development Process Sets Us Apart as a Distinctive Strength EasyRyt Solutions Embrace the Factors That Provide Us a Competitive Advantage We Are...",
     name:"Sachin Singh",
     Location:"Delhi"
   },
   {
     logo: img,
-    about:"Mobile Application Development Organization Serving Customers With End To End Support Our Idealization Feasibility Assessment Of The Entire Software Development Being Unique Is Our Quality Sapphire Solutions Believe In The Things That Give Us On Edge Over Our Competitors We Are Renowned Software And",
+    about:"Mobile App Development Company Offering Comprehensive Customer Support Our Vision and Feasibility Evaluation of the Complete Software Development Process Sets Us Apart as a Distinctive Strength EasyRyt Solutions Embrace the Factors That Provide Us a Competitive Advantage We Are...",
     name:"Sachin Singh",
     Location:"Delhi"
   },
   {
     logo: img,
-    about:"Mobile Application Development Organization Serving Customers With End To End Support Our Idealization Feasibility Assessment Of The Entire Software Development Being Unique Is Our Quality Sapphire Solutions Believe In The Things That Give Us On Edge Over Our Competitors We Are Renowned Software And",
+    about:"Mobile App Development Company Offering Comprehensive Customer Support Our Vision and Feasibility Evaluation of the Complete Software Development Process Sets Us Apart as a Distinctive Strength EasyRyt Solutions Embrace the Factors That Provide Us a Competitive Advantage We Are...",
     name:"Sachin Singh",
     Location:"Delhi"
   },
   {
     logo: img,
-    about:"Mobile Application Development Organization Serving Customers With End To End Support Our Idealization Feasibility Assessment Of The Entire Software Development Being Unique Is Our Quality Sapphire Solutions Believe In The Things That Give Us On Edge Over Our Competitors We Are Renowned Software And",
+    about:"Mobile App Development Company Offering Comprehensive Customer Support Our Vision and Feasibility Evaluation of the Complete Software Development Process Sets Us Apart as a Distinctive Strength EasyRyt Solutions Embrace the Factors That Provide Us a Competitive Advantage We Are...",
     name:"Sachin Singh",
     Location:"Delhi"
   },
   {
     logo: img,
-    about:"Mobile Application Development Organization Serving Customers With End To End Support Our Idealization Feasibility Assessment Of The Entire Software Development Being Unique Is Our Quality Sapphire Solutions Believe In The Things That Give Us On Edge Over Our Competitors We Are Renowned Software And",
+    about:"Mobile App Development Company Offering Comprehensive Customer Support Our Vision and Feasibility Evaluation of the Complete Software Development Process Sets Us Apart as a Distinctive Strength EasyRyt Solutions Embrace the Factors That Provide Us a Competitive Advantage We Are...",
     name:"Sachin Singh",
     Location:"Delhi"
   },
   {
     logo: img,
-    about:"Mobile Application Development Organization Serving Customers With End To End Support Our Idealization Feasibility Assessment Of The Entire Software Development Being Unique Is Our Quality Sapphire Solutions Believe In The Things That Give Us On Edge Over Our Competitors We Are Renowned Software And",
+    about:"Mobile App Development Company Offering Comprehensive Customer Support Our Vision and Feasibility Evaluation of the Complete Software Development Process Sets Us Apart as a Distinctive Strength EasyRyt Solutions Embrace the Factors That Provide Us a Competitive Advantage We Are...",
     name:"Sachin Singh",
     Location:"Delhi"
   },
+  
 ];
 
 export default function ClientsSlider() {
