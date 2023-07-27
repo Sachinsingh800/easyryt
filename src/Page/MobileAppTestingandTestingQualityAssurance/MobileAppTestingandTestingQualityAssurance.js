@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./MobileAppTestingandTestingQualityAssurance.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
-import img from "../../Image/cross-platform-app-development.png";
+import img from "../../Image/Mobile App Testing and Testing Quality Assurance 1.png";
 import Section1 from "./Section1/Section1";
 import Section2 from "../FirstPage/Section2/Section2";
 import Section3 from "../FirstPage/Section3/Section3";

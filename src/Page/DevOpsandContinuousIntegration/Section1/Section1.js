@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import style from "./Section1.module.css";
-import img from "../../../Image/crossbg.png";
+import img from "../../../Image/DevOps and Continuous Integration Continuous Deployment (CI.CD), 2.png";
 import { gsap } from "gsap";
 import { useIntersection } from "react-use";
 

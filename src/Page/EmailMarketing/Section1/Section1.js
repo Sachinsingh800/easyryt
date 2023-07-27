@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import style from "./Section1.module.css";
-import img from "../../../Image/crossbg.png";
+import img from "../../../Image/Email Marketing 2.png";
 import { gsap } from "gsap";
 import { useIntersection } from "react-use";
 

@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import style from "./Section1.module.css";
-import img from "../../../Image/Android-App-2.png";
+import img from "../../../Image/Android Application Development Services 2.png";
 import { gsap } from "gsap";
 import { useIntersection } from "react-use";
 

@@ -5,9 +5,28 @@ import ThirteenthSection from "../../Section/ThirteenthSection/ThirteenthSection
 import ClientsAccordion from "../../Component/ClientsAccordion/ClientsAccordion";
 import Footer from "../../Component/Footer/Footer";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 const Blog = () => {
   const [search, setSearch] = useState("");
+  const [data, setData] = useState([]);
+
+console.log(data,"aa raha ")
+
+  useEffect(() => {
+    const handlegetData = async () => {
+      try {
+        const response = await axios.get('https://easyryt.onrender.com/admin/getAllBlog');
+        setData(response.data.data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    handlegetData();
+  }, []);
+
+
+
   const initialCardsData = [
     {
       heading: "Heading1",
