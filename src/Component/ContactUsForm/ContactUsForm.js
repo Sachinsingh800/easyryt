@@ -6,145 +6,127 @@ import Swal from 'sweetalert2';
 import axios from 'axios';
 
 function ContactUsForm() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setMobileNumber] = useState('');
-  const [interestedService, setInterestedService] = useState('');
-  const [amount, setProjectBudget] = useState('');
-  const [projectType, setProjectType] = useState('');
-  const [description, setProjectDescription] = useState('');
-  const [requestServices, setRequestService] = useState('true');
-  const [projectFile, setFile] = useState(null);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    requestServices: '',
+    description: '',
+    amount: '',
+    projectFile: null,
+  });
+
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
 
-  console.log(projectFile, 'dsadsd');
-
-  const showAlert = () => {
-    Swal.fire({
-      title: 'Verified!',
-      text: 'You are verified successfully!',
-      icon: 'success',
-    });
+  const handleFileChange = (e) => {
+    setFormData({ ...formData, projectFile: e.target.files[0] });
   };
 
-  const handleFileChange = (event) => {
-    setFile(event.target.files[0]);
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevState) => ({
+      ...prevState,
+      [name]: name === 'phone' ? value : value.trim(), // Handle phone separately to avoid whitespace
+    }));
   };
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
     try {
-      const url = 'https://easyryt.onrender.com/client/clientProject'; // Replace with your backend API endpoint URL
-      const formData = new FormData();
-      formData.append('name', name);
-      formData.append('email', email);
-      formData.append('phone', phone);
-      formData.append('requestServices', requestServices);
-      formData.append('description', description);
-      formData.append('amount', amount);
-      formData.append('projectFile', projectFile);
+      // Create FormData object to send the data as multipart form data
+      const data = new FormData();
+      data.append('name', formData.name);
+      data.append('email', formData.email);
+      data.append('phone', formData.phone);
+      data.append('requestServices', formData.requestServices);
+      data.append('description', formData.description);
+      data.append('amount', formData.amount);
+      data.append('projectFile', formData.projectFile);
 
-      const response = await axios.post(url, formData);
+      // Make a POST request to the API endpoint (replace 'YOUR_API_ENDPOINT' with the actual URL)
+      const response = await axios.post('https://easyryt.onrender.com/client/clientProject', data);
+
+      // Handle the response (you can display a success message or redirect to another page)
       console.log(response.data);
       setMessage(response.data.message);
-      showAlert();
+      Swal.fire({
+        title: 'Verified!',
+        text: "form Submitted Successfully",
+        icon: 'success',
+      });
+      setFormData("")
     } catch (error) {
-      console.error('Error submitting project data:', error);
-      setError(error.response?.data?.message || 'Internal Server Error');
-      // You can also use the 'Swal' library to display an error message
+      console.error(error);
+      setError(error.response.data.message);
       Swal.fire({
         title: 'Error',
         text: error.response?.data?.message || 'Internal Server Error',
         icon: 'error',
       });
+      // Handle error (display an error message to the user)
     }
   };
 
   return (
     <div className={style.main}>
       <form className={style.form} onSubmit={handleSubmit}>
-        <h6>How may we assist you today?</h6>
         <div>
-          <label htmlFor="name">Your Name:</label>
-          <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} />
+          <label>Name:</label>
+          <input type="text" name="name" value={formData.name} onChange={handleChange} required />
         </div>
         <div>
-          <label htmlFor="email">Email Id:</label>
-          <input type="email" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+          <label>Email:</label>
+          <input type="email" name="email" value={formData.email} onChange={handleChange} required />
         </div>
         <div>
-          <label htmlFor="mobileNumber">Mobile Number:</label>
+          <label>Phone:</label>
           <PhoneInput
-            value={phone}
+            value={formData.phone}
             country="in"
-            onChange={(value) => setMobileNumber(value)}
+            onChange={(value) => handleChange({ target: { name: 'phone', value } })}
             inputStyle={{ border: 'none', width: '100%' }}
             buttonStyle={{ border: 'none' }}
             placeholder="Enter phone number"
           />
         </div>
         <div>
-          <label htmlFor="interestedService">Interested Service:</label>
-          <select
-            id="interestedService"
-            name="interestedService"
-            value={interestedService}
-            onChange={(e) => setInterestedService(e.target.value)}
-          >
-            <option value="">Select an option</option>
-            <option value="service1">Service 1</option>
-            <option value="service2">Service 2</option>
-            {/* Add more options as needed */}
-          </select>
-        </div>
-        <div>
-          <label htmlFor="projectBudget">Project Budget:</label>
-          <select
-            id="projectBudget"
-            name="projectBudget"
-            value={amount}
-            onChange={(e) => setProjectBudget(e.target.value)}
-          >
-            <option value="">Select an option</option>
-            <option value="budget1">Budget 1</option>
-            <option value="budget2">Budget 2</option>
-            {/* Add more options as needed */}
-          </select>
-        </div>
-        <div>
-          <label htmlFor="projectType">Project Type:</label>
-          <select id="projectType" name="projectType" value={projectType} onChange={(e) => setProjectType(e.target.value)}>
-            <option value="">Select an option</option>
-            <option value="type1">Type 1</option>
-            <option value="type2">Type 2</option>
-            {/* Add more options as needed */}
-          </select>
-        </div>
-        <div>
-          <label htmlFor="projectDescription">Tell us more about your project:</label>
-          <textarea
-            id="projectDescription"
-            name="projectDescription"
-            value={description}
-            onChange={(e) => setProjectDescription(e.target.value)}
+          <label>Request Services:</label>
+          <input
+            type="text"
+            name="requestServices"
+            value={formData.requestServices}
+            onChange={handleChange}
+            required
           />
         </div>
         <div>
-          <label htmlFor="file">Upload File:</label>
-          <input className={style.upload} type="file" id="file" name="file" onChange={handleFileChange} />
+          <label>Description:</label>
+          <textarea name="description" value={formData.description} onChange={handleChange} required />
         </div>
         <div>
-          <div className={style.btnbox}>
-            {/* <button type="button" onClick={handleScheduleMeeting}>
-              Schedule Meeting
-            </button> */}
-            <button type="submit">Submit</button>
-          </div>
+          <label>Amount:</label>
+          <input type="number" name="amount" value={formData.amount} onChange={handleChange} required />
         </div>
+        <div>
+          <label>Project File:</label>
+          <input type="file" name="projectFile" onChange={handleFileChange} required />
+        </div>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
 }
 
 export default ContactUsForm;
+
+
+
+
+
+
+
+
+
+
