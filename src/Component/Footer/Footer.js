@@ -8,6 +8,7 @@ import { BsTwitter } from 'react-icons/bs';
 import { AiFillLinkedin } from 'react-icons/ai';
 
 
+
 function Footer() {
   return (
     <div className={style.containermain}>
@@ -18,23 +19,23 @@ function Footer() {
         <div>
             <h4>Services</h4>
             <ul className={style.ul}>
-                <li>Mobile App Development</li>
-                <li>IOS Development</li>
-                <li>Anroid Development</li>
-                <li>Web App Development</li>
-                <li>Blockchain</li>
-                <li>Staff Automation</li>
+              <a href={"/MobileAppDevelopment"}><li>Mobile App Development</li></a>  
+          <a href={"/IOSApplicationDevelopmentServices"}>    <li>IOS Development</li></a>  
+          <a href={"/AndroidApplicationDevelopmentServices"}>   <li>Anroid Development</li></a>      
+          <a href={"/WebApplicationDevelopment"}>  <li>Web App Development</li></a>        
+          <Link to={""}><li>Blockchain</li></Link>        
+          <Link to={""}><li>Staff Automation</li></Link>      
             </ul>
         </div>
         <div>
         <h4>Company</h4>
             <ul className={style.ul}>
-                <li>About easyryt</li>
-                <li>Our Team</li>
-                <li>Event activities</li>
-                <li>Careers</li>
-                <li>Contact Us</li>
-                <li>Portfolio</li>
+            <a href={"/AboutUs"}>   <li>About easyryt</li></a>      
+            <Link to={""}> <li>Our Team</li></Link>       
+            <Link to={""}> <li>Event activities</li></Link>      
+            <Link to={""}> <li>Careers</li></Link>      
+            <a href={"/ContactUs"}>  <li>Contact Us</li></a>     
+            <Link to={""}> <li>Portfolio</li></Link>      
             </ul>
         </div>
         <div>
