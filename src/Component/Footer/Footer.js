@@ -6,6 +6,7 @@ import { BsInstagram } from 'react-icons/bs';
 import { BsFacebook } from 'react-icons/bs';
 import { BsTwitter } from 'react-icons/bs';
 import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillYoutube } from 'react-icons/ai';
 
 
 
@@ -54,10 +55,11 @@ function Footer() {
     <hr />
     <div className={style.bottomBox}>
      
-     <h5><BsInstagram/></h5>
-     <h5><BsFacebook/></h5>
-     <h5><BsTwitter/></h5>
-     <h5><AiFillLinkedin/></h5>
+    <a href={"https://www.instagram.com/easyryt/"}><h5><BsInstagram/></h5></a>  
+    <a  href={"https://www.facebook.com/easyrytofficial/"}><h5><BsFacebook/></h5></a >  
+    <a  href={"https://twitter.com/EasyRyt"}> <h5><BsTwitter/></h5></a >   
+    <a  href={"https://www.linkedin.com/company/easyryt"}><h5><AiFillLinkedin/></h5></a >    
+    <a  href={"https://www.youtube.com/@easyryt"}><h5><AiFillYoutube/></h5></a>    
 
    </div>
     </div>
