@@ -25,6 +25,7 @@ const BlogForm = () => {
   };
 
   return (
+    <div className={style.main}>
     <form className={style.form} onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Your Name:</label>
@@ -88,6 +89,7 @@ const BlogForm = () => {
       </div>
       <button type="submit">Submit</button>
     </form>
+    </div>
   );
 };
 

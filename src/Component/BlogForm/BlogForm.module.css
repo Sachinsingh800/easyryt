@@ -6,3 +6,21 @@
 .label{
     margin-top: 1rem;
 }
+.main{
+    background-color: rgb(233, 233, 233);
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.form button{
+    padding: .3rem;
+    border-radius: 10px;
+    width: 6rem;
+    border: none;
+    background: rgb(12,5,71);
+    /* background: linear-gradient(170deg, rgba(12,5,71,1) 0%, rgba(2,21,88,1) 47%, rgba(27,41,163,1) 100%); */
+    color: white;
+}
+.form button:hover{
+    background-color: orange;
+}
