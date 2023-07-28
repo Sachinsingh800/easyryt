@@ -9,7 +9,7 @@ const ThirteenthSection = () => {
 
 
 
-  localStorage.setItem("blog2",JSON.stringify(cardsData))
+
 
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
 
@@ -26,6 +26,12 @@ const ThirteenthSection = () => {
     return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;
   };
 
+  const handleCardClick = (heading) => {
+    const filteredCards = cardsData.filter(
+      (card) => card.heading === heading
+    );
+    localStorage.setItem("blog2",JSON.stringify(filteredCards))
+  };
 
   return (
     <div className={style.main}>
@@ -37,6 +43,7 @@ const ThirteenthSection = () => {
       <div className={style.innerbox}>
         {cardsData.map((card, index) => (
           <div
+           onClick={()=>handleCardClick(card.heading) }
             key={index}
             className={`${style.card} ${
               index === currentCardIndex ? style.active : ""
@@ -45,7 +52,7 @@ const ThirteenthSection = () => {
             <div className={style.imgbox}>
               <img
                 className={style.img2}
-                src={card.image}
+                src={card.blogImg}
                 alt={`img${index + 1}`}
               />
             </div>

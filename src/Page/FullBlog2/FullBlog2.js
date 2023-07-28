@@ -64,7 +64,7 @@ function FullBlog2() {
       <NavBar/>
       <div className={style.container}>
         <div className={style.imgbox}>
-        <img    className={active ? style.active : ""}  src={blog[0]?.image}  alt='blog' />
+        <img    className={active ? style.active : ""}  src={blog[0]?.blogImg}  alt='blog' />
         </div>
           <div className={style.infobox}>
             <div  className={style.info}>

@@ -33,7 +33,7 @@ const Blog = () => {
 
 
   // console.log(cardsData,"ss")
-  localStorage.setItem("blog",JSON.stringify(cardsData))
+  localStorage.setItem("blog2",JSON.stringify(cardsData))
 
   const handleCardClick = (heading) => {
     const filteredCards = initialCardsData.filter(
@@ -72,7 +72,7 @@ const Blog = () => {
             <h5>{cardsData[0]?.heading}</h5>
             <hr />
             <p className={style.para}>{cardsData[0]?.description}</p>
-        <Link to={"/FullBlog"}><button className={style.btn}>Continue Reading→</button></Link>   
+        <Link to={"/FullBlog2"}><button className={style.btn}>Continue Reading→</button></Link>   
           </div>
         </div>
         <div className={style.rightBox}>

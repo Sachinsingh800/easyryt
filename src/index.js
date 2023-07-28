@@ -12,7 +12,6 @@ import CrossPlatformAppDevelopment from './Page/CrossPlatformAppDevelopment/Cros
 import AboutUs from './Page/AboutUs/AboutUs';
 import WhyChooseUs from './Page/WhyChooseUs/WhyChooseUs';
 import Blog from './Page/Blog/Blog';
-import FullBlog from './Page/FullBlog/FullBlog';
 import FullBlog2 from './Page/FullBlog2/FullBlog2';
 import ContactUs from './Page/ContactUs/ContactUs';
 import AffiliateWebsite from './Page/AffiliateWebsite/AffiliateWebsite';
@@ -106,10 +105,7 @@ const router = createBrowserRouter([
     path: "/Blog",
     element: <Blog />,
   },
-  {
-    path: "/FullBlog",
-    element: <FullBlog />,
-  },
+
   {
     path: "/FullBlog2",
     element: <FullBlog2 />,
