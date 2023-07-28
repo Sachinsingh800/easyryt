@@ -6,6 +6,7 @@ import ClientsAccordion from "../../Component/ClientsAccordion/ClientsAccordion"
 import Footer from "../../Component/Footer/Footer";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import CallButton from "../../Component/CallButton/CallButton";
 
 const Blog = () => {
   const [cardsData, setCardsData] = useState([]);
@@ -105,6 +106,7 @@ const Blog = () => {
       <div className={style.section2}>
         <ThirteenthSection />
         <ClientsAccordion />
+        <CallButton/>
         <Footer />
       </div>
     </div>

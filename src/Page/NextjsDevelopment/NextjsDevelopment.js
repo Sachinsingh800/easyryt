@@ -9,6 +9,7 @@ import TenthSection from "../../Section/TenthSection/TenthSection";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
+import CallButton from "../../Component/CallButton/CallButton";
 
 function NextjsDevelopment() {
   return (
@@ -37,6 +38,7 @@ function NextjsDevelopment() {
       <TenthSection />
       <SixthSection />
       <EleventhSection />
+      <CallButton/>
       <Footer />
     </div>
   );

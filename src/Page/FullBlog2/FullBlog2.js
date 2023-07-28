@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import style from "./FullBlog2.module.css"
 import NavBar from '../../Component/NavBar/NavBar'
+import CallButton from '../../Component/CallButton/CallButton';
 
 function FullBlog2() {
     const blog=JSON.parse(localStorage.getItem("blog2"))
@@ -32,6 +33,7 @@ function FullBlog2() {
           </div>
     
       </div>
+      <CallButton/>
     </div>
   )
 }

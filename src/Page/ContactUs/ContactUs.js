@@ -13,6 +13,7 @@ import TenthSection from "../../Section/TenthSection/TenthSection";
 import FourteenSection from "../../Section/FourteenSection/FourteenSection";
 import Footer from "../../Component/Footer/Footer";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
+import CallButton from "../../Component/CallButton/CallButton";
 
 const ContactUs = () => {
 
@@ -29,6 +30,7 @@ const ContactUs = () => {
       <div className={style.container}>
         <div className={style.rightbox}>
             <h3 >Trusted by Leading Brands</h3>
+           
             <div>
             <img className={style.img} src={logo1} alt="logo" />
             </div>
@@ -56,6 +58,7 @@ const ContactUs = () => {
       </div>
       <FourteenSection/>
       <EleventhSection />
+      <CallButton/>
       <Footer/>
     </div>
   );

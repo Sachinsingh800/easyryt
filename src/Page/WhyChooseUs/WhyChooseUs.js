@@ -8,6 +8,7 @@ import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import ThirdSection from "../../Section/ThirdSection/ThirdSection";
 import Section1 from "./Section1/Section1";
+import CallButton from "../../Component/CallButton/CallButton";
 
 function WhyChooseUs() {
   return (
@@ -36,6 +37,7 @@ function WhyChooseUs() {
       <TenthSection />
       <SixthSection />
       <EleventhSection />
+      <CallButton/>
       <Footer />
     </div>
   );

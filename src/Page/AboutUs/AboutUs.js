@@ -8,6 +8,7 @@ import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import ThirdSection from "../../Section/ThirdSection/ThirdSection";
+import CallButton from "../../Component/CallButton/CallButton";
 
 function AboutUs() {
   return (
@@ -36,6 +37,7 @@ function AboutUs() {
       <TenthSection />
       <SixthSection />
       <EleventhSection />
+      <CallButton/>
       <Footer />
     </div>
   );
