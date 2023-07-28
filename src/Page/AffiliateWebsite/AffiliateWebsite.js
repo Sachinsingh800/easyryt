@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./AffiliateWebsite.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/Affiliate Website 1.png";
@@ -10,8 +10,15 @@ import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
+import PopupOption from "../../Component/PopupOption/PopupOption";
 
 function AffiliateWebsite() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleGetStartedClick = () => {
+    setShowPopup(true);
+  };
+
   return (
     <div className={style.main}>
       <NavBar />
@@ -23,7 +30,11 @@ function AffiliateWebsite() {
             our tailored designs, seamless integrations, and conversion-focused
             approach. Drive success today!
           </p>
-          <button type="submit" className={style.submitBtn}>
+          <button
+            type="submit"
+            className={style.submitBtn}
+            onClick={handleGetStartedClick}
+          >
             Get Started
           </button>
         </div>
@@ -37,8 +48,16 @@ function AffiliateWebsite() {
       <TenthSection />
       <SixthSection />
       <EleventhSection />
-      <CallButton/>
+      <CallButton />
       <Footer />
+
+      {/* Popup window */}
+      {showPopup && (
+        <>
+        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
+      <PopupOption/>
+      </>
+      )}
     </div>
   );
 }

@@ -78,6 +78,7 @@ import DevOpsandContinuousIntegration from './Page/DevOpsandContinuousIntegratio
 import Azure from './Page/Azure/Azure';
 import Aws from './Page/Aws/Aws';
 import GoogleCloud from './Page/GoogleCloud/GoogleCloud';
+import PopupOption from './Component/PopupOption/PopupOption';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -372,6 +373,10 @@ const router = createBrowserRouter([
   {
     path: "/GoogleCloud",
     element: <GoogleCloud  />,
+  },
+  {
+    path: "/PopupOption",
+    element: <PopupOption  />,
   },
 ]);
 root.render(

@@ -1,4 +1,4 @@
-import React from "react";
+import React , { useState } from "react";
 import style from "./ServerArchitectureandConfiguration.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/Server Architecture and Configuration, 1.png";
@@ -10,8 +10,14 @@ import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
+import PopupOption from "../../Component/PopupOption/PopupOption";
 
 function ServerArchitectureandConfiguration() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleGetStartedClick = () => {
+    setShowPopup(true);
+  };
   return (
     <div className={style.main}>
       <NavBar />
@@ -24,7 +30,11 @@ function ServerArchitectureandConfiguration() {
             optimizing server infrastructures to ensure high performance,
             scalability, and security.
           </p>
-          <button type="submit" className={style.submitBtn}>
+          <button
+            type="submit"
+            className={style.submitBtn}
+            onClick={handleGetStartedClick}
+          >
             Get Started
           </button>
         </div>
@@ -40,6 +50,13 @@ function ServerArchitectureandConfiguration() {
       <EleventhSection />
       <CallButton/>
       <Footer />
+            {/* Popup window */}
+            {showPopup && (
+        <>
+        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
+      <PopupOption/>
+      </>
+      )}
     </div>
   );
 }

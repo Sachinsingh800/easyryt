@@ -1,4 +1,4 @@
-import React from "react";
+import React , { useState } from "react";
 import style from "./DevOpsandContinuousIntegration.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/DevOps and Continuous Integration Continuous Deployment (CI.CD), 1.png";
@@ -10,8 +10,14 @@ import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
+import PopupOption from "../../Component/PopupOption/PopupOption";
 
 function DevOpsandContinuousIntegration() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleGetStartedClick = () => {
+    setShowPopup(true);
+  };
   return (
     <div className={style.main}>
       <NavBar />
@@ -28,7 +34,11 @@ function DevOpsandContinuousIntegration() {
             frequent releases, ensuring a streamlined and error-free software
             delivery pipeline.
           </p>
-          <button type="submit" className={style.submitBtn}>
+          <button
+            type="submit"
+            className={style.submitBtn}
+            onClick={handleGetStartedClick}
+          >
             Get Started
           </button>
         </div>
@@ -44,6 +54,13 @@ function DevOpsandContinuousIntegration() {
       <EleventhSection />
       <CallButton/>
       <Footer />
+            {/* Popup window */}
+            {showPopup && (
+        <>
+        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
+      <PopupOption/>
+      </>
+      )}
     </div>
   );
 }

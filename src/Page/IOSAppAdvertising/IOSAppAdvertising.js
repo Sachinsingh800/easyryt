@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState }  from "react";
 import style from "./IOSAppAdvertising.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/IOS App Advertising 1.png";
@@ -10,8 +10,14 @@ import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
+import PopupOption from "../../Component/PopupOption/PopupOption";
 
 function IOSAppAdvertising() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleGetStartedClick = () => {
+    setShowPopup(true);
+  };
   return (
     <div className={style.main}>
       <NavBar />
@@ -23,7 +29,11 @@ function IOSAppAdvertising() {
             Targeted campaigns, optimal visibility, and increased downloads.
             Maximize your app's potential today!
           </p>
-          <button type="submit" className={style.submitBtn}>
+          <button
+            type="submit"
+            className={style.submitBtn}
+            onClick={handleGetStartedClick}
+          >
             Get Started
           </button>
         </div>
@@ -39,6 +49,13 @@ function IOSAppAdvertising() {
       <EleventhSection />
       <CallButton/>
       <Footer />
+            {/* Popup window */}
+            {showPopup && (
+        <>
+        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
+      <PopupOption/>
+      </>
+      )}
     </div>
   );
 }
