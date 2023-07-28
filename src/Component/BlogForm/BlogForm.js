@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import style from "./BlogForm.module.css"
 
 const BlogForm = () => {
   const [formData, setFormData] = useState({
@@ -24,7 +25,7 @@ const BlogForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className={style.form} onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Your Name:</label>
         <input
@@ -75,7 +76,7 @@ const BlogForm = () => {
         </select>
       </div>
       <div>
-        <label htmlFor="message">Message:</label>
+        <label className={style.label}  htmlFor="message">Message:</label>
         <textarea
           id="message"
           name="message"
