@@ -570,7 +570,7 @@ export function ClientServicesaccordian() {
           platforms, ensuring enhanced performance and scalability.
         </Accordion.Body>
       </Accordion.Item>
-
+{/* 
       <Accordion.Item eventKey="6">
         <Accordion.Header>
           Q. *What is UI/UX design, and why is it important?*
@@ -605,9 +605,9 @@ export function ClientServicesaccordian() {
           ensure your app or website continues to run smoothly and stays
           up-to-date with the latest technologies.
         </Accordion.Body>
-      </Accordion.Item>
+      </Accordion.Item> */}
 
-      <Accordion.Item eventKey="9">
+      {/* <Accordion.Item eventKey="9">
         <Accordion.Header>
           Q. *How long does it typically take to develop a custom app or
           website?*
@@ -726,7 +726,7 @@ export function ClientServicesaccordian() {
           some of our successful projects and case studies, illustrating the
           solutions we've provided to our clients.
         </Accordion.Body>
-      </Accordion.Item>
+      </Accordion.Item> */}
     </Accordion>
   );
 }
