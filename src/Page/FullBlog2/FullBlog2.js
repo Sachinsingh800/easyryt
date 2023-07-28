@@ -19,6 +19,9 @@ function FullBlog2() {
       // Clean up the interval when the component is unmounted
       return () => clearInterval(intervalId);
     }, []);
+    const BlogContent = ({ htmlContent }) => {
+      return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;
+    };
   return (
     <div className={style.main}>
       <NavBar/>
@@ -27,9 +30,11 @@ function FullBlog2() {
         <img    className={active ? style.active : ""}  src={blog[0]?.image}  alt='blog' />
         </div>
           <div className={style.infobox}>
-          <h1>{blog[0]?.heading}</h1>
+            <h2><span>Title:</span>{blog[0]?.title}</h2>
+            <hr/>
+          <h3><span>Heading:</span>{blog[0]?.heading}</h3>
           <hr/>
-       <p className={style.para}>{blog[0]?.description}</p>
+          <BlogContent htmlContent={blog[0]?.description} />
           </div>
     
       </div>
