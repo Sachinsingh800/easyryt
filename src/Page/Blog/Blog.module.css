@@ -135,7 +135,7 @@ transition: all 0.3s ease-in-out;
     opacity: 1;
     }
     } 
-    @media (max-width:360px){
+    @media (max-width:400px){
         .imgBox{
             height: 20rem;
             width: 32rem;
