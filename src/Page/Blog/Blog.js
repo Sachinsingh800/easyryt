@@ -31,7 +31,7 @@ const Blog = () => {
 
 
 
-  console.log(cardsData,"ss")
+  // console.log(cardsData,"ss")
   localStorage.setItem("blog",JSON.stringify(cardsData))
 
   const handleCardClick = (heading) => {
