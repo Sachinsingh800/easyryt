@@ -505,7 +505,7 @@ export function Servicesaccordian() {
 export function ClientServicesaccordian() {
   return (
     <Accordion>
-      <Accordion.Item eventKey="0">
+      <Accordion.Item eventKey="1">
         <Accordion.Header>
           {" "}
           Q. *What services does your IT company offer?*
@@ -517,40 +517,58 @@ export function ClientServicesaccordian() {
         </Accordion.Body>
       </Accordion.Item>
 
-      <Accordion.Item eventKey="1">
+
+
+      <Accordion.Item eventKey="8">
         <Accordion.Header>
-          {" "}
-          Q. *What platforms do you develop apps for?*
+          Q. *How do you ensure the security of the apps and websites you develop?*
+
         </Accordion.Header>
         <Accordion.Body>
-          We develop apps for both Android and iOS platforms, ensuring that your
-          business can reach a broader audience.
+        We prioritize security at every step of the development process, implementing industry best practices and using the latest security measures to safeguard your app or website from potential threats.
+
         </Accordion.Body>
       </Accordion.Item>
 
-      <Accordion.Item eventKey="2">
+  
+
+      <Accordion.Item eventKey="10">
         <Accordion.Header>
-          {" "}
-          Q. *Do you provide custom website development?*
+          Q. *How long does it typically take to develop a custom app or website?*
+
         </Accordion.Header>
         <Accordion.Body>
-          Yes, we specialize in custom website development tailored to meet your
-          specific business needs and objectives.
+        The development timeline varies depending on the project's complexity and requirements. We'll provide you with a detailed estimate after understanding your project's scope.
+
         </Accordion.Body>
       </Accordion.Item>
 
-      <Accordion.Item eventKey="3">
+   
+
+      <Accordion.Item eventKey="12">
         <Accordion.Header>
-          {" "}
-          Q. *How can digital marketing benefit my business?*
+          Q. *What are the benefits of using cloud services for my business?*
+
         </Accordion.Header>
         <Accordion.Body>
-          Digital marketing can help your business increase brand visibility,
-          reach your target audience, generate leads, and drive conversions.
+        Cloud services offer advantages such as cost savings, scalability, accessibility, and improved collaboration among team members.
+
         </Accordion.Body>
       </Accordion.Item>
 
-      <Accordion.Item eventKey="4">
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          Q. *Do you provide content creation services for websites and apps?*
+
+        </Accordion.Header>
+        <Accordion.Body>
+        Yes, we offer content creation services, including copywriting, graphic design, and multimedia content production, to enhance the overall user experience of your digital products.
+
+        </Accordion.Body>
+      </Accordion.Item>
+
+
+      <Accordion.Item eventKey="15">
         <Accordion.Header>
           Q. *What makes your WordPress development services stand out?*
         </Accordion.Header>
@@ -561,172 +579,33 @@ export function ClientServicesaccordian() {
         </Accordion.Body>
       </Accordion.Item>
 
-      <Accordion.Item eventKey="5">
-        <Accordion.Header>
-          Q. *Can you help migrate my existing website to the cloud?*
-        </Accordion.Header>
-        <Accordion.Body>
-          Absolutely! We have experience in seamless website migration to cloud
-          platforms, ensuring enhanced performance and scalability.
-        </Accordion.Body>
-      </Accordion.Item>
-{/* 
-      <Accordion.Item eventKey="6">
-        <Accordion.Header>
-          Q. *What is UI/UX design, and why is it important?*
-        </Accordion.Header>
-        <Accordion.Body>
-          UI/UX design refers to the user interface and user experience design
-          of digital products. It's crucial because it impacts how users
-          interact with your website or app, influencing their overall
-          satisfaction and engagement.
-        </Accordion.Body>
-      </Accordion.Item>
-
-      <Accordion.Item eventKey="7">
-        <Accordion.Header>
-          Q. *How do you ensure the security of the apps and websites you
-          develop?*
-        </Accordion.Header>
-        <Accordion.Body>
-          We prioritize security at every step of the development process,
-          implementing industry best practices and using the latest security
-          measures to safeguard your app or website from potential threats.
-        </Accordion.Body>
-      </Accordion.Item>
-
-      <Accordion.Item eventKey="8">
-        <Accordion.Header>
-          Q.*Do you offer ongoing support and maintenance for the projects you
-          complete?*
-        </Accordion.Header>
-        <Accordion.Body>
-          Yes, we provide comprehensive support and maintenance services to
-          ensure your app or website continues to run smoothly and stays
-          up-to-date with the latest technologies.
-        </Accordion.Body>
-      </Accordion.Item> */}
-
-      {/* <Accordion.Item eventKey="9">
-        <Accordion.Header>
-          Q. *How long does it typically take to develop a custom app or
-          website?*
-        </Accordion.Header>
-        <Accordion.Body>
-          The development timeline varies depending on the project's complexity
-          and requirements. We'll provide you with a detailed estimate after
-          understanding your project's scope.
-        </Accordion.Body>
-      </Accordion.Item>
-
-      <Accordion.Item eventKey="10">
-        <Accordion.Header>
-          Q. *Can you assist with digital marketing strategies for startups?*
-        </Accordion.Header>
-        <Accordion.Body>
-          Absolutely! We have experience working with startups and can create
-          tailored digital marketing strategies to help you gain traction and
-          visibility in your target market.
-        </Accordion.Body>
-      </Accordion.Item>
-
-      <Accordion.Item eventKey="11">
-        <Accordion.Header>
-          Q. *What are the benefits of using cloud services for my business?*
-        </Accordion.Header>
-        <Accordion.Body>
-          Cloud services offer advantages such as cost savings, scalability,
-          accessibility, and improved collaboration among team members.
-        </Accordion.Body>
-      </Accordion.Item>
-
-      <Accordion.Item eventKey="12">
-        <Accordion.Header>
-          Q. *Do you provide content creation services for websites and apps?*
-        </Accordion.Header>
-        <Accordion.Body>
-          Yes, we offer content creation services, including copywriting,
-          graphic design, and multimedia content production, to enhance the
-          overall user experience of your digital products.
-        </Accordion.Body>
-      </Accordion.Item>
-
-      <Accordion.Item eventKey="13">
-        <Accordion.Header>
-          Q. *Is SEO part of your digital marketing services?*
-        </Accordion.Header>
-        <Accordion.Body>
-          Yes, we incorporate Search Engine Optimization (SEO) strategies into
-          our digital marketing services to improve your website's search engine
-          rankings and organic traffic.
-        </Accordion.Body>
-      </Accordion.Item>
-
-      <Accordion.Item eventKey="14">
-        <Accordion.Header>
-          Q. *What sets your company apart from other IT service providers?*
-        </Accordion.Header>
-        <Accordion.Body>
-          Our company stands out due to our dedication to delivering
-          high-quality, innovative solutions that align with your business
-          goals, combined with exceptional customer service.
-        </Accordion.Body>
-      </Accordion.Item>
-
-      <Accordion.Item eventKey="15">
-        <Accordion.Header>
-          Q. *Can you design responsive websites that work on all devices?*
-        </Accordion.Header>
-        <Accordion.Body>
-          Yes, we design responsive websites that adapt and perform optimally
-          across various devices, including desktops, tablets, and smartphones.
-        </Accordion.Body>
-      </Accordion.Item>
-
-      <Accordion.Item eventKey="16">
-        <Accordion.Header>
-          Q. *Do you conduct usability testing for the apps you develop?*
-        </Accordion.Header>
-        <Accordion.Body>
-          Yes, we conduct rigorous usability testing to ensure that your app
-          provides a seamless and user-friendly experience to its target
-          audience.
-        </Accordion.Body>
-      </Accordion.Item>
 
       <Accordion.Item eventKey="17">
         <Accordion.Header>
-          Q. *What steps do you take to ensure on-time project delivery?*
+          Q. *What makes your WordPress development services stand out?*
         </Accordion.Header>
         <Accordion.Body>
-          We follow a well-defined project management process, set realistic
-          timelines, and maintain effective communication with our clients to
-          ensure timely delivery of projects.
+          Our WordPress development services are distinguished by our team's
+          expertise in creating highly functional, visually appealing, and
+          user-friendly websites using the WordPress platform.
         </Accordion.Body>
       </Accordion.Item>
 
       <Accordion.Item eventKey="18">
         <Accordion.Header>
-          Q.*How do I request a quote for a specific project?*
+          Q. *What makes your WordPress development services stand out?*
         </Accordion.Header>
         <Accordion.Body>
-          You can request a quote by filling out the contact form on our website
-          or reaching out to us through email or phone. Our team will promptly
-          respond to your inquiry.
+          Our WordPress development services are distinguished by our team's
+          expertise in creating highly functional, visually appealing, and
+          user-friendly websites using the WordPress platform.
         </Accordion.Body>
       </Accordion.Item>
 
-      <Accordion.Item eventKey="19">
-        <Accordion.Header>
-          Q. *Can you provide case studies or examples of your previous
-          projects?*
-        </Accordion.Header>
-        <Accordion.Body>
-          Certainly! We have a portfolio section on our website that showcases
-          some of our successful projects and case studies, illustrating the
-          solutions we've provided to our clients.
-        </Accordion.Body>
-      </Accordion.Item> */}
+
+
+
+
     </Accordion>
   );
 }
