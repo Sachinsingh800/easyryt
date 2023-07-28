@@ -91,8 +91,8 @@ const EleventhSection = () => {
               <img className={style.img2} src={card.bg} alt="img2" />
             </div>
            <div className={style.infoBox}>
-           <h6>{card.heading}</h6>
-            <p style={{ color: "blue" }}>View</p>
+           <h3>{card.heading}</h3>
+           <h5>{card.text}</h5>
            </div>
           
           </div>
