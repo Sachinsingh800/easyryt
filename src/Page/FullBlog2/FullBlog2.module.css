@@ -119,6 +119,7 @@
 @media (max-width:360px){
     .imgbox{
         grid-template-columns: 1fr;
+        height: max-content;
     }
     .infobox{
         grid-template-columns: 1fr;
