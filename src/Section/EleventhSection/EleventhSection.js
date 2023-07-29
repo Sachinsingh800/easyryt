@@ -92,7 +92,7 @@ const EleventhSection = () => {
             </div>
            <div className={style.infoBox}>
            <h3>{card.heading}</h3>
-           <h5>{card.text}</h5>
+           <p >{card.text}</p>
            </div>
           
           </div>

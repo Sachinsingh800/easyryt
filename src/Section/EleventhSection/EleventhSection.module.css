@@ -74,16 +74,15 @@
    
 }
 .infoBox{
-    padding: .9rem;
+    padding: 1.5rem;
     display: none;
     position: absolute;
     height: 20rem;
     width: 22rem;
     border-radius: 15px;
-    color: rgb(0, 0, 0);
-    backdrop-filter: blur(18px);
+color: white;
     transition: 0.4s ease-in-out;
-
+    background-color: black;
 }
 .card:hover .infoBox{
     display: unset;

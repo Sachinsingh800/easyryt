@@ -10,39 +10,38 @@ import logo6 from "../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Improves Efficiency And Offers High Scalability",
-    description:
-      "Since Business Apps Are Custom Built With The Company's Needs In Mind, They Act As A Robust App That Performs Various Tasks Eliminating The Need For Multiple Apps.",
+    title: "Enhanced Customer Engagement",
+    description: "Mobile apps offer direct communication channels, enabling businesses to interact with customers, provide personalized experiences, and gather valuable feedback..",
   },
   {
     logo: logo2,
-    title: "Improves Efficiency And Offers High Scalability",
+    title: "Increased Brand Visibility",
     description:
-      "Since Business Apps Are Custom Built With The Company's Needs In Mind, They Act As A Robust App That Performs Various Tasks Eliminating The Need For Multiple Apps.",
+      "Mobile apps, once downloaded, stay on users' devices, reminding them of your brand and increasing brand recall.",
   },
   {
     logo: logo3,
-    title: "Improves Efficiency And Offers High Scalability",
+    title: "Improved Accessibility",
     description:
-      "Since Business Apps Are Custom Built With The Company's Needs In Mind, They Act As A Robust App That Performs Various Tasks Eliminating The Need For Multiple Apps.",
+      "Mobile apps allow users to access your products or services anytime, anywhere, leading to a more convenient and seamless user experience.",
   },
   {
     logo: logo4,
-    title: "Improves Efficiency And Offers High Scalability",
+    title: "Higher Efficiency",
     description:
-      "Since Business Apps Are Custom Built With The Company's Needs In Mind, They Act As A Robust App That Performs Various Tasks Eliminating The Need For Multiple Apps.",
+      " Apps can streamline processes, automate tasks, and optimize workflows, resulting in increased operational efficiency for businesses.",
   },
   {
     logo: logo5,
-    title: "Improves Efficiency And Offers High Scalability",
+    title: "New Revenue Streams",
     description:
-      "Since Business Apps Are Custom Built With The Company's Needs In Mind, They Act As A Robust App That Performs Various Tasks Eliminating The Need For Multiple Apps.",
+      " Mobile apps can open up new opportunities for monetization, such as in-app purchases, subscriptions, or advertising, expanding revenue potential.",
   },
   {
     logo: logo6,
-    title: "Improves Efficiency And Offers High Scalability",
+    title: "Competitive Advantage",
     description:
-      "Since Business Apps Are Custom Built With The Company's Needs In Mind, They Act As A Robust App That Performs Various Tasks Eliminating The Need For Multiple Apps.",
+      "In today's mobile-centric world, having a well-designed and functional app can set your business apart from competitors and attract tech-savvy users.",
   },
 ];
 

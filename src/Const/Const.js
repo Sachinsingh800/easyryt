@@ -50,6 +50,54 @@ export const data = {
   ],
   Frontend: [
     {
+      name: "Javascript",
+      icon: logo1,
+    },
+ 
+    {
+      name: "PHP",
+      icon: logo5,
+    },
+    {
+      name: "react.js",
+      icon: logo7,
+    },
+    // Rest of the languages...
+  ],
+  backend: [
+ 
+    {
+      name: "django",
+      icon: logo8,
+    },
+    {
+      name: "laravel",
+      icon: logo9,
+    },
+    {
+      name: "PHP",
+      icon: logo5,
+    },
+
+  {
+    name: "Python",
+    icon: logo3,
+  },
+    // Rest of the languages...
+  ],
+  database: [
+    {
+      name: "SQL",
+      icon: logo2,
+    },
+    // Rest of the languages...
+  ],
+  platforms: [
+    {
+      name: "Javascript",
+      icon: logo1,
+    },
+    {
       name: "SQL",
       icon: logo2,
     },
@@ -64,79 +112,6 @@ export const data = {
     {
       name: "PHP",
       icon: logo5,
-    },
-    {
-      name: "Kotlin",
-      icon: logo6,
-    },
-    {
-      name: "react.js",
-      icon: logo7,
-    },
-    // Rest of the languages...
-  ],
-  backend: [
-    {
-      name: "Kotlin",
-      icon: logo6,
-    },
-    {
-      name: "react.js",
-      icon: logo7,
-    },
-    {
-      name: "django",
-      icon: logo8,
-    },
-    {
-      name: "laravel",
-      icon: logo9,
-    },
-    // Rest of the languages...
-  ],
-  database: [
-    {
-      name: "Kotlin",
-      icon: logo6,
-    },
-    {
-      name: "react.js",
-      icon: logo7,
-    },
-    {
-      name: "django",
-      icon: logo8,
-    },
-    {
-      name: "laravel",
-      icon: logo9,
-    },
-    {
-      name: "Kotlin",
-      icon: logo6,
-    },
-    {
-      name: "react.js",
-      icon: logo7,
-    },
-    {
-      name: "django",
-      icon: logo8,
-    },
-    // Rest of the languages...
-  ],
-  platforms: [
-    {
-      name: "Kotlin",
-      icon: logo6,
-    },
-    {
-      name: "react.js",
-      icon: logo7,
-    },
-    {
-      name: "django",
-      icon: logo8,
     },
     {
       name: "Kotlin",
@@ -162,28 +137,12 @@ export const data = {
       icon: logo6,
     },
     {
-      name: "react.js",
-      icon: logo7,
+      name: "Javascript",
+      icon: logo1,
     },
     {
-      name: "django",
-      icon: logo8,
-    },
-    {
-      name: "laravel",
-      icon: logo9,
-    },
-    {
-      name: "Kotlin",
-      icon: logo6,
-    },
-    {
-      name: "react.js",
-      icon: logo7,
-    },
-    {
-      name: "django",
-      icon: logo8,
+      name: "Java",
+      icon: logo4,
     },
     // Rest of the languages...
   ],
