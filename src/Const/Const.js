@@ -191,7 +191,7 @@ export const data = {
 
 export const cardsData = [
   {
-    publish:"Dec 30, 2022 - 9 min read",
+    createdAt:"Dec 30, 2022 - 9 min read",
     blogImg:
       "https://www.redappletech.com/wp-content/uploads/2022/12/Top-Mobile-App-Development-Trends-for-2023-1.jpeg",
       heading: "Introduction1",

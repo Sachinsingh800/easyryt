@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import style from "./BlogForm.module.css"
+import Swal from 'sweetalert2';
+import axios from 'axios';
 
 const BlogForm = () => {
+  const [message, setMessage] = useState('');
+  const [error, setError] = useState('');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -18,10 +22,27 @@ const BlogForm = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Here, you can handle the form submission, for example, sending the data to a server or processing it in some way.
-    console.log(formData);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    try {
+      const response = await axios.post('https://easyryt.onrender.com/client/helpRequest', formData);
+      setMessage(response?.data?.message || 'Internal Server Error');
+      Swal.fire({
+        title: 'Verified!',
+        text: 'You are verified successfully!',
+        icon: 'success',
+      });
+      window.location.href="/FullBlog2";
+    } catch (error) {
+      setError(error.response?.data?.message || 'Internal Server Error');
+      Swal.fire({
+        title: 'Error',
+        text: error.response?.data?.message || 'Internal Server Error',
+        icon: 'error',
+      });
+    }
   };
 
   return (

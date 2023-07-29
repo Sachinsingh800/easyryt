@@ -58,7 +58,7 @@ const ThirteenthSection = () => {
             </div>
             <div className={style.infoBox}>
               <h6>{card.title}</h6>
-            <Link to={"/FullBlog2"}><p style={{ color: "blue" }}>View</p></Link>  
+            <a href={"/FullBlog2"}><p style={{ color: "blue" }}>View</p></a>  
             </div>
           </div>
         ))}
