@@ -10,6 +10,9 @@ function FullBlog2() {
     const blog=JSON.parse(localStorage.getItem("blog2"))
     const [active, setActive] = useState(false);
 
+    
+
+    
     const [cardsData, setCardsData] = useState([]);
     const [search, setSearch] = useState("");
     const [initialCardsData, setData] = useState([]);
@@ -29,12 +32,6 @@ function FullBlog2() {
     }, []);
   
   
-  
-  
-  
-  
-    // console.log(cardsData,"ss")
-    localStorage.setItem("blog",JSON.stringify(cardsData))
   
     const handleCardClick = (heading) => {
       const filteredCards = initialCardsData.filter(
@@ -64,18 +61,23 @@ function FullBlog2() {
       <NavBar/>
       <div className={style.container}>
         <div className={style.imgbox}>
-        <img    className={active ? style.active : ""}  src={blog[0]?.blogImg}  alt='blog' />
+          <div className={style.imginnerbox}>
+          <h3>{blog[0]?.title}</h3>
+          <h6>{blog[0]?.publish}</h6>
+          <div className={style.imgcontainer}>
+          <img    className={active ? style.active : ""}  src={blog[0]?.blogImg}  alt='blog' />
+          </div>
+        
+          </div>
+     
+        <BlogForm/>
         </div>
           <div className={style.infobox}>
             <div  className={style.info}>
-            <h3><span>Title:</span>{blog[0]?.title}</h3>
-            <hr/>
-          <h4><span>Heading:</span>{blog[0]?.heading}</h4>
-          <hr/>
           <BlogContent htmlContent={blog[0]?.description} />
             </div>
           <div className={style.form}>
-          <BlogForm/>
+            <h2>Recent Blog</h2>
           <div className={style.rightBox}>
           <input
             className={style.searchInputbox}
