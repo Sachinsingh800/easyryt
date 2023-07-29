@@ -101,8 +101,8 @@ function FullBlog2() {
                 <div className={style.imgbox2}>
                   <img src={card.blogImg} alt={card.heading} />
                 </div>
-                <h5>{card.headings}</h5>
-                <p className={style.parainfo} >{card.description}</p>
+                <h5>{card.title}</h5>
+                <h5>{card.heading}</h5>
               </div>
             ))}
         </div>
