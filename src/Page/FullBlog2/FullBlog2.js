@@ -5,6 +5,7 @@ import CallButton from '../../Component/CallButton/CallButton';
 import Footer from '../../Component/Footer/Footer';
 import BlogForm from '../../Component/BlogForm/BlogForm';
 import axios from 'axios';
+import ClientsAccordion from '../../Component/ClientsAccordion/ClientsAccordion';
 
 function FullBlog2() {
     const blog=JSON.parse(localStorage.getItem("blog2"))
@@ -54,7 +55,7 @@ function FullBlog2() {
       return () => clearInterval(intervalId);
     }, []);
     const BlogContent = ({ htmlContent }) => {
-      return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;
+      return <div className={style.description} dangerouslySetInnerHTML={{ __html: htmlContent }} />;
     };
   return (
     <div className={style.main}>
@@ -110,6 +111,7 @@ function FullBlog2() {
     
       </div>
       <CallButton/>
+      <ClientsAccordion/>
       <Footer/>
     </div>
   )

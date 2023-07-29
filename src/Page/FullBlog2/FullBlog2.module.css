@@ -36,6 +36,9 @@
     height: 80%;
     border-radius: 10px;
 }
+.description p{
+    font-size: 1.2rem;
+}
 .infobox{
     display: grid;
      grid-template-columns: 2fr 1fr;
