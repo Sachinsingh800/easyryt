@@ -37,7 +37,7 @@ function FullBlog2() {
       const filteredCards = initialCardsData.filter(
         (card) => card.heading === heading
       );
-      setCardsData(filteredCards);
+      localStorage.setItem("blog2",JSON.stringify(filteredCards))
     };
   
 
