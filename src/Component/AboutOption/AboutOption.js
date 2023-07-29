@@ -26,12 +26,12 @@ function AboutOption() {
           </li>
           </Link>    
        
-          <li
+          {/* <li
             className={hoveredOption === "Option 2" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 2")}
           >
             Out team
-          </li>
+          </li> */}
 
 
 <Link to={"/WhyChooseUs"}> 
@@ -44,12 +44,12 @@ function AboutOption() {
 </Link>
         
 
-          <li
+          {/* <li
             className={hoveredOption === "Option 4" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 4")}
           >
             Careers
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
