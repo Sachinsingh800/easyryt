@@ -36,18 +36,13 @@ function ThirdSection() {
                 <img className={style.logo} src={logo2} alt="img" />
                 <h4> App Development</h4>
                 <p>
-                  In the ever-evolving digital landscape, a mobile application
-                  is essential for reaching and engaging your target audience.
-                  Our experienced app developers possess the expertise to craft
-                  high-performance, user-friendly, and visually appealing
-                  applications for various platforms. Whether you need a native
-                  iOS or Android app or a cross-platform solution, we have you
-                  covered
+                  App development is the process of creating software
+                  applications for mobile devices like smartphones and tablets.
+                  This involves designing, coding, testing, and deploying the
+                  app to platforms like iOS or Android.
                 </p>
                 <a
-                  href="https://en.wikipedia.org/wiki/Mobile_app_development"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/AppDevelopment"
                 >
                   <h6>Read More ᐳ</h6>
                 </a>
@@ -74,9 +69,7 @@ function ThirdSection() {
                   realm.
                 </p>
                 <a
-                  href="https://en.wikipedia.org/wiki/Progressive_Web_Apps"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/WebsiteDevelopment"
                 >
                   <h6>Read More ᐳ</h6>
                 </a>
@@ -103,9 +96,7 @@ function ThirdSection() {
                   brand's online reputation.
                 </p>
                 <a
-                  href="https://www.silvertouch.com/blog/enterprise-application-development-how-it-drives-growth-for-business/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/DigitalMarketing"
                 >
                   <h6>Read More ᐳ</h6>
                 </a>
@@ -131,9 +122,7 @@ function ThirdSection() {
                   of data security and compliance.
                 </p>
                 <a
-                  href="https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/CloudSolutions"
                 >
                   <h6>Read More ᐳ</h6>
                 </a>
@@ -161,9 +150,7 @@ function ThirdSection() {
                   website.
                 </p>
                 <a
-                  href="https://en.wikipedia.org/wiki/Digital_marketing"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/WordPressDevelopment"
                 >
                   <h6>Read More ᐳ</h6>
                 </a>
@@ -190,9 +177,7 @@ function ThirdSection() {
                   loyalty.
                 </p>
                 <a
-                  href="https://en.wikipedia.org/wiki/Product_management"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/UIUXDesign"
                 >
                   <h6>Read More ᐳ</h6>
                 </a>

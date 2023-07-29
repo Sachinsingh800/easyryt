@@ -78,6 +78,12 @@ import Azure from './Page/Azure/Azure';
 import Aws from './Page/Aws/Aws';
 import GoogleCloud from './Page/GoogleCloud/GoogleCloud';
 import PopupOption from './Component/PopupOption/PopupOption';
+import AppDevelopment from './Page/AppDevelopment/AppDevelopment';
+import CloudSolutions from './Page/CloudSolutions/CloudSolutions';
+import DigitalMarketing from './Page/DigitalMarketing/DigitalMarketing';
+import WebsiteDevelopment from './Page/WebsiteDevelopment/WebsiteDevelopment';
+import WordPressDevelopment from './Page/WordPressDevelopment/WordPressDevelopment';
+import UIUXDesign from './Page/UIUXDesign/UIUXDesign';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -373,6 +379,30 @@ const router = createBrowserRouter([
   {
     path: "/PopupOption",
     element: <PopupOption  />,
+  },
+  {
+    path: "/AppDevelopment",
+    element: <AppDevelopment  />,
+  },
+  {
+    path: "/CloudSolutions",
+    element: <CloudSolutions />,
+  },
+  {
+    path: "/DigitalMarketing",
+    element: <DigitalMarketing />,
+  },
+  {
+    path: "/WebsiteDevelopment",
+    element: <WebsiteDevelopment />,
+  },
+  {
+    path: "/WordPressDevelopment",
+    element: <WordPressDevelopment />,
+  },
+  {
+    path: "/UIUXDesign",
+    element: <UIUXDesign />,
   },
 ]);
 root.render(
