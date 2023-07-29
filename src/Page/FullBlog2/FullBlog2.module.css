@@ -116,3 +116,11 @@
     overflow: hidden;
     width: 40rem;
 }
+@media (max-width:360px){
+    .imgbox{
+        grid-template-columns: 1fr;
+    }
+    .infobox{
+        grid-template-columns: 1fr;
+    }
+}
