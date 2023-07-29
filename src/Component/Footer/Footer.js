@@ -42,12 +42,12 @@ function Footer() {
             <a href={"/WebApplicationDevelopment"}>
               <li>Web App Development</li>
             </a>
-            <Link to={""}>
+            {/* <Link to={""}>
               <li>Blockchain</li>
             </Link>
             <Link to={""}>
               <li>Staff Automation</li>
-            </Link>
+            </Link> */}
           </ul>
         </div>
         <div>
@@ -56,21 +56,21 @@ function Footer() {
             <a href={"/AboutUs"}>
               <li>About easyryt</li>
             </a>
-            <Link to={""}>
+            {/* <Link to={""}>
               <li>Our Team</li>
-            </Link>
-            <Link to={""}>
+            </Link> */}
+            {/* <Link to={""}>
               <li>Event activities</li>
-            </Link>
-            <Link to={""}>
+            </Link> */}
+            {/* <Link to={""}>
               <li>Careers</li>
-            </Link>
+            </Link> */}
             <a href={"/ContactUs"}>
               <li>Contact Us</li>
             </a>
-            <Link to={""}>
+            {/* <Link to={""}>
               <li>Portfolio</li>
-            </Link>
+            </Link> */}
           </ul>
         </div>
         <div>
