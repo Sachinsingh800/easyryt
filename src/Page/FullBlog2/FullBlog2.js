@@ -111,7 +111,6 @@ function FullBlog2() {
     
       </div>
       <CallButton/>
-      <ClientsAccordion/>
       <Footer/>
     </div>
   )

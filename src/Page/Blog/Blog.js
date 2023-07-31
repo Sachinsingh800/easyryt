@@ -110,7 +110,6 @@ const Blog = () => {
       </div>
       <div className={style.section2}>
         <ThirteenthSection />
-        <ClientsAccordion />
         <CallButton/>
         <Footer />
       </div>

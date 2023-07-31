@@ -3,43 +3,48 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import style from "./ClientsSlider.module.css";
 import img from "../../Image/User-Profile-PNG.png";
+import img2 from "../../Image/NicePng_cammy-png_1829287.png";
+import img3 from "../../Image/PngItem_1284293.png";
+import img4 from "../../Image/kindpng_4973038.png";
+import img5 from "../../Image/pngfind.com-ambe-maa-png-3177131.png";
+import img6 from "../../Image/kindpng_5575215.png";
 
 const imagePaths = [
   {
     logo: img,
-    about:"Mobile App Development Company Offering Comprehensive Customer Support Our Vision and Feasibility Evaluation of the Complete Software Development Process Sets Us Apart as a Distinctive Strength EasyRyt Solutions Embrace the Factors That Provide Us a Competitive Advantage We Are...",
+    about:"A Remarkable Experience with EasyRyt Solutions.Embracing Distinctive Strengths for Optimal Customer Support As a tech-savvy entrepreneur seeking the right mobile app development company, my quest for excellence led me to EasyRyt Solutions.",
+    name:"John Smith",
+    Location:"United States"
+  },
+  {
+    logo: img2,
+    about:"EasyRyt Solutions' dedication to customer satisfaction is unmatched. Their software development process is streamlined, and their team's expertise ensures a top-notch app. Impressed by their ability to adapt to our needs and deliver on time!",
+    name:"Sarah Johnson",
+    Location:"Canada"
+  },
+  {
+    logo: img4,
+    about:"Working with EasyRyt Solutions was a pleasure. Their comprehensive support and visionary approach instilled confidence in the project's success. The final app's quality and functionality are exceptional, and we couldn't be happier!",
+    name:"Michael Brown",
+    Location:"Australia"
+  },
+  {
+    logo: img3,
+    about:"EasyRyt Solutions stands out as a reliable partner in app development. Their competitive advantage lies in their customer-centric focus and technical prowess. Highly recommended for anyone seeking a top-tier mobile app!",
+    name:"Emily Davis",
+    Location:"Germany"
+  },
+  {
+    logo: img5,
+    about:"EasyRyt Solutions' dedication to customer satisfaction is unmatched. Their software development process is streamlined, and their team's expertise ensures a top-notch app. Impressed by their ability to adapt to our needs and deliver on time!",
     name:"Sachin Singh",
     Location:"Delhi"
   },
   {
-    logo: img,
-    about:"Mobile App Development Company Offering Comprehensive Customer Support Our Vision and Feasibility Evaluation of the Complete Software Development Process Sets Us Apart as a Distinctive Strength EasyRyt Solutions Embrace the Factors That Provide Us a Competitive Advantage We Are...",
-    name:"Sachin Singh",
-    Location:"Delhi"
-  },
-  {
-    logo: img,
-    about:"Mobile App Development Company Offering Comprehensive Customer Support Our Vision and Feasibility Evaluation of the Complete Software Development Process Sets Us Apart as a Distinctive Strength EasyRyt Solutions Embrace the Factors That Provide Us a Competitive Advantage We Are...",
-    name:"Sachin Singh",
-    Location:"Delhi"
-  },
-  {
-    logo: img,
-    about:"Mobile App Development Company Offering Comprehensive Customer Support Our Vision and Feasibility Evaluation of the Complete Software Development Process Sets Us Apart as a Distinctive Strength EasyRyt Solutions Embrace the Factors That Provide Us a Competitive Advantage We Are...",
-    name:"Sachin Singh",
-    Location:"Delhi"
-  },
-  {
-    logo: img,
-    about:"Mobile App Development Company Offering Comprehensive Customer Support Our Vision and Feasibility Evaluation of the Complete Software Development Process Sets Us Apart as a Distinctive Strength EasyRyt Solutions Embrace the Factors That Provide Us a Competitive Advantage We Are...",
-    name:"Sachin Singh",
-    Location:"Delhi"
-  },
-  {
-    logo: img,
-    about:"Mobile App Development Company Offering Comprehensive Customer Support Our Vision and Feasibility Evaluation of the Complete Software Development Process Sets Us Apart as a Distinctive Strength EasyRyt Solutions Embrace the Factors That Provide Us a Competitive Advantage We Are...",
-    name:"Sachin Singh",
-    Location:"Delhi"
+    logo: img6,
+    about:"EasyRyt Solutions stands out as a reliable partner in app development. Their competitive advantage lies in their customer-centric focus and technical prowess. Highly recommended for anyone seeking a top-tier mobile app!",
+    name:"Jhon Davis",
+    Location:"Germany"
   },
   
 ];
