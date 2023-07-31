@@ -1,4 +1,4 @@
-import React , { useState } from "react";
+import React , { useEffect, useState } from "react";
 import style from "./MobileAppDevelopment.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/Mobile App Development 1.png";
@@ -15,11 +15,12 @@ import PopupOption from "../../Component/PopupOption/PopupOption";
 function MobileAppDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
 
+
   const handleGetStartedClick = () => {
     setShowPopup(true);
   };
   return (
-    <div className={style.main}>
+    <div id="MobileAppDevelopment" className={style.main}>
       <NavBar />
       <div className={style.container}>
         <div>

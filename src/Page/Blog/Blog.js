@@ -28,7 +28,12 @@ const Blog = () => {
   }, []);
 
 
-
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Adds a smooth scrolling animation
+    });
+  }
 
 
 
@@ -72,7 +77,7 @@ const Blog = () => {
             <h5>{cardsData[0]?.heading}</h5>
             <hr />
             <p className={style.para}>{cardsData[0]?.description}</p>
-        <Link to={"/FullBlog2"}><button className={style.btn}>Continue Reading→</button></Link>   
+        <Link to={"/FullBlog2"} onClick={scrollToTop}><button className={style.btn}>Continue Reading→</button></Link>   
           </div>
         </div>
         <div className={style.rightBox}>

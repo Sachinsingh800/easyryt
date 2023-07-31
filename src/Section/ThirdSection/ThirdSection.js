@@ -41,11 +41,11 @@ function ThirdSection() {
                   This involves designing, coding, testing, and deploying the
                   app to platforms like iOS or Android.
                 </p>
-                <a
-                  href="/AppDevelopment"
+                <Link
+                  to="/AppDevelopment"
                 >
                   <h6>Read More ᐳ</h6>
-                </a>
+                </Link>
               </div>
             )}
           </li>
@@ -68,11 +68,11 @@ function ThirdSection() {
                   devices, empowering your business to stand out in the digital
                   realm.
                 </p>
-                <a
-                  href="/WebsiteDevelopment"
+                <Link
+                  to="/WebsiteDevelopment"
                 >
                   <h6>Read More ᐳ</h6>
-                </a>
+                </Link>
               </div>
             )}
           </li>
@@ -95,11 +95,11 @@ function ThirdSection() {
                   online visibility, attract targeted leads, and enhance your
                   brand's online reputation.
                 </p>
-                <a
-                  href="/DigitalMarketing"
+                <Link
+                  to="/DigitalMarketing"
                 >
                   <h6>Read More ᐳ</h6>
-                </a>
+                </Link>
               </div>
             )}
           </li>
@@ -121,11 +121,11 @@ function ThirdSection() {
                   ensure seamless operations while maintaining the highest level
                   of data security and compliance.
                 </p>
-                <a
-                  href="/CloudSolutions"
+                <Link
+                  to="/CloudSolutions"
                 >
                   <h6>Read More ᐳ</h6>
-                </a>
+                </Link>
               </div>
             )}
           </li>
@@ -149,11 +149,11 @@ function ThirdSection() {
                   whether it's a blog, portfolio, or an enterprise-level
                   website.
                 </p>
-                <a
-                  href="/WordPressDevelopment"
+                <Link
+                  to="/WordPressDevelopment"
                 >
                   <h6>Read More ᐳ</h6>
-                </a>
+                </Link>
               </div>
             )}
           </li>
@@ -176,11 +176,11 @@ function ThirdSection() {
                   products leave a lasting impression and foster customer
                   loyalty.
                 </p>
-                <a
-                  href="/UIUXDesign"
+                <Link
+                  to="/UIUXDesign"
                 >
                   <h6>Read More ᐳ</h6>
-                </a>
+                </Link>
               </div>
             )}
           </li>

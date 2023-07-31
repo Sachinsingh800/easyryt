@@ -12,14 +12,20 @@ function Footer() {
   function handleClicked(click) {
     window.open(click);
   }
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Adds a smooth scrolling animation
+    });
+  }
 
   return (
     <div className={style.containermain}>
       <div className={style.main}>
         <div className={style.logobox}>
-          <a href={"/"}>
+          <Link to={"/"} onClick={scrollToTop}>
             <img className={style.img} src={logo} alt="logo" />
-          </a>
+          </Link>
           <p >
             Easyryt Software Solutions offers the tools you require to
             revolutionize & expedite your business. We stand as a prominent
@@ -30,18 +36,18 @@ function Footer() {
         <div>
           <h4>Services</h4>
           <ul className={style.ul}>
-            <a href={"/MobileAppDevelopment"}>
+            <Link to={"/MobileAppDevelopment"} onClick={scrollToTop}>
               <li>Mobile App Development</li>
-            </a>
-            <a href={"/IOSApplicationDevelopmentServices"}>
+            </Link>
+            <Link to={"/IOSApplicationDevelopmentServices"} onClick={scrollToTop}>
               <li>IOS Development</li>
-            </a>
-            <a href={"/AndroidApplicationDevelopmentServices"}>
+            </Link>
+            <Link to={"/AndroidApplicationDevelopmentServices"} onClick={scrollToTop}>
               <li>Android Development</li>
-            </a>
-            <a href={"/WebApplicationDevelopment"}>
+            </Link>
+            <Link to={"/WebApplicationDevelopment"} onClick={scrollToTop}>
               <li>Web App Development</li>
-            </a>
+            </Link>
             {/* <Link to={""}>
               <li>Blockchain</li>
             </Link>
@@ -53,9 +59,9 @@ function Footer() {
         <div>
           <h4>Company</h4>
           <ul className={style.ul}>
-            <a href={"/AboutUs"}>
+            <Link to={"/AboutUs"} onClick={scrollToTop}>
               <li>About easyryt</li>
-            </a>
+            </Link>
             {/* <Link to={""}>
               <li>Our Team</li>
             </Link> */}
@@ -65,9 +71,9 @@ function Footer() {
             {/* <Link to={""}>
               <li>Careers</li>
             </Link> */}
-            <a href={"/ContactUs"}>
+            <Link to={"/ContactUs"} onClick={scrollToTop}>
               <li>Contact Us</li>
-            </a>
+            </Link>
             {/* <Link to={""}>
               <li>Portfolio</li>
             </Link> */}

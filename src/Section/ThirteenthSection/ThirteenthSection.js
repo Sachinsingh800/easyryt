@@ -6,7 +6,12 @@ import { cardsData } from "../../Const/Const";
 
 
 const ThirteenthSection = () => {
-
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Adds a smooth scrolling animation
+    });
+  }
 
 
 
@@ -58,7 +63,7 @@ const ThirteenthSection = () => {
             </div>
             <div className={style.infoBox}>
               <h6>{card.title}</h6>
-            <a href={"/FullBlog2"}><p style={{ color: "blue" }}>View</p></a>  
+            <Link to={"/FullBlog2"} onClick={scrollToTop}><p style={{ color: "blue" }}>View</p></Link>  
             </div>
           </div>
         ))}
