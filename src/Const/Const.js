@@ -7,6 +7,10 @@ import logo6 from "../Image/kotlin.png";
 import logo7 from "../Image/react.png";
 import logo8 from "../Image/django.png";
 import logo9 from "../Image/laravel.png";
+import logo10 from "../Image/sql (2).png";
+import logo11 from "../Image/oracle.png";
+import logo12 from "../Image/maridb.png";
+import logo13 from "../Image/mssql.png";
 
 export const data = {
   programmingLang: [
@@ -90,7 +94,27 @@ export const data = {
       name: "SQL",
       icon: logo2,
     },
-    // Rest of the languages...
+    {
+      name: "Oracle",
+      icon: logo11,
+    },
+    {
+      name: "Microsoft SQL Server",
+      icon: logo13,
+    },
+    {
+      name: "SQLite",
+      icon: logo10,
+    },
+    {
+      name: "MariaDB",
+      icon: logo12,
+    },
+    // Rest of the languages...PostgreSQL
+
+
+
+
   ],
   platforms: [
     {

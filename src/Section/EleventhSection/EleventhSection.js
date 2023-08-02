@@ -31,26 +31,26 @@ const EleventhSection = () => {
     {
       bg: bg6,
       image: model4,
-      heading: "Prototype Demo",
-      text: "A prototype demo is a visual representation of a product or software's functionalities and interactions, allowing stakeholders to preview its features before development completion.",
+      heading: "Blogging Platform",
+      text: "Description: Develop a blogging platform that allows users to create, edit, and publish blog posts.",
     },
     {
       bg: bg7,
       image: model5,
-      heading: "Change And Confirmation",
-      text: "Change and confirmation refer to the process of verifying modifications made to a product or system before implementing them, ensuring the accuracy and approval of the updates.",
+      heading: "Fitness Tracker",
+      text: "Description: Build a fitness tracker website that enables users to set fitness goals, track their daily workouts, and monitor progress.",
     },
     {
       bg: bg8,
       image: model6,
-      heading: "SEO",
-      text: "SEO (Search Engine Optimization) is the process of improving a website's visibility on search engine results pages, increasing organic traffic and enhancing online presence for better business performance.",
+      heading: "Event Booking Platform",
+      text: "Description: Develop an event booking platform that allows users to discover, book, and attend various events and activities.",
     },
     {
       bg: bg9,
       image: model7,
-      heading: "Support And Maintenance",
-      text: "Support and maintenance encompass ongoing activities to ensure the smooth operation, updates, and resolution of issues for software, websites, or systems to keep them functional, secure, and up-to-date.",
+      heading: "E-commerce Website",
+      text: "Description: Create an e-commerce website where users can browse through various products, add items to their cart, and proceed to checkout for payment.",
     },
 
     // Add more card data as needed...
