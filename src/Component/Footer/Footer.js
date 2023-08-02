@@ -26,7 +26,7 @@ function Footer() {
           <Link to={"/"} onClick={scrollToTop}>
             <img className={style.img} src={logo} alt="logo" />
           </Link>
-          <p >
+          <p className={style.paragraph}>
             Easyryt Software Solutions offers the tools you require to
             revolutionize & expedite your business. We stand as a prominent
             software development enterprise with over a decade of experience in
@@ -79,15 +79,15 @@ function Footer() {
             </Link> */}
           </ul>
         </div>
-        <div>
+        <div className={style.AddressDiv}>
           <h4>Contact For Sales</h4>
           <ul className={style.ul}>
             <li>info@easyryt.com</li>
-            <li>+91 723725656</li>
+            <li>+91 7678109682</li>
             <li>
               <h6>Address</h6>
             </li>
-            <li className={style.address}>5675634, $$$, $$$, Delhi-110056</li>
+            <li className={style.address}>T-471 Gali, Pahar Wali Gali, Quresh Nagar, Sarai Khalil, Sadar Bazaar, Delhi, 110006</li>
           </ul>
         </div>
       </div>
