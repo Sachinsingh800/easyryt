@@ -20,11 +20,20 @@ import FourteenSection from '../../Section/FourteenSection/FourteenSection'
 import { Servicesaccordian } from '../../Component/Accordion/Accordion'
 import ClientsAccordion from '../../Component/ClientsAccordion/ClientsAccordion'
 import CallButton from '../../Component/CallButton/CallButton'
+import { Helmet } from 'react-helmet';
 
 function Home() {
 
   return (
     <div className={style.main}>
+        <Helmet>
+        <title>We Transform Digital Solutions</title>
+        <meta charSet="utf-8" />
+        <meta
+          name="Easyryt Software Solutions offers the tools you require to revolutionize & expedite your business. We stand as a prominent software development enterprise with over a decade of experience in crafting cutting-edge resolutions."
+          content="At Easyryt, we are dedicated to transforming your vision into reality through cutting-edge technology and innovative solutions. As a leading IT company, we offer a comprehensive range of services tailored to meet the unique requirements of businesses across diverse industries. With a talented team of experts, we take pride in delivering exceptional results that drive growth, efficiency, and success for our clients."
+        />
+      </Helmet>
         <NavBar/>
         <Popup/>
           <FirstSection/>
