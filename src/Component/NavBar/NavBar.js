@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import style from "./NavBar.module.css";
-import logo from "../../Image/logo.png";
+import logo from "../../Image/LOGO.png";
 import logo2 from "../../Image/opbg.png";
 import HamburgerBtn from "../HamburgerBtn/HamburgerBtn";
 import ServicesOption from "../ServicesOption/ServicesOption";

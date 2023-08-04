@@ -14,7 +14,7 @@
    background: linear-gradient(170deg, rgba(12,5,71,1) 0%, rgba(2,21,88,1) 47%, rgba(27,41,163,1) 100%);
 }
 .img{
-    height: 4rem;
+    height: 2rem;
 }
 .innerBox{
     display: flex;

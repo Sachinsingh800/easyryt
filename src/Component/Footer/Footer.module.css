@@ -57,8 +57,7 @@
   }
   
   .img{
-    height: 6rem;
-    margin-top: -1.5rem;
+    height: 4rem;
 }
 .address{
    margin-top: -2rem;
@@ -66,7 +65,9 @@
 }
 .paragraph{
   margin-left: .8rem;
-  width: 20rem;
+  margin-top: 1rem;
+text-justify: newspaper;
+  width: 23rem;
 }
 .logobox{
   padding: 0rem 1rem;
