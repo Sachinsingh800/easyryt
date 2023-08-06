@@ -17,7 +17,7 @@ const Blog = () => {
   useEffect(() => {
     const handlegetData = async () => {
       try {
-        const response = await axios.get('https://easyryt.onrender.com/admin/getAllBlog');
+        const response = await axios.get('https://easyryt.onrender.com/client/getAllBlog');
         setData(response.data.data);
         setCardsData([response.data.data[0]])
       } catch (error) {

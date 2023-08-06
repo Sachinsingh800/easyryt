@@ -18,12 +18,9 @@ const Form = () => {
   useEffect(() => {
 
     const handlegetData = async () => {
-      const token =JSON.parse(localStorage.getItem("token")); 
-      const headers={
-         "x-auth-token": token
-       }
+      
       try {
-        const response = await axios.get('https://easyryt.onrender.com/admin/allServices',{headers});
+        const response = await axios.get('https://easyryt.onrender.com/client/allServices');
         console.log(response.data.data, 'aa raha');
         setRequestServicesData(response.data.data);
       } catch (error) {
