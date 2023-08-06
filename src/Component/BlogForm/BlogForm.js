@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import style from "./BlogForm.module.css"
 import Swal from 'sweetalert2';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 const BlogForm = () => {
   const [message, setMessage] = useState('');
+  const navigate=useNavigate()
   const [error, setError] = useState('');
   const [formData, setFormData] = useState({
     name: '',
@@ -30,11 +32,11 @@ const BlogForm = () => {
       const response = await axios.post('https://easyryt.onrender.com/client/helpRequest', formData);
       setMessage(response?.data?.message || 'Internal Server Error');
       Swal.fire({
-        title: 'Verified!',
-        text: 'You are verified successfully!',
+        title: 'Form!',
+        text: 'Submitted successfully!',
         icon: 'success',
       });
-      window.location.href="/FullBlog2";
+      navigate("/Blog")
     } catch (error) {
       setError(error.response?.data?.message || 'Internal Server Error');
       Swal.fire({

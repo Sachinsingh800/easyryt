@@ -56,8 +56,8 @@ console.log(formData,"kya aa raha")
       console.log(response.data);
       setMessage(response.data.message);
       Swal.fire({
-        title: 'Verified!',
-        text: "form Submitted Successfully",
+        title: 'Form!',
+        text: 'Submitted successfully!',
         icon: 'success',
       });
       setFormData(

@@ -30,14 +30,6 @@ const Form = () => {
     handlegetData();
   }, []);
 
-  const showAlert = () => {
-    Swal.fire({
-      title: 'Verified!',
-      text: 'You are verified successfully!',
-      icon: 'success',
-    });
-  };
-
   const handleSubmit = async (event) => {
     event.preventDefault();
     const formData = {
@@ -50,7 +42,11 @@ const Form = () => {
       const response = await axios.post('https://easyryt.onrender.com/client/clientInfo', formData);
       console.log(response, 'contact info');
       setMessage(response.data.message);
-      showAlert();
+      Swal.fire({
+        title: 'Form!',
+        text: 'Submitted successfully!',
+        icon: 'success',
+      });
       setFullName('');
       setMobileNumber('');
       setRequestServices('');
