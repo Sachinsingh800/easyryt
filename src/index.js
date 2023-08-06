@@ -88,6 +88,8 @@ import WordPressDevelopment from './Page/WordPressDevelopment/WordPressDevelopme
 import UIUXDesign from './Page/UIUXDesign/UIUXDesign';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -115,7 +117,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/FullBlog2",
+    path: "/:blogTitle" ,
     element: <FullBlog2 />,
   },
   {

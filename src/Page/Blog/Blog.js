@@ -4,7 +4,7 @@ import NavBar from "../../Component/NavBar/NavBar";
 import ThirteenthSection from "../../Section/ThirteenthSection/ThirteenthSection";
 import ClientsAccordion from "../../Component/ClientsAccordion/ClientsAccordion";
 import Footer from "../../Component/Footer/Footer";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 import CallButton from "../../Component/CallButton/CallButton";
 
@@ -12,14 +12,14 @@ const Blog = () => {
   const [cardsData, setCardsData] = useState([]);
   const [search, setSearch] = useState("");
   const [initialCardsData, setData] = useState([]);
-
+  const { blogTitle } = useParams(); // Capture the blogTitle parameter
 
   useEffect(() => {
     const handlegetData = async () => {
       try {
         const response = await axios.get('https://easyryt.onrender.com/client/getAllBlog');
         setData(response.data.data);
-        setCardsData([response.data.data[0]])
+        setCardsData([response.data.data[0]]);
       } catch (error) {
         console.log(error);
       }
@@ -27,18 +27,15 @@ const Blog = () => {
     handlegetData();
   }, []);
 
-
   function scrollToTop() {
+    localStorage.setItem("BlogName", JSON.stringify(cardsData[0]?.title));
     window.scrollTo({
       top: 0,
       behavior: "smooth", // Adds a smooth scrolling animation
     });
   }
 
-
-
-  // console.log(cardsData,"ss")
-  localStorage.setItem("blog2",JSON.stringify(cardsData))
+  localStorage.setItem("blog2", JSON.stringify(cardsData));
 
   const handleCardClick = (heading) => {
     const filteredCards = initialCardsData.filter(
@@ -50,15 +47,12 @@ const Blog = () => {
   const [active, setActive] = useState(false);
 
   useEffect(() => {
-    // Function to toggle the active state every 5 seconds
     const toggleActive = () => {
       setActive((prevActive) => !prevActive);
     };
 
-    // Set up the interval to toggle the active state every 5 seconds
     const intervalId = setInterval(toggleActive, 5000);
 
-    // Clean up the interval when the component is unmounted
     return () => clearInterval(intervalId);
   }, []);
 
@@ -71,13 +65,15 @@ const Blog = () => {
             <div className={style.imgBox}>
               <img
                 className={active ? style.active : ""}
-                src={cardsData[0]?.blogImg }
+                src={cardsData[0]?.blogImg}
               />
             </div>
             <h5>{cardsData[0]?.heading}</h5>
             <hr />
             <p className={style.para}>{cardsData[0]?.description}</p>
-        <Link to={"/FullBlog2"} onClick={scrollToTop}><button className={style.btn}>Continue Reading→</button></Link>   
+            <Link to={`/${cardsData[0]?.title}`} onClick={scrollToTop}>
+              <button className={style.btn}>Continue Reading→</button>
+            </Link>
           </div>
         </div>
         <div className={style.rightBox}>
@@ -89,9 +85,7 @@ const Blog = () => {
           />
           {initialCardsData
             .filter((elem) => {
-              return elem.description
-                .toLowerCase()
-                .includes(search.toLowerCase());
+              return elem.description.toLowerCase().includes(search.toLowerCase());
             })
             .map((card, index) => (
               <div
@@ -103,14 +97,14 @@ const Blog = () => {
                   <img src={card.blogImg} alt={card.heading} />
                 </div>
                 <h5>{card.heading}</h5>
-                <p className={style.parainfo} >{card.description}</p>
+                <p className={style.parainfo}>{card.description}</p>
               </div>
             ))}
         </div>
       </div>
       <div className={style.section2}>
         <ThirteenthSection />
-        <CallButton/>
+        <CallButton />
         <Footer />
       </div>
     </div>
