@@ -16,9 +16,14 @@ const Form = () => {
   const [requestServicesData, setRequestServicesData] = useState([]);
 //comment added
   useEffect(() => {
+
     const handlegetData = async () => {
+      const token =JSON.parse(localStorage.getItem("token")); 
+      const headers={
+         "x-auth-token": token
+       }
       try {
-        const response = await axios.get('https://easyryt.onrender.com/admin/allServices');
+        const response = await axios.get('https://easyryt.onrender.com/admin/allServices',{headers});
         console.log(response.data.data, 'aa raha');
         setRequestServicesData(response.data.data);
       } catch (error) {
