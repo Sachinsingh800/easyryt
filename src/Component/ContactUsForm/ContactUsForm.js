@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState ,useEffect} from 'react';
 import style from './ContactUsForm.module.css';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
@@ -6,6 +6,7 @@ import Swal from 'sweetalert2';
 import axios from 'axios';
 
 function ContactUsForm() {
+  const [requestServicesData, setRequestServicesData] = useState([]);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -15,6 +16,8 @@ function ContactUsForm() {
     amount: '',
     projectFile: null,
   });
+
+console.log(formData,"kya aa raha")
 
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
@@ -44,6 +47,7 @@ function ContactUsForm() {
       data.append('description', formData.description);
       data.append('amount', formData.amount);
       data.append('projectFile', formData.projectFile);
+      
 
       // Make a POST request to the API endpoint (replace 'YOUR_API_ENDPOINT' with the actual URL)
       const response = await axios.post('https://easyryt.onrender.com/client/clientProject', data);
@@ -71,6 +75,20 @@ function ContactUsForm() {
       // Handle error (display an error message to the user)
     }
   };
+  useEffect(() => {
+
+    const handlegetData = async () => {
+      
+      try {
+        const response = await axios.get('https://easyryt.onrender.com/client/allServices');
+        console.log(response.data.data, 'aa raha');
+        setRequestServicesData(response.data.data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    handlegetData();
+  }, []);
 
   return (
     <div className={style.main}>
@@ -94,16 +112,28 @@ function ContactUsForm() {
             placeholder="Enter phone number"
           />
         </div>
-        <div>
-          <label>Request Services:</label>
-          <input
-            type="text"
-            name="requestServices"
-            value={formData.requestServices}
-            onChange={handleChange}
-            required
-          />
-        </div>
+        {/* ... (previous imports and component code) ... */}
+
+<div>
+  <label>Request Services:</label>
+  <select
+    id="requestServices"
+    name="requestServices"
+    value={formData.requestServices}
+    onChange={handleChange}
+    required
+  >
+    <option value="">Select an option</option>
+    {requestServicesData.map((service) => (
+      <option key={service._id} value={service.requestServices}> {/* Use service._id as the value */}
+        {service.requestServices}
+      </option>
+    ))}
+  </select>
+</div>
+
+{/* ... (rest of the component code) ... */}
+
         <div>
           <label>Description:</label>
           <textarea name="description" value={formData.description} onChange={handleChange} required />
