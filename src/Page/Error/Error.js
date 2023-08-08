@@ -27,12 +27,12 @@ console.log(blog)
   
 
 
-    const blogTitle = location.pathname.slice(6);
+    const blogTitle = location.pathname.slice(7);
    const urlFriendlyTitle = blogTitle.replace(/-/g, ' ');
     console.log('URL-friendly title:', urlFriendlyTitle);
 
 function handleFilterData(){
-  const newData=blog.filter((item)=>item.title==urlFriendlyTitle)
+  const newData=blog?.filter((item)=>item.title==urlFriendlyTitle)
   console.log(newData,"aa gaya")
 }
 handleFilterData()
