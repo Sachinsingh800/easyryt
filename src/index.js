@@ -121,7 +121,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path: `/:blogTitle`,
+    path: "/Blog/:blogTitle",
     element: <FullBlog />,
   },
   {

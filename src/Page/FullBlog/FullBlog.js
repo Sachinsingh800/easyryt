@@ -94,7 +94,7 @@ function FullBlog() {
                 .includes(search.toLowerCase());
             })
             .map((card, index) => (
-       <Link to={`/${card?.title}`}>  <div
+       <Link to={`/Blog/${card?.title}`}>  <div
                 className={style.card}
                 key={index}
                 onClick={() => handleCardClick(card.heading)}

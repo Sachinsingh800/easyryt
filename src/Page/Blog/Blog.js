@@ -71,7 +71,7 @@ const Blog = () => {
             <h5>{cardsData[0]?.heading}</h5>
             <hr />
             <p className={style.para}>{cardsData[0]?.description}</p>
-            <Link to={`/${cardsData[0]?.title}`} onClick={scrollToTop}>
+            <Link to={`/Blog/${cardsData[0]?.title}`} onClick={scrollToTop}>
               <button className={style.btn}>Continue Reading→</button>
             </Link>
           </div>
