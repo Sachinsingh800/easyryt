@@ -57,6 +57,10 @@ const Blog = () => {
     return () => clearInterval(intervalId);
   }, []);
 
+  const BlogContent = ({ htmlContent }) => {
+    return <div className={style.description} dangerouslySetInnerHTML={{ __html: htmlContent }} />;
+  };
+
   return (
     <div className={style.main}>
       <NavBar />
@@ -71,7 +75,7 @@ const Blog = () => {
             </div>
             <h5>{cardsData[0]?.heading}</h5>
             <hr />
-            <p className={style.para}>{cardsData[0]?.description}</p>
+            <p className={style.para}> <BlogContent htmlContent={cardsData[0]?.description}/></p>
             <Link to={`/Blog/${cardsData[0]?.title}`} onClick={scrollToTop}>
               <button className={style.btn}>Continue Reading→</button>
             </Link>
@@ -98,7 +102,8 @@ const Blog = () => {
                   <img src={card.blogImg} alt={card.heading} />
                 </div>
                 <h5>{card.heading}</h5>
-                <p className={style.parainfo}>{card.description}</p>
+               
+                <p className={style.parainfo}> <BlogContent htmlContent={card.description}/></p>
               </div>
             ))}
         </div>

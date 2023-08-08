@@ -86,7 +86,7 @@ import WebsiteDevelopment from './Page/WebsiteDevelopment/WebsiteDevelopment';
 import WordPressDevelopment from './Page/WordPressDevelopment/WordPressDevelopment';
 import UIUXDesign from './Page/UIUXDesign/UIUXDesign';
 import FullBlog from './Page/FullBlog/FullBlog';
-import Error from './Error';
+import Error from './Page/Error/Error';
 import { Link, useParams } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

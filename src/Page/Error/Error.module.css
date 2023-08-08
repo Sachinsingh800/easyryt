@@ -1,0 +1,25 @@
+.main{
+  
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+ 
+}
+.img{
+    height: 80%;
+    width: 70%;
+}
+.btn{
+    position: absolute;
+    height: 3rem;
+    width: 15rem;
+    bottom: 3%;
+    right: 18%;
+    border: none;
+    border-radius: 15px;
+    background-color: aqua;
+    color: white;
+    font-size: large;
+}
