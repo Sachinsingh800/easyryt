@@ -17,6 +17,7 @@ function FullBlog() {
   const [blog, setBlog] = useState([]);
   const [initialCardsData, setInitialCardsData] = useState([]);
   const [search, setSearch] = useState('');
+  const [ cardsData,setCardData] =useState([])
 
   useEffect(() => {
     // Load initial blog data from local storage
@@ -53,12 +54,14 @@ function FullBlog() {
   const handleCardClick = (heading) => {
     const filteredCards = initialCardsData.filter((card) => card.heading === heading);
     localStorage.setItem('blog2', JSON.stringify(filteredCards));
+    setCardData(filteredCards)
   };
 
   const BlogContent = ({ htmlContent }) => {
     return <div className={style.description} dangerouslySetInnerHTML={{ __html: htmlContent }} />;
   };
-
+  const originalString = cardsData[0]?.title;
+  const urlFriendlyString = originalString?.replace(/\s+/g, '-');
   return (
     <div className={style.main}>
       <NavBar />
@@ -91,7 +94,7 @@ function FullBlog() {
                   return elem.description.toLowerCase().includes(search.toLowerCase());
                 })
                 .map((card, index) => (
-                  <Link to={`/Blog/${card?.title}`} key={index}>
+                  <Link to={`/Blog/${urlFriendlyString}`} key={index}>
                     <div className={style.card} onClick={() => handleCardClick(card?.heading)}>
                       <div className={style.imgbox2}>
                         <img src={card?.blogImg} alt={card.heading} />
