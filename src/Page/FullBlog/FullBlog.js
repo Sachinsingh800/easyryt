@@ -8,17 +8,20 @@ import axios from 'axios';
 import ClientsAccordion from '../../Component/ClientsAccordion/ClientsAccordion';
 import { Link, useParams } from "react-router-dom";
 
+
+
 function FullBlog() {
     const blog=JSON.parse(localStorage.getItem("blog2"))
     const [active, setActive] = useState(false);
     const { blogTitle } = useParams(); 
-    console.log(blogTitle,"Full Blog")
+  
 
     
     const [cardsData, setCardsData] = useState([]);
     const [search, setSearch] = useState("");
     const [initialCardsData, setData] = useState([]);
-  
+
+
   
     useEffect(() => {
       const handlegetData = async () => {
