@@ -23,3 +23,9 @@
     color: white;
     font-size: large;
 }
+@media (max-width:400px){
+    .img{
+        height: 50%;
+        width: 50%;
+    }
+}
