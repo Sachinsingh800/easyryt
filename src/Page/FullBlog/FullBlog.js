@@ -43,7 +43,7 @@ function FullBlog() {
     console.log(urlFriendlyTitle,"dadad")
     const handleFilter = () => {
       const result = initialCardsData.filter((item) => item.title  == urlFriendlyTitle);
-      localStorage.setItem("blog2", JSON.stringify(result));
+      console.log('Filtered result:', result);
       // Do something with the filtered result, if needed
     };
   
