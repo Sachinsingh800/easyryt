@@ -6,11 +6,12 @@ import Footer from '../../Component/Footer/Footer';
 import BlogForm from '../../Component/BlogForm/BlogForm';
 import axios from 'axios';
 import ClientsAccordion from '../../Component/ClientsAccordion/ClientsAccordion';
+import { Link, useParams } from "react-router-dom";
 
 function FullBlog2() {
     const blog=JSON.parse(localStorage.getItem("blog2"))
     const [active, setActive] = useState(false);
-
+    const { blogTitle } = useParams(); 
     
 
     
@@ -93,7 +94,7 @@ function FullBlog2() {
                 .includes(search.toLowerCase());
             })
             .map((card, index) => (
-              <div
+       <Link to={`/${card?.title}`}>  <div
                 className={style.card}
                 key={index}
                 onClick={() => handleCardClick(card.heading)}
@@ -104,6 +105,7 @@ function FullBlog2() {
                 <h5>{card.title}</h5>
                 <h5>{card.heading}</h5>
               </div>
+              </Link>     
             ))}
         </div>
           </div>
