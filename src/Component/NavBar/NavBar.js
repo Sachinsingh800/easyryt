@@ -177,7 +177,7 @@ function NavBar() {
   </Link>
 
 
-  <Link to={"/Blog"}>
+  <Link to={"/Blogs"}>
   <h4
           className={activeLink === "blog" ? style.active : ""}
           onMouseEnter={() => handleBlogHover("blog")}

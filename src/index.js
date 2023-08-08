@@ -116,7 +116,7 @@ const router = createBrowserRouter([
     element: <WhyChooseUs />,
   },
   {
-    path: "/Blog",
+    path: "/Blogs",
     element: <Blog />,
   },
 

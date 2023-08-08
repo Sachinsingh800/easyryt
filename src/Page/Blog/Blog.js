@@ -47,6 +47,7 @@ const Blog = () => {
   const [active, setActive] = useState(false);
 
   useEffect(() => {
+  
     const toggleActive = () => {
       setActive((prevActive) => !prevActive);
     };
