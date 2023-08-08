@@ -20,8 +20,8 @@ const Blog = () => {
     const handlegetData = async () => {
       try {
         const response = await axios.get('https://easyryt.onrender.com/client/getAllBlog');
-        setData(response.data.data);
-        setCardsData([response.data.data[0]]);
+        setData(response?.data?.data);
+        setCardsData([response?.data?.data[0]]);
       } catch (error) {
         console.log(error);
       }
@@ -107,11 +107,11 @@ const Blog = () => {
                 onClick={() => handleCardClick(card.heading)}
               >
                 <div className={style.imgbox2}>
-                  <img src={card.blogImg} alt={card.heading} />
+                  <img src={card?.blogImg} alt={card?.heading} />
                 </div>
-                <h5>{card.heading}</h5>
+                <h5>{card?.heading}</h5>
                
-                <p className={style.parainfo}> <BlogContent htmlContent={card.description}/></p>
+                <p className={style.parainfo}> <BlogContent htmlContent={card?.description}/></p>
               </div>
             ))}
         </div>

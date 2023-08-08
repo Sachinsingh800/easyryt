@@ -6,40 +6,40 @@ import { useLocation } from 'react-router-dom';
 import axios from 'axios';
 
 function Error() {
-  const { blogTitle } = useParams(); 
-  console.log(blogTitle,"Full Blog")
-  const location = useLocation();
+//   const { blogTitle } = useParams(); 
+//   console.log(blogTitle,"Full Blog")
+//   const location = useLocation();
 
-  const [blog,setBlog ] =useState()
-console.log(blog)
-  useEffect(() => {
-    const handlegetData = async () => {
-      try {
-        const response = await axios.get('https://easyryt.onrender.com/client/getAllBlog');
-        setBlog(response.data.data)
-      } catch (error) {
-        console.log(error);
-      }
-    };
-    handlegetData();
+//   const [blog,setBlog ] =useState()
+// console.log(blog)
+//   useEffect(() => {
+//     const handlegetData = async () => {
+//       try {
+//         const response = await axios.get('https://easyryt.onrender.com/client/getAllBlog');
+//         setBlog(response.data.data)
+//       } catch (error) {
+//         console.log(error);
+//       }
+//     };
+//     handlegetData();
 
   
   
 
 
-    const blogTitle = location.pathname.slice(7);
-   const urlFriendlyTitle = blogTitle.replace(/-/g, ' ');
-    console.log('URL-friendly title:', urlFriendlyTitle);
+//     const blogTitle = location.pathname.slice(7);
+//    const urlFriendlyTitle = blogTitle.replace(/-/g, ' ');
+//     console.log('URL-friendly title:', urlFriendlyTitle);
 
-function handleFilterData(){
-  const newData=blog?.filter((item)=>item.title==urlFriendlyTitle)
-  console.log(newData,"aa gaya")
-}
-handleFilterData()
+// function handleFilterData(){
+//   const newData=blog?.filter((item)=>item.title==urlFriendlyTitle)
+//   console.log(newData,"aa gaya")
+// }
+// handleFilterData()
 
 
 
-  }, [location]);
+//   }, [location]);
 
   return (
     <div className={style.main}>
