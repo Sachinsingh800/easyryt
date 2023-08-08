@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import style from "./FullBlog2.module.css"
+import style from "./FullBlog.module.css"
 import NavBar from '../../Component/NavBar/NavBar'
 import CallButton from '../../Component/CallButton/CallButton';
 import Footer from '../../Component/Footer/Footer';
@@ -8,7 +8,7 @@ import axios from 'axios';
 import ClientsAccordion from '../../Component/ClientsAccordion/ClientsAccordion';
 import { Link, useParams } from "react-router-dom";
 
-function FullBlog2() {
+function FullBlog() {
     const blog=JSON.parse(localStorage.getItem("blog2"))
     const [active, setActive] = useState(false);
     const { blogTitle } = useParams(); 
@@ -118,4 +118,4 @@ function FullBlog2() {
   )
 }
 
-export default FullBlog2
+export default FullBlog

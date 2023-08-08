@@ -14,7 +14,6 @@ import CrossPlatformAppDevelopment from './Page/CrossPlatformAppDevelopment/Cros
 import AboutUs from './Page/AboutUs/AboutUs';
 import WhyChooseUs from './Page/WhyChooseUs/WhyChooseUs';
 import Blog from './Page/Blog/Blog';
-import FullBlog2 from './Page/FullBlog2/FullBlog2';
 import ContactUs from './Page/ContactUs/ContactUs';
 import AffiliateWebsite from './Page/AffiliateWebsite/AffiliateWebsite';
 import AndroidApplicationDevelopmentServices from './Page/AndroidApplicationDevelopmentServices/AndroidApplicationDevelopmentServices';
@@ -86,8 +85,13 @@ import DigitalMarketing from './Page/DigitalMarketing/DigitalMarketing';
 import WebsiteDevelopment from './Page/WebsiteDevelopment/WebsiteDevelopment';
 import WordPressDevelopment from './Page/WordPressDevelopment/WordPressDevelopment';
 import UIUXDesign from './Page/UIUXDesign/UIUXDesign';
+import FullBlog from './Page/FullBlog/FullBlog';
+import Error from './Error';
+import { Link, useParams } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
 
 
 const router = createBrowserRouter([
@@ -117,8 +121,8 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/:blogTitle" ,
-    element: <FullBlog2 />,
+    path: `/:blogTitle`,
+    element: <FullBlog />,
   },
   {
     path: "/ContactUs",
@@ -408,7 +412,12 @@ const router = createBrowserRouter([
     path: "/UIUXDesign",
     element: <UIUXDesign />,
   },
+  {
+    path: "*",
+    element: <Error />,
+  },
 ]);
+
 root.render(
   <React.StrictMode>
  <RouterProvider router={router} />
