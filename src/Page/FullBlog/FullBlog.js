@@ -12,7 +12,7 @@ function FullBlog() {
     const blog=JSON.parse(localStorage.getItem("blog2"))
     const [active, setActive] = useState(false);
     const { blogTitle } = useParams(); 
-    
+    console.log(blogTitle,"Full Blog")
 
     
     const [cardsData, setCardsData] = useState([]);

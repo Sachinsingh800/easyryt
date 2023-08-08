@@ -14,6 +14,8 @@ const Blog = () => {
   const [initialCardsData, setData] = useState([]);
   const { blogTitle } = useParams(); // Capture the blogTitle parameter
 
+  console.log(blogTitle,"Blog")
+
   useEffect(() => {
     const handlegetData = async () => {
       try {
