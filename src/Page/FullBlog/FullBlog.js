@@ -61,6 +61,8 @@ function FullBlog() {
     const BlogContent = ({ htmlContent }) => {
       return <div className={style.description} dangerouslySetInnerHTML={{ __html: htmlContent }} />;
     };
+
+ 
   return (
     <div className={style.main}>
       <NavBar/>

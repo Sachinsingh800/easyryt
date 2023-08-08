@@ -63,6 +63,12 @@ const Blog = () => {
     return <div className={style.description} dangerouslySetInnerHTML={{ __html: htmlContent }} />;
   };
 
+  const originalString = cardsData[0]?.title;
+  const urlFriendlyString = originalString?.replace(/\s+/g, '-');
+  
+
+
+
   return (
     <div className={style.main}>
       <NavBar />
@@ -78,7 +84,7 @@ const Blog = () => {
             <h5>{cardsData[0]?.heading}</h5>
             <hr />
             <p className={style.para}> <BlogContent htmlContent={cardsData[0]?.description}/></p>
-            <Link to={`/Blog/${cardsData[0]?.title}`} onClick={scrollToTop}>
+            <Link to={`/Blog/${urlFriendlyString }`} onClick={scrollToTop}>
               <button className={style.btn}>Continue Reading→</button>
             </Link>
           </div>
