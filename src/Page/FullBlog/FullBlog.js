@@ -10,7 +10,7 @@ import { Link, useParams, useLocation } from 'react-router-dom';
 function FullBlog() {
   const { blogTitle } = useParams();
   const location = useLocation();
-  const blogName = location.pathname.slice(6);
+  const blogName = location.pathname.slice(6,12);
   const urlFriendlyTitle = blogName.replace(/-/g, ' ');
 
   const [active, setActive] = useState(false);
@@ -39,17 +39,16 @@ function FullBlog() {
   }, []);
 
   useEffect(() => {
-    console.log(initialCardsData,"dadad")
-    console.log(urlFriendlyTitle,"dadad")
+   
     const handleFilter = () => {
-      const result = initialCardsData.filter((item) => item.title  == urlFriendlyTitle);
+      const result = initialCardsData.filter((item) => item.title.slice(0,6) === urlFriendlyTitle);
       console.log('Filtered result:', result);
+     setBlog(result)
       // Do something with the filtered result, if needed
     };
-  
+
     handleFilter();
   }, [initialCardsData, urlFriendlyTitle]);
-
 
   const handleCardClick = (heading) => {
     const filteredCards = initialCardsData.filter((card) => card.heading === heading);
