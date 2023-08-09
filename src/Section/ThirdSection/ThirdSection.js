@@ -42,7 +42,7 @@ function ThirdSection() {
                   app to platforms like iOS or Android.
                 </p>
                 <Link
-                  to="/AppDevelopment"
+                  to="/App-Development"
                 >
                   <h6>Read More ᐳ</h6>
                 </Link>
@@ -69,7 +69,7 @@ function ThirdSection() {
                   realm.
                 </p>
                 <Link
-                  to="/WebsiteDevelopment"
+                  to="/Website-Development"
                 >
                   <h6>Read More ᐳ</h6>
                 </Link>
@@ -96,7 +96,7 @@ function ThirdSection() {
                   brand's online reputation.
                 </p>
                 <Link
-                  to="/DigitalMarketing"
+                  to="/Digital-Marketing"
                 >
                   <h6>Read More ᐳ</h6>
                 </Link>
@@ -122,7 +122,7 @@ function ThirdSection() {
                   of data security and compliance.
                 </p>
                 <Link
-                  to="/CloudSolutions"
+                  to="/Cloud-Solutions"
                 >
                   <h6>Read More ᐳ</h6>
                 </Link>
@@ -150,7 +150,7 @@ function ThirdSection() {
                   website.
                 </p>
                 <Link
-                  to="/WordPressDevelopment"
+                  to="/Word-Press-Development"
                 >
                   <h6>Read More ᐳ</h6>
                 </Link>
@@ -177,7 +177,7 @@ function ThirdSection() {
                   loyalty.
                 </p>
                 <Link
-                  to="/UIUXDesign"
+                  to="/UIUX-Design"
                 >
                   <h6>Read More ᐳ</h6>
                 </Link>

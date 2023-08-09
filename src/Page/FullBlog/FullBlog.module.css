@@ -18,6 +18,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding: 1rem 0rem;
+    border: 1px red solid;
 }
 .imginnerbox{
     overflow: hidden;

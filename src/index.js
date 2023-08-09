@@ -100,11 +100,11 @@ const router = createBrowserRouter([
     element: <App/>,
   },
   {
-    path: "/FirstPage",
+    path: "/Native-Mobile-App-Development",
     element: <FirstPage/>,
   },
   {
-    path: "/CrossPlatformAppDevelopment",
+    path: "/Cross-Platform-App-Development",
     element: <CrossPlatformAppDevelopment/>,
   },
   {
@@ -112,7 +112,7 @@ const router = createBrowserRouter([
     element: <AboutUs/>,
   },
   {
-    path: "/WhyChooseUs",
+    path: "/Why-Choose-Us",
     element: <WhyChooseUs />,
   },
   {
@@ -125,195 +125,195 @@ const router = createBrowserRouter([
     element: <FullBlog />,
   },
   {
-    path: "/ContactUs",
+    path: "/Contact-Us",
     element: <ContactUs />,
   },
   {
-    path: "/AffiliateWebsite",
+    path: "/Affiliate-Website",
     element: <AffiliateWebsite />,
   },
   {
-    path: "/AndroidApplicationDevelopmentServices",
+    path: "/Android-Application-Development-Services",
     element: <AndroidApplicationDevelopmentServices />,
   },
   {
-    path: "/HybridApplicationDevelopmentServices",
+    path: "/Hybrid-Application-Development-Services",
     element: <HybridApplicationDevelopmentServices/>,
   },
   {
-    path: "/MobileAppDevelopment",
+    path: "/Mobile-App-Development",
     element: <MobileAppDevelopment/>,
   },
   {
-    path: "/AppBackendDevelopment",
+    path: "/App-Backend-Development",
     element: <AppBackendDevelopment />,
   },
   {
-    path: "/FlutterAppDevelopment",
+    path: "/Flutter-App-Development",
     element: <FlutterAppDevelopment />,
   },
   {
-    path: "/ReactNativeAppDevelopment",
+    path: "/React-Native-App-Development",
     element: <ReactNativeAppDevelopment/>,
   },
   {
-    path: "/MobileAppTestingandTestingQualityAssurance",
+    path: "/Mobile-App-Testingand-Testing-Quality-Assurance",
     element: <MobileAppTestingandTestingQualityAssurance />,
   },
   {
-    path: "/IOSApplicationDevelopmentServices",
+    path: "/IOS-Application-Development-Services",
     element: <IOSApplicationDevelopmentServices />,
   },
   {
-    path: "/SearchEngineOptimization",
+    path: "/Search-Engine-Optimization",
     element: <SearchEngineOptimization/>,
   },
   {
-    path: "/PayPerClickAdvertising",
+    path: "/Pay-Per-Click-Advertising",
     element: <PayPerClickAdvertising  />,
   },
   {
-    path: "/SocialMediaAdvertising",
+    path: "/Social-Media-Advertising",
     element: <SocialMediaAdvertising />,
   },
   {
-    path: "/GoogleAdvertising",
+    path: "/Google-Advertising",
     element: <GoogleAdvertising />,
   },
   {
-    path: "/Facebook&InstagramAdvertising",
+    path: "/Facebook-&-Instagram-Advertising",
     element: <FacebookInstagramAdvertising />,
   },
   {
-    path: "/ContentMarketing",
+    path: "/Content-Marketing",
     element: <ContentMarketing />,
   },
   {
-    path: "/SocialMediaMarketing",
+    path: "/Social-Media-Marketing",
     element: <SocialMediaMarketing />,
   },
   {
-    path: "/EmailMarketing",
+    path: "/Email-Marketing",
     element: <EmailMarketing />,
   },
   {
-    path: "/AnalyticsandReporting",
+    path: "/Analytics-and-Reporting",
     element: <AnalyticsandReporting />,
   },
   {
-    path: "/WebsiteTrafficAdvertising",
+    path: "/Website-Traffic-Advertising",
     element: <WebsiteTrafficAdvertising />,
   },
   {
-    path: "/ECommerceAdvertising",
+    path: "/E-Commerce-Advertising",
     element: <ECommerceAdvertising />,
   },
   {
-    path: "/AppInstallAdvertising",
+    path: "/App-Install-Advertising",
     element: <AppInstallAdvertising />,
   },
   {
-    path: "/AndroidAppAdvertising",
+    path: "/Android-App-Advertising",
     element: <AndroidAppAdvertising />,
   },
   {
-    path: "/IOSAppAdvertising",
+    path: "/IOS-App-Advertising",
     element: <IOSAppAdvertising/>,
   },
   {
-    path: "/ECommerceDevelopment",
+    path: "/E-Commerce-Development",
     element: <ECommerceDevelopment />,
   },
   {
-    path: "/FrontEndDevelopment",
+    path: "/FrontEnd-Development",
     element: <FrontEndDevelopment />,
   },
   {
-    path: "/BackendDevelopment",
+    path: "/Backend-Development",
     element: <BackendDevelopment />,
   },
   {
-    path: "/FullStackDevelopmentServices",
+    path: "/FullStack-Development-Services",
     element: <FullStackDevelopmentServices />,
   },
   {
-    path: "/BlogorPersonalWebsite",
+    path: "/Blog-or-Personal-Website",
     element: <BlogorPersonalWebsite />,
   },
   {
-    path: "/BusinessWebsite",
+    path: "/Business-Website",
     element: <BusinessWebsite/>,
   },
   {
-    path: "/EcommerceWebsiteOnlineStore",
+    path: "/E-commerce-Website-Online-Store",
     element: <EcommerceWebsiteOnlineStore/>,
   },
   {
-    path: "/OnlineCourses",
+    path: "/Online-Courses",
     element: <OnlineCourses/>,
   },
   {
-    path: "/PodcastWebsite",
+    path: "/Podcast-Website",
     element: <PodcastWebsite/>,
   },
   {
-    path: "/AffiliateWebsite",
+    path: "/Affiliate-Website",
     element: <AffiliateWebsite/>,
   },
   {
-    path: "/JobBoardWebsite",
+    path: "/JobBoard-Website",
     element: <JobBoardWebsite/>,
   },
   {
-    path: "/PortfolioWebsites",
+    path: "/Portfolio-Websites",
     element: <PortfolioWebsites/>,
   },
   {
-    path: "/TravelWebsite",
+    path: "/Travel-Website",
     element: <TravelWebsite/>,
   },
   {
-    path: "/FashionLifestyleWebsite",
+    path: "/Fashion-Life-style-Website",
     element: <FashionLifestyleWebsite/>,
   },
   {
-    path: "/MobileAppUIUXDesignServices",
+    path: "/Mobile-App-UIUX-Design-Services",
     element: <MobileAppUIUXDesignServices/>,
   },
   {
-    path: "/AndroidAppUIUXDesignServices",
+    path: "/Android-App-UIUX-Design-Services",
     element: <AndroidAppUIUXDesignServices/>,
   },
   {
-    path: "/UIUXDesignServices",
+    path: "/UIUX-Design-Services",
     element: <UIUXDesignServices/>,
   },
   {
-    path: "/ISOUIUXDesignServices",
+    path: "/ISO-UIUX-Design-Services",
     element: <ISOUIUXDesignServices/>,
   },
   {
-    path: "/WebsiteUIUXDesignServices",
+    path: "/Website-UIUX-Design-Services",
     element: <WebsiteUIUXDesignServices/>,
   },
   {
-    path: "/ReactJsDevelopment",
+    path: "/ReactJs-Development",
     element: <ReactJsDevelopment/>,
   },
   {
-    path: "/NextjsDevelopment",
+    path: "/Nextjs-Development",
     element: <NextjsDevelopment/>,
   },
   {
-    path: "/VuejsDevelopment",
+    path: "/Vuejs-Development",
     element: <VuejsDevelopment/>,
   },
   {
-    path: "/ReactNativeDevelopment",
+    path: "/ReactNative-Development",
     element: <ReactNativeDevelopment/>,
   },
   {
-    path: "/AngularDvelopment",
+    path: "/Angular-Dvelopment",
     element: <AngularDvelopment/>,
   },
   {
@@ -329,47 +329,47 @@ const router = createBrowserRouter([
     element: <Python/>,
   },
   {
-    path: "/APIDevelopment",
+    path: "/API-Development",
     element: <APIDevelopment />,
   },
   {
-    path: "/DatabaseDesignandManagement",
+    path: "/Database-Designand-Management",
     element: <DatabaseDesignandManagement />,
   },
   {
-    path: "/ServerArchitectureandConfiguration",
+    path: "/Server-Architecture-and-Configuration",
     element: <ServerArchitectureandConfiguration />,
   },
   {
-    path: "/CloudServicesIntegrationSAPIndustrySolutions",
+    path: "/Cloud-Services-Integration-SAP-Industry-Solutions",
     element: <CloudServicesIntegrationSAPIndustrySolutions/>,
   },
   {
-    path: "/BackendFrameworkDevelopment",
+    path: "/Backend-Framework-Development",
     element: <BackendFrameworkDevelopment/>,
   },
   {
-    path: "/WebApplicationDevelopment",
+    path: "/Web-Application-Development",
     element: <WebApplicationDevelopment />,
   },
   {
-    path: "/MobileBackendDevelopment",
+    path: "/Mobile-Backend-Development",
     element: <MobileBackendDevelopment/>,
   },
   {
-    path: "/RealTimeDataProcessing",
+    path: "/Real-TimeData-Processing",
     element: <RealTimeDataProcessing />,
   },
   {
-    path: "/PerformanceOptimization",
+    path: "/Performance-Optimization",
     element: <PerformanceOptimization />,
   },
   {
-    path: "/IntegrationwithThirdPartyServices",
+    path: "/Integration-with-Third-Party-Services",
     element: <IntegrationwithThirdPartyServices />,
   },
   {
-    path: "/DevOpsandContinuousIntegration",
+    path: "/DevOps-and-Continuous-Integration",
     element: <DevOpsandContinuousIntegration />,
   },
   {
@@ -381,7 +381,7 @@ const router = createBrowserRouter([
     element: <Aws  />,
   },
   {
-    path: "/GoogleCloud",
+    path: "/Google-Cloud",
     element: <GoogleCloud  />,
   },
   {
@@ -389,27 +389,27 @@ const router = createBrowserRouter([
     element: <PopupOption  />,
   },
   {
-    path: "/AppDevelopment",
+    path: "/App-Development",
     element: <AppDevelopment  />,
   },
   {
-    path: "/CloudSolutions",
+    path: "/Cloud-Solutions",
     element: <CloudSolutions />,
   },
   {
-    path: "/DigitalMarketing",
+    path: "/Digital-Marketing",
     element: <DigitalMarketing />,
   },
   {
-    path: "/WebsiteDevelopment",
+    path: "/Website-Development",
     element: <WebsiteDevelopment />,
   },
   {
-    path: "/WordPressDevelopment",
+    path: "/Word-Press-Development",
     element: <WordPressDevelopment />,
   },
   {
-    path: "/UIUXDesign",
+    path: "/UIUX-Design",
     element: <UIUXDesign />,
   },
   {
