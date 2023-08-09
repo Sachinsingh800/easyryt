@@ -17,7 +17,7 @@ function AboutOption() {
       </div>
       <div className={style.navBar}>
         <ul className={style.optionList}>
-        <Link to={"/AboutUs"}>
+        <Link to={"/About-Us"}>
         <li
             className={hoveredOption === "Option 1" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 1")}
@@ -34,7 +34,7 @@ function AboutOption() {
           </li> */}
 
 
-<Link to={"/WhyChooseUs"}> 
+<Link to={"/Why-Choose-Us"}> 
 <li
             className={hoveredOption === "Option 3" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 3")}
