@@ -108,7 +108,7 @@ const router = createBrowserRouter([
     element: <CrossPlatformAppDevelopment/>,
   },
   {
-    path: "/AboutUs",
+    path: "/About-Us",
     element: <AboutUs/>,
   },
   {

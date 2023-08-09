@@ -122,7 +122,7 @@ function NavBar() {
                 price. Here we assist you to Figure out the finest results out
                 of your funds through our digital services.
               </p>
-             <Link to={"/AboutUs"}> <button>About Company</button></Link>
+             <Link to={"/About-Us"}> <button>About Company</button></Link>
             </div>
             <AboutOption />
             <div className={style.ratingBox}>
@@ -160,7 +160,7 @@ function NavBar() {
               Collaborate for success
               </h3>
               <span>Join forces with us</span>
-            <Link to={"/ContactUs"}> <button>Get A quote</button></Link> 
+            <Link to={"/Contact-Us"}> <button>Get A quote</button></Link> 
               <img className={style.img2} src={logo2} alt="logo" />
             </div>
           </div>
