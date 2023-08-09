@@ -22,7 +22,7 @@ const PopupOption = () => {
   useEffect(() => {
     const handlegetData = async () => {
       try {
-        const response = await axios.get('https://easyryt.onrender.com/admin/allServices');
+        const response = await axios.get('https://easyryt.onrender.com/client/allServices');
         setRequestServicesData(response.data.data);
       } catch (error) {
         console.log(error);
