@@ -297,7 +297,7 @@ export const Accordion2 = () => {
   return (
     <div className={`${styles.accordion} ${isOpen ? styles.open : ""}`}>
       <button className={styles["accordion-button"]} onClick={toggleAccordion}>
-        <Link className={styles.a} to={"/AboutUs"}>
+        <Link className={styles.a} to={"/About-Us"}>
           <span>About</span>
         </Link>
         {/* {isOpen ? <span>▲</span> : <span>▼</span>  } */}
