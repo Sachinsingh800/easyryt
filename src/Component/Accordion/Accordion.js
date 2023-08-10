@@ -324,7 +324,7 @@ export const Accordion3 = () => {
   return (
     <div className={`${styles.accordion} ${isOpen ? styles.open : ""}`}>
       <button className={styles["accordion-button"]} onClick={toggleAccordion}>
-        <Link className={styles.a} to={"/ContactUs"}>
+        <Link className={styles.a} to={"/Contact-Us"}>
           <span>Contact Us</span>
         </Link>
         {/* {isOpen ? <span>▲</span> : <span>▼</span>  } */}
@@ -351,7 +351,7 @@ export const Accordion4 = () => {
   return (
     <div className={`${styles.accordion} ${isOpen ? styles.open : ""}`}>
       <button className={styles["accordion-button"]} onClick={toggleAccordion}>
-        <Link className={styles.a} to={"/Blog"}>
+        <Link className={styles.a} to={"/Blogs"}>
           <span>Blog</span>
         </Link>
         {/* {isOpen ? <span>▲</span> : <span>▼</span>  } */}
