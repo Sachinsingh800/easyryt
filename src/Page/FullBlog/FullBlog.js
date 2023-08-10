@@ -70,16 +70,19 @@ function FullBlog() {
           <div className={style.imginnerbox}>
             <h3>{blog[0]?.title}</h3>
             <h6>{blog[0]?.createdAt}</h6>
+         
             <div className={style.imgcontainer}>
               <img className={active ? style.active : ''} src={blog[0]?.blogImg} alt="blog" />
             </div>
-          </div>
-          <BlogForm />
-        </div>
-        <div className={style.infobox}>
-          <div className={style.info}>
+            <div className={style.info}>
             <BlogContent htmlContent={blog[0]?.description} />
           </div>
+          </div>
+        
+         
+        </div>
+        <div className={style.infobox}>
+          <BlogForm/>
           <div className={style.form}>
             <h2>Recent Blog</h2>
             <div className={style.rightBox}>
