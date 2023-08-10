@@ -22,195 +22,195 @@ export const Accordion1 = () => {
         <div className={styles.content}>
           <ul>
             <li className={styles.heading}>Mobile App Development</li>
-            <Link to={"/FirstPage"}>
+            <Link to={"/Native-Mobile-App-Development"}>
               {" "}
               <li>Native Mobile App Development</li>
             </Link>
-            <Link to={"/CrossPlatformAppDevelopment"}>
+            <Link to={"/Cross-Platform-App-Development"}>
               {" "}
               <li>Cross-Platform App Development</li>
             </Link>
-            <Link to={"/AndroidApplicationDevelopmentServices"}>
+            <Link to={"/Android-Application-Development-Services"}>
               <li>Android Application Development Services</li>
             </Link>
-            <Link to={"/IOSApplicationDevelopmentServices"}>
+            <Link to={"/IOS-Application-Development-Services"}>
               {" "}
               <li>IOS Application Development Services</li>
             </Link>
-            <Link to={"/HybridApplicationDevelopmentServices"}>
+            <Link to={"/Hybrid-Application-Development-Services"}>
               {" "}
               <li>Hybrid Application Development Services</li>
             </Link>
-            <Link to={"/MobileAppDevelopment"}>
+            <Link to={"/Mobile-App-Development"}>
               {" "}
               <li>Mobile App Development</li>
             </Link>
-            <Link to={"/AppBackendDevelopment"}>
+            <Link to={"/App-Backend-Development"}>
               <li>App Backend Development</li>
             </Link>
-            <Link to={"/FlutterAppDevelopment"}>
+            <Link to={"/Flutter-App-Development"}>
               {" "}
               <li>Flutter App Development</li>
             </Link>
-            <Link to={"/ReactNativeAppDevelopment"}>
+            <Link to={"/React-Native-App-Development"}>
               {" "}
               <li>React Native App Development</li>
             </Link>
-            <Link to={"/MobileAppTestingandTestingQualityAssurance"}>
+            <Link to={"/Mobile-App-Testingand-Testing-Quality-Assurance"}>
               {" "}
               <li>Mobile App Testing and Testing Quality Assurance</li>
             </Link>
           </ul>
           <ul>
             <li className={styles.heading}>Digital Marketing</li>
-            <Link to={"/SearchEngineOptimization"}>
+            <Link to={"/Search-Engine-Optimization"}>
               <li>Search Engine Optimization (SEO)</li>
             </Link>
-            <Link to={"/PayPerClickAdvertising"}>
+            <Link to={"/Pay-Per-Click-Advertising"}>
               {" "}
               <li>Pay-Per-Click (PPC) Advertising</li>
             </Link>
-            <Link to={"/SocialMediaAdvertising"}>
+            <Link to={"/Social-Media-Advertising"}>
               {" "}
               <li>Social Media Advertising</li>
             </Link>
-            <Link to={"/GoogleAdvertising"}>
+            <Link to={"/Google-Advertising"}>
               <li>Google Advertising</li>
             </Link>
-            <Link to={"/Facebook&InstagramAdvertising"}>
+            <Link to={"/Facebook-&-Instagram-Advertising"}>
               {" "}
               <li>Facebook & Instagram Advertising</li>
             </Link>
-            <Link to={"/ContentMarketing"}>
+            <Link to={"/Content-Marketing"}>
               <li>Content Marketing</li>
             </Link>
-            <Link to={"/SocialMediaMarketing"}>
+            <Link to={"/Social-Media-Marketing"}>
               {" "}
               <li>Social Media Marketing</li>
             </Link>
-            <Link to={"/EmailMarketing"}>
+            <Link to={"/Email-Marketing"}>
               {" "}
               <li>Email Marketing</li>
             </Link>
-            <Link to={"/AnalyticsandReporting"}>
+            <Link to={"/Analytics-and-Reporting"}>
               {" "}
               <li>Analytics and Reporting</li>
             </Link>
-            <Link to={"/WebsiteTrafficAdvertising"}>
+            <Link to={"/Website-Traffic-Advertising"}>
               {" "}
               <li>Website Traffic Advertising</li>
             </Link>
-            <Link to={"/ECommerceAdvertising"}>
+            <Link to={"/E-Commerce-Advertising"}>
               {" "}
               <li>E-Commerce Advertising</li>
             </Link>
-            <Link to={"/AppInstallAdvertising"}>
+            <Link to={"/App-Install-Advertising"}>
               {" "}
               <li>App Install Advertising</li>
             </Link>
-            <Link to={"/AndroidAppAdvertising"}>
+            <Link to={"/Android-App-Advertising"}>
               {" "}
               <li>Android App Advertising</li>
             </Link>
-            <Link to={"/IOSAppAdvertising"}>
+            <Link to={"/IOS-App-Advertising"}>
               {" "}
               <li>IOS App Advertising</li>
             </Link>
           </ul>
           <ul>
             <li className={styles.heading}>Website Development</li>
-            <Link to={"/ECommerceDevelopment"}>
+            <Link to={"/E-Commerce-Development"}>
               {" "}
               <li>E-Commerce Development</li>
             </Link>
-            <Link to={"/FrontEndDevelopment"}>
+            <Link to={"/FrontEnd-Development"}>
               {" "}
               <li>Front-End Development</li>
             </Link>
-            <Link to={"/BackendDevelopment"}>
+            <Link to={"/Backend-Development"}>
               {" "}
               <li>Backend Development</li>
             </Link>
-            <Link to={"/FullStackDevelopmentServices"}>
+            <Link to={"/FullStack-Development-Services"}>
               {" "}
               <li>Full Stack Development Services</li>
             </Link>
           </ul>
           <ul>
             <li className={styles.heading}>WordPress Development</li>
-            <Link to={"/BlogorPersonalWebsite"}>
+            <Link to={"/Blog-or-Personal-Website"}>
               <li>Blog or Personal Website</li>
             </Link>
-            <Link to={"/BusinessWebsite"}>
+            <Link to={"/Business-Website"}>
               <li>Business Website</li>
             </Link>
-            <Link to={"/EcommerceWebsiteOnlineStore"}>
+            <Link to={"/E-commerce-Website-Online-Store"}>
               <li>Ecommerce Website / Online Store</li>
             </Link>
-            <Link to={"/OnlineCourses"}>
+            <Link to={"/Online-Courses"}>
               <li>Online Courses</li>
             </Link>
-            <Link to={"/PodcastWebsite"}>
+            <Link to={"/Podcast-Website"}>
               <li>Podcast Website</li>
             </Link>
-            <Link to={"/AffiliateWebsite"}>
+            <Link to={"/Affiliate-Website"}>
               <li>Affiliate Website</li>
             </Link>
-            <Link to={"/JobBoardWebsite"}>
+            <Link to={"/Job-Board-Website"}>
               <li>Job Board Website</li>
             </Link>
-            <Link to={"/PortfolioWebsites"}>
+            <Link to={"/Portfolio-Websites"}>
               {" "}
               <li>Portfolio Websites</li>
             </Link>
-            <Link to={"/TravelWebsite"}>
+            <Link to={"/Travel-Website"}>
               {" "}
               <li>Travel Website</li>
             </Link>
-            <Link to={"/FashionLifestyleWebsite"}>
+            <Link to={"/Fashion-Lifestyle-Website"}>
               <li>Fashion / Lifestyle Website</li>
             </Link>
           </ul>
           <ul>
             <li className={styles.heading}>UI/UX Design</li>
-            <Link to={"/MobileAppUIUXDesignServices"}>
+            <Link to={"/Mobile-App-UIUX-Design-Services"}>
               <li>Mobile App UI /UX Design Services</li>
             </Link>
-            <Link to={"/AndroidAppUIUXDesignServices"}>
+            <Link to={"/Android-App-UIUX-Design-Services"}>
               {" "}
               <li>Android App UI/UX Design Services</li>
             </Link>
-            <Link to={"/UIUXDesignServices"}>
+            <Link to={"/UIUX-Design-Services"}>
               {" "}
               <li>UI/UX Design Services</li>
             </Link>
-            <Link to={"/ISOUIUXDesignServices"}>
+            <Link to={"/ISO-UIUX-Design-Services"}>
               {" "}
               <li>ISO UI/UX Design Servicesg</li>
             </Link>
-            <Link to={"/WebsiteUIUXDesignServices"}>
+            <Link to={"/Website-UIUX-Design-Services"}>
               {" "}
               <li>Website UI/UX Design Services</li>
             </Link>
           </ul>
           <ul>
             <li className={styles.heading}>Front End Development</li>
-            <Link to={"/ReactJsDevelopment"}>
+            <Link to={"/ReactJs-Development"}>
               <li>React Js Development</li>
             </Link>
-            <Link to={"/NextjsDevelopment"}>
+            <Link to={"/Nextjs-Development"}>
               {" "}
               <li>Next js Development</li>
             </Link>
-            <Link to={"/VuejsDevelopment"}>
+            <Link to={"/Vuejs-Development"}>
               {" "}
               <li>Vue js Development</li>
             </Link>
-            <Link to={"/AngularDvelopment"}>
+            <Link to={"/Angular-Dvelopment"}>
               {" "}
               <li>Angular Dvelopment</li>
             </Link>
-            <Link to={"/ReactNativeDevelopment"}>
+            <Link to={"/ReactNative-Development"}>
               <li>React Native Development</li>
             </Link>
           </ul>
@@ -227,41 +227,41 @@ export const Accordion1 = () => {
             <Link to={"/Python"}>
               <li>Python</li>
             </Link>
-            <Link to={"/APIDevelopment"}>
+            <Link to={"/API-Development"}>
               <li>API Development</li>
             </Link>
-            <Link to={"/DatabaseDesignandManagement"}>
+            <Link to={"/Database-Design-and-Management"}>
               {" "}
               <li>Database Design and Management</li>
             </Link>
-            <Link to={"/ServerArchitectureandConfiguration"}>
+            <Link to={"/Server-Architecture-and-Configuration"}>
               {" "}
               <li>Server Architecture and Configuration</li>
             </Link>
-            <Link to={"/CloudServicesIntegrationSAPIndustrySolutions"}>
+            <Link to={"/Cloud-Services-Integration-SAP-Industry-Solutions"}>
               <li>Cloud Services Integration,SAP Industry Solutions</li>
             </Link>
-            <Link to={"/BackendFrameworkDevelopment"}>
+            <Link to={"/Backend-Framework-Development"}>
               {" "}
               <li>Backend Framework Development</li>
             </Link>
-            <Link to={"/WebApplicationDevelopment"}>
+            <Link to={"/Web-Application-Development"}>
               <li>Web Application Development</li>
             </Link>
-            <Link to={"/MobileBackendDevelopment"}>
+            <Link to={"/Mobile-Backend-Development"}>
               <li>Mobile Backend Development</li>
             </Link>
-            <Link to={"/RealTimeDataProcessing"}>
+            <Link to={"/Real-Time-Data-Processing"}>
               <li>Real-Time Data Processing</li>
             </Link>
-            <Link to={"/PerformanceOptimization"}>
+            <Link to={"/Performance-Optimization"}>
               <li>Performance Optimization</li>
             </Link>
-            <Link to={"/IntegrationwithThirdPartyServices"}>
+            <Link to={"/Integration-with-Third-Party-Services"}>
               {" "}
               <li>Integration with Third-Party Services</li>
             </Link>
-            <Link to={"/DevOpsandContinuousIntegration"}>
+            <Link to={"/DevOps-and-Continuous-Integration"}>
               {" "}
               <li> (CI/CD)</li>
             </Link>
@@ -276,7 +276,7 @@ export const Accordion1 = () => {
               {" "}
               <li>Aws</li>
             </Link>
-            <Link to={"/GoogleCloud"}>
+            <Link to={"/Google-Cloud"}>
               {" "}
               <li>Google Cloud</li>
             </Link>
