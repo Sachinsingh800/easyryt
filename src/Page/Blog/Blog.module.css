@@ -55,6 +55,7 @@
     flex-direction: column;
     text-align: left;
     gap: 1.5rem;
+
 }
 .imgBox{
     height: 20rem;
@@ -77,6 +78,7 @@
     margin-top: -2rem;
     overflow: hidden;
     width: 40rem;
+  
 }
 .btn{
     margin-top: -2rem;
@@ -105,6 +107,7 @@ transition: all 0.3s ease-in-out;
     overflow: hidden;
     height: 5rem;
     padding: 0rem .5rem;
+    
  
 }
 .bigCard {
@@ -138,7 +141,26 @@ transition: all 0.3s ease-in-out;
     @media (max-width:400px){
         .imgBox{
             height: 20rem;
+            width: 100%;
+        }
+        .bigCard{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            gap: 1.5rem;
+            width: 35rem;
+            padding: 1rem;
+            flex-wrap: nowrap;
+        }
+        .rightBox{
+display: none;
+        }
+        .para{
+            height: 12rem;
+            margin-top: -2rem;
+            overflow: hidden;
             width: 32rem;
+          
         }
     }
     .closebtn{
