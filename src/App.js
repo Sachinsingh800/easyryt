@@ -1,5 +1,4 @@
 import './App.css';
-import { useEffect } from 'react';
 import Home from './Page/Home/Home';
 import { Helmet } from 'react-helmet';
 import ReactGa from "react-ga"
