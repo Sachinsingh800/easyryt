@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 function App() {
   useEffect(()=>{
      ReactGa.initialize( 'G-NTP4X1RHEG')
+     ReactGa.initialize( 'G-0NGJW5GEC0')
      ReactGa.pageview(window.location.pathname + window.location.search)
   },[])
 
@@ -27,3 +28,5 @@ function App() {
 }
 
 export default App;
+
+
