@@ -36,16 +36,16 @@ function Footer() {
         <div>
           <h4>Services</h4>
           <ul className={style.ul}>
-            <Link to={"/MobileAppDevelopment"} onClick={scrollToTop}>
+            <Link to={"/Mobile-App-Development"} onClick={scrollToTop}>
               <li>Mobile App Development</li>
             </Link>
-            <Link to={"/IOSApplicationDevelopmentServices"} onClick={scrollToTop}>
+            <Link to={"/IOS-Application-Development-Services"} onClick={scrollToTop}>
               <li>IOS Development</li>
             </Link>
-            <Link to={"/AndroidApplicationDevelopmentServices"} onClick={scrollToTop}>
+            <Link to={"/Android-Application-Development-Services"} onClick={scrollToTop}>
               <li>Android Development</li>
             </Link>
-            <Link to={"/WebApplicationDevelopment"} onClick={scrollToTop}>
+            <Link to={"/Web-Application-Development"} onClick={scrollToTop}>
               <li>Web App Development</li>
             </Link>
             {/* <Link to={""}>
@@ -59,7 +59,7 @@ function Footer() {
         <div>
           <h4>Company</h4>
           <ul className={style.ul}>
-            <Link to={"/AboutUs"} onClick={scrollToTop}>
+            <Link to={"/About-Us"} onClick={scrollToTop}>
               <li>About easyryt</li>
             </Link>
             {/* <Link to={""}>
@@ -71,7 +71,7 @@ function Footer() {
             {/* <Link to={""}>
               <li>Careers</li>
             </Link> */}
-            <Link to={"/ContactUs"} onClick={scrollToTop}>
+            <Link to={"/Contact-Us"} onClick={scrollToTop}>
               <li>Contact Us</li>
             </Link>
             {/* <Link to={""}>
