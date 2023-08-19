@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 function App() {
   useEffect(()=>{
      ReactGa.initialize( 'G-NTP4X1RHEG')
-     ReactGa.pageview('/')
+     ReactGa.pageview(window.location.pathname + window.location.search)
   },[])
 
   return (
