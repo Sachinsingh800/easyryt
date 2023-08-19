@@ -1,9 +1,17 @@
 import './App.css';
+import { useEffect } from 'react';
 import Home from './Page/Home/Home';
 import { Helmet } from 'react-helmet';
+import ReactGa from "react-ga"
+import { useEffect } from 'react';
 
 
 function App() {
+  useEffect(()=>{
+     ReactGa.initialize( 'G-NTP4X1RHEG')
+     ReactGa.pageview('/')
+  },[])
+
   return (
     <div className="App">
          <Helmet>
