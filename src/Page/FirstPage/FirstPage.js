@@ -1,4 +1,4 @@
-import React, { useState }  from "react";
+import React, { useState } from "react";
 import style from "./FirstPage.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/Mobile-App-Development.png";
@@ -24,11 +24,16 @@ function FirstPage() {
       <div className={style.container}>
         <div>
           <h1>Native App Development Services</h1>
+          <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            We offer expert Native Mobile App Development Services, creating
-            high-performance, user-friendly apps for iOS and Android platforms,
-            tailored to your business needs. Boost your brand's mobile presence
-            today!
+            In the rapidly progressing world of mobile technology, possessing a
+            robust and user-friendly mobile app is no longer a luxury—it's a
+            necessity. Native Mobile App Development offers a state-of-the-art
+            solution that merges the efficiency and functionality of Native
+            applications with seamless user experiences. At EasyRyt, we
+            specialize in Native Mobile App Development, fabricating
+            groundbreaking apps that captivate users, enhance brand identity,
+            and stimulate business expansion.
           </p>
           <button
             type="submit"
@@ -47,15 +52,19 @@ function FirstPage() {
       <Section3 />
       <TenthSection />
       <SixthSection />
-      <EleventhSection />
-      <CallButton  />
+      <CallButton />
       <Footer />
-            {/* Popup window */}
-            {showPopup && (
+      {/* Popup window */}
+      {showPopup && (
         <>
-        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
-      <PopupOption/>
-      </>
+          <button
+            onClick={() => setShowPopup(false)}
+            className={style.closebtn}
+          >
+            Close
+          </button>
+          <PopupOption />
+        </>
       )}
     </div>
   );

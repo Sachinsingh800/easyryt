@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import style from "./Section2.module.css";
 import logo1 from "../../../Image/chart.gif";
 import logo2 from "../../../Image/date.gif";
@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Android App",
+    title: "Conception and Brainstorming",
     description:
-      "Our Android applications are renowned for their captivating User Interface UI/UX, rapid loading speeds, and reliable performance.",
+      "We initiate by comprehending your business objectives, target audience, and distinct vision for your application. Through thorough conversations, we determine the fundamental characteristics and functionalities that will distinguish your application in the competitive market.",
   },
   {
     logo: logo2,
-    title: "iOS App",
+    title: "User-Focused Design",
     description:
-      "Our iOS apps embody innovative concepts, featuring intuitive GUIs. With our proficient iPhone application development team, you'll find the perfect solution for your needs.",
+      "A captivating user experience is crucial to the triumph of any Native Mobile App. Our UI/UX designers produce visually impressive interfaces that are user-friendly and instinctive. We concentrate on generating smooth navigation, captivating interactions, and a consistent design language that aligns with your brand image. ",
   },
   {
     logo: logo3,
-    title: "Tablet App development",
+    title: "Platform-Specific Creation",
     description:
-      "We offer extensive tablet app development solutions to diverse industries, catering to startups and leading enterprises alike.",
+      "Our skilled programmers specialize in designing applications for both iOS and Android platforms. We create applications that are optimized for each platform's specific prerequisites, guaranteeing an experience similar to native applications that resonates with users. ",
   },
   {
     logo: logo4,
-    title: "iPad App Development",
+    title: "Performance and Speed Enhancement",
     description:
-      "With years of proficiency in native app development, our team can fulfill your unique requirements. We provide impeccable, visually appealing iPad app development services using Flutter.",
+      "We prioritize application performance to offer users a seamless and prompt experience. From optimizing code to compressing images, we take every measure to boost application speed and decrease loading times, ensuring users remain engaged and content.",
   },
   {
     logo: logo5,
-    title: "AR App Development",
+    title: " Integration and Functionality ",
     description:
-      "Benefiting from over 15 years of expertise in 3D modeling and Augmented Reality (AR), we deliver top-notch AR software swiftly. Our team crafts cutting-edge virtual reality solutions, harnessing the latest tools and advancements.",
+      "A thriving application flawlessly integrates with other services and technologies. Our team ensures that your application seamlessly integrates with APIs, third-party services, and other functionalities, enriching the user experience and adding value.",
   },
   {
     logo: logo6,
-    title: "Marketing Automation Solutions",
+    title: "Thorough Testing and Quality Assurance ",
     description:
-      "Catering to diverse user needs, our team develops Native applications that precisely align with their business requirements. Leveraging the finest native app development platform, we ensure optimal results for every project.",
+      "Before release, we subject your application to comprehensive testing on various devices and scenarios to detect and resolve any glitches or complications. Our quality assurance process guarantees that your application functions flawlessly, delivering a consistent experience to users.",
   },
 ];
 
@@ -54,8 +54,6 @@ const lightColors = [
   "#FFC6C6",
   "#E0FF9F",
 ]; // You can add more light colors here
-
-
 
 function Section2() {
   const [randomColors, setRandomColors] = useState(lightColors);
@@ -83,14 +81,20 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>The Expertise Of Our Native App Development Service</h1>
+      <h1>Our Method for Hybrid App Development</h1>
       <p className={style.para}>
-        As a native app development company, we have expertise in developing
-        Native apps for different platforms. Take a look at our expertise:
+        At EasyRyt, we acknowledge that constructing a prosperous application is
+        a dynamic fusion of inventiveness, strategic preparation, and careful
+        implementation. Our diverse group of creators, programmers, and planners
+        work cooperatively to bring your application idea to fruition.
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (
-          <div className={style.card} key={index} style={{ background: randomColors[index] }}>
+          <div
+            className={style.card}
+            key={index}
+            style={{ background: randomColors[index] }}
+          >
             <img className={style.img} src={data.logo} alt={`img${index}`} />
             <h6>{data.title}</h6>
             <p>{data.description}</p>

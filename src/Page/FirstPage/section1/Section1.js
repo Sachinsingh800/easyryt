@@ -38,10 +38,8 @@ function Section1() {
 
   return (
     <div className={style.main}>
-      <h1 id="header" ref={sectionRef}>
-        Crafting Native Applications For Multiple Platforms
-      </h1>
-      <div className={style.innercontain}>
+    
+     
         <div>
           <img
             id="header"
@@ -51,27 +49,27 @@ function Section1() {
             alt="img"
           />
         </div>
-        <div>
-          <h2 id="header" ref={sectionRef}>
-            Delivering custom native apps with dedicated expertise
-          </h2>
+
+
+
+        <div >
+        <h1 id="header" ref={sectionRef}>
+        Why Select Native Mobile Apps?
+      </h1>
           <p id="header" ref={sectionRef}>
-            Our Native Mobile Application Development Services are designed to
-            elevate your business in the digital world. With a team of skilled
-            developers, we create cutting-edge, user-centric apps for both iOS
-            and Android platforms. Our expertise lies in crafting
-            high-performance, secure, and scalable solutions that seamlessly
-            integrate with your brand identity. From ideation to deployment, we
-            ensure a smooth development process, incorporating the latest
-            technologies and industry best practices. Whether it's a consumer
-            app, enterprise solution, or anything in between, we tailor our
-            services to meet your specific requirements, delivering exceptional
-            user experiences that drive engagement and growth. Step into the
-            mobile realm and unlock your business's full potential.
+            Native mobile apps are tailored to function exclusively on a
+            specific platform, such as iOS or Android. This approach empowers
+            them to utilize the complete capabilities of the platform, resulting
+            in enhanced performance, quicker load times, and a more
+            user-friendly experience. Native apps can exploit device features
+            like camera access, GPS, and offline functionality, enabling you to
+            provide a lavish and immersive encounter for your users.
           </p>
         </div>
+
+
       </div>
-    </div>
+   
   );
 }
 

@@ -1,54 +1,30 @@
 .main{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    padding: 3rem 0rem;
+    gap: 4rem;
     width: 100vw;
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   padding: 2rem 4rem;
-   gap: 1rem;
-   text-align: center;
-} 
-.para{
-    width: 30rem;
-    text-align: center;
-}
-.innerbox{
-    width: 65rem;
-    text-align: center;
-}
-.innerbox p{
-    display: inline-table;
-    padding: .5rem 2rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 1rem;
-    border-radius: 5px;
-    background-color:  rgb(240, 240, 241);
-    font-weight: 500;
-    transition: background-color 0.4s ease-in-out;
 
 }
-.active{
-    background-color: black!important;
-   color: white;
-   }
-.innerbox p:hover{
-    background-color: black;
+.card_container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    gap: 2rem;
+}
+.card{
+    height: 15rem;
+    border-radius: 15px;
+    padding: 1rem;
     color: white;
-}
-
-@media (max-width:787px){
-    .innerbox{
-        text-align: center;
-    }
-    .innerbox{
-        width: 45rem;
-    }
-
-}
-@media (max-width:660px){
-    .innerbox{
-        text-align: center;
-    }
-    .innerbox{
-        width: 35rem;
-    }
+    display: flex;
+    filter: drop-shadow(2px 7px 8px black);
+    flex-direction: column;
+    background: rgb(9,45,103);
+    overflow: hidden;
+    text-align: left;
+    background: linear-gradient(90deg, rgba(9,45,103,1) 0%, rgba(0,103,226,1) 100%, rgba(255,255,255,1) 100%);
 }
