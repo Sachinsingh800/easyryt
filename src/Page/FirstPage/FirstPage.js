@@ -52,6 +52,8 @@ function FirstPage() {
       <Section2 />
       <Section3 />
       <Section4/>
+      <SixthSection/>
+      <EleventhSection/>
       <CallButton />
       <Footer />
       {/* Popup window */}
