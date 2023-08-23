@@ -43,11 +43,11 @@ function Section3() {
       <div className={style.card_container} >
       {data.map((item,id)=>
 
-   <Tilt glareEnable={true} tiltMaxAngleX={10} 
-   tiltMaxAngleY={10} perspective={1000} >
+   <Tilt glareEnable={true} tiltMaxAngleX={20} 
+   tiltMaxAngleY={20} perspective={1000} >
        <div className={style.card}>
-        <h4>{item?.icon}</h4>
-          <h4>{item?.title}</h4>
+        <h1>{item?.icon}</h1>
+          <h5 className={style.title}>{item?.title}</h5>
           <p>{item?.des}</p>
        </div>
    </Tilt>

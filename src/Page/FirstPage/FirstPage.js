@@ -11,6 +11,7 @@ import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
+import Section4 from "./Section4/Section4";
 
 function FirstPage() {
   const [showPopup, setShowPopup] = useState(false);
@@ -50,8 +51,7 @@ function FirstPage() {
       <Section1 />
       <Section2 />
       <Section3 />
-      <TenthSection />
-      <SixthSection />
+      <Section4/>
       <CallButton />
       <Footer />
       {/* Popup window */}
