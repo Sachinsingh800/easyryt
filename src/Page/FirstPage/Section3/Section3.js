@@ -6,6 +6,7 @@ import { GiCrafting } from 'react-icons/gi';
 import { MdPersonalInjury } from 'react-icons/md';
 import { SiClaris } from 'react-icons/si';
 import { TbTruckDelivery } from 'react-icons/tb';
+import { FaInnosoft } from 'react-icons/fa';
 
 function Section3() {
 
@@ -34,6 +35,11 @@ function Section3() {
       icon:<TbTruckDelivery/>,
       title:"Punctual Delivery:",
       des:"We value your time and ensure that your app is created and launched within the agreed-upon timeframe."
+    },
+    {
+      icon:<FaInnosoft/>,
+      title:"Innovative Advancement:",
+      des:" We remain at the forefront of the most recent technologies and trends in the development of mobile applications. By including augmented reality and merging sophisticated functionalities, we introduce originality to your native mobile app, causing it to shine in the competitive application arena."
     },
    
   ]
