@@ -1,5 +1,7 @@
 import React from "react";
 import style from "./Section4.module.css";
+import { Link } from "react-router-dom";
+
 
 function Section4() {
   return (
@@ -18,7 +20,7 @@ function Section4() {
           Let’s discuss  discuss how we can enhance your brand with
         a Native mobile app that sets you apart in the digital landscape!
       </p>
-      <button className={style.btn}>Start Conversation</button>
+   <button onClick={()=>window.location.href="/Contact-Us"} className={style.btn}>Start Conversation</button>
     </div>
   );
 }

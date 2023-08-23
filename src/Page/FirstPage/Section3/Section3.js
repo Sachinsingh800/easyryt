@@ -39,7 +39,7 @@ function Section3() {
   ]
   return (
     <div className={style.main}>
-      <h1>Why Select EasyRyt for Native Mobile App Creation?</h1>
+      <h2>Why Select EasyRyt for Native Mobile App Creation?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
