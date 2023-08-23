@@ -54,7 +54,7 @@ function Section3() {
        <div className={style.card}>
         <h1>{item?.icon}</h1>
           <h5 className={style.title}>{item?.title}</h5>
-          <p>{item?.des}</p>
+          <p className={style.des}>{item?.des}</p>
        </div>
    </Tilt>
 

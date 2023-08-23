@@ -27,6 +27,9 @@
     text-align: left;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(209,220,221,1) 100%, rgba(255,255,255,0.11808473389355745) 100%);
-  
 }
 
+.des{
+    height: 7rem;
+    overflow: hidden;
+}
