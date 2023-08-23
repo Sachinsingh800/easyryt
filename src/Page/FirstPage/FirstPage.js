@@ -12,6 +12,9 @@ import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
 import Section4 from "./Section4/Section4";
+import ForthSection from "../../Section/ForthSection/ForthSection"
+import FifthSection from "../../Section/FifthSection/FifthSection"
+import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 
 function FirstPage() {
   const [showPopup, setShowPopup] = useState(false);
@@ -52,11 +55,12 @@ function FirstPage() {
       <Section2 />
       <Section3 />
       <Section4/>
+     <ServiceForm/>
+      <ForthSection />
       <SixthSection/>
       <EleventhSection/>
       <CallButton />
       <Footer />
-      {/* Popup window */}
       {showPopup && (
         <>
           <button

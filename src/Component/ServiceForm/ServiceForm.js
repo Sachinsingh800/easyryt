@@ -1,0 +1,154 @@
+import React , {useRef,useEffect,useState} from "react";
+import style from "./ServiceForm.module.css";
+import { gsap } from 'gsap';
+import { useIntersection } from 'react-use';
+import formImg from '../../Image/form.png';
+import Swal from 'sweetalert2';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
+import axios from 'axios';
+
+function ServiceForm() {
+    
+  const sectionRef = useRef(null);
+  const intersection = useIntersection(sectionRef, {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.2,
+  });
+
+  useEffect(() => {
+    const fadeInTimeline = gsap.timeline({ paused: true });
+    fadeInTimeline.to('#header', { opacity: 1, y: -60, ease: 'power4.out', duration: 1 });
+
+    const fadeOutTimeline = gsap.timeline({ paused: true });
+    fadeOutTimeline.to('#header', { opacity: 0, y: -50, ease: 'power4.out', duration: 1 });
+
+    if (intersection && intersection.intersectionRatio < 0.2) {
+      fadeOutTimeline.play();
+    } else {
+      fadeInTimeline.play();
+    }
+  }, [intersection]);
+
+
+  const [message, setMessage] = useState('');
+  const [error, setError] = useState('');
+  const [name, setFullName] = useState('');
+  const [phone, setMobileNumber] = useState('');
+  const [requestServices, setRequestServices] = useState('');
+  const [email, setEmail] = useState('');
+  const [requestServicesData, setRequestServicesData] = useState([]);
+//comment added
+  useEffect(() => {
+
+    const handlegetData = async () => {
+      
+      try {
+        const response = await axios.get('https://easyryt.onrender.com/client/allServices');
+        console.log(response.data.data, 'aa raha');
+        setRequestServicesData(response.data.data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    handlegetData();
+  }, []);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const formData = {
+      name,
+      email,
+      phone,
+      requestServices,
+    };
+    try {
+      const response = await axios.post('https://easyryt.onrender.com/client/clientInfo', formData);
+      console.log(response, 'contact info');
+      setMessage(response.data.message);
+      Swal.fire({
+        title: 'Form!',
+        text: 'Submitted successfully!',
+        icon: 'success',
+      });
+      setFullName('');
+      setMobileNumber('');
+      setRequestServices('');
+      setEmail('');
+      localStorage.setItem("popupSubmitted", "true");
+      window.location.href="/";
+    } catch (error) {
+      setError(error.response?.data?.message || 'Internal Server Error');
+      Swal.fire({
+        title: 'Error',
+        text: error.response?.data?.message || 'Internal Server Error',
+        icon: 'error',
+      });
+    }
+  };
+  return (
+    <div className={style.main}>
+      <div  id="header" ref={sectionRef} className={style.leftBox}>
+        <span >Let's Get Started</span>
+        <p>
+          We offer full-cycle technology solutions that streamline your digital
+          transformation journey. With cutting-edge technical expertise, complex
+          business challenges with INT. simplifies innovative solutions for 100+
+          fastest-growing enterprises.
+        </p>
+      </div>
+      <div className={style.rightBox}>
+        
+      <div className={style.container}>
+      <img className={style.title} src={formImg} alt="img" />
+      <form onSubmit={handleSubmit}>
+        <div className={style.inputContainer}>
+          <label htmlFor="fullName">Full Name</label>
+          <input type="text" id="fullName" value={name} onChange={(e) => setFullName(e.target.value)} />
+        </div>
+        <div className={style.inputContainer}>
+          <label htmlFor="requestServices">Mobile No</label>
+          <PhoneInput
+            value={phone}
+            country="in"
+            onChange={(value) => setMobileNumber(value)}
+            className={style.phonebox}
+            inputStyle={{ border: 'none', width: '100%' }}
+            buttonStyle={{ border: 'none' }}
+            placeholder="Enter phone number"
+          />
+        </div>
+        <div className={style.inputContainer}>
+          <label htmlFor="requestServices">Request Services</label>
+          <select
+            id="requestServices"
+            name="requestServices"
+            value={requestServices}
+            onChange={(e) => setRequestServices(e.target.value)}
+            required
+          >
+            <option value="">Select an option</option>
+            {requestServicesData.map((service) => (
+              <option key={service._id} value={service.requestServices}>
+                {service.requestServices}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div className={style.inputContainer}>
+          <label htmlFor="email">Email</label>
+          <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+        </div>
+        <button type="submit" className={style.submitBtn}>
+          Submit
+        </button>
+      </form>
+    </div>
+
+      </div>
+    </div>
+  );
+}
+
+export default ServiceForm;

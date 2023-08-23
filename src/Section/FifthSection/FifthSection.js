@@ -39,9 +39,9 @@ function FifthSection() {
         </p>
       </div>
       <div className={style.rightBox}>
-        <div className={style.form}>
+        
           <Form />
-        </div>
+
       </div>
     </div>
   );
