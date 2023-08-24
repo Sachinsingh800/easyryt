@@ -13,7 +13,6 @@ import Section4 from "./Section4/Section4";
 import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
-import Section1 from "../../section1/Section1";
 
 function AndroidApplicationDevelopmentServices() {
   const [showPopup, setShowPopup] = useState(false);
@@ -50,7 +49,7 @@ function AndroidApplicationDevelopmentServices() {
         </div>
       </div>
       
-      <Section1 />
+     
       <Section2 />
       <Section3 />
       <Section4 />
