@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 
 
-import FirstPage from './Page/FirstPage/FirstPage';
 import CrossPlatformAppDevelopment from './Page/CrossPlatformAppDevelopment/CrossPlatformAppDevelopment';
 import AboutUs from './Page/AboutUs/AboutUs';
 import WhyChooseUs from './Page/WhyChooseUs/WhyChooseUs';
@@ -88,6 +87,7 @@ import UIUXDesign from './Page/UIUXDesign/UIUXDesign';
 import FullBlog from './Page/FullBlog/FullBlog';
 import Error from './Page/Error/Error';
 import { Link, useParams } from "react-router-dom";
+import NativeAppDevelopment from './Page/FirstPage/NativeAppDevelopment ';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -101,7 +101,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/Native-Mobile-App-Development",
-    element: <FirstPage/>,
+    element: <NativeAppDevelopment />,
   },
   {
     path: "/Cross-Platform-App-Development",

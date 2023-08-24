@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "./FirstPage.module.css";
+import style from "./NativeAppDevelopment.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/Mobile-App-Development.png";
 import Section1 from "./section1/Section1";
@@ -15,8 +15,9 @@ import Section4 from "./Section4/Section4";
 import ForthSection from "../../Section/ForthSection/ForthSection"
 import FifthSection from "../../Section/FifthSection/FifthSection"
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
+import Section5 from "./Section5/Section5";
 
-function FirstPage() {
+function NativeAppDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
 
   const handleGetStartedClick = () => {
@@ -59,6 +60,7 @@ function FirstPage() {
       <ForthSection />
       <SixthSection/>
       <EleventhSection/>
+      <Section5/>
       <CallButton />
       <Footer />
       {showPopup && (
@@ -76,4 +78,4 @@ function FirstPage() {
   );
 }
 
-export default FirstPage;
+export default NativeAppDevelopment;
