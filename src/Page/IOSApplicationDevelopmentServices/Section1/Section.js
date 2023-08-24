@@ -50,18 +50,18 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          Why Select Cross-Platform App Development?
+          Why Select IOS App development?
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          The Potential of Cross Platform Application Development Cross platform
-          application development is the skill of crafting applications that are
-          compatible with numerous operating systems, including iOS, Android,
-          and others. It involves providing a cohesive user experience
-          irrespective of the device utilized by your clientele. This strategy
-          not only amplifies the scope of your application but also reduces the
-          duration and expenses associated with its development. Consequently,
-          it becomes an optimal selection for enterprises aspiring to generate a
-          noteworthy influence in the digital realm.
+          Developing applications for iOS goes well beyond the realm of coding;
+          it entails fashioning an encounter that users thoroughly enjoy
+          interacting with. Apple's ecosystem is widely acclaimed for its
+          elegant aesthetics and flawless operations, thus constructing an iOS
+          app that truly distinguishes itself necessitates a high level of
+          proficiency, imagination, and meticulousness. At EasyRyt, we derive
+          immense satisfaction from engineering iOS applications that
+          effortlessly combine groundbreaking advancements and design that
+          centres around the needs of the user.
         </p>
       </div>
     </div>

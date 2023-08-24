@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Strategic Consultation:",
-      des:"Our initial step is to gain a deep understanding of your app's purpose, target audience, and distinguishing features. Our team of experts collaborates closely with you to define the objectives and scope of your project."
+      title:"Expert Development Team:",
+      des:"Our builders are skilled in crafting tremendous iOS apps that stand out inside the competitive market, making us the best iPhone App Development company. Their know-how ensures that your app is in safe hands"
     },
     {
       icon:<GiCrafting/>,
-      title:"Technology Selection:",
-      des:"The selection of the most appropriate technology stack is crucial for successful cross-platform development. Our developers, who have extensive experience in this field, choose the frameworks and tools that best suit the specific requirements of your project."
+      title:"Tailored Solutions:",
+      des:"We apprehend that each business has unique requirements. Our iOS Application Development team comes up with solutions that are customized for your precise desires, making sure that your app aligns perfectly together with your emblem and desires."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Design and User Experience:",
-      des:"Our talented design team creates interfaces that are intuitive and user-friendly, providing a consistent experience across different platforms. Our focus is on usability, aesthetics, and functionality to ensure maximum user engagement. "
+      title:"Innovative Features:",
+      des:"We live up to date with the contemporary iOS tendencies and advancements by integrating revolutionary capabilities that supply your app an aggressive facet."
     },
     {
       icon:<SiClaris/>,
-      title:"Efficient Development:",
-      des:"The development process we follow adheres to the best practices in cross-platform development, resulting in a robust and scalable application. We utilize frameworks such as React Native, Flutter, and Xamarin to ensure optimal performance."
-    },
-    {
-      icon:<TbTruckDelivery/>,
-      title:"Testing and Quality Assurance:",
-      des:"Rigorous testing forms the core of our development process. We ensure that your app functions flawlessly on various devices and platforms, delivering a smooth and bug-free experience."
+      title:"User-Centric Design:",
+      des:"A person-friendly design is essential for engagement in an iOS App Development process. Our designs prioritize consumer experience, making sure your app is intuitive and enjoyable"
     },
     {
       icon:<FaInnosoft/>,
-      title:"Deployment and Support:",
-      des:"We handle the entire deployment process across multiple app stores and provide ongoing support to address any issues that may arise and implement necessary updates."
+      title:"Stringent Testing:",
+      des:"We observe an intensive testing process to pick out and rectify any bugs or overall performance issues, making sure a flawless app experience for your users."
+    },
+    {
+      icon:<TbTruckDelivery/>,
+      title:"Timely Delivery:",
+      des:"We understand the importance of time limits and strive to deliver projects on time without compromising on the results."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Cross-platform  App Creation?</h2>
+      <h2>Why Select EasyRyt for IOS App Development Services?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
