@@ -20,8 +20,11 @@ import Section1 from "./section1/Section1";
 function CrossPlatformAppDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
 
+
+  //popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
+    
   };
   return (
     <div className={style.main}>
