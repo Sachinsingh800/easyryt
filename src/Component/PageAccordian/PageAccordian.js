@@ -5,115 +5,118 @@ import { useNavigate } from "react-router-dom";
 import Accordion from "react-bootstrap/Accordion";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
-
-
-
 export function NativeAppAccordian() {
-
-return (
+  return (
     <Accordion>
       <Accordion.Item eventKey="1">
         <Accordion.Header>
           {" "}
-          Q. *What services does your IT company offer?*
+          *1. What do native mobile application development services entail?*
         </Accordion.Header>
         <Accordion.Body>
-          We offer a wide range of services, including app development, website
-          development, digital marketing, WordPress development, cloud
-          solutions, and UI/UX design.
+          Native mobile application development services involve the creation of
+          mobile applications that are specifically designed and constructed for
+          a particular platform, such as iOS or Android. These applications are
+          developed using programming languages and tools that are native to the
+          chosen platform. This results in optimal performance, enhanced user
+          experience, and access to platform-specific features.
         </Accordion.Body>
       </Accordion.Item>
-
-
 
       <Accordion.Item eventKey="8">
         <Accordion.Header>
-          Q. *How do you ensure the security of the apps and websites you develop?*
-
+          *2. Why should I opt for native application development instead of
+          other approaches?*
         </Accordion.Header>
         <Accordion.Body>
-        We prioritize security at every step of the development process, implementing industry best practices and using the latest security measures to safeguard your app or website from potential threats.
-
+          Native applications offer superior performance, responsiveness, and
+          accessibility to native functionalities of the device (such as camera,
+          GPS, sensors, etc.). They provide a seamless user experience that
+          aligns with the design principles of the chosen platform. Native
+          applications can also be easily integrated into popular app stores
+          like Apple App Store and Google Play Store, ensuring widespread
+          availability for users.
         </Accordion.Body>
       </Accordion.Item>
-
-  
 
       <Accordion.Item eventKey="10">
         <Accordion.Header>
-          Q. *How long does it typically take to develop a custom app or website?*
-
+          *3. Which platforms can you develop native applications for?*
         </Accordion.Header>
         <Accordion.Body>
-        The development timeline varies depending on the project's complexity and requirements. We'll provide you with a detailed estimate after understanding your project's scope.
-
+          Our expertise lies in native application development for both iOS
+          (using Swift or Objective-C) and Android (using Java or Kotlin)
+          platforms. This ensures that your application will deliver an optimal
+          experience to users on both major mobile operating systems.
         </Accordion.Body>
       </Accordion.Item>
 
-   
-
       <Accordion.Item eventKey="12">
         <Accordion.Header>
-          Q. *What are the benefits of using cloud services for my business?*
-
+          *4. How long does it typically take to develop a native mobile
+          application?*
         </Accordion.Header>
         <Accordion.Body>
-        Cloud services offer advantages such as cost savings, scalability, accessibility, and improved collaboration among team members.
-
+          The development timeline can vary depending on factors such as the
+          complexity of the application, desired features, and other
+          project-specific requirements. While a simple application may be
+          completed within a few weeks, more complex applications can take
+          several months. We collaborate closely with our clients to provide
+          accurate timelines based on their individual project needs.
         </Accordion.Body>
       </Accordion.Item>
 
       <Accordion.Item eventKey="13">
         <Accordion.Header>
-          Q. *Do you provide content creation services for websites and apps?*
-
+          *5. How do you proceed with the app development process?*
         </Accordion.Header>
         <Accordion.Body>
-        Yes, we offer content creation services, including copywriting, graphic design, and multimedia content production, to enhance the overall user experience of your digital products.
-
+          Our approach to app development involves several stages: gathering
+          requirements, designing, developing, testing, deploying, and providing
+          ongoing maintenance. We begin by understanding the goals and target
+          audience of your app, then progress through the design and development
+          phases with regular testing and feedback loops from clients to ensure
+          that the app meets your expectations.
         </Accordion.Body>
       </Accordion.Item>
-
 
       <Accordion.Item eventKey="15">
         <Accordion.Header>
-          Q. *What makes your WordPress development services stand out?*
+          *6. Can you help with both app design and development?*
         </Accordion.Header>
         <Accordion.Body>
-          Our WordPress development services are distinguished by our team's
-          expertise in creating highly functional, visually appealing, and
-          user-friendly websites using the WordPress platform.
+          Absolutely, we offer comprehensive services that encompass both app
+          design and development. Our team of talented designers and developers
+          work together to create visually appealing and user-friendly
+          interfaces that align with the purpose of your app.
         </Accordion.Body>
       </Accordion.Item>
 
-
       <Accordion.Item eventKey="17">
         <Accordion.Header>
-          Q. *What makes your WordPress development services stand out?*
+          *7. What measures do you take to ensure the security of my app and
+          user data?*
         </Accordion.Header>
         <Accordion.Body>
-          Our WordPress development services are distinguished by our team's
-          expertise in creating highly functional, visually appealing, and
-          user-friendly websites using the WordPress platform.
+          Security is of utmost importance to us. We adhere to best practices
+          for secure coding, data encryption, and authentication in order to
+          protect your app and user data. Regular security audits and updates
+          are performed to address any potential vulnerabilities.
         </Accordion.Body>
       </Accordion.Item>
 
       <Accordion.Item eventKey="18">
         <Accordion.Header>
-          Q. *What makes your WordPress development services stand out?*
+          *8. Will my app be compatible with future updates to the platform?*
         </Accordion.Header>
         <Accordion.Body>
-          Our WordPress development services are distinguished by our team's
-          expertise in creating highly functional, visually appealing, and
-          user-friendly websites using the WordPress platform.
+          We prioritize scalability when designing and developing apps. While
+          minor updates usually do not affect compatibility, major platform
+          updates may require adjustments to ensure that your app functions
+          optimally. We offer ongoing maintenance services to ensure that your
+          app remains up-to-date with the latest platform changes.
         </Accordion.Body>
       </Accordion.Item>
-
-
-
-
-
     </Accordion>
   );
 }
