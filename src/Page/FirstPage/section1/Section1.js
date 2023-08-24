@@ -56,7 +56,7 @@ function Section1() {
         <h1 id="header" ref={sectionRef}>
         Why Select Native Mobile Apps?
       </h1>
-          <p id="header" ref={sectionRef}>
+          <p className={style.para} id="header" ref={sectionRef}>
             Native mobile apps are tailored to function exclusively on a
             specific platform, such as iOS or Android. This approach empowers
             them to utilize the complete capabilities of the platform, resulting

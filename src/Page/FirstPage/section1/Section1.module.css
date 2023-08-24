@@ -38,6 +38,11 @@ margin-top: 6rem;
     height: 35rem;
     overflow: hidden;
     padding-top: 8rem;
+
+}
+.para{
+  height: 15rem;
+  overflow: hidden;
 }
 .img{
   height: 15rem;
