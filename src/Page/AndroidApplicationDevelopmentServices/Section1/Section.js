@@ -50,18 +50,17 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          Why Select Cross-Platform App Development?
+          Why Select Android Application Development?
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          The Potential of Cross Platform Application Development Cross platform
-          application development is the skill of crafting applications that are
-          compatible with numerous operating systems, including iOS, Android,
-          and others. It involves providing a cohesive user experience
-          irrespective of the device utilized by your clientele. This strategy
-          not only amplifies the scope of your application but also reduces the
-          duration and expenses associated with its development. Consequently,
-          it becomes an optimal selection for enterprises aspiring to generate a
-          noteworthy influence in the digital realm.
+          The process of Android application creation goes beyond mere coding,
+          it involves transforming your ideas into a user-friendly and
+          functionally advanced mobile application. With a staggering number of
+          over 2 billion Android devices in use worldwide, developing an app
+          that truly connects with this expansive user base necessitates skills,
+          imagination, and meticulousness. At EasyRyt, we take great
+          satisfaction in designing Android applications that not only adhere to
+          industry benchmarks but also surpass user anticipations
         </p>
       </div>
     </div>

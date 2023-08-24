@@ -13,7 +13,7 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Strategic Consultation:",
+      title:"Experienced Team:",
       des:"Our initial step is to gain a deep understanding of your app's purpose, target audience, and distinguishing features. Our team of experts collaborates closely with you to define the objectives and scope of your project."
     },
     {
