@@ -57,7 +57,7 @@ function CrossPlatformAppDevelopment() {
           <img className={style.img} src={img} alt="img" />
         </div>
       </div>
-      <Section1 />
+      {/* <Section1 /> */}
       <Section2 />
       <Section3 />
       <Section4 />
