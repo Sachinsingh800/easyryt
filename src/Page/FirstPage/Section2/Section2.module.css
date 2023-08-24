@@ -38,6 +38,7 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     background-color:  rgb(240, 240, 241);
     transition: transform 0.3s ease-in-out;
+    overflow: hidden!important;
 }
 .card:hover{
     transform: scale(1.01);
@@ -67,14 +68,14 @@
 @media (max-width:620px){
 
     .card{
-        height: 25rem;
+        height: 30rem;
         width: 20rem;
     }
 }
-@media (max-width:446px){
+@media (max-width:500px){
 
     .card{
-        height: 30rem;
+        height: 38rem;
         width: 15rem;
         overflow: hidden;
     }

@@ -21,7 +21,7 @@
     width: 30rem;
 }
 .container p{
-    width: 40rem;
+    width: 38rem;
 }
 .img{
    width: 30rem;
@@ -96,7 +96,7 @@
             padding-left: 1rem;
          }
     }
-    @media (max-width:360px){
+    @media (max-width:500px){
         
         .img{
             width: 19rem;

@@ -16,7 +16,7 @@
     gap: 2rem;
 }
 .card{
-    height: 15rem;
+    height: 20rem;
     border-radius: 15px;
     padding: 1rem;
     /* color: white; */
@@ -30,7 +30,7 @@
 }
 
 .des{
-    height: 7rem;
+    height: 15rem;
     overflow: hidden;
 }
 @media (max-width:620px){

@@ -1,16 +1,21 @@
-import React , { useState } from "react";
+import React, { useState } from "react";
 import style from "./CrossPlatformAppDevelopment.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/cross-platform-app-development.png";
-import Section1 from "./Section1/Section1";
-import Section2 from "../FirstPage/Section2/Section2";
-import Section3 from "../FirstPage/Section3/Section3";
+import Section2 from "./Section2/Section2";
+import Section3 from "./Section3/Section3";
 import TenthSection from "../../Section/TenthSection/TenthSection";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
+import Section4 from "./Section4/Section4";
+import ForthSection from "../../Section/ForthSection/ForthSection";
+import FifthSection from "../../Section/FifthSection/FifthSection";
+import ServiceForm from "../../Component/ServiceForm/ServiceForm";
+import Section5 from "./Section5/Section5";
+import Section1 from "./section1/Section1";
 
 function CrossPlatformAppDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,11 +29,18 @@ function CrossPlatformAppDevelopment() {
       <div className={style.container}>
         <div>
           <h1>Cross-Platform App Development</h1>
+          <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            Cross Platform App Development Services: Expert solutions for
-            creating versatile mobile applications that work seamlessly across
-            multiple platforms, reducing development time and costs. Delivering
-            efficiency and wide audience reach.
+            In the ever-evolving landscape of cellular applications,
+            cross-platform mobile development has emerged as a sport-changer.
+            With the proliferation of devices, running structures, and consumer
+            expectations, organizations are searching for efficient answers to
+            attain a much broader target market without compromising on person
+            experience. Cross-platform app improvement has risen to this
+            challenge, offering a way to broaden programs that run seamlessly
+            across more than one structures. In this article, we will delve into
+            the advantages of cross-platform mobile development and why it's a
+            method well worth considering for your next project.
           </p>
           <button
             type="submit"
@@ -45,17 +57,24 @@ function CrossPlatformAppDevelopment() {
       <Section1 />
       <Section2 />
       <Section3 />
-      <TenthSection />
+      <Section4 />
+      <ServiceForm />
+      <ForthSection />
       <SixthSection />
       <EleventhSection />
-      <CallButton/>
+      <Section5 />
+      <CallButton />
       <Footer />
-            {/* Popup window */}
-            {showPopup && (
+      {showPopup && (
         <>
-        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
-      <PopupOption/>
-      </>
+          <button
+            onClick={() => setShowPopup(false)}
+            className={style.closebtn}
+          >
+            Close
+          </button>
+          <PopupOption />
+        </>
       )}
     </div>
   );
