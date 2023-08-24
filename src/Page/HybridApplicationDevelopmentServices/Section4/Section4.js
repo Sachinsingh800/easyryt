@@ -6,16 +6,13 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        Cross-platform app development is a strategic approach that offers a
-        multitude of advantages for agencies aiming to make a mark in the mobile
-        app world. From reaching a much wider target market to lowering
-        development charges and making sure a consistent consumer experience,
-        the benefits are clean. As the mobile landscape maintains to adapt,
-        embracing cross-platform development can position your IT employer as a
-        modern participant that can provide fantastic apps effectively and
-        efficaciously. So, whether you are launching a startup or expanding your
-        app portfolio, keep in mind the energy of pass-platform improvement to
-        propel your fulfilment.
+        Ready to take your emblem to new heights with a modern hybrid software?
+        Contact us today to speak about your venture requirements and desires.
+        Our team will be happy to embark on this journey with you, leveraging
+        the energy of hybrid technology to create a software that resonates with
+        your target market and drives business achievement. Transform your
+        imaginative and prescient right into a fact. Contact us today to get
+        commenced!
       </p>
       <h2>Get in touch with us today</h2>
       <p>

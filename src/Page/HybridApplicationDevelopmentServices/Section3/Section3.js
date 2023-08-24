@@ -13,28 +13,28 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Strategic Consultation:",
-      des:"Our initial step is to gain a deep understanding of your app's purpose, target audience, and distinguishing features. Our team of experts collaborates closely with you to define the objectives and scope of your project."
+      title:"Expertise and Experience:",
+      des:"Our group brings a wealth of experience in hybrid mobile app development and software development, staying up to date with the modern trends and technology to supply contemporary solutions. "
     },
     {
       icon:<GiCrafting/>,
-      title:"Technology Selection:",
-      des:"The selection of the most appropriate technology stack is crucial for successful cross-platform development. Our developers, who have extensive experience in this field, choose the frameworks and tools that best suit the specific requirements of your project."
+      title:"Collaborative Approach:",
+      des:"We price open communication and collaboration with our customers. Your input is important in the course of the improvement method, making sure the final product aligns perfectly together with your vision."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Design and User Experience:",
-      des:"Our talented design team creates interfaces that are intuitive and user-friendly, providing a consistent experience across different platforms. Our focus is on usability, aesthetics, and functionality to ensure maximum user engagement. "
+      title:"Quality Assurance:",
+      des:"Our great guarantee techniques assure a high-performing, trojan horse-unfastened application that meets the very best requirements of excellence and reliability. "
     },
     {
       icon:<SiClaris/>,
-      title:"Efficient Development:",
-      des:"The development process we follow adheres to the best practices in cross-platform development, resulting in a robust and scalable application. We utilize frameworks such as React Native, Flutter, and Xamarin to ensure optimal performance."
+      title:"Custom Solutions:",
+      des:"We recognize that every business is particular. Our hybrid app development services are tailored in your unique dreams and requirements, ensuring a clearly custom designed answer."
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Testing and Quality Assurance:",
-      des:"Rigorous testing forms the core of our development process. We ensure that your app functions flawlessly on various devices and platforms, delivering a smooth and bug-free experience."
+      title:"Timely Delivery:",
+      des:"We are devoted to delivering your hybrid software inside agreed-upon timelines, helping you launch your product to the market hastily."
     },
     {
       icon:<FaInnosoft/>,
@@ -45,7 +45,7 @@ function Section3() {
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Cross-platform  App Creation?</h2>
+      <h2>Why Select  EasyRyt for Hybrid Application Development?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
