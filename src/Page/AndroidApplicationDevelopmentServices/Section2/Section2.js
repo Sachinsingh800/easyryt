@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import style from "./Section2.module.css";
 import logo1 from "../../../Image/chart.gif";
 import logo2 from "../../../Image/date.gif";
@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Android App",
+    title: "Idea Generation and Conceptualization",
     description:
-      "Our Android applications are renowned for their captivating User Interface UI/UX, rapid loading speeds, and reliable performance.",
+      "We start by means of expertise your business objectives, target audience, and precise cost proposition. Our specialists collaborate with you to brainstorm thoughts and create a concept that aligns together with your imagination and prescient.  ",
   },
   {
     logo: logo2,
-    title: "iOS App",
+    title: "Design and User Experience",
     description:
-      "Our iOS apps embody innovative concepts, featuring intuitive GUIs. With our proficient iPhone application development team, you'll find the perfect solution for your needs.",
+      "User-centric design is on the middle of our Android app development manner. We create intuitive and visually appealing interfaces that enhance user engagement and force nice stories. ",
   },
   {
     logo: logo3,
-    title: "Tablet App development",
+    title: "Development and Testing",
     description:
-      "We offer extensive tablet app development solutions to diverse industries, catering to startups and leading enterprises alike.",
+      "Our skilled developers use the latest gear and technologies to carry your app concept to existence. Rigorous trying out and first-rate guarantee make sure that the app functions perfectly throughout specific Android devices and variations. ",
   },
   {
     logo: logo4,
-    title: "iPad App Development",
+    title: "Performance Optimization",
     description:
-      "With years of proficiency in native app development, our team can fulfill your unique requirements. We provide impeccable, visually appealing iPad app development services using Flutter.",
+      "We optimize app performance to make sure short loading times, clean navigation, and green use of tool resources. This results in an app that customers like to engage with, enhancing retention and conversion rates.",
   },
   {
     logo: logo5,
-    title: "AR App Development",
+    title: "  Launch and Deployment ",
     description:
-      "Benefiting from over 15 years of expertise in 3D modeling and Augmented Reality (AR), we deliver top-notch AR software swiftly. Our team crafts cutting-edge virtual reality solutions, harnessing the latest tools and advancements.",
+      "We assist you in launching your app at the Google Play Store, making sure that it meets all necessary guidelines and necessities. Our crew manages the deployment procedure to make your app available for your audience seamlessly.",
   },
   {
     logo: logo6,
-    title: "Marketing Automation Solutions",
+    title: "Post-release Support and Updates",
     description:
-      "Catering to diverse user needs, our team develops Native applications that precisely align with their business requirements. Leveraging the finest native app development platform, we ensure optimal results for every project.",
+      "Our dedication does not stop with the app's release. We offer ongoing assist, screen performance, and provide timely updates to preserve your app applicable and green.",
   },
 ];
 
@@ -54,8 +54,6 @@ const lightColors = [
   "#FFC6C6",
   "#E0FF9F",
 ]; // You can add more light colors here
-
-
 
 function Section2() {
   const [randomColors, setRandomColors] = useState(lightColors);
@@ -83,14 +81,20 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>The Expertise Of Our  Android App Development Service</h1>
+      <h1>Our Method for Android app development</h1>
       <p className={style.para}>
-        As a Android app development company, we have expertise in developing
-        Native apps for different platforms. Take a look at our expertise:
+        At EasyRyt, we acknowledge that constructing a prosperous application is
+        a dynamic fusion of inventiveness, strategic preparation, and careful
+        implementation. Our diverse group of creators, programmers, and planners
+        work cooperatively to bring your application idea to fruition.
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (
-          <div className={style.card} key={index} style={{ background: randomColors[index] }}>
+          <div
+            className={style.card}
+            key={index}
+            style={{ background: randomColors[index] }}
+          >
             <img className={style.img} src={data.logo} alt={`img${index}`} />
             <h6>{data.title}</h6>
             <p>{data.description}</p>

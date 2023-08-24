@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import style from "./Section1.module.css";
-import img from "../../../Image/Android Application Development Services 2.png";
+import img from "../../../Image/have-a-great-idea-for-an-app.png";
 import { gsap } from "gsap";
 import { useIntersection } from "react-use";
 
@@ -38,37 +38,31 @@ function Section1() {
 
   return (
     <div className={style.main}>
-      <h1 id="header" ref={sectionRef}>
-        Crafting Android Applications For Multiple Platforms
-      </h1>
-      <div className={style.innercontain}>
-        <div>
-          <img
-            id="header"
-            ref={sectionRef}
-            className={style.img}
-            src={img}
-            alt="img"
-          />
-        </div>
-        <div>
-          <h2 id="header" ref={sectionRef}>
-            Delivering custom Android apps with dedicated expertise
-          </h2>
-          <p id="header" ref={sectionRef}>
-            Discover the power of our Android Application Development Services
-            and propel your business forward. Our skilled team of developers is
-            committed to crafting innovative, user-friendly, and scalable apps
-            that resonate with your target audience. From concept to deployment,
-            we ensure a seamless development process, utilizing cutting-edge
-            technology to deliver robust and reliable applications. Whether you
-            need a native app, a cross-platform solution, or app maintenance and
-            updates, we've got you covered. Embrace the endless possibilities of
-            Android and reach millions of potential users. Let's collaborate to
-            turn your vision into a tangible reality and create a lasting impact
-            in the digital world.
-          </p>
-        </div>
+      <div>
+        <img
+          id="header"
+          ref={sectionRef}
+          className={style.img}
+          src={img}
+          alt="img"
+        />
+      </div>
+
+      <div>
+        <h1 id="header" ref={sectionRef}>
+          Why Select Cross-Platform App Development?
+        </h1>
+        <p className={style.para} id="header" ref={sectionRef}>
+          The Potential of Cross Platform Application Development Cross platform
+          application development is the skill of crafting applications that are
+          compatible with numerous operating systems, including iOS, Android,
+          and others. It involves providing a cohesive user experience
+          irrespective of the device utilized by your clientele. This strategy
+          not only amplifies the scope of your application but also reduces the
+          duration and expenses associated with its development. Consequently,
+          it becomes an optimal selection for enterprises aspiring to generate a
+          noteworthy influence in the digital realm.
+        </p>
       </div>
     </div>
   );
