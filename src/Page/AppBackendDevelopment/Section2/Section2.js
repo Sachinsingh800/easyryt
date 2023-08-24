@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import style from "./Section2.module.css";
 import logo1 from "../../../Image/chart.gif";
 import logo2 from "../../../Image/date.gif";
@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Android App",
+    title: "Reach a Wider Audience",
     description:
-      "Our Android applications are renowned for their captivating User Interface UI/UX, rapid loading speeds, and reliable performance.",
+      "One of the primary blessings of cross-platform app improvement is the capacity to attain a broader target market. With systems like iOS and Android dominating the cell market, targeting both ecosystems are crucial for maximizing your app's reach. Instead of building separate apps for every platform, move-platform development allows you to create an unmarried codebase that may be deployed on a couple of platforms. ",
   },
   {
     logo: logo2,
-    title: "iOS App",
+    title: "Cost-Effectiveness",
     description:
-      "Our iOS apps embody innovative concepts, featuring intuitive GUIs. With our proficient iPhone application development team, you'll find the perfect solution for your needs.",
+      "Developing local apps for one-of-a-kind systems may be a resource-extensive undertaking. Each platform has its own programming language and improvement equipment, requiring developers with specific know-how in each era. Cross-platform mobile development eliminates the want for separate groups running on special variations of the app.  ",
   },
   {
     logo: logo3,
-    title: "Tablet App development",
+    title: "Faster Development Cycle",
     description:
-      "We offer extensive tablet app development solutions to diverse industries, catering to startups and leading enterprises alike.",
+      "Time-to-marketplace is important in the competitive app landscape. Cross-platform app improvement hurries up the improvement cycle by allowing builders to jot down code once and deploy it across diverse platforms. This unified approach reduces the want for redundant coding, testing, and debugging. As an end result, you can carry your app to marketplace faster and advantage an aggressive edge.  ",
   },
   {
     logo: logo4,
-    title: "iPad App Development",
+    title: "Consistent User Experience",
     description:
-      "With years of proficiency in native app development, our team can fulfill your unique requirements. We provide impeccable, visually appealing iPad app development services using Flutter.",
+      "User revel in performs a pivotal role in the achievement of any app. Cross-platform mobile development guarantees a constant consumer revel in throughout distinct gadgets and platforms. With careful layout and optimization, your app can look and feel native on each platform, supplying an unbroken revel in to customers regardless of their device options.",
   },
   {
     logo: logo5,
-    title: "AR App Development",
+    title: " Easier Maintenance ",
     description:
-      "Benefiting from over 15 years of expertise in 3D modeling and Augmented Reality (AR), we deliver top-notch AR software swiftly. Our team crafts cutting-edge virtual reality solutions, harnessing the latest tools and advancements.",
+      "Maintaining multiple variations of an app can be a nightmare for developers. With cross-platform development, updates and bug fixes may be carried out across all structures concurrently. This removes the need to address problems one by one on every platform, saving time and resources in the long run. By retaining an unmarried codebase, you make certain that everyone customers are profiting from the modern-day upgrades.",
   },
   {
     logo: logo6,
-    title: "Marketing Automation Solutions",
+    title: "Access to a Wide Range of Tools",
     description:
-      "Catering to diverse user needs, our team develops Native applications that precisely align with their business requirements. Leveraging the finest native app development platform, we ensure optimal results for every project.",
+      "Cross-platform app improvement frameworks offer a plethora of tools, libraries, and plugins that simplify the improvement system. Frameworks like React Native, Flutter, and Xamarin offer developers with pre-constructed components and modules, lowering the need to reinvent the wheel for each platform. This equipment empowers developers to attention on developing unique functions as opposed to spending time on repetitive obligations.",
   },
 ];
 
@@ -54,8 +54,6 @@ const lightColors = [
   "#FFC6C6",
   "#E0FF9F",
 ]; // You can add more light colors here
-
-
 
 function Section2() {
   const [randomColors, setRandomColors] = useState(lightColors);
@@ -83,14 +81,20 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>The Expertise Of Our Native App Development Service</h1>
+      <h1>Our Method for Cross-Platform App Development</h1>
       <p className={style.para}>
-        As a native app development company, we have expertise in developing
-        Native apps for different platforms. Take a look at our expertise:
+        At EasyRyt, we acknowledge that constructing a prosperous application is
+        a dynamic fusion of inventiveness, strategic preparation, and careful
+        implementation. Our diverse group of creators, programmers, and planners
+        work cooperatively to bring your application idea to fruition.
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (
-          <div className={style.card} key={index} style={{ background: randomColors[index] }}>
+          <div
+            className={style.card}
+            key={index}
+            style={{ background: randomColors[index] }}
+          >
             <img className={style.img} src={data.logo} alt={`img${index}`} />
             <h6>{data.title}</h6>
             <p>{data.description}</p>

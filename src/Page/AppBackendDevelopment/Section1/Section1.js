@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import style from "./Section1.module.css";
-import img from "../../../Image/App Backend Development 2.png";
+import img from "../../../Image/ios Application Development Services 2.png";
 import { gsap } from "gsap";
 import { useIntersection } from "react-use";
 
@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting App Backend Applications For Multiple Platforms
+        Crafting IOS Application Development Services For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom App Backend apps with dedicated expertise
+            Delivering custom IOS apps with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Discover our top-notch App Backend Development Services designed to
-            empower your mobile or web applications. Our experienced team of
-            developers will create robust, scalable, and secure backend
-            solutions, optimizing performance and user experience. From crafting
-            well-structured APIs to managing databases and implementing
-            server-side logic, we tailor our services to meet your app's
-            specific requirements. Embrace innovation with our cutting-edge
-            technologies, ensuring seamless integration and real-time updates.
-            Focus on your app's front-end while we handle the backend
-            complexities, ensuring reliability and efficiency. Stay ahead in the
-            competitive app market with our customized solutions, enhancing your
-            app's functionality and overall success.
+            Discover top-tier iOS Application Development Services that bring
+            your digital aspirations to life. Our skilled team of developers
+            excels at crafting cutting-edge iOS apps that redefine user
+            experiences. With a focus on innovation, usability, and performance,
+            we tailor every solution to match your unique business requirements.
+            From ideation to design and development, we ensure a seamless and
+            efficient process. Harness the power of advanced technologies and
+            the latest iOS frameworks to create intuitive, feature-rich
+            applications. Embrace the future of mobile technology and elevate
+            your brand's presence on the App Store. Partner with us to transform
+            your ideas into successful, user-centric iOS applications today.
           </p>
         </div>
       </div>
