@@ -4,7 +4,6 @@ import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/cross-platform-app-development.png";
 import Section2 from "./Section2/Section2";
 import Section3 from "./Section3/Section3";
-import TenthSection from "../../Section/TenthSection/TenthSection";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
@@ -12,10 +11,9 @@ import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
 import Section4 from "./Section4/Section4";
 import ForthSection from "../../Section/ForthSection/ForthSection";
-import FifthSection from "../../Section/FifthSection/FifthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
-import Section1 from "./section1/Section1";
+// import Section1 from "./section1/Section1";
 
 function CrossPlatformAppDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
