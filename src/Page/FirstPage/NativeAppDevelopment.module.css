@@ -97,6 +97,7 @@
          }
     }
     @media (max-width:360px){
+        
         .img{
             width: 19rem;
             position: absolute;
@@ -111,6 +112,8 @@
          }
          .container p{
             width: 15rem;
+            height: 15rem;
+            overflow: hidden;
         }
         .container h1{
             width: 15rem;
