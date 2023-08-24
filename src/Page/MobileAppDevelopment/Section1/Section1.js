@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import style from "./Section1.module.css";
-import img from "../../../Image/Mobile App Development 2.png";
+import img from "../../../Image/ios Application Development Services 2.png";
 import { gsap } from "gsap";
 import { useIntersection } from "react-use";
 
@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting Mobile  Applications For Multiple Platforms
+        Crafting IOS Application Development Services For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,20 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom Mobile  apps with dedicated expertise
+            Delivering custom IOS apps with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Unlock your business's full potential with our top-notch Mobile
-            Application Development Services. Our team of skilled developers and
-            designers will bring your ideas to life, crafting custom mobile apps
-            with seamless functionality for both Android and iOS platforms. From
-            concept to launch, we provide comprehensive support, ensuring your
-            app meets your specific requirements and exceeds user expectations.
-            Whether you need a productivity tool, e-commerce solution, or a
-            game-changing app, we've got you covered. Elevate your brand, boost
-            customer engagement, and stay ahead of the competition with our
-            innovative mobile app solutions. Let's collaborate and transform
-            your vision into a successful reality!
+            Discover top-tier iOS Application Development Services that bring
+            your digital aspirations to life. Our skilled team of developers
+            excels at crafting cutting-edge iOS apps that redefine user
+            experiences. With a focus on innovation, usability, and performance,
+            we tailor every solution to match your unique business requirements.
+            From ideation to design and development, we ensure a seamless and
+            efficient process. Harness the power of advanced technologies and
+            the latest iOS frameworks to create intuitive, feature-rich
+            applications. Embrace the future of mobile technology and elevate
+            your brand's presence on the App Store. Partner with us to transform
+            your ideas into successful, user-centric iOS applications today.
           </p>
         </div>
       </div>

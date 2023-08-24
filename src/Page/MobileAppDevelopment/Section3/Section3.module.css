@@ -1,54 +1,56 @@
 .main{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 3rem 0rem;
+    gap: 4rem;
     width: 100vw;
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   padding: 2rem 4rem;
-   gap: 1rem;
-   text-align: center;
-} 
-.para{
+
+}
+.card_container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    gap: 2rem;
+}
+.card{
+    height: 20rem;
+    border-radius: 15px;
+    padding: 1rem;
+    /* color: white; */
+    display: flex;
+    filter: drop-shadow(0px 3px 5px black);
+    flex-direction: column;
+    overflow: hidden;
+    text-align: left;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(209,220,221,1) 100%, rgba(255,255,255,0.11808473389355745) 100%);
+}
+
+.des{
+    height: 15rem;
+    overflow: hidden;
+}
+@media (max-width:620px){
+    .card_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+        gap: 2rem;
+        height: max-content;
+    }
+    .des{
+        height: max-content;
+        overflow: hidden;
+    }
+    .main h2{
     width: 30rem;
     text-align: center;
+    }
+ 
 }
-.innerbox{
-    width: 65rem;
-    text-align: center;
-}
-.innerbox p{
-    display: inline-table;
-    padding: .5rem 2rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 1rem;
-    border-radius: 5px;
-    background-color:  rgb(240, 240, 241);
-    font-weight: 500;
-    transition: background-color 0.4s ease-in-out;
+@media (max-width:446px){
 
-}
-.active{
-    background-color: black!important;
-   color: white;
-   }
-.innerbox p:hover{
-    background-color: black;
-    color: white;
-}
-
-@media (max-width:787px){
-    .innerbox{
-        text-align: center;
-    }
-    .innerbox{
-        width: 45rem;
-    }
-
-}
-@media (max-width:660px){
-    .innerbox{
-        text-align: center;
-    }
-    .innerbox{
-        width: 35rem;
-    }
 }
