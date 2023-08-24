@@ -37,6 +37,7 @@ margin-top: 6rem;
   .main{
     height: 35rem;
     overflow: hidden;
+    padding-top: 8rem;
 }
 .img{
   height: 15rem;

@@ -33,3 +33,24 @@
     height: 7rem;
     overflow: hidden;
 }
+@media (max-width:620px){
+    .card_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+        gap: 2rem;
+        height: max-content;
+    }
+    .des{
+        height: max-content;
+        overflow: hidden;
+    }
+    .main h2{
+    width: 30rem;
+    text-align: center;
+    }
+ 
+}
+@media (max-width:446px){
+
+}

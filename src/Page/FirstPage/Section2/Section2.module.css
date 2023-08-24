@@ -76,5 +76,9 @@
     .card{
         height: 30rem;
         width: 15rem;
+        overflow: hidden;
+    }
+    .para{
+        width: 30rem;
     }
 }
