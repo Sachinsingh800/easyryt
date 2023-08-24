@@ -17,14 +17,12 @@ function NavBar() {
   const [activeLink, setActiveLink] = useState(null);
   const [isServicesHovered, setIsServicesHovered] = useState(false);
   const [isAboutHovered, setIsAboutHovered] = useState(false);
-  const [isContactHovered, setIsContactHovered] = useState(false);
-  const [isBlogHovered, setIsBlogHovered] = useState(false);
+
 
   const handleServicesHover = (link) => {
     setIsServicesHovered(true);
     setIsAboutHovered(false);
-    setIsBlogHovered(false);
-    setIsContactHovered(false);
+
     setActiveLink(link);
   };
 
@@ -36,8 +34,7 @@ function NavBar() {
   const handleAboutHover = (link) => {
     setIsAboutHovered(true);
     setIsServicesHovered(false);
-    setIsBlogHovered(false);
-    setIsContactHovered(false);
+
     setActiveLink(link);
   };
 
@@ -47,31 +44,24 @@ function NavBar() {
   };
 
   const handleContactHover = (link) => {
-    setIsContactHovered(true);
     setIsServicesHovered(false);
     setIsAboutHovered(false);
-    setIsBlogHovered(false);
+
 
     setActiveLink(link);
   };
 
-  const handleContactLeave = () => {
-    setIsContactHovered(false);
-    setActiveLink(null);
-  };
+  
 
   const handleBlogHover = (link) => {
-    setIsBlogHovered(true);
+
     setIsServicesHovered(false);
     setIsAboutHovered(false);
-    setIsContactHovered(false);
+
     setActiveLink(link);
   };
 
-  const handleBlogLeave = () => {
-    setIsBlogHovered(false);
-    setActiveLink(null);
-  };
+
 
   return (
     <div className={style.main}>

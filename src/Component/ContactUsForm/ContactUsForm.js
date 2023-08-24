@@ -19,8 +19,8 @@ function ContactUsForm() {
 
 console.log(formData,"kya aa raha")
 
-  const [message, setMessage] = useState('');
-  const [error, setError] = useState('');
+
+
 
   const handleFileChange = (e) => {
     setFormData({ ...formData, projectFile: e.target.files[0] });
@@ -53,8 +53,7 @@ console.log(formData,"kya aa raha")
       const response = await axios.post('https://easyryt.onrender.com/client/clientProject', data);
 
       // Handle the response (you can display a success message or redirect to another page)
-      console.log(response.data);
-      setMessage(response.data.message);
+
       Swal.fire({
         title: 'Form!',
         text: 'Submitted successfully!',
@@ -66,7 +65,6 @@ console.log(formData,"kya aa raha")
       window.location.href="/";
     } catch (error) {
       console.error(error);
-      setError(error.response.data.message);
       Swal.fire({
         title: 'Error',
         text: error.response?.data?.message || 'Internal Server Error',

@@ -4,11 +4,9 @@ import style from "./ClientsAccordion.module.css";
 import { ClientServicesaccordian} from "../Accordion/Accordion";
 
 export default function ClientsAccordion() {
-  const [expanded, setExpanded] = React.useState(false);
 
-  const handleChange = (panel) => (event, isExpanded) => {
-    setExpanded(isExpanded ? panel : false);
-  };
+
+
 
   return (
     <div className={style.main}>

@@ -5,9 +5,9 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
 const BlogForm = () => {
-  const [message, setMessage] = useState('');
+
   const navigate=useNavigate()
-  const [error, setError] = useState('');
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -30,7 +30,7 @@ const BlogForm = () => {
 
     try {
       const response = await axios.post('https://easyryt.onrender.com/client/helpRequest', formData);
-      setMessage(response?.data?.message || 'Internal Server Error');
+
       Swal.fire({
         title: 'Form!',
         text: 'Submitted successfully!',
@@ -38,7 +38,7 @@ const BlogForm = () => {
       });
       navigate("/Blog")
     } catch (error) {
-      setError(error.response?.data?.message || 'Internal Server Error');
+      
       Swal.fire({
         title: 'Error',
         text: error.response?.data?.message || 'Internal Server Error',

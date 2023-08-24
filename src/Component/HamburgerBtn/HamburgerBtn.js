@@ -6,7 +6,7 @@ import List from '@mui/material/List';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { RxCross2 } from 'react-icons/rx';
 import style from './HamburgerBtn.module.css';
-import {Accordion1, Accordion2, Accordion3, Accordion4, Accordion5, Accordion6} from '../Accordion/Accordion';
+import {Accordion1, Accordion2, Accordion3, Accordion4} from '../Accordion/Accordion';
 
 export default function HamburgerBtn() {
 

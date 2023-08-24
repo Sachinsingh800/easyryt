@@ -7,8 +7,7 @@ import 'react-phone-input-2/lib/style.css';
 import axios from 'axios';
 
 const Form = () => {
-  const [message, setMessage] = useState('');
-  const [error, setError] = useState('');
+
   const [name, setFullName] = useState('');
   const [phone, setMobileNumber] = useState('');
   const [requestServices, setRequestServices] = useState('');
@@ -40,8 +39,7 @@ const Form = () => {
     };
     try {
       const response = await axios.post('https://easyryt.onrender.com/client/clientInfo', formData);
-      console.log(response, 'contact info');
-      setMessage(response.data.message);
+
       Swal.fire({
         title: 'Form!',
         text: 'Submitted successfully!',
@@ -54,7 +52,6 @@ const Form = () => {
       localStorage.setItem("popupSubmitted", "true");
       window.location.href="/";
     } catch (error) {
-      setError(error.response?.data?.message || 'Internal Server Error');
       Swal.fire({
         title: 'Error',
         text: error.response?.data?.message || 'Internal Server Error',

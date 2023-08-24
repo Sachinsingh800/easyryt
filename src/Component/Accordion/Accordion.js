@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import styles from "./Accordion.module.css";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 import Accordion from "react-bootstrap/Accordion";
 import "bootstrap/dist/css/bootstrap.min.css";
 
