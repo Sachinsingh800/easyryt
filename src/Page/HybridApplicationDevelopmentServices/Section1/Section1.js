@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import style from "./Section1.module.css";
-import img from "../../../Image/Hybrid Application Development Services 2.png";
+import img from "../../../Image/ios Application Development Services 2.png";
 import { gsap } from "gsap";
 import { useIntersection } from "react-use";
 
@@ -39,7 +39,7 @@ function Section1() {
   return (
     <div className={style.main}>
       <h1 id="header" ref={sectionRef}>
-        Crafting  Hybrid  Applications For Multiple Platforms
+        Crafting IOS Application Development Services For Multiple Platforms
       </h1>
       <div className={style.innercontain}>
         <div>
@@ -53,21 +53,20 @@ function Section1() {
         </div>
         <div>
           <h2 id="header" ref={sectionRef}>
-            Delivering custom  Hybrid  apps with dedicated expertise
+            Delivering custom IOS apps with dedicated expertise
           </h2>
           <p id="header" ref={sectionRef}>
-            Hybrid Application Development Services offer a dynamic approach to
-            crafting applications that combine the best of both worlds: native
-            and web technologies. By leveraging frameworks like React Native,
-            Xamarin, or Flutter, developers can create versatile,
-            cost-effective, and cross-platform compatible apps. These solutions
-            cater to diverse user experiences and needs, ensuring a consistent
-            user interface and functionality across various devices and
-            operating systems. Businesses benefit from faster development
-            cycles, reduced costs, and wider market reach, as these hybrid apps
-            can be deployed on both Android and iOS platforms. Embrace the power
-            of hybrid development to deliver robust, user-friendly, and
-            high-performance applications.
+            Discover top-tier iOS Application Development Services that bring
+            your digital aspirations to life. Our skilled team of developers
+            excels at crafting cutting-edge iOS apps that redefine user
+            experiences. With a focus on innovation, usability, and performance,
+            we tailor every solution to match your unique business requirements.
+            From ideation to design and development, we ensure a seamless and
+            efficient process. Harness the power of advanced technologies and
+            the latest iOS frameworks to create intuitive, feature-rich
+            applications. Embrace the future of mobile technology and elevate
+            your brand's presence on the App Store. Partner with us to transform
+            your ideas into successful, user-centric iOS applications today.
           </p>
         </div>
       </div>
