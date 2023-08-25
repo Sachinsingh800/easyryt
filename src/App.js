@@ -18,7 +18,7 @@ function App() {
          <Helmet>
  
         <title>We Transform Digital Solutions</title>
-         <link rel='canonical' href='https://easyryt.com/' />
+       
          <meta name="google-site-verification" content="md3XXfRXs9D9pKk-pFi4NVawAxv3086p7DrjamuYVQM" />
       </Helmet>
      <Home />
