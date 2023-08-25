@@ -50,13 +50,14 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          Why Select Flutter App Development?
+          Why Select Mobile Application Testing?
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          Flutter application development is transforming the way we build
-          multi-platform applications. Using a solitary codebase, you can
-          connect with a larger user base while preserving an authentic user
-          experience.
+          At EasyRyt, we acknowledge that the success of a mobile app depends on
+          its ability to deliver a flawless user experience. Our Mobile App
+          Testing Services combines industry best practices, state-of-the-art
+          tools, and a team of skilled testers to identify and resolve issues
+          before they reach your users.
         </p>
       </div>
     </div>

@@ -6,12 +6,12 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        In the ever-changing realm of mobile app development, delivering a
-        consistent and captivating user experience is crucial. With Flutter App
-        Development services from EasyRyt, you can transform your app
-        aspirations into reality. Our team of proficient programmers and
-        designers are dedicated to crafting cross-platform apps that captivate,
-        engage, and surpass user expectations.
+        In the swiftly evolving landscape of mobile app development, delivering
+        consistent and captivating user experiences is vital. With React Native
+        App Development services from EasyRyt, you can turn your app concepts
+        into reality. Our team of skilled developers and designers are dedicated
+        to crafting cross-platform apps that captivate, engage, and surpass user
+        expectations.
       </p>
       <h2>Get in touch with us today</h2>
       <p>

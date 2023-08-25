@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Skilled Flutter Programmers:",
-      des:"Our team comprises of experienced Flutter programmers who are knowledgeable in Flutter's capabilities, best practices, and latest updates, making us the best Flutter App Development Company."
+      title:"Skilled Testing Team:",
+      des:"Our expert testing professionals have extensive experience in testing mobile apps across various industries and platforms."
     },
     {
       icon:<GiCrafting/>,
-      title:"Inventive Solutions:",
-      des:"We stay at the forefront of technological advancements and utilize Flutter's features to generate inventive and cutting-edge app solutions."
+      title:"Extensive Testing:",
+      des:"Our testing services cover a wide range of aspects, ensuring that every aspect of your app is thoroughly examined for quality."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Time and Cost Effectiveness:",
-      des:"Flutter's cross-platform nature enables us to develop apps more quickly and decrease development expenses without compromising on quality. "
+      title:"Modern Tools:",
+      des:"We utilize cutting-edge testing tools and methodologies to provide accurate and reliable results. "
     },
     {
       icon:<SiClaris/>,
-      title:"Visual Excellence: ",
-      des:"Our designers produce stunning visuals and animations that enhance user engagement and make a long-lasting impression."
+      title:"Detailed Documentation:",
+      des:"Our comprehensive test reports provide insights into problems, suggestions for enhancements, and a clear roadmap for addressing identified issues."
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Expandability:",
-      des:"We construct apps with expandability in mind, ensuring that your app can expand along with your user base and changing business requirements."
+      title:"Punctual Delivery:",
+      des:"We understand the importance of launching your app on time. Our efficient testing process ensures timely delivery without compromising on quality."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Customer-Focused Approach:",
-      des:"Your satisfaction is our top priority. We collaborate closely with you to guarantee that your app aligns with your vision and fulfils your objectives."
+      title:"Customer Collaboration:",
+      des:"We believe in collaborative partnerships. Your input and feedback are vital to our testing process, ensuring that your app meets your expectations."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Flutter App Development ?</h2>
+      <h2>Why Select EasyRyt for Mobile Application Testing Services?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
