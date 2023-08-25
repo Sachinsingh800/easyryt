@@ -6,16 +6,12 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        Cross-platform app development is a strategic approach that offers a
-        multitude of advantages for agencies aiming to make a mark in the mobile
-        app world. From reaching a much wider target market to lowering
-        development charges and making sure a consistent consumer experience,
-        the benefits are clean. As the mobile landscape maintains to adapt,
-        embracing cross-platform development can position your IT employer as a
-        modern participant that can provide fantastic apps effectively and
-        efficaciously. So, whether you are launching a startup or expanding your
-        app portfolio, keep in mind the energy of pass-platform improvement to
-        propel your fulfilment.
+        In the ever-changing realm of mobile app development, delivering a
+        consistent and captivating user experience is crucial. With Flutter App
+        Development services from EasyRyt, you can transform your app
+        aspirations into reality. Our team of proficient programmers and
+        designers are dedicated to crafting cross-platform apps that captivate,
+        engage, and surpass user expectations.
       </p>
       <h2>Get in touch with us today</h2>
       <p>

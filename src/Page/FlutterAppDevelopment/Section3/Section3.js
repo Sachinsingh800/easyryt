@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Strategic Consultation:",
-      des:"Our initial step is to gain a deep understanding of your app's purpose, target audience, and distinguishing features. Our team of experts collaborates closely with you to define the objectives and scope of your project."
+      title:"Skilled Flutter Programmers:",
+      des:"Our team comprises of experienced Flutter programmers who are knowledgeable in Flutter's capabilities, best practices, and latest updates, making us the best Flutter App Development Company."
     },
     {
       icon:<GiCrafting/>,
-      title:"Technology Selection:",
-      des:"The selection of the most appropriate technology stack is crucial for successful cross-platform development. Our developers, who have extensive experience in this field, choose the frameworks and tools that best suit the specific requirements of your project."
+      title:"Inventive Solutions:",
+      des:"We stay at the forefront of technological advancements and utilize Flutter's features to generate inventive and cutting-edge app solutions."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Design and User Experience:",
-      des:"Our talented design team creates interfaces that are intuitive and user-friendly, providing a consistent experience across different platforms. Our focus is on usability, aesthetics, and functionality to ensure maximum user engagement. "
+      title:"Time and Cost Effectiveness:",
+      des:"Flutter's cross-platform nature enables us to develop apps more quickly and decrease development expenses without compromising on quality. "
     },
     {
       icon:<SiClaris/>,
-      title:"Efficient Development:",
-      des:"The development process we follow adheres to the best practices in cross-platform development, resulting in a robust and scalable application. We utilize frameworks such as React Native, Flutter, and Xamarin to ensure optimal performance."
+      title:"Visual Excellence: ",
+      des:"Our designers produce stunning visuals and animations that enhance user engagement and make a long-lasting impression."
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Testing and Quality Assurance:",
-      des:"Rigorous testing forms the core of our development process. We ensure that your app functions flawlessly on various devices and platforms, delivering a smooth and bug-free experience."
+      title:"Expandability:",
+      des:"We construct apps with expandability in mind, ensuring that your app can expand along with your user base and changing business requirements."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Deployment and Support:",
-      des:"We handle the entire deployment process across multiple app stores and provide ongoing support to address any issues that may arise and implement necessary updates."
+      title:"Customer-Focused Approach:",
+      des:"Your satisfaction is our top priority. We collaborate closely with you to guarantee that your app aligns with your vision and fulfils your objectives."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Cross-platform  App Creation?</h2>
+      <h2>Why Select EasyRyt for Flutter App Development ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

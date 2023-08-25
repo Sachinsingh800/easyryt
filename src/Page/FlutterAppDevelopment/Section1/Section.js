@@ -50,18 +50,13 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          Why Select Cross-Platform App Development?
+          Why Select Flutter App Development?
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          The Potential of Cross Platform Application Development Cross platform
-          application development is the skill of crafting applications that are
-          compatible with numerous operating systems, including iOS, Android,
-          and others. It involves providing a cohesive user experience
-          irrespective of the device utilized by your clientele. This strategy
-          not only amplifies the scope of your application but also reduces the
-          duration and expenses associated with its development. Consequently,
-          it becomes an optimal selection for enterprises aspiring to generate a
-          noteworthy influence in the digital realm.
+          Flutter application development is transforming the way we build
+          multi-platform applications. Using a solitary codebase, you can
+          connect with a larger user base while preserving an authentic user
+          experience.
         </p>
       </div>
     </div>
