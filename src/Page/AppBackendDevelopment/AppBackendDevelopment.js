@@ -13,36 +13,31 @@ import Section4 from "./Section4/Section4";
 import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
-import Section from "../AndroidApplicationDevelopmentServices/Section1/Section";
-
+import Section from "./Section1/Section";
 
 function AppBackendDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
 
-
   //popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
-    
   };
   return (
     <div className={style.main}>
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Cross-Platform App Development</h1>
+          <h1>App Backend Development</h1>
           <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            In the ever-evolving landscape of cellular applications,
-            cross-platform mobile development has emerged as a sport-changer.
-            With the proliferation of devices, running structures, and consumer
-            expectations, organizations are searching for efficient answers to
-            attain a much broader target market without compromising on person
-            experience. Cross-platform app improvement has risen to this
-            challenge, offering a way to broaden programs that run seamlessly
-            across more than one structures. In this article, we will delve into
-            the advantages of cross-platform mobile development and why it's a
-            method well worth considering for your next project.
+            In the fast-paced digital world, cell programs have become a
+            critical medium for businesses to interact with their customers. A
+            crucial element of a hit cell app is its backend – the engine that
+            powers the app's capability, overall performance, and user
+            experience. The focus should be on crafting strong and efficient app
+            backends that lay the basis for high-quality app reports. Our App
+            Backend Development offerings are designed to empower your app with
+            seamless functionality, complete control, safety, and scalability.
           </p>
           <button
             type="submit"
@@ -56,7 +51,7 @@ function AppBackendDevelopment() {
           <img className={style.img} src={img} alt="img" />
         </div>
       </div>
-     <Section/>
+      <Section />
       <Section2 />
       <Section3 />
       <Section4 />

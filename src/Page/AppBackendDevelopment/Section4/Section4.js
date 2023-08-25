@@ -6,16 +6,14 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        Cross-platform app development is a strategic approach that offers a
-        multitude of advantages for agencies aiming to make a mark in the mobile
-        app world. From reaching a much wider target market to lowering
-        development charges and making sure a consistent consumer experience,
-        the benefits are clean. As the mobile landscape maintains to adapt,
-        embracing cross-platform development can position your IT employer as a
-        modern participant that can provide fantastic apps effectively and
-        efficaciously. So, whether you are launching a startup or expanding your
-        app portfolio, keep in mind the energy of pass-platform improvement to
-        propel your fulfilment.
+        In the aggressive world of cell apps, a sturdy and properly-dependent
+        backend is essential for delivering super consumer reviews. At EasyRyt,
+        we concentrate on crafting robust app backends that significantly
+        improve your app's capability, security, and scalability. Our crew of
+        experienced backend developers are dedicated to turning your app’s
+        vision into reality. Partner with us for App Backend Development
+        offerings. Contact us now, to speak about how we can increase your app's
+        backend to the next level!
       </p>
       <h2>Get in touch with us today</h2>
       <p>

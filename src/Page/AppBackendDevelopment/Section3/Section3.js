@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Strategic Consultation:",
-      des:"Our initial step is to gain a deep understanding of your app's purpose, target audience, and distinguishing features. Our team of experts collaborates closely with you to define the objectives and scope of your project."
+      title:"Expertise and Experience:",
+      des:"Our group comprises of skilled backend developers with immense experience in developing various and complicated app backends. We stay up to date with the cutting-edge technologies and trends to provide you with present day solutions."
     },
     {
       icon:<GiCrafting/>,
-      title:"Technology Selection:",
-      des:"The selection of the most appropriate technology stack is crucial for successful cross-platform development. Our developers, who have extensive experience in this field, choose the frameworks and tools that best suit the specific requirements of your project."
+      title:"Custom Solutions:",
+      des:"We understand that every app is unique. Our solutions are tailor-made to your precise requirements, ensuring that your app's backend aligns flawlessly with your imagination."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Design and User Experience:",
-      des:"Our talented design team creates interfaces that are intuitive and user-friendly, providing a consistent experience across different platforms. Our focus is on usability, aesthetics, and functionality to ensure maximum user engagement. "
+      title:"Agile Development:",
+      des:"We observe an agile development methodology, permitting us to confirm to changing necessities and deliver effective backend solutions. This method fosters collaboration, transparency, and quicker shipping. "
     },
     {
       icon:<SiClaris/>,
-      title:"Efficient Development:",
-      des:"The development process we follow adheres to the best practices in cross-platform development, resulting in a robust and scalable application. We utilize frameworks such as React Native, Flutter, and Xamarin to ensure optimal performance."
+      title:"Quality Assurance:",
+      des:"We are committed to delivering solutions after rigorous testing. Best warranty procedures are an imperative part of our improvement cycle. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Testing and Quality Assurance:",
-      des:"Rigorous testing forms the core of our development process. We ensure that your app functions flawlessly on various devices and platforms, delivering a smooth and bug-free experience."
+      title:"Timely Delivery:",
+      des:"We apprehend the significance of timely app launches. Our efficient time management guarantees that we supply results inside agreed-upon timelines."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Deployment and Support:",
-      des:"We handle the entire deployment process across multiple app stores and provide ongoing support to address any issues that may arise and implement necessary updates."
+      title:"Client-Centric Approach: ",
+      des:"Your satisfaction is our priority. We maintain open communication throughout the development system, keeping you updated and involved at every stage."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Cross-platform  App Creation?</h2>
+      <h2>Why Select EasyRyt for App Backend Development Creation?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
