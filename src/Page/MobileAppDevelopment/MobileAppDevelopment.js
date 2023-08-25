@@ -15,34 +15,29 @@ import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "../AndroidApplicationDevelopmentServices/Section1/Section";
 
-
 function MobileAppDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
-
 
   //popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
-    
   };
   return (
     <div className={style.main}>
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Cross-Platform App Development</h1>
+          <h1>Mobile App Development</h1>
           <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            In the ever-evolving landscape of cellular applications,
-            cross-platform mobile development has emerged as a sport-changer.
-            With the proliferation of devices, running structures, and consumer
-            expectations, organizations are searching for efficient answers to
-            attain a much broader target market without compromising on person
-            experience. Cross-platform app improvement has risen to this
-            challenge, offering a way to broaden programs that run seamlessly
-            across more than one structures. In this article, we will delve into
-            the advantages of cross-platform mobile development and why it's a
-            method well worth considering for your next project.
+            In today’s ultra-modern virtual age, cellular programs have ended up
+            becoming an imperative part of our everyday lives, transforming the
+            way organizations hook up with their customers. A nicely-crafted
+            mobile app cannot simply decorate user engagement but also liberate
+            new avenues for increase and innovation. The need of the hour is to
+            specialize in developing exceptional cell apps that cater on your
+            particular business goals, turning in seamless reports that resonate
+            together with your audience.
           </p>
           <button
             type="submit"
@@ -56,7 +51,7 @@ function MobileAppDevelopment() {
           <img className={style.img} src={img} alt="img" />
         </div>
       </div>
-     <Section/>
+      <Section />
       <Section2 />
       <Section3 />
       <Section4 />

@@ -50,18 +50,15 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          Why Select Cross-Platform App Development?
+          Why Select Mobile Application Development?
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          The Potential of Cross Platform Application Development Cross platform
-          application development is the skill of crafting applications that are
-          compatible with numerous operating systems, including iOS, Android,
-          and others. It involves providing a cohesive user experience
-          irrespective of the device utilized by your clientele. This strategy
-          not only amplifies the scope of your application but also reduces the
-          duration and expenses associated with its development. Consequently,
-          it becomes an optimal selection for enterprises aspiring to generate a
-          noteworthy influence in the digital realm.
+          Mobile application development goes beyond mere coding; it entails
+          comprehending user actions, crafting user-friendly interfaces, and
+          enhancing efficiency on diverse devices. At [Your Company Name], we
+          take great pride in crafting exceptional mobile applications that not
+          only meet industry benchmarks but also surpass user anticipations,
+          leaving a substantial impression on the digital domain.
         </p>
       </div>
     </div>

@@ -13,28 +13,28 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Strategic Consultation:",
-      des:"Our initial step is to gain a deep understanding of your app's purpose, target audience, and distinguishing features. Our team of experts collaborates closely with you to define the objectives and scope of your project."
+      title:"Expertise and Experience:",
+      des:"Our crew accommodates skilled developers and designers with a proven song document in turning in a hit mobile app across diverse industries, making us the best mobile app development company."
     },
     {
       icon:<GiCrafting/>,
-      title:"Technology Selection:",
-      des:"The selection of the most appropriate technology stack is crucial for successful cross-platform development. Our developers, who have extensive experience in this field, choose the frameworks and tools that best suit the specific requirements of your project."
+      title:"Innovative Solutions:",
+      des:"We stay ahead of the curve on the subject of rising technology and trends as our answers are designed to offer a competitive part in the market."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Design and User Experience:",
-      des:"Our talented design team creates interfaces that are intuitive and user-friendly, providing a consistent experience across different platforms. Our focus is on usability, aesthetics, and functionality to ensure maximum user engagement. "
+      title:"Collaborative Partnership:",
+      des:"We trust that the exceptional consequences that come from collaboration. We discuss carefully with you during the improvement process, making sure that your vision is delivered to life. "
     },
     {
       icon:<SiClaris/>,
-      title:"Efficient Development:",
-      des:"The development process we follow adheres to the best practices in cross-platform development, resulting in a robust and scalable application. We utilize frameworks such as React Native, Flutter, and Xamarin to ensure optimal performance."
+      title:"Quality Assurance:",
+      des:"Our rigorous checking out and techniques assure that your mobile app is of the very best first-rate, supplying a clean and enjoyable experience for the users."
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Testing and Quality Assurance:",
-      des:"Rigorous testing forms the core of our development process. We ensure that your app functions flawlessly on various devices and platforms, delivering a smooth and bug-free experience."
+      title:"Timely Delivery:",
+      des:"We recognize the significance of a well-timed delivery. Our crew is dedicated to assemble the time limits without compromising on the quality of your cell app."
     },
     {
       icon:<FaInnosoft/>,
@@ -45,7 +45,7 @@ function Section3() {
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Cross-platform  App Creation?</h2>
+      <h2>Why Select EasyRyt for Mobile App Development?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
