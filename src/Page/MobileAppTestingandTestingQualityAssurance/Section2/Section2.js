@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import style from "./Section2.module.css";
 import logo1 from "../../../Image/chart.gif";
 import logo2 from "../../../Image/date.gif";
@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Android App",
+    title: "Generation and Conception",
     description:
-      "Our Android applications are renowned for their captivating User Interface UI/UX, rapid loading speeds, and reliable performance.",
+      "We commence by collaborating with you to comprehend your app’s concept, target audience, and business goals. Our team of experienced designers and developers then brainstorm concepts to guarantee that your app's design and functionality harmonize perfectly with your vision. ",
   },
   {
     logo: logo2,
-    title: "iOS App",
+    title: "User-Centric Design",
     description:
-      "Our iOS apps embody innovative concepts, featuring intuitive GUIs. With our proficient iPhone application development team, you'll find the perfect solution for your needs.",
+      "Flutter's extensive selection of pre-designed widgets and customizable components enables us to create stunning user interfaces that engage and delight users. We prioritize user-centric designs to ensure instinctive navigation, seamless interactions and a visually appealing arrangement.  ",
   },
   {
     logo: logo3,
-    title: "Tablet App development",
+    title: "Multi-Platform Development",
     description:
-      "We offer extensive tablet app development solutions to diverse industries, catering to startups and leading enterprises alike.",
+      "Flutter's distinctive framework allows us to develop cross-platform apps using a singular codebase. This significantly reduces development time and expenses while guaranteeing consistent performance and design on both iOS and Android platforms.",
   },
   {
     logo: logo4,
-    title: "iPad App Development",
+    title: "Personalized Development",
     description:
-      "With years of proficiency in native app development, our team can fulfill your unique requirements. We provide impeccable, visually appealing iPad app development services using Flutter.",
+      "While Flutter offers a wide range of pre-installed widgets, we recognize that each app has distinct requirements. Our Flutter Application Development team is skilled at crafting personalized widgets, animations, and interactions to give your app a unique and unforgettable touch.",
   },
   {
     logo: logo5,
-    title: "AR App Development",
+    title: " Efficiency Enhancement ",
     description:
-      "Benefiting from over 15 years of expertise in 3D modeling and Augmented Reality (AR), we deliver top-notch AR software swiftly. Our team crafts cutting-edge virtual reality solutions, harnessing the latest tools and advancements.",
+      "We understand that app performance directly affects user contentment. Our development procedure encompasses thorough performance testing and enhancement to guarantee swift loading times, seamless animations, and minimal delays.",
   },
   {
     logo: logo6,
-    title: "Marketing Automation Solutions",
+    title: "Incorporation of Device Functions",
     description:
-      "Catering to diverse user needs, our team develops Native applications that precisely align with their business requirements. Leveraging the finest native app development platform, we ensure optimal results for every project.",
+      "Flutter seamlessly integrates with device-specific functions such as the camera, location services, sensors, and more. We leverage these capabilities to amplify your app's functionality and create captivating experiences that users will adore.",
   },
 ];
 
@@ -54,8 +54,6 @@ const lightColors = [
   "#FFC6C6",
   "#E0FF9F",
 ]; // You can add more light colors here
-
-
 
 function Section2() {
   const [randomColors, setRandomColors] = useState(lightColors);
@@ -83,14 +81,20 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>The Expertise Of Our Native App Development Service</h1>
+      <h1>Our Method for Flutter App Development </h1>
       <p className={style.para}>
-        As a native app development company, we have expertise in developing
-        Native apps for different platforms. Take a look at our expertise:
+        At EasyRyt, we acknowledge that constructing a prosperous application is
+        a dynamic fusion of inventiveness, strategic preparation, and careful
+        implementation. Our diverse group of creators, programmers, and planners
+        work cooperatively to bring your application idea to fruition.
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (
-          <div className={style.card} key={index} style={{ background: randomColors[index] }}>
+          <div
+            className={style.card}
+            key={index}
+            style={{ background: randomColors[index] }}
+          >
             <img className={style.img} src={data.logo} alt={`img${index}`} />
             <h6>{data.title}</h6>
             <p>{data.description}</p>

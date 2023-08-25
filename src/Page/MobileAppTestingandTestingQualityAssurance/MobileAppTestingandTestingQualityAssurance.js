@@ -1,20 +1,24 @@
-import React , { useState } from "react";
+import React, { useState } from "react";
 import style from "./MobileAppTestingandTestingQualityAssurance.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
-import img from "../../Image/Mobile App Testing and Testing Quality Assurance 1.png";
-import Section1 from "./Section1/Section1";
-import Section2 from "../FirstPage/Section2/Section2";
-import Section3 from "../FirstPage/Section3/Section3";
-import TenthSection from "../../Section/TenthSection/TenthSection";
+import img from "../../Image/React Native App Development 1.png";
+import Section2 from "./Section2/Section2";
+import Section3 from "./Section3/Section3";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
+import Section4 from "./Section4/Section4";
+import ForthSection from "../../Section/ForthSection/ForthSection";
+import ServiceForm from "../../Component/ServiceForm/ServiceForm";
+import Section5 from "./Section5/Section5";
+import Section from "./Section1/Section";
 
 function MobileAppTestingandTestingQualityAssurance() {
   const [showPopup, setShowPopup] = useState(false);
 
+  //popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
   };
@@ -23,13 +27,18 @@ function MobileAppTestingandTestingQualityAssurance() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Mobile App Testing and Testing Quality Assurance</h1>
+          <h1>Mobile App Testingand Testing Quality Assurance</h1>
+          <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            Mobile App Testing: Ensuring mobile applications are free of bugs
-            and function as intended on various devices and platforms. Testing
-            Quality Assurance: Processes and methodologies to ensure the overall
-            quality and reliability of software products through rigorous
-            testing and validation.
+            In the ever-changing realm of mobile app creation, providing a
+            uniform and captivating user experience across varied platforms is
+            vital. Flutter, an inventive UI toolbox developed by Google,
+            empowers developers to build high-quality, cross-platform apps with
+            a sole codebase. At EasyRyt we specialize in harnessing the
+            potential of Flutter to construct visually appealing, feature-rich,
+            and high-functioning applications. Our Flutter App Development
+            services are designed to breathe life into your app concepts,
+            offering unparalleled user experiences on iOS, Android, and beyond.
           </p>
           <button
             type="submit"
@@ -43,20 +52,27 @@ function MobileAppTestingandTestingQualityAssurance() {
           <img className={style.img} src={img} alt="img" />
         </div>
       </div>
-      <Section1 />
+      <Section />
       <Section2 />
       <Section3 />
-      <TenthSection />
+      <Section4 />
+      <ServiceForm />
+      <ForthSection />
       <SixthSection />
       <EleventhSection />
-      <CallButton/>
+      <Section5 />
+      <CallButton />
       <Footer />
-            {/* Popup window */}
-            {showPopup && (
+      {showPopup && (
         <>
-        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
-      <PopupOption/>
-      </>
+          <button
+            onClick={() => setShowPopup(false)}
+            className={style.closebtn}
+          >
+            Close
+          </button>
+          <PopupOption />
+        </>
       )}
     </div>
   );

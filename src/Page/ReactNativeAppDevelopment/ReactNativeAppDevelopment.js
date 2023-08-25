@@ -1,20 +1,24 @@
-import React , { useState } from "react";
+import React, { useState } from "react";
 import style from "./ReactNativeAppDevelopment.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/React Native App Development 1.png";
-import Section1 from "./Section1/Section1";
-import Section2 from "../FirstPage/Section2/Section2";
-import Section3 from "../FirstPage/Section3/Section3";
-import TenthSection from "../../Section/TenthSection/TenthSection";
+import Section2 from "./Section2/Section2";
+import Section3 from "./Section3/Section3";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
+import Section4 from "./Section4/Section4";
+import ForthSection from "../../Section/ForthSection/ForthSection";
+import ServiceForm from "../../Component/ServiceForm/ServiceForm";
+import Section5 from "./Section5/Section5";
+import Section from "./Section1/Section";
 
 function ReactNativeAppDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
 
+  //popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
   };
@@ -23,11 +27,19 @@ function ReactNativeAppDevelopment() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>React Native Application Development Services</h1>
+          <h1>React Native Development Services</h1>
+          <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            Get top-notch React Native app development services. We build
-            cross-platform mobile apps with native performance, smooth UI, and
-            seamless user experiences. Contact us now for expert solutions.
+            In the ever-changing realm of mobile application development,
+            delivering exceptional user experiences across various platforms is
+            crucial. React Native, a groundbreaking framework developed by
+            Facebook, empowers programmers to build high-performance,
+            cross-platform applications using a solitary codebase. At EasyRyt,
+            we specialize in harnessing the potential of React Native to design
+            visually impressive, feature-rich, and seamless apps. Our React
+            Native Development services are customized to bring your application
+            visions to life, offering unparalleled user experiences on both iOS
+            and Android platforms.
           </p>
           <button
             type="submit"
@@ -41,20 +53,27 @@ function ReactNativeAppDevelopment() {
           <img className={style.img} src={img} alt="img" />
         </div>
       </div>
-      <Section1 />
+      <Section />
       <Section2 />
       <Section3 />
-      <TenthSection />
+      <Section4 />
+      <ServiceForm />
+      <ForthSection />
       <SixthSection />
       <EleventhSection />
-      <CallButton/>
+      <Section5 />
+      <CallButton />
       <Footer />
-            {/* Popup window */}
-            {showPopup && (
+      {showPopup && (
         <>
-        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
-      <PopupOption/>
-      </>
+          <button
+            onClick={() => setShowPopup(false)}
+            className={style.closebtn}
+          >
+            Close
+          </button>
+          <PopupOption />
+        </>
       )}
     </div>
   );

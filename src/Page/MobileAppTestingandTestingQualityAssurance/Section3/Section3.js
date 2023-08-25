@@ -1,52 +1,67 @@
-import React, { useState, useEffect } from 'react';
-import style from './Section3.module.css';
+import React from 'react'
+import style from "./Section3.module.css"
+import Tilt from "react-parallax-tilt";
+import { GiSkills } from 'react-icons/gi';
+import { GiCrafting } from 'react-icons/gi';
+import { MdPersonalInjury } from 'react-icons/md';
+import { SiClaris } from 'react-icons/si';
+import { TbTruckDelivery } from 'react-icons/tb';
+import { FaInnosoft } from 'react-icons/fa';
 
-const Section3 = () => {
-  const features = [
-    'Seamless Performance',
-    'Native User Interface',
-    'Offline Functionality',
-    'Enhanced Security',
-    'Access to Device Features',
-    'Better User Engagement',
-    'App Store Optimization',
-    'Faster Development',
-    'Long-Term Support',
-    'High-Quality Graphics',
-    'Security',
-  ];
+function Section3() {
 
-  const [currentFeatureIndex, setCurrentFeatureIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentFeatureIndex(getRandomIndex(features.length));
-    }, 2000); // 2-second delay
-
-    return () => clearInterval(interval);
-  }, []);
-
-  const getRandomIndex = (length) => {
-    return Math.floor(Math.random() * length);
-  };
-
+  const data=[
+    {
+      icon:<GiSkills/>,
+      title:"Skilled Flutter Programmers:",
+      des:"Our team comprises of experienced Flutter programmers who are knowledgeable in Flutter's capabilities, best practices, and latest updates, making us the best Flutter App Development Company."
+    },
+    {
+      icon:<GiCrafting/>,
+      title:"Inventive Solutions:",
+      des:"We stay at the forefront of technological advancements and utilize Flutter's features to generate inventive and cutting-edge app solutions."
+    },
+    {
+      icon:<MdPersonalInjury/>,
+      title:"Time and Cost Effectiveness:",
+      des:"Flutter's cross-platform nature enables us to develop apps more quickly and decrease development expenses without compromising on quality. "
+    },
+    {
+      icon:<SiClaris/>,
+      title:"Visual Excellence: ",
+      des:"Our designers produce stunning visuals and animations that enhance user engagement and make a long-lasting impression."
+    },
+    {
+      icon:<TbTruckDelivery/>,
+      title:"Expandability:",
+      des:"We construct apps with expandability in mind, ensuring that your app can expand along with your user base and changing business requirements."
+    },
+    {
+      icon:<FaInnosoft/>,
+      title:"Customer-Focused Approach:",
+      des:"Your satisfaction is our top priority. We collaborate closely with you to guarantee that your app aligns with your vision and fulfils your objectives."
+    },
+   
+  ]
   return (
     <div className={style.main}>
-      <h1>Features Of Native App Development Services</h1>
-      <p className={style.para}>
-        The Following Are Essential  Native App Development Services Featurees To Considen
-        When Developing a Successful Application For Your Company
-      </p>
-      <div className={style.innerbox}>
-        {features.map((feature, index) => (
-          <p key={index} className={index === currentFeatureIndex ? style.active : ''}>
-            ☑&#8193;{feature}
-          </p>
-        ))}
+      <h2>Why Select EasyRyt for Flutter App Development ?</h2>
+      <div className={style.card_container} >
+      {data.map((item,id)=>
+
+   <Tilt glareEnable={true} tiltMaxAngleX={20} 
+   tiltMaxAngleY={20} perspective={1000} >
+       <div className={style.card}>
+        <h1>{item?.icon}</h1>
+          <h5 className={style.title}>{item?.title}</h5>
+          <p className={style.des}>{item?.des}</p>
+       </div>
+   </Tilt>
+
+      )}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Section3;
-
+export default Section3

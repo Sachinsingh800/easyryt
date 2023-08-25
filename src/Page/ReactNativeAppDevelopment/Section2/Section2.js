@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import style from "./Section2.module.css";
 import logo1 from "../../../Image/chart.gif";
 import logo2 from "../../../Image/date.gif";
@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Android App",
+    title: "Ideation and Conceptualization",
     description:
-      "Our Android applications are renowned for their captivating User Interface UI/UX, rapid loading speeds, and reliable performance.",
+      "We start by collaborating closely with you to comprehend your app idea, target audience, and business objectives. Our React Native Development team of talented designers and developers then brainstorm concepts to ensure that your app's design and functionality align perfectly with your vision. ",
   },
   {
     logo: logo2,
-    title: "iOS App",
+    title: "Seamless User Experience",
     description:
-      "Our iOS apps embody innovative concepts, featuring intuitive GUIs. With our proficient iPhone application development team, you'll find the perfect solution for your needs.",
+      "React Native's distinct architecture enables us to create apps that offer a native-like experience on both iOS and Android platforms. We prioritize a smooth user experience through intuitive navigation, fluid animations, and a user-focused interface design. ",
   },
   {
     logo: logo3,
-    title: "Tablet App development",
+    title: "Cross-Platform Efficiency",
     description:
-      "We offer extensive tablet app development solutions to diverse industries, catering to startups and leading enterprises alike.",
+      "One of React Native's greatest advantages is its ability to develop cross-platform apps with a solitary codebase. This approach reduces development time and costs while maintaining consistent performance and design across various devices.",
   },
   {
     logo: logo4,
-    title: "iPad App Development",
+    title: "Custom React Native Development",
     description:
-      "With years of proficiency in native app development, our team can fulfill your unique requirements. We provide impeccable, visually appealing iPad app development services using Flutter.",
+      "While React Native provides a wide range of pre-built components, we understand that each app is unique. Our experienced developers excel at creating custom components, animations, and interactions that give your app a distinctive and unforgettable touch.",
   },
   {
     logo: logo5,
-    title: "AR App Development",
+    title: " Performance Optimization",
     description:
-      "Benefiting from over 15 years of expertise in 3D modeling and Augmented Reality (AR), we deliver top-notch AR software swiftly. Our team crafts cutting-edge virtual reality solutions, harnessing the latest tools and advancements.",
+      "App performance directly impacts user satisfaction. Our React Native Development process includes thorough testing and optimization to ensure quick loading times, seamless transitions, and optimal performance across different devices.",
   },
   {
     logo: logo6,
-    title: "Marketing Automation Solutions",
+    title: "Integration of Native Features",
     description:
-      "Catering to diverse user needs, our team develops Native applications that precisely align with their business requirements. Leveraging the finest native app development platform, we ensure optimal results for every project.",
+      "React Native seamlessly incorporates native device features such as camera, GPS, sensors, and more. We leverage these capabilities to enhance your app's functionality and deliver a fully immersive experience.",
   },
 ];
 
@@ -54,8 +54,6 @@ const lightColors = [
   "#FFC6C6",
   "#E0FF9F",
 ]; // You can add more light colors here
-
-
 
 function Section2() {
   const [randomColors, setRandomColors] = useState(lightColors);
@@ -83,14 +81,20 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>The Expertise Of Our Native App Development Service</h1>
+      <h1>Our Method for React Native App Development </h1>
       <p className={style.para}>
-        As a native app development company, we have expertise in developing
-        Native apps for different platforms. Take a look at our expertise:
+        At EasyRyt, we acknowledge that constructing a prosperous application is
+        a dynamic fusion of inventiveness, strategic preparation, and careful
+        implementation. Our diverse group of creators, programmers, and planners
+        work cooperatively to bring your application idea to fruition.
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (
-          <div className={style.card} key={index} style={{ background: randomColors[index] }}>
+          <div
+            className={style.card}
+            key={index}
+            style={{ background: randomColors[index] }}
+          >
             <img className={style.img} src={data.logo} alt={`img${index}`} />
             <h6>{data.title}</h6>
             <p>{data.description}</p>
