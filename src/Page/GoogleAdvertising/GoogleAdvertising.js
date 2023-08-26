@@ -1,20 +1,26 @@
-import React , { useState } from "react";
+import React, { useState } from "react";
 import style from "./GoogleAdvertising.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/Google Advertising 1.png"
-import Section1 from "./Section1/Section1";
-import Section2 from "../FirstPage/Section2/Section2";
-import Section3 from "../FirstPage/Section3/Section3";
-import TenthSection from "../../Section/TenthSection/TenthSection";
+import Section2 from "./Section2/Section2";
+import Section3 from "./Section3/Section3";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
+import Section4 from "./Section4/Section4";
+import ForthSection from "../../Section/ForthSection/ForthSection";
+import ServiceForm from "../../Component/ServiceForm/ServiceForm";
+import Section5 from "./Section5/Section5";
+import Section from "./Section1/Section";
+
+
 
 function GoogleAdvertising() {
   const [showPopup, setShowPopup] = useState(false);
 
+  //popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
   };
@@ -23,11 +29,17 @@ function GoogleAdvertising() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Google Ads Services</h1>
+          <h1>App Backend Development</h1>
+          <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            Google Ads Services: Reach your target audience with precision
-            through Google's powerful advertising platform. Drive traffic, boost
-            sales, and grow your business with targeted, measurable campaigns.
+            In the fast-paced digital world, cell programs have become a
+            critical medium for businesses to interact with their customers. A
+            crucial element of a hit cell app is its backend – the engine that
+            powers the app's capability, overall performance, and user
+            experience. The focus should be on crafting strong and efficient app
+            backends that lay the basis for high-quality app reports. Our App
+            Backend Development offerings are designed to empower your app with
+            seamless functionality, complete control, safety, and scalability.
           </p>
           <button
             type="submit"
@@ -41,20 +53,27 @@ function GoogleAdvertising() {
           <img className={style.img} src={img} alt="img" />
         </div>
       </div>
-      <Section1 />
+      <Section />
       <Section2 />
       <Section3 />
-      <TenthSection />
+      <Section4 />
+      <ServiceForm />
+      <ForthSection />
       <SixthSection />
       <EleventhSection />
-      <CallButton/>
+      <Section5 />
+      <CallButton />
       <Footer />
-            {/* Popup window */}
-            {showPopup && (
+      {showPopup && (
         <>
-        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
-      <PopupOption/>
-      </>
+          <button
+            onClick={() => setShowPopup(false)}
+            className={style.closebtn}
+          >
+            Close
+          </button>
+          <PopupOption />
+        </>
       )}
     </div>
   );
