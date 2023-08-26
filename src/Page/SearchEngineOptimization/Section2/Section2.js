@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import style from "./Section2.module.css";
 import logo1 from "../../../Image/chart.gif";
 import logo2 from "../../../Image/date.gif";
@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Android App",
+    title: "Keyword Research and Analysis",
     description:
-      "Our Android applications are renowned for their captivating User Interface UI/UX, rapid loading speeds, and reliable performance.",
+      "Effective SEO starts with thorough keyword research. Our team conducts in-depth analysis to identify the most relevant and high-traffic keywords for your industry. By understanding what your target audience is searching for, we ensure that your website content aligns with their needs, improving your chances of ranking higher in search engine results.   ",
   },
   {
     logo: logo2,
-    title: "iOS App",
+    title: "On-Page Optimization",
     description:
-      "Our iOS apps embody innovative concepts, featuring intuitive GUIs. With our proficient iPhone application development team, you'll find the perfect solution for your needs.",
+      "Our SEO experts meticulously optimize every aspect of your website's on-page elements. SEO includes optimizing meta tags, headers, URLs, and content for target keywords. We also focus on improving user experience, ensuring your website is easy to navigate and mobile-responsive. By enhancing your website's on-page factors, we lay a strong foundation for improved search engine rankings.",
   },
   {
     logo: logo3,
-    title: "Tablet App development",
+    title: "Technical SEO",
     description:
-      "We offer extensive tablet app development solutions to diverse industries, catering to startups and leading enterprises alike.",
+      "Behind every successful website lies a strong technical infrastructure. Our SEO Experts conduct comprehensive technical audits to identify and address any issues that may be hindering your site's performance in search engines. From website speed optimization to fixing crawl errors, we ensure that your website meets the technical standards set by search engines.",
   },
   {
     logo: logo4,
-    title: "iPad App Development",
+    title: "Content Creation and Optimization",
     description:
-      "With years of proficiency in native app development, our team can fulfill your unique requirements. We provide impeccable, visually appealing iPad app development services using Flutter.",
+      "Engaging and informative content not only attracts visitors but also showcases your expertise. Our content team creates high-quality, keyword-rich content that resonates with your target audience. From blog posts to infographics, we ensure that your content provides value and answers the questions your potential customers are asking.  ",
   },
   {
     logo: logo5,
-    title: "AR App Development",
+    title: " Link Building",
     description:
-      "Benefiting from over 15 years of expertise in 3D modeling and Augmented Reality (AR), we deliver top-notch AR software swiftly. Our team crafts cutting-edge virtual reality solutions, harnessing the latest tools and advancements.",
+      "Building high-quality, authoritative backlinks is a crucial aspect of SEO. Our team of SEO Experts employ ethical link-building strategies to secure relevant and reputable links from other websites. This not only drives referral traffic but also signals to search engines that your website is a reliable source of information.  ",
   },
   {
     logo: logo6,
-    title: "Marketing Automation Solutions",
+    title: "Local SEO ",
     description:
-      "Catering to diverse user needs, our team develops Native applications that precisely align with their business requirements. Leveraging the finest native app development platform, we ensure optimal results for every project.",
+      "For businesses targeting local customers, our local SEO services are designed to enhance your visibility within your geographic area. We optimize your Google My Business listing, manage online reviews, and ensure accurate local directory listings. This way, you'll be more visible to potential customers in your vicinity. ",
   },
 ];
 
@@ -54,8 +54,6 @@ const lightColors = [
   "#FFC6C6",
   "#E0FF9F",
 ]; // You can add more light colors here
-
-
 
 function Section2() {
   const [randomColors, setRandomColors] = useState(lightColors);
@@ -83,14 +81,22 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>The Expertise Of Our Native App Development Service</h1>
+      <h1>Our Methodology for Search Engine Optimization (SEO) Services </h1>
       <p className={style.para}>
-        As a native app development company, we have expertise in developing
-        Native apps for different platforms. Take a look at our expertise:
+        At EasyRyt, we firmly believe that efficient SEO constitutes a blend of
+        technical proficiency, strategic plotting, and continuous adjustment to
+        evolving search engine algorithms. Our experienced team of SEO experts
+        collaboratively engages with each client to formulate tailored
+        strategies that align with their distinct objectives and industry
+        landscape.
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (
-          <div className={style.card} key={index} style={{ background: randomColors[index] }}>
+          <div
+            className={style.card}
+            key={index}
+            style={{ background: randomColors[index] }}
+          >
             <img className={style.img} src={data.logo} alt={`img${index}`} />
             <h6>{data.title}</h6>
             <p>{data.description}</p>

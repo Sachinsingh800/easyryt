@@ -1,20 +1,24 @@
-import React , { useState } from "react";
+import React, { useState } from "react";
 import style from "./SearchEngineOptimization.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/social media marketing 1.png";
-import Section1 from "./Section1/Section1";
-import Section2 from "../FirstPage/Section2/Section2";
-import Section3 from "../FirstPage/Section3/Section3";
-import TenthSection from "../../Section/TenthSection/TenthSection";
+import Section2 from "./Section2/Section2";
+import Section3 from "./Section3/Section3";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
+import Section4 from "./Section4/Section4";
+import ForthSection from "../../Section/ForthSection/ForthSection";
+import ServiceForm from "../../Component/ServiceForm/ServiceForm";
+import Section5 from "./Section5/Section5";
+import Section from "./Section1/Section";
 
 function SearchEngineOptimization() {
   const [showPopup, setShowPopup] = useState(false);
 
+  //popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
   };
@@ -23,12 +27,17 @@ function SearchEngineOptimization() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Search Engine Optimization (SEO) Services</h1>
+          <h1>SEO Services</h1>
+          <h6>Unlocking Your Online Achievement</h6>
           <p>
-            SEO Services enhance website visibility on search engines, boosting
-            organic traffic and improving rankings. Experts optimize content,
-            keywords, and technical aspects to maximize online presence and
-            business growth.
+            In today's digital environment, possessing a visually attractive
+            website is merely the start. To genuinely flourish in the
+            competitive online realm, your website needs to be effortlessly
+            discoverable by search engines. This is where Search Engine
+            Optimization (SEO) comes into action. Our all-encompassing SEO
+            marketing services are devised to elevate your online presence,
+            propel organic traffic, and amplify your brand's visibility
+            throughout the internet
           </p>
           <button
             type="submit"
@@ -38,24 +47,31 @@ function SearchEngineOptimization() {
             Get Started
           </button>
         </div>
-        <div>
+        <div className={style.img_box}>
           <img className={style.img} src={img} alt="img" />
         </div>
       </div>
-      <Section1 />
+      <Section />
       <Section2 />
       <Section3 />
-      <TenthSection />
+      <Section4 />
+      <ServiceForm />
+      <ForthSection />
       <SixthSection />
       <EleventhSection />
-      <CallButton/>
+      <Section5 />
+      <CallButton />
       <Footer />
-            {/* Popup window */}
-            {showPopup && (
+      {showPopup && (
         <>
-        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
-      <PopupOption/>
-      </>
+          <button
+            onClick={() => setShowPopup(false)}
+            className={style.closebtn}
+          >
+            Close
+          </button>
+          <PopupOption />
+        </>
       )}
     </div>
   );
