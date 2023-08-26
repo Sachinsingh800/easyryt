@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "./AppBackendDevelopment.module.css";
+import style from "./Facebook&InstagramAdvertising.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/Facebook & Instagram Advertising 1.png";
 import Section2 from "./Section2/Section2";
@@ -16,7 +16,7 @@ import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
 
 
-function AppBackendDevelopment() {
+function FacebookInstagramAdvertising() {
   const [showPopup, setShowPopup] = useState(false);
 
   //popup
@@ -28,7 +28,7 @@ function AppBackendDevelopment() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>App Backend Development</h1>
+          <h1>Facebook & Instagram Advertising</h1>
           <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
             In the fast-paced digital world, cell programs have become a
@@ -78,4 +78,4 @@ function AppBackendDevelopment() {
   );
 }
 
-export default AppBackendDevelopment;
+export default FacebookInstagramAdvertising;
