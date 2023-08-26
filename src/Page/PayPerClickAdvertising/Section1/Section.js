@@ -50,14 +50,16 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          Why Select Application Backend Creation?
+          Why Select  for PPC Advertising??
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          Application backend creation serves as the foundation of your
-          software, responsible for managing information, user verification,
-          server communication, and beyond. It represents the concealed power
-          that guarantees your application operates seamlessly and provides a
-          flawless encounter for your users.
+          PPC advertising offers a distinct advantage for businesses seeking
+          rapid outcomes and precise audience targeting. Unlike conventional
+          marketing methods, PPC management allows you to showcase your ads
+          directly to individuals who are actively searching for products or
+          services connected to your industry. This highly focused approach
+          results in higher conversion rates, amplified brand visibility, and
+          enhanced control over your marketing budget.
         </p>
       </div>
     </div>

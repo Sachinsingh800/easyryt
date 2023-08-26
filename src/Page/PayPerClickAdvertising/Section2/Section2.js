@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Requirement Analysis and Planning",
+    title: "Strategic Planning and Investigation",
     description:
-      "We begin by getting to know about your app's necessities and goals. Our crew collaborates with you to accumulate insights into the preferred capabilities, user interactions, and statistics drift. This analysis is the muse of our backend development approach.  ",
+      "Our journey commences by comprehending your business objectives, target audience, and industry landscape. Through comprehensive investigation, we identify the most pertinent keywords and trends that will shape the foundation of your PPC management campaign. We also scrutinize your competitors to reveal opportunities and strategies for surpassing them.  ",
   },
   {
     logo: logo2,
-    title: "Database Design and Management",
+    title: "Personalized Campaign Creation",
     description:
-      "Efficient records control is on the centre of a successful app. Our mobile app backend development team designs and enforces database systems that optimize data garage, retrieval, and control. Our knowledge consists of relational databases, NoSQL databases, and statistics caching mechanisms to ensure clean and fast facts transactions.",
+      "Every business is distinct, and so should be your PPC Management campaign. We design personalized campaigns tailored to your goals, whether it's propelling sales, augmenting website traffic, or enhancing brand awareness. Our innovative team crafts captivating ad copy and selects impactful visuals to seize your audience's attention and stimulate engagement. ",
   },
   {
     logo: logo3,
-    title: "API Development",
+    title: "Precise Audience Targeting",
     description:
-      "Robust APIs (Application Programming Interfaces) are the bridge among the frontend and backend of your app. We develop APIs that enable seamless communication among extraordinary components of your app, making sure easy and efficient information trade takes place. ",
+      "Reaching the appropriate audience is crucial to PPC marketing. Our professionals utilize advanced targeting options, such as demographics, location, interests, and browsing behaviour, to guarantee your ads are displayed to users who are most inclined to convert. By minimizing wasted clicks, we optimize your budget and maximize your ROI.",
   },
   {
     logo: logo4,
-    title: "Security Implementation",
+    title: "Data-Driven Optimization ",
     description:
-      "Security is paramount in the virtual landscape. Our mobile app backend development specialists employ the best safety practices to shield consumer statistics, prevent unauthorized admission, guarding the app against potential threats. We implement authentication, authorization, encryption, and other safety features to make certain, that the integrity of your app's backend is strong. ",
+      "We meticulously monitor your PPC Management campaigns, scrutinizing real-time data to identify areas for improvement. From adjusting bidding strategies to refining ad placements, we optimize your campaigns to amplify click-through rates and conversions. Our data-driven approach ensures that your budget is allocated where it matters most. ",
   },
   {
     logo: logo5,
-    title: "Scalability and Performance Optimization",
+    title: "A/B Testing and Performance Enhancement",
     description:
-      "We recognize that apps want to scale. Our backend development focuses on scalability and performance optimization, making sure that your app can manage increased visitors and utilization without compromising on its pace or capability. ",
+      "Continuous enhancement is at the core of our PPC services. We conduct A/B tests to compare different ad variations, landing pages, and call-to-action components. By identifying the best-performing components, we refine your campaigns for even greater results over time.",
   },
   {
     logo: logo6,
-    title: "Integration of Third-Party Services",
+    title: "Thorough Reporting",
     description:
-      "To beautify your app's competencies, we combine 1/3-birthday party services like price gateways, social media systems, and analytics tools. These integrations increase consumer experiences and offer treasured insights in your commercial enterprise growth.",
+      "Transparency is critical in evaluating campaign success. We offer regular reports that highlight main metrics such as clicks, impressions, conversions, and cost-per-acquisition. These reports provide you with insights into the effectiveness of your campaigns and assist us in making informed decisions to optimize performance.",
   },
 ];
 
@@ -81,12 +81,14 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Cross-Platform App Development</h1>
+      <h1>Our Method for to PPC Services</h1>
       <p className={style.para}>
-        At EasyRyt, we acknowledge that constructing a prosperous application is
-        a dynamic fusion of inventiveness, strategic preparation, and careful
-        implementation. Our diverse group of creators, programmers, and planners
-        work cooperatively to bring your application idea to fruition.
+        At EasyRyt, we comprehend that a victorious PPC campaign is not simply
+        about situating advertisements; it's about creating a unified strategy
+        that reaches the appropriate audience, delivers compelling messages, and
+        optimizes conversions. Our group of PPC management professionals follows
+        a careful process to guarantee your campaigns generate significant
+        results.
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (

@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Expertise and Experience:",
-      des:"Our group comprises of skilled backend developers with immense experience in developing various and complicated app backends. We stay up to date with the cutting-edge technologies and trends to provide you with present day solutions."
+      title:"Knowledge:",
+      des:"Our team of experienced PPC Management professionals stays ahead of industry trends and platform updates to deliver cutting-edge campaigns. "
     },
     {
       icon:<GiCrafting/>,
-      title:"Custom Solutions:",
-      des:"We understand that every app is unique. Our solutions are tailor-made to your precise requirements, ensuring that your app's backend aligns flawlessly with your imagination."
+      title:"Personalized Solutions: ",
+      des:"We understand that every business is unique. Our strategies are tailored to your specific objectives, target audience, and industry."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Agile Development:",
-      des:"We observe an agile development methodology, permitting us to confirm to changing necessities and deliver effective backend solutions. This method fosters collaboration, transparency, and quicker shipping. "
+      title:"Maximized ROI:",
+      des:"We focus on optimizing campaigns for meaningful results. Our goal is to help you achieve the highest possible return on your advertising investment. "
     },
     {
       icon:<SiClaris/>,
-      title:"Quality Assurance:",
-      des:"We are committed to delivering solutions after rigorous testing. Best warranty procedures are an imperative part of our improvement cycle. "
+      title:"Data-Driven Decision-Making:",
+      des:"Our method is based on data analysis. We utilize observations to make well-informed decisions, enhance campaigns, and achieve superior outcomes. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Timely Delivery:",
-      des:"We apprehend the significance of timely app launches. Our efficient time management guarantees that we supply results inside agreed-upon timelines."
+      title:"Transparency:",
+      des:"We maintain open communication, providing you with detailed reports and insights into your campaign's performance."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Client-Centric Approach: ",
-      des:"Your satisfaction is our priority. We maintain open communication throughout the development system, keeping you updated and involved at every stage."
+      title:"Continuous Improvement: ",
+      des:"Our commitment to data-driven optimization ensures that your campaigns evolve and improve over time."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for App Backend Development Creation?</h2>
+      <h2>Why Select EasyRyt for  PPC Services??</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
