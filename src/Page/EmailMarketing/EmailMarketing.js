@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "./AppBackendDevelopment.module.css";
+import style from "./EmailMarketing.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/Email Marketing 1.png";
 import Section2 from "./Section2/Section2";
@@ -27,7 +27,7 @@ function EmailMarketing() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>App Backend Development</h1>
+          <h1>Email Marketing Services</h1>
           <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
             Welcome to our comprehensive Email Marketing Services that are
