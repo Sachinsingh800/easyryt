@@ -6,14 +6,12 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        In the aggressive world of cell apps, a sturdy and properly-dependent
-        backend is essential for delivering super consumer reviews. At EasyRyt,
-        we concentrate on crafting robust app backends that significantly
-        improve your app's capability, security, and scalability. Our crew of
-        experienced backend developers are dedicated to turning your app’s
-        vision into reality. Partner with us for App Backend Development
-        offerings. Contact us now, to speak about how we can increase your app's
-        backend to the next level!
+        In a world flooded with information, it is essential for your brand's
+        story to be effectively communicated. Our content marketing solutions
+        are tailored to break through the noise and convey your message with
+        significant impact. Let's collaborate to construct a content marketing
+        plan that not only accomplishes your business objectives but also
+        positions your brand as a leading authority in your industry.
       </p>
       <h2>Get in touch with us today</h2>
       <p>

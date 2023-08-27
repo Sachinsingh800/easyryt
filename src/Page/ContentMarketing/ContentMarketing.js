@@ -27,17 +27,18 @@ function ContentMarketing() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>App Backend Development</h1>
+          <h1>Content Marketing Services</h1>
           <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            In the fast-paced digital world, cell programs have become a
-            critical medium for businesses to interact with their customers. A
-            crucial element of a hit cell app is its backend – the engine that
-            powers the app's capability, overall performance, and user
-            experience. The focus should be on crafting strong and efficient app
-            backends that lay the basis for high-quality app reports. Our App
-            Backend Development offerings are designed to empower your app with
-            seamless functionality, complete control, safety, and scalability.
+            In the ever-changing online world of today, where each brand vies
+            for recognition, a carefully constructed strategy for disseminating
+            valuable information can serve as your guiding light towards
+            triumph. We invite you to experience our all-encompassing Services
+            for Promoting Valuable Information, where we reshape the story of
+            your brand into compelling content that enthrals, enlightens, and
+            persuades. Enlisting the expertise of our veteran strategists,
+            creators, and promoters, we become your ally in establishing a
+            significant presence in the digital realm.
           </p>
           <button
             type="submit"

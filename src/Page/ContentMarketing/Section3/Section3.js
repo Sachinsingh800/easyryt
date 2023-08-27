@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Expertise and Experience:",
-      des:"Our group comprises of skilled backend developers with immense experience in developing various and complicated app backends. We stay up to date with the cutting-edge technologies and trends to provide you with present day solutions."
+      title:"Strategic Method:",
+      des:"Our approach to content marketing is based on a well-thought-out plan. Every piece of content we produce serves a specific purpose, whether it's generating website traffic, enhancing engagement, or converting potential customers."
     },
     {
       icon:<GiCrafting/>,
-      title:"Custom Solutions:",
-      des:"We understand that every app is unique. Our solutions are tailor-made to your precise requirements, ensuring that your app's backend aligns flawlessly with your imagination."
+      title:"Excellent Content:",
+      des:"Content reigns supreme, and we proudly wear the crown. Our content creators are experts in their respective domains, delivering not only informative content but also content that deeply connects with your target audience on a personal level."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Agile Development:",
-      des:"We observe an agile development methodology, permitting us to confirm to changing necessities and deliver effective backend solutions. This method fosters collaboration, transparency, and quicker shipping. "
+      title:"Comprehensive Strategy: ",
+      des:"We don't just create content in isolation. Our strategy incorporates content creation, optimization, and promotion, ensuring a unified and impactful approach that produces results. "
     },
     {
       icon:<SiClaris/>,
-      title:"Quality Assurance:",
-      des:"We are committed to delivering solutions after rigorous testing. Best warranty procedures are an imperative part of our improvement cycle. "
+      title:"Audience-Focused: ",
+      des:"Your audience comes first. We delve deep into understanding their challenges, preferences, and behaviours, enabling us to develop content that truly resonates. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Timely Delivery:",
-      des:"We apprehend the significance of timely app launches. Our efficient time management guarantees that we supply results inside agreed-upon timelines."
+      title:"Seasoned Team: ",
+      des:"Our team comprises experienced content strategists, writers, designers, and digital marketers who have honed their skills in creating and promoting captivating content across various industries."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Client-Centric Approach: ",
-      des:"Your satisfaction is our priority. We maintain open communication throughout the development system, keeping you updated and involved at every stage."
+      title:"Transparency:  ",
+      des:"We believe in transparent communication. Regular reporting and valuable insights keep you informed, allowing you to witness the direct impact of our efforts."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for App Backend Development Creation?</h2>
+      <h2> Why Select EasyRyt’s Content Marketing Services?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
