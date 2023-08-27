@@ -50,14 +50,17 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          Why Select Application Backend Creation?
+          Unleashing the Power of Data Analytics and Reporting
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          Application backend creation serves as the foundation of your
-          software, responsible for managing information, user verification,
-          server communication, and beyond. It represents the concealed power
-          that guarantees your application operates seamlessly and provides a
-          flawless encounter for your users.
+          Data analysis and reporting work together seamlessly to empower your
+          business. Data analysis involves the methodical examination of data to
+          reveal patterns, trends, and connections. These observations provide
+          valuable insights into customer behaviour, operational efficiency, and
+          market dynamics. On the other hand, reporting is the process of
+          presenting these insights in concise and visually captivating formats,
+          making it simpler for stakeholders to comprehend and respond to the
+          information.
         </p>
       </div>
     </div>

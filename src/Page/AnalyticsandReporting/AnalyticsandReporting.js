@@ -1,20 +1,24 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import style from "./AnalyticsandReporting.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/Analytics and Reporting 1.png";
-import Section1 from "./Section1/Section1";
-import Section2 from "../FirstPage/Section2/Section2";
-import Section3 from "../FirstPage/Section3/Section3";
-import TenthSection from "../../Section/TenthSection/TenthSection";
+import Section2 from "./Section2/Section2";
+import Section3 from "./Section3/Section3";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
+import Section4 from "./Section4/Section4";
+import ForthSection from "../../Section/ForthSection/ForthSection";
+import ServiceForm from "../../Component/ServiceForm/ServiceForm";
+import Section5 from "./Section5/Section5";
+import Section from "./Section1/Section";
 
 function AnalyticsandReporting() {
   const [showPopup, setShowPopup] = useState(false);
 
+  //popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
   };
@@ -23,11 +27,16 @@ function AnalyticsandReporting() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Analytics and Reporting</h1>
+          <h1>Data Analytics and Reporting Services</h1>
+          <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            Analytics and Reporting: Data-driven insights and visualizations to
-            track, measure, and interpret performance, enabling informed
-            decision-making for businesses and organizations.
+            Welcome to EasyRyt’s comprehensive Data Analytics and Reporting
+            Services, where information comes to life and guides your business
+            decisions with accuracy. In today's data-centric environment, having
+            the capability to extract meaningful insights from your operations
+            is crucial. Our proficient team specializes in transforming raw data
+            into actionable knowledge, assisting you in optimizing strategies,
+            improving performance, and staying ahead in a competitive market.
           </p>
           <button
             type="submit"
@@ -41,21 +50,27 @@ function AnalyticsandReporting() {
           <img className={style.img} src={img} alt="img" />
         </div>
       </div>
-      <Section1 />
+      <Section />
       <Section2 />
       <Section3 />
-      <TenthSection />
+      <Section4 />
+      <ServiceForm />
+      <ForthSection />
       <SixthSection />
       <EleventhSection />
-      <CallButton/>
+      <Section5 />
+      <CallButton />
       <Footer />
-
-         {/* Popup window */}
-         {showPopup && (
+      {showPopup && (
         <>
-        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
-      <PopupOption/>
-      </>
+          <button
+            onClick={() => setShowPopup(false)}
+            className={style.closebtn}
+          >
+            Close
+          </button>
+          <PopupOption />
+        </>
       )}
     </div>
   );
