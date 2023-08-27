@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Requirement Analysis and Planning",
+    title: "Creating Your Content Marketing Plan",
     description:
-      "We begin by getting to know about your app's necessities and goals. Our crew collaborates with you to accumulate insights into the preferred capabilities, user interactions, and statistics drift. This analysis is the muse of our backend development approach.  ",
+      "A successful content marketing plan is a guide that steers your brand towards its objectives. Our team of content marketing professionals collaborates closely with you to create a customized plan that encompasses all aspects of your brand's identity and objectives.  ",
   },
   {
     logo: logo2,
-    title: "Database Design and Management",
+    title: "Content Conceptualization and Generation",
     description:
-      "Efficient records control is on the centre of a successful app. Our mobile app backend development team designs and enforces database systems that optimize data garage, retrieval, and control. Our knowledge consists of relational databases, NoSQL databases, and statistics caching mechanisms to ensure clean and fast facts transactions.",
+      "Our innovative team brainstorms and enhances concepts for content that matches your brand's tone and connects with your audience. Whether it's informative blog articles, captivating videos, or engaging content for social media, we craft pieces that educate, entertain, and motivate action.",
   },
   {
     logo: logo3,
-    title: "API Development",
+    title: "Content Enhancement",
     description:
-      "Robust APIs (Application Programming Interfaces) are the bridge among the frontend and backend of your app. We develop APIs that enable seamless communication among extraordinary components of your app, making sure easy and efficient information trade takes place. ",
+      "Producing excellent content is only part of the tale; optimizing it for search engines and enhancing the user experience is equally crucial. We apply the best practices of search engine optimization to ensure that your content attains the visibility it deserves, driving organic traffic and enhancing your brand's online presence. ",
   },
   {
     logo: logo4,
-    title: "Security Implementation",
+    title: "Distribution Approach",
     description:
-      "Security is paramount in the virtual landscape. Our mobile app backend development specialists employ the best safety practices to shield consumer statistics, prevent unauthorized admission, guarding the app against potential threats. We implement authentication, authorization, encryption, and other safety features to make certain, that the integrity of your app's backend is strong. ",
+      "Generating content is merely the starting point. Our distribution approach guarantees that your content reaches the appropriate platforms and audiences, maximizing its influence. ",
   },
   {
     logo: logo5,
-    title: "Scalability and Performance Optimization",
+    title: "Content Promotion",
     description:
-      "We recognize that apps want to scale. Our backend development focuses on scalability and performance optimization, making sure that your app can manage increased visitors and utilization without compromising on its pace or capability. ",
+      "Even the exceptional substance necessitates a boost to reach its intended target group. Our services focusing on the promotion of valuable materials involve strategic outreach across multiple platforms, ranging from social networking sites to email marketing campaigns. We firmly believe in delivering your content to the online spaces frequented by your audience. ",
   },
   {
     logo: logo6,
-    title: "Integration of Third-Party Services",
+    title: "Evaluation and Enhancement",
     description:
-      "To beautify your app's competencies, we combine 1/3-birthday party services like price gateways, social media systems, and analytics tools. These integrations increase consumer experiences and offer treasured insights in your commercial enterprise growth.",
+      "Data serves as the guiding force behind our endeavours. We scrupulously monitor essential indicators to gauge the impact of our content marketing approach. Our team consistently scrutinizes the findings and makes necessary adjustments to keep the strategy harmonious with your objectives.",
   },
 ];
 
@@ -81,12 +81,13 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Cross-Platform App Development</h1>
+      <h1>Our Method for Content Marketing</h1>
       <p className={style.para}>
-        At EasyRyt, we acknowledge that constructing a prosperous application is
-        a dynamic fusion of inventiveness, strategic preparation, and careful
-        implementation. Our diverse group of creators, programmers, and planners
-        work cooperatively to bring your application idea to fruition.
+        It goes without saying that our approach to content marketing and
+        promotion goes beyond ordinary blog posts or updates on social media
+        platforms. We believe in producing strategic content that aligns with
+        your business goals, resonates with your target demographic, and
+        generates concrete outcomes.
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (

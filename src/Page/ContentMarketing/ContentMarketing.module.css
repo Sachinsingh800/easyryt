@@ -135,3 +135,6 @@
     .closebtn:hover{
         background-color: #555;
     }
+    .img_box{
+        overflow: hidden;
+    }

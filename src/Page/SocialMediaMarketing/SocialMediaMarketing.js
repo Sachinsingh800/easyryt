@@ -1,20 +1,24 @@
-import React , { useState } from "react";
+import React, { useState } from "react";
 import style from "./SocialMediaMarketing.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/social media marketing 1.png";
-import Section1 from "./Section1/Section1";
-import Section2 from "../FirstPage/Section2/Section2";
-import Section3 from "../FirstPage/Section3/Section3";
-import TenthSection from "../../Section/TenthSection/TenthSection";
+import Section2 from "./Section2/Section2";
+import Section3 from "./Section3/Section3";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
+import Section4 from "./Section4/Section4";
+import ForthSection from "../../Section/ForthSection/ForthSection";
+import ServiceForm from "../../Component/ServiceForm/ServiceForm";
+import Section5 from "./Section5/Section5";
+import Section from "./Section1/Section";
 
-function SocialMediaMarketing() {
+function AppBackendDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
 
+  //popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
   };
@@ -24,10 +28,18 @@ function SocialMediaMarketing() {
       <div className={style.container}>
         <div>
           <h1>Social Media Marketing Services</h1>
+          <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            Boost your online presence with our expert Social Media Marketing
-            Services. We create engaging content, drive brand awareness, and
-            maximize audience reach for your business's success.
+            Social media has become an essential component of marketing
+            strategies for businesses in the rapidly evolving digital landscape.
+            It presents an unparalleled opportunity to establish connections,
+            interact, and cultivate relationships with your desired audience. At
+            EasyRyt, we specialize in delivering comprehensive and
+            results-oriented services pertaining to social media marketing.
+            These services enable businesses to fully leverage the potential
+            offered by various social media platforms. Our strategies are
+            customized to expand brand visibility, foster engagement, and drive
+            conversions.
           </p>
           <button
             type="submit"
@@ -37,27 +49,34 @@ function SocialMediaMarketing() {
             Get Started
           </button>
         </div>
-        <div>
+        <div className={style.img_box}>
           <img className={style.img} src={img} alt="img" />
         </div>
       </div>
-      <Section1 />
+      <Section />
       <Section2 />
       <Section3 />
-      <TenthSection />
+      <Section4 />
+      <ServiceForm />
+      <ForthSection />
       <SixthSection />
       <EleventhSection />
-      <CallButton/>
+      <Section5 />
+      <CallButton />
       <Footer />
-            {/* Popup window */}
-            {showPopup && (
+      {showPopup && (
         <>
-        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
-      <PopupOption/>
-      </>
+          <button
+            onClick={() => setShowPopup(false)}
+            className={style.closebtn}
+          >
+            Close
+          </button>
+          <PopupOption />
+        </>
       )}
     </div>
   );
 }
 
-export default SocialMediaMarketing;
+export default AppBackendDevelopment;

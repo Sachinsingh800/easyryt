@@ -50,14 +50,18 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          Why Select Application Backend Creation?
+          Importance of Email Marketing?
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          Application backend creation serves as the foundation of your
-          software, responsible for managing information, user verification,
-          server communication, and beyond. It represents the concealed power
-          that guarantees your application operates seamlessly and provides a
-          flawless encounter for your users.
+          The power of an email lies in its ability to directly reach
+          individuals, delivering your message right into their personal sphere.
+          A successful email campaign possesses the potential to revolutionize
+          your business. Email marketing is not limited to a mere email blast;
+          it revolves around designing a personalized experience for your
+          recipients, offering them value, and compelling them to take actions
+          that align with your objectives. It is a versatile tool that can be
+          effectively employed to nurture leads, engage customers, promote
+          products or services, and cultivate brand loyalty.
         </p>
       </div>
     </div>
