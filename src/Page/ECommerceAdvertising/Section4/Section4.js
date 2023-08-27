@@ -6,14 +6,16 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        In the aggressive world of cell apps, a sturdy and properly-dependent
-        backend is essential for delivering super consumer reviews. At EasyRyt,
-        we concentrate on crafting robust app backends that significantly
-        improve your app's capability, security, and scalability. Our crew of
-        experienced backend developers are dedicated to turning your app’s
-        vision into reality. Partner with us for App Backend Development
-        offerings. Contact us now, to speak about how we can increase your app's
-        backend to the next level!
+        Take your e-business to new heights with ecommerce promotion. In the
+        ever-changing realm of e-commerce, possessing an outstanding website is
+        merely the first step. To truly flourish, your e-commerce website
+        requires the attention and recognition it deserves. Our services for
+        promoting e-commerce are specifically crafted to propel your e business
+        forward by showcasing your goods to the ideal audience, at the perfect
+        moment. Are you prepared to elevate your e-commerce presence? Get in
+        touch with us today to discover how our skilled advertising tactics can
+        revolutionize your digital shop into a thriving, revenue-generating
+        force.
       </p>
       <h2>Get in touch with us today</h2>
       <p>

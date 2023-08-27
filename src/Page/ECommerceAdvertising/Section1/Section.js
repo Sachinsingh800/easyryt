@@ -50,14 +50,17 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          Why Select Application Backend Creation?
+          Harnessing the Influence of Ecommerce Advertising
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          Application backend creation serves as the foundation of your
-          software, responsible for managing information, user verification,
-          server communication, and beyond. It represents the concealed power
-          that guarantees your application operates seamlessly and provides a
-          flawless encounter for your users.
+          Ecommerce advertising serves as the foundation for any prosperous
+          online store. It involves a strategic approach to promoting your
+          products and services to potential customers across a variety of
+          online platforms. From search engines to social media networks, the
+          objective is to generate visibility, drive traffic, and attract
+          high-quality leads to your ecommerce website. This is particularly
+          critical in today's bustling digital marketplace, where competitors
+          vie for attention.
         </p>
       </div>
     </div>
