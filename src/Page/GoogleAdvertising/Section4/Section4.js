@@ -6,14 +6,11 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        In the aggressive world of cell apps, a sturdy and properly-dependent
-        backend is essential for delivering super consumer reviews. At EasyRyt,
-        we concentrate on crafting robust app backends that significantly
-        improve your app's capability, security, and scalability. Our crew of
-        experienced backend developers are dedicated to turning your app’s
-        vision into reality. Partner with us for App Backend Development
-        offerings. Contact us now, to speak about how we can increase your app's
-        backend to the next level!
+        Unleash the power of Google Ads with EasyRyt's expert Google Ads
+        services. Whether you aim to enhance website traffic, drive sales, or
+        increase brand awareness, we possess the tools and expertise to make it
+        happen. Reach out to us today to schedule a consultation and embark on
+        the first phase of unlocking your business's online potential!
       </p>
       <h2>Get in touch with us today</h2>
       <p>

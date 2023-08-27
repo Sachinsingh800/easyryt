@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Expertise and Experience:",
-      des:"Our group comprises of skilled backend developers with immense experience in developing various and complicated app backends. We stay up to date with the cutting-edge technologies and trends to provide you with present day solutions."
+      title:"Expertise:",
+      des:"Our team of certified professionals in Google Ads has a proven track record of delivering successful campaigns across various industries."
     },
     {
       icon:<GiCrafting/>,
-      title:"Custom Solutions:",
-      des:"We understand that every app is unique. Our solutions are tailor-made to your precise requirements, ensuring that your app's backend aligns flawlessly with your imagination."
+      title:"Personalization: ",
+      des:"We understand that your business is unique. Our customized Adwords strategies are designed to align with your specific objectives and target audience."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Agile Development:",
-      des:"We observe an agile development methodology, permitting us to confirm to changing necessities and deliver effective backend solutions. This method fosters collaboration, transparency, and quicker shipping. "
+      title:"Data-Driven Approach: ",
+      des:"Our decisions are supported by data and analytics, ensuring that every action we take is strategic and well-informed. "
     },
     {
       icon:<SiClaris/>,
-      title:"Quality Assurance:",
-      des:"We are committed to delivering solutions after rigorous testing. Best warranty procedures are an imperative part of our improvement cycle. "
+      title:"Continuous Optimization:",
+      des:"We never settle for mediocrity. Your campaigns will be consistently monitored and fine-tuned for optimal performance. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Timely Delivery:",
-      des:"We apprehend the significance of timely app launches. Our efficient time management guarantees that we supply results inside agreed-upon timelines."
+      title:"Transparent Reporting: ",
+      des:"Through our comprehensive reports, you will gain a clear understanding of your campaigns' effectiveness and the value they bring to your business."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Client-Centric Approach: ",
-      des:"Your satisfaction is our priority. We maintain open communication throughout the development system, keeping you updated and involved at every stage."
+      title:"Measurable Results: ",
+      des:"We assess the achievement not solely through clicks but through the influence that your Google Ads campaigns have on your brand's digital visibility, website traffic, and conversions."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for App Backend Development Creation?</h2>
+      <h2>Why Select EasyRyt for Google Ads Services?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

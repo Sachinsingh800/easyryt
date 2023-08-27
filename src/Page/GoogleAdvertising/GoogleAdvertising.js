@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import style from "./GoogleAdvertising.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
-import img from "../../Image/Google Advertising 1.png"
+import img from "../../Image/Google Advertising 1.png";
 import Section2 from "./Section2/Section2";
 import Section3 from "./Section3/Section3";
 import SixthSection from "../../Section/SixthSection/SixthSection";
@@ -15,8 +15,6 @@ import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
 
-
-
 function GoogleAdvertising() {
   const [showPopup, setShowPopup] = useState(false);
 
@@ -29,17 +27,19 @@ function GoogleAdvertising() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>App Backend Development</h1>
+          <h1>Google Advertising Services</h1>
           <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            In the fast-paced digital world, cell programs have become a
-            critical medium for businesses to interact with their customers. A
-            crucial element of a hit cell app is its backend – the engine that
-            powers the app's capability, overall performance, and user
-            experience. The focus should be on crafting strong and efficient app
-            backends that lay the basis for high-quality app reports. Our App
-            Backend Development offerings are designed to empower your app with
-            seamless functionality, complete control, safety, and scalability.
+            In today's era of digitalization, establishing a commanding online
+            presence has become imperative for enterprises seeking growth and
+            prosperity. Among the powerful resources available to you, Google
+            Ads stands out as a comprehensive advertising platform, enabling you
+            to connect with potential clientele precisely when they express
+            interest in products or services associated with your business. Our
+            distinct Google Advertising Services are specifically crafted to
+            enhance the efficacy of your online promotional endeavours,
+            propelling relevant traffic, augmenting conversions, and elevating
+            your return on investment (ROI).
           </p>
           <button
             type="submit"

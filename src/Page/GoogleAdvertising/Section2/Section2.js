@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Requirement Analysis and Planning",
+    title: "Tailored Approach for Optimum Outcomes",
     description:
-      "We begin by getting to know about your app's necessities and goals. Our crew collaborates with you to accumulate insights into the preferred capabilities, user interactions, and statistics drift. This analysis is the muse of our backend development approach.  ",
+      "Here at EasyRyt, we recognize the individuality of every business, encompassing its distinct aspirations, target demographics, and competitive milieu. As a result, we steer clear of generic solutions, firmly believing in customized methodologies. Our Google Advertising Services commence with a meticulous examination of your enterprise, industry, and competition.  ",
   },
   {
     logo: logo2,
-    title: "Database Design and Management",
+    title: "Keyword Analysis and Optimization",
     description:
-      "Efficient records control is on the centre of a successful app. Our mobile app backend development team designs and enforces database systems that optimize data garage, retrieval, and control. Our knowledge consists of relational databases, NoSQL databases, and statistics caching mechanisms to ensure clean and fast facts transactions.",
+      "Keywords play a vital role in the success of Google Ads campaigns. Our team of professionals conducts thorough research on Adwords to discover the specific terms and phrases potential customers use to search for businesses similar to yours. We then strategically incorporate these keywords into your ad content and landing pages, ensuring that your ads are visible to the right audience at the ideal moment.",
   },
   {
     logo: logo3,
-    title: "API Development",
+    title: "Compelling Ad Content and Creative Development",
     description:
-      "Robust APIs (Application Programming Interfaces) are the bridge among the frontend and backend of your app. We develop APIs that enable seamless communication among extraordinary components of your app, making sure easy and efficient information trade takes place. ",
+      "Developing captivating ad content is essential in grabbing the attention of your target demographic. Our talented writers produce engaging, pertinent, and concise ad material that deeply connects with your potential customers. Whether it involves textual, visual, or video-based ads, we concentrate on delivering a message that motivates action. ",
   },
   {
     logo: logo4,
-    title: "Security Implementation",
+    title: "Strategic Bidding and Budget Management",
     description:
-      "Security is paramount in the virtual landscape. Our mobile app backend development specialists employ the best safety practices to shield consumer statistics, prevent unauthorized admission, guarding the app against potential threats. We implement authentication, authorization, encryption, and other safety features to make certain, that the integrity of your app's backend is strong. ",
+      "Effectively managing your budget and placing bids on keywords necessitates a thorough understanding of the Google Ads platform. Our experienced team utilizes data-driven strategies to optimize your bids, guaranteeing that you achieve the maximum value from your budget. We continually monitor campaign performance and make real-time adjustments to amplify their impact. ",
   },
   {
     logo: logo5,
-    title: "Scalability and Performance Optimization",
+    title: "A/B Testing and Performance Enhancement",
     description:
-      "We recognize that apps want to scale. Our backend development focuses on scalability and performance optimization, making sure that your app can manage increased visitors and utilization without compromising on its pace or capability. ",
+      "Continuous improvement lies at the heart of our approach. We conduct A/B testing on various aspects of your Adwords, such as headlines, descriptions, and landing pages, to determine which elements resonate most effectively with your audience. By refining these components based on data-backed insights, we consistently enhance the performance of your campaigns over time. ",
   },
   {
     logo: logo6,
-    title: "Integration of Third-Party Services",
+    title: "Target Audience",
     description:
-      "To beautify your app's competencies, we combine 1/3-birthday party services like price gateways, social media systems, and analytics tools. These integrations increase consumer experiences and offer treasured insights in your commercial enterprise growth.",
+      "Targeting the appropriate audience is crucial in Adwords for driving conversions. With the sophisticated targeting options offered by Google Ads, we have the ability to narrow down your audience based on various factors such as demographics, interests, and online behaviour.",
   },
 ];
 
@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Cross-Platform App Development</h1>
+      <h1>Our Method for  Google Ads</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

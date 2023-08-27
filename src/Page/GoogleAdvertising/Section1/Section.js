@@ -50,14 +50,17 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          Why Select Application Backend Creation?
+          What is the Significance of Google Ads?
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          Application backend creation serves as the foundation of your
-          software, responsible for managing information, user verification,
-          server communication, and beyond. It represents the concealed power
-          that guarantees your application operates seamlessly and provides a
-          flawless encounter for your users.
+          In the expansive realm of the internet, Google serves as the guiding
+          force directing individuals to their intended destinations. The
+          services provided by Google Ads empower your brand to prominently
+          showcase its offerings when users conduct searches using pertinent
+          keywords, effectively capturing their attention precisely when they
+          are seeking solutions. It goes beyond mere visibility – it revolves
+          around providing meaningful value to users who actively pursue the
+          solutions your brand can provide.
         </p>
       </div>
     </div>
