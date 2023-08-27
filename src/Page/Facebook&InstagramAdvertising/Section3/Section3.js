@@ -13,33 +13,33 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Expertise and Experience:",
-      des:"Our group comprises of skilled backend developers with immense experience in developing various and complicated app backends. We stay up to date with the cutting-edge technologies and trends to provide you with present day solutions."
+      title:"Expertise:",
+      des:"Our team of proficient digital marketers possesses an extensive comprehension of the intricacies of Facebook Ads and Instagram Ads. We remain up-to-date with the most recent trends and algorithm changes to guarantee that your campaigns are consistently optimized."
     },
     {
       icon:<GiCrafting/>,
-      title:"Custom Solutions:",
-      des:"We understand that every app is unique. Our solutions are tailor-made to your precise requirements, ensuring that your app's backend aligns flawlessly with your imagination."
+      title:"Visual Innovation:",
+      des:"Innovation is at the core of our advertisement compositions. We merge captivating visuals with persuasive advertisement text to develop advertisements that deeply connect with your target demographic."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Agile Development:",
-      des:"We observe an agile development methodology, permitting us to confirm to changing necessities and deliver effective backend solutions. This method fosters collaboration, transparency, and quicker shipping. "
+      title:"Customization: ",
+      des:"We understand that each business has distinct objectives. Our marketing strategies are custom-tailored to your specific aims, whether it involves driving website traffic, elevating brand awareness, or enhancing conversions. "
     },
     {
       icon:<SiClaris/>,
-      title:"Quality Assurance:",
-      des:"We are committed to delivering solutions after rigorous testing. Best warranty procedures are an imperative part of our improvement cycle. "
+      title:"Data-Driven:",
+      des:"We firmly believe in the power of data. We perpetually monitor the performance of your advertisements, analyse the outcomes, and make adjustments based on data to ensure that your campaigns yield the most favourable results. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Timely Delivery:",
-      des:"We apprehend the significance of timely app launches. Our efficient time management guarantees that we supply results inside agreed-upon timelines."
+      title:"Transparency:",
+      des:"You will have full transparency into the progress of your campaigns. Our regular reporting keeps you well-informed about crucial metrics, enabling you to trace the success of your marketing endeavours."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Client-Centric Approach: ",
-      des:"Your satisfaction is our priority. We maintain open communication throughout the development system, keeping you updated and involved at every stage."
+      title:"ROI-Focused: ",
+      des:"Our ultimate objective is to generate a significant return on investment for your advertising budget. We tirelessly work to ensure that every penny spent on ads produces meaningful outcomes for your business."
     },
    
   ]

@@ -15,7 +15,6 @@ import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
 
-
 function FacebookInstagramAdvertising() {
   const [showPopup, setShowPopup] = useState(false);
 
@@ -31,14 +30,14 @@ function FacebookInstagramAdvertising() {
           <h1>Facebook & Instagram Advertising</h1>
           <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            In the fast-paced digital world, cell programs have become a
-            critical medium for businesses to interact with their customers. A
-            crucial element of a hit cell app is its backend – the engine that
-            powers the app's capability, overall performance, and user
-            experience. The focus should be on crafting strong and efficient app
-            backends that lay the basis for high-quality app reports. Our App
-            Backend Development offerings are designed to empower your app with
-            seamless functionality, complete control, safety, and scalability.
+            Do you desire to harness the potential of social media to engage
+            with your intended viewers and generate outcomes, in order to take
+            your business to the next level? Look no further than our extensive
+            Services for Instagram and Facebook Promotions. With a group of
+            seasoned online marketers, a proven history of achievements, and an
+            extensive comprehension of the constantly changing social media
+            environment, we are here to enhance your brand's online existence
+            and generate tangible progress.
           </p>
           <button
             type="submit"

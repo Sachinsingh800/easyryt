@@ -10,27 +10,27 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Requirement Analysis and Planning",
+    title: "Facebook Ads",
     description:
-      "We begin by getting to know about your app's necessities and goals. Our crew collaborates with you to accumulate insights into the preferred capabilities, user interactions, and statistics drift. This analysis is the muse of our backend development approach.  ",
+      "With billions of active users, Facebook continues to be one of the most influential advertising platforms accessible. Our specialists comprehend the intricacies of Facebook Ads ecosystem, ranging from audience segmentation to ad layouts. We create captivating advertising campaigns that resonate with your potential clientele, fostering engagement, clicks, and conversions.  ",
   },
   {
     logo: logo2,
-    title: "Database Design and Management",
+    title: "Audience Segmentation",
     description:
-      "Efficient records control is on the centre of a successful app. Our mobile app backend development team designs and enforces database systems that optimize data garage, retrieval, and control. Our knowledge consists of relational databases, NoSQL databases, and statistics caching mechanisms to ensure clean and fast facts transactions.",
+      "We assist you in defining and refining your target audience based on demographics, interests, behaviours, and more..",
   },
   {
     logo: logo3,
-    title: "API Development",
+    title: "Ad Design",
     description:
-      "Robust APIs (Application Programming Interfaces) are the bridge among the frontend and backend of your app. We develop APIs that enable seamless communication among extraordinary components of your app, making sure easy and efficient information trade takes place. ",
+      "Our creative team produces visually captivating and persuasive ad visuals that align with your brand's identity and message. ",
   },
   {
     logo: logo4,
-    title: "Security Implementation",
+    title: "Ad Writing",
     description:
-      "Security is paramount in the virtual landscape. Our mobile app backend development specialists employ the best safety practices to shield consumer statistics, prevent unauthorized admission, guarding the app against potential threats. We implement authentication, authorization, encryption, and other safety features to make certain, that the integrity of your app's backend is strong. ",
+      "Captivating ad copy that narrates your brand's story and stimulates action lies at the core of our approach. ",
   },
   {
     logo: logo5,
@@ -40,9 +40,9 @@ const cardData = [
   },
   {
     logo: logo6,
-    title: "Integration of Third-Party Services",
+    title: "A/B Testing",
     description:
-      "To beautify your app's competencies, we combine 1/3-birthday party services like price gateways, social media systems, and analytics tools. These integrations increase consumer experiences and offer treasured insights in your commercial enterprise growth.",
+      "We consistently optimize your ads by testing various elements to ensure optimal performance and deliver the best outcomes.",
   },
 ];
 
@@ -81,12 +81,14 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Cross-Platform App Development</h1>
+      <h1>Our Method for Facebook Ads and Instagram Ads</h1>
       <p className={style.para}>
-        At EasyRyt, we acknowledge that constructing a prosperous application is
-        a dynamic fusion of inventiveness, strategic preparation, and careful
-        implementation. Our diverse group of creators, programmers, and planners
-        work cooperatively to bring your application idea to fruition.
+        At EasyRyt, we understand that every business is distinct, and there is
+        no universal method for advertising. Our approach commences with a
+        comprehensive examination of your business, industry, and target
+        audience. We delve into your objectives and goals to craft a customized
+        advertising strategy that utilizes the advantages of both Facebook and
+        Instagram platforms.
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (
