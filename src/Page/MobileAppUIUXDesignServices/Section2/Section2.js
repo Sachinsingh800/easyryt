@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Blueprint ",
+    title: "User-Centric Investigation",
     description:
-      "We thoroughly analyse your affiliate marketing objectives, comprehending your target audience and the merchandise you endorse. This understanding lays the groundwork for our strategy, assuring that your website is in line with your affiliate goals.  ",
+      "We commence by thoroughly examining your target demographic, considering their preferences, behaviours, and pain points. This investigation serves as the cornerstone of our design choices, ensuring that each aspect resonates with your users.  ",
   },
   {
     logo: logo2,
-    title: "Design with a Focus on Conversion  ",
+    title: "Strategic Preliminary Design ",
     description:
-      "Our designers combine inventiveness with conversion-centred design principles to construct layouts that drive action. We optimize your website's arrangement to maximize clicks and engagement.",
+      "Our designers fabricate preliminary designs that outline the structure and functionality of your application. This step allows us to visualize the user's journey, identify potential obstacles, and refine the flow before moving on to the visual design phase.",
   },
   {
     logo: logo3,
-    title: "Effortless Integration of Products ",
+    title: "Visually Striking User Interface Design ",
     description:
-      "We seamlessly incorporate affiliate products, presenting them in an orderly and aesthetically appealing manner. Your visitors will effortlessly explore and purchase the endorsed merchandise. ",
+      "Armed with an in-depth understanding of your brand and users, we craft visually captivating user interface designs that mirror the purpose of your application and resonate with your audience. Every colour, icon, and elements are meticulously chosen to create a unified and enticing interface. ",
   },
   {
     logo: logo4,
-    title: "User-Friendly Experience ",
+    title: "Intuitive Interaction Design",
     description:
-      "Easily navigating your affiliate marketing site should be a breeze. Our design centred around the user ensures that visitors effortlessly discover what they desire, elevating their overall experience and motivating them to engage. ",
+      "Our team prioritizes crafting interactions that effortlessly facilitate the use of your application. By incorporating smooth transitions and natural gestures, we elevate the overall user experience, ensuring seamless navigation and effortless engagement. ",
   },
   {
     logo: logo5,
-    title: "Adaptive Design",
+    title: "Prototype Testing",
     description:
-      "It is paramount that your affiliate marketing website seamlessly functions on various devices. Our approach to design ensures an optimal encounter whether users access your site through computers, tablets, or smartphones. ",
+      "We produce interactive models that replicate the functionality of the application. This enables us to conduct early testing and receive valuable feedback, allowing us to gain insights into user preferences and refine the design before embarking on the development phase. ",
   },
   {
     logo: logo6,
-    title: "Optimization for Search Engines  ",
+    title: "Continuous Refinement ",
     description:
-      "To amplify the reach of your affiliate marketing, we implement effective SEO strategies that heighten visibility on search engines, expanding the audience that can access your affiliate content.",
+      "We strongly believe in the pursuit of continuous improvement. Throughout the design process, we value and encourage your feedback, using it alongside our expertise to iterate on the design. This collaborative approach guarantees that the final design perfectly aligns with your vision.",
   },
 ];
 
@@ -81,12 +81,17 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for  Developing a WordPress Website for Affiliate Marketing</h1>
+      <h1>
+      Our Approach to Mobile Application Interface and User Experience (UI/UX) Design 
+      </h1>
       <p className={style.para}>
-        At EasyRyt, we acknowledge that constructing a prosperous application is
-        a dynamic fusion of inventiveness, strategic preparation, and careful
-        implementation. Our diverse group of creators, programmers, and planners
-        work cooperatively to bring your application idea to fruition.
+        At EasyRyt, we embrace a comprehensive strategy when it comes to
+        designing the user interface and user experience for mobile
+        applications. This approach integrates creativity, investigation, and
+        user-centricity. Our process guarantees that your app not only has a
+        visually pleasing appearance but also provides an exceptional user
+        experience that encourages repeated usage. Here's how we accomplish
+        this:
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (

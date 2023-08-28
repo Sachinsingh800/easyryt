@@ -27,16 +27,16 @@ function MobileAppUIUXDesignServices() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>WordPress Affiliate Marketing Website Development Services</h1>
+          <h1>Mobile App UI/UX Design Services</h1>
           <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            Welcome to EasyRyt’s dedicated WordPress Affiliate Marketing Website
-            Development solutions, where originality, creative flair, and
-            technical expertise unite to elevate your affiliate marketing
-            pursuits to unprecedented levels. With a profound comprehension of
-            affiliate tactics and unrivalled proficiency in WordPress, we
-            construct websites that not only spotlight your affiliate
-            merchandise but also generate conversions and income.
+            Welcome to our top-notch services for designing UI/UX of mobile
+            applications! Here at EasyRyt, we acknowledge the significance of a
+            thriving mobile app that surpasses mere functionality. Our aim is to
+            deliver an effortless, user-friendly, and aesthetically pleasing
+            experience. Our team of talented designers focuses solely on
+            crafting exceptional interfaces that engage users and elevate their
+            interaction with your application.
           </p>
           <button
             type="submit"

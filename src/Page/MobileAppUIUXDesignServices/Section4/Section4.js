@@ -6,13 +6,18 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        Beyond development, we offer ongoing support to ensure that your
-        Affiliate marketing website is always up to date and operating at its
-        best. Enhance Your Affiliate Marketing Performance with WordPress
-        Excellence: Are you prepared to stand out in the field of affiliate
-        marketing? EasyRyt’s specialized WordPress Development services for
-        Affiliate Marketing Websites are designed for affiliates who desire a
-        remarkable online platform for their promotional activities.
+        In the ever-changing world of mobile applications, where the user's
+        encounter can either make or break the success of an app, the importance
+        of outstanding UI/UX design cannot be overstated. At EasyRyt, we go
+        above and beyond mere aesthetics and functionality – we craft
+        captivating experiences that deeply connect with users, enhance their
+        engagement, and propel business growth. Our approach revolves around
+        placing the user at the centre, fostering innovation, and promoting
+        collaboration, ensuring that your app not only meets but surpasses user
+        expectations. Join forces with us to transform your app concept into a
+        visually mesmerizing and user-friendly reality that will leave a lasting
+        impact on your audience. Take your app's potential to new heights with
+        EasyRyt and embark on a journey towards app excellence!
       </p>
       <h2>Get in touch with us today</h2>
       <p>

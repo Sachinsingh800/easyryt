@@ -1,20 +1,24 @@
-import React, { useState }  from "react";
+import React, { useState } from "react";
 import style from "./ReactJsDevelopment.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/React Js Development 1.png";
-import Section1 from "./Section1/Section1";
-import Section2 from "../FirstPage/Section2/Section2";
-import Section3 from "../FirstPage/Section3/Section3";
-import TenthSection from "../../Section/TenthSection/TenthSection";
+import Section2 from "./Section2/Section2";
+import Section3 from "./Section3/Section3";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
+import Section4 from "./Section4/Section4";
+import ForthSection from "../../Section/ForthSection/ForthSection";
+import ServiceForm from "../../Component/ServiceForm/ServiceForm";
+import Section5 from "./Section5/Section5";
+import Section from "./Section1/Section";
 
 function ReactJsDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
 
+  //popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
   };
@@ -23,11 +27,16 @@ function ReactJsDevelopment() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>React Js Development Services</h1>
+          <h1>React Js Development</h1>
+          <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            Expert React JS Development Services: Harness the power of React JS
-            with our skilled team. We create dynamic, efficient, and seamless
-            web applications for your business needs.
+            Welcome to EasyRyt’s dedicated WordPress Affiliate Marketing Website
+            Development solutions, where originality, creative flair, and
+            technical expertise unite to elevate your affiliate marketing
+            pursuits to unprecedented levels. With a profound comprehension of
+            affiliate tactics and unrivalled proficiency in WordPress, we
+            construct websites that not only spotlight your affiliate
+            merchandise but also generate conversions and income.
           </p>
           <button
             type="submit"
@@ -37,24 +46,31 @@ function ReactJsDevelopment() {
             Get Started
           </button>
         </div>
-        <div>
+        <div className={style.img_box}>
           <img className={style.img} src={img} alt="img" />
         </div>
       </div>
-      <Section1 />
+      <Section />
       <Section2 />
       <Section3 />
-      <TenthSection />
+      <Section4 />
+      <ServiceForm />
+      <ForthSection />
       <SixthSection />
       <EleventhSection />
-      <CallButton/>
+      <Section5 />
+      <CallButton />
       <Footer />
-            {/* Popup window */}
-            {showPopup && (
+      {showPopup && (
         <>
-        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
-      <PopupOption/>
-      </>
+          <button
+            onClick={() => setShowPopup(false)}
+            className={style.closebtn}
+          >
+            Close
+          </button>
+          <PopupOption />
+        </>
       )}
     </div>
   );
