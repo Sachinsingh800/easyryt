@@ -6,14 +6,11 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        In the aggressive world of cell apps, a sturdy and properly-dependent
-        backend is essential for delivering super consumer reviews. At EasyRyt,
-        we concentrate on crafting robust app backends that significantly
-        improve your app's capability, security, and scalability. Our crew of
-        experienced backend developers are dedicated to turning your app’s
-        vision into reality. Partner with us for App Backend Development
-        offerings. Contact us now, to speak about how we can increase your app's
-        backend to the next level!
+        In the realm of digital engagements, the forepart is your palette.
+        Collaborate with EasyRyt, to create a unique and captivating work of art
+        that fascinates, involves, and converts. Our Forepart Development
+        Services go beyond mere lines of code – they are a fusion of creativity
+        and innovation that enhance your brand's online existence.
       </p>
       <h2>Get in touch with us today</h2>
       <p>

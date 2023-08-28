@@ -13,33 +13,33 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Expertise and Experience:",
-      des:"Our group comprises of skilled backend developers with immense experience in developing various and complicated app backends. We stay up to date with the cutting-edge technologies and trends to provide you with present day solutions."
+      title:"Expertise and Excellence: ",
+      des:"Our team consists of skilled developers who excel in creating interfaces that have a meaningful impact. With years of experience, we have perfected our skills to deliver outstanding results."
     },
     {
       icon:<GiCrafting/>,
-      title:"Custom Solutions:",
-      des:"We understand that every app is unique. Our solutions are tailor-made to your precise requirements, ensuring that your app's backend aligns flawlessly with your imagination."
+      title:"Design-Development Fusion: ",
+      des:"Our collaboration between design and development guarantees that your front end not only has a visually appealing appearance but also operates smoothly, providing a comprehensive user experience."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Agile Development:",
-      des:"We observe an agile development methodology, permitting us to confirm to changing necessities and deliver effective backend solutions. This method fosters collaboration, transparency, and quicker shipping. "
+      title:"User-Focused Approach: ",
+      des:"We always prioritize the needs of our users. Our front end development aims to create interfaces that users genuinely enjoy engaging with, fostering positive brand interactions. "
     },
     {
       icon:<SiClaris/>,
-      title:"Quality Assurance:",
-      des:"We are committed to delivering solutions after rigorous testing. Best warranty procedures are an imperative part of our improvement cycle. "
+      title:"Continuous Innovation: ",
+      des:"The digital market is moving at a high speed and so are we. Our developers constantly stay ahead of industry trends, continuously innovating to provide cutting-edge solutions. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Timely Delivery:",
-      des:"We apprehend the significance of timely app launches. Our efficient time management guarantees that we supply results inside agreed-upon timelines."
+      title:"Partnership and Communication: ",
+      des:"We value teamwork. We ensure that you are involved and well-informed throughout the development process, making sure that your vision is transformed into reality."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Client-Centric Approach: ",
-      des:"Your satisfaction is our priority. We maintain open communication throughout the development system, keeping you updated and involved at every stage."
+      title:"Performance-Oriented:  ",
+      des:"Performance is crucial. Our front end development not only emphasizes aesthetics but also focuses on optimizing performance to ensure a seamless user experience."
     },
    
   ]

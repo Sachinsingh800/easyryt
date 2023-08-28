@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Requirement Analysis and Planning",
+    title: "Design-Centred Development: ",
     description:
-      "We begin by getting to know about your app's necessities and goals. Our crew collaborates with you to accumulate insights into the preferred capabilities, user interactions, and statistics drift. This analysis is the muse of our backend development approach.  ",
+      "We commence with design thinking. Our front end experts collaborate closely with our design team to bring wireframes and prototypes to life. This collaboration guarantees seamless harmony between the visual elements and interactive components.  ",
   },
   {
     logo: logo2,
-    title: "Database Design and Management",
+    title: "Responsiveness Across Devices: ",
     description:
-      "Efficient records control is on the centre of a successful app. Our mobile app backend development team designs and enforces database systems that optimize data garage, retrieval, and control. Our knowledge consists of relational databases, NoSQL databases, and statistics caching mechanisms to ensure clean and fast facts transactions.",
+      "The forefront must shine on all devices. Our approach is deeply rooted in the principles of responsive design, ensuring that your website or application appears and functions seamlessly across desktops, tablets, and smartphones.",
   },
   {
     logo: logo3,
-    title: "API Development",
+    title: "User-Focused Interfaces: ",
     description:
-      "Robust APIs (Application Programming Interfaces) are the bridge among the frontend and backend of your app. We develop APIs that enable seamless communication among extraordinary components of your app, making sure easy and efficient information trade takes place. ",
+      "Users are the core of everything we create. We develop intuitive and user-friendly interfaces that effortlessly guide visitors through your content and offerings. ",
   },
   {
     logo: logo4,
-    title: "Security Implementation",
+    title: "State-of-the-Art Technologies: ",
     description:
-      "Security is paramount in the virtual landscape. Our mobile app backend development specialists employ the best safety practices to shield consumer statistics, prevent unauthorized admission, guarding the app against potential threats. We implement authentication, authorization, encryption, and other safety features to make certain, that the integrity of your app's backend is strong. ",
+      "The ever-changing digital landscape propels us forward. Our front end experts remain up-to-date with the latest technologies, tools, and frameworks to ensure that your interfaces are contemporary, effective, and future-proof. ",
   },
   {
     logo: logo5,
-    title: "Scalability and Performance Optimization",
+    title: "Performance Enhancement: ",
     description:
-      "We recognize that apps want to scale. Our backend development focuses on scalability and performance optimization, making sure that your app can manage increased visitors and utilization without compromising on its pace or capability. ",
+      "Velocity is crucial. Our process for developing the user-facing part of websites involves implementing techniques to enhance performance, resulting in interfaces that load rapidly and provide a smooth browsing experience. ",
   },
   {
     logo: logo6,
-    title: "Integration of Third-Party Services",
+    title: "Compatibility Across Multiple Browsers: ",
     description:
-      "To beautify your app's competencies, we combine 1/3-birthday party services like price gateways, social media systems, and analytics tools. These integrations increase consumer experiences and offer treasured insights in your commercial enterprise growth.",
+      "Whether it's Chrome, Firefox, or any other browser, your front end must function seamlessly. We thoroughly test our creations on various browsers to ensure uniformity and compatibility.",
   },
 ];
 
@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Cross-Platform App Development</h1>
+      <h1>Our Method for Front End Development</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful
