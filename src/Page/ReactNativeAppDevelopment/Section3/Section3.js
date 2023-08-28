@@ -12,41 +12,40 @@ function Section3() {
 
   const data=[
     {
-      icon:<FaInnosoft/>,
-      title:"Professional React Native Development Company:",
-      des:"Our team consists of proficient React Native developers who have a thorough understanding of the framework's capabilities, best practices, and latest updates."
-    },
-    {
       icon:<GiSkills/>,
-      title:"State-of-the-art Solutions: ",
-      des:"We stay ahead of the technological curve, harnessing React Native's potential to deliver innovative and forward-thinking app solutions."
+      title:"Associate Advertising Specialists: ",
+      des:"We comprehend the subtleties of associate marketing and how to build optimized websites for increasing conversions and revenue generation.."
     },
     {
       icon:<GiCrafting/>,
-      title:"Time and Cost Effectiveness: ",
-      des:"React Native's cross-platform nature speeds up development timelines and reduces expenses while maintaining app quality."
+      title:"WordPress Mastery:",
+      des:"With a deep understanding of the WordPress platform, we utilize its capabilities to craft dynamic and high-performing Affiliate marketing websites."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Visual Excellence: ",
-      des:"Our designers create captivating visuals and animations that enhance user engagement and leave a lasting impression.  "
+      title:"Conversion-Focused Designs:  ",
+      des:"Our designers prioritize crafting designs that stimulate clicks, interactions, and ultimately, purchases of Affiliate products. "
     },
     {
       icon:<SiClaris/>,
-      title:"Scalability:",
-      des:"We design apps with scalability in mind, ensuring they can accommodate growth in user base and evolving business requirements. "
+      title:"Seamless Integration:  ",
+      des:"We ensure that the Affiliate products smoothly integrate into your website, enhancing the user experience and driving engagement. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Expandability:",
-      des:"We construct apps with expandability in mind, ensuring that your app can expand along with your user base and changing business requirements."
+      title:"Technical Expertise:  ",
+      des:"Our developers guarantee that your Affiliate marketing website is technically optimized for speed, performance, and security."
     },
-
+    {
+      icon:<FaInnosoft/>,
+      title:"Continuous Assistance:   ",
+      des:"Beyond development, we offer ongoing support to ensure that your Affiliate marketing website is always up to date and operating at its best."
+    },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Flutter App Development ?</h2>
+      <h2>Why Select EasyRyt for Affiliate Marketing Website?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

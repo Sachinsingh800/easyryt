@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Ideation and Conceptualization",
+    title: "Strategic Blueprint ",
     description:
-      "We start by collaborating closely with you to comprehend your app idea, target audience, and business objectives. Our React Native Development team of talented designers and developers then brainstorm concepts to ensure that your app's design and functionality align perfectly with your vision. ",
+      "We thoroughly analyse your affiliate marketing objectives, comprehending your target audience and the merchandise you endorse. This understanding lays the groundwork for our strategy, assuring that your website is in line with your affiliate goals.  ",
   },
   {
     logo: logo2,
-    title: "Seamless User Experience",
+    title: "Design with a Focus on Conversion  ",
     description:
-      "React Native's distinct architecture enables us to create apps that offer a native-like experience on both iOS and Android platforms. We prioritize a smooth user experience through intuitive navigation, fluid animations, and a user-focused interface design. ",
+      "Our designers combine inventiveness with conversion-centred design principles to construct layouts that drive action. We optimize your website's arrangement to maximize clicks and engagement.",
   },
   {
     logo: logo3,
-    title: "Cross-Platform Efficiency",
+    title: "Effortless Integration of Products ",
     description:
-      "One of React Native's greatest advantages is its ability to develop cross-platform apps with a solitary codebase. This approach reduces development time and costs while maintaining consistent performance and design across various devices.",
+      "We seamlessly incorporate affiliate products, presenting them in an orderly and aesthetically appealing manner. Your visitors will effortlessly explore and purchase the endorsed merchandise. ",
   },
   {
     logo: logo4,
-    title: "Custom React Native Development",
+    title: "User-Friendly Experience ",
     description:
-      "While React Native provides a wide range of pre-built components, we understand that each app is unique. Our experienced developers excel at creating custom components, animations, and interactions that give your app a distinctive and unforgettable touch.",
+      "Easily navigating your affiliate marketing site should be a breeze. Our design centred around the user ensures that visitors effortlessly discover what they desire, elevating their overall experience and motivating them to engage. ",
   },
   {
     logo: logo5,
-    title: " Performance Optimization",
+    title: "Adaptive Design",
     description:
-      "App performance directly impacts user satisfaction. Our React Native Development process includes thorough testing and optimization to ensure quick loading times, seamless transitions, and optimal performance across different devices.",
+      "It is paramount that your affiliate marketing website seamlessly functions on various devices. Our approach to design ensures an optimal encounter whether users access your site through computers, tablets, or smartphones. ",
   },
   {
     logo: logo6,
-    title: "Integration of Native Features",
+    title: "Optimization for Search Engines  ",
     description:
-      "React Native seamlessly incorporates native device features such as camera, GPS, sensors, and more. We leverage these capabilities to enhance your app's functionality and deliver a fully immersive experience.",
+      "To amplify the reach of your affiliate marketing, we implement effective SEO strategies that heighten visibility on search engines, expanding the audience that can access your affiliate content.",
   },
 ];
 
@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for React Native App Development </h1>
+      <h1>Our Method for  Developing a WordPress Website for Affiliate Marketing</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful
