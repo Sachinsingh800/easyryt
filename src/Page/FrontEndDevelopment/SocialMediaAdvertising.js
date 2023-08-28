@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import style from "./ECommerceDevelopment.module.css";
+import style from "./SocialMediaAdvertising.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
-import img from "../../Image/E-Commerce Development 1.png";
+import img from "../../Image/social media marketing 1.png";
 import Section2 from "./Section2/Section2";
 import Section3 from "./Section3/Section3";
 import SixthSection from "../../Section/SixthSection/SixthSection";
@@ -15,7 +15,7 @@ import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
 
-function ECommerceDevelopment() {
+function SocialMediaAdvertising() {
   const [showPopup, setShowPopup] = useState(false);
 
   //popup
@@ -27,18 +27,17 @@ function ECommerceDevelopment() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Ecommerce Website Development Services</h1>
+          <h1>Social Media Advertising</h1>
           <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            Introducing our Ecommerce Store Creation Services, where we breathe
-            life into your entrepreneurial dreams by establishing a successful
-            digital presence. In this age of online trade, possessing a strong
-            and customer-focused online store is not merely a choice – it has
-            become essential. With an extensive knowledge of digital commerce,
-            online shop development, and the art of constructing compelling
-            digital shopping platforms, we stand as your reliable ally in
-            creating enchanting virtual stores that not only draw in visitors
-            but also drive conversions.
+            In the fast-paced digital world, cell programs have become a
+            critical medium for businesses to interact with their customers. A
+            crucial element of a hit cell app is its backend – the engine that
+            powers the app's capability, overall performance, and user
+            experience. The focus should be on crafting strong and efficient app
+            backends that lay the basis for high-quality app reports. Our App
+            Backend Development offerings are designed to empower your app with
+            seamless functionality, complete control, safety, and scalability.
           </p>
           <button
             type="submit"
@@ -78,4 +77,4 @@ function ECommerceDevelopment() {
   );
 }
 
-export default ECommerceDevelopment;
+export default SocialMediaAdvertising;

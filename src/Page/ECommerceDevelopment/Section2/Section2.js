@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import style from "./Section2.module.css";
 import logo1 from "../../../Image/chart.gif";
 import logo2 from "../../../Image/date.gif";
@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Android App",
+    title: "Strategic Planning",
     description:
-      "Our Android applications are renowned for their captivating User Interface UI/UX, rapid loading speeds, and reliable performance.",
+      "We initiate by delving deeply into your business objectives, target audience, and the competitive landscape. This profound understanding forms the foundation of our strategy, ensuring that your ecommerce website seamlessly aligns with your brand identity and resonates profoundly with your potential customers.  ",
   },
   {
     logo: logo2,
-    title: "iOS App",
+    title: "Custom Ecommerce Solutions",
     description:
-      "Our iOS apps embody innovative concepts, featuring intuitive GUIs. With our proficient iPhone application development team, you'll find the perfect solution for your needs.",
+      "We eschew the utilization of templates; instead, we champion uniqueness. Our team of skilled designers and developers meticulously craft bespoke ecommerce solutions that cater perfectly to your distinct requirements. Regardless of whether you are selling products or services, we guarantee that your website will truly shine amidst the crowded digital marketplace.",
   },
   {
     logo: logo3,
-    title: "Tablet App development",
+    title: "Magento Proficiency",
     description:
-      "We offer extensive tablet app development solutions to diverse industries, catering to startups and leading enterprises alike.",
+      "As experts in ecommerce website development, we possess comprehensive expertise in the potent capabilities offered by Magento - a versatile and feature-rich platform. Our command over Magento empowers us to construct expandable, customizable, and high-functioning online stores that deliver seamless shopping experiences. ",
   },
   {
     logo: logo4,
-    title: "iPad App Development",
+    title: "Design Focused on User Experience",
     description:
-      "With years of proficiency in native app development, our team can fulfill your unique requirements. We provide impeccable, visually appealing iPad app development services using Flutter.",
+      "The paramount goal is to create a website that is easy to navigate and intuitive for users. Our designers prioritize engaging visuals and responsive design to provide an immersive experience that holds visitors' attention and guides them towards completing purchases. ",
   },
   {
     logo: logo5,
-    title: "AR App Development",
+    title: "Reliable Payment Methods",
     description:
-      "Benefiting from over 15 years of expertise in 3D modeling and Augmented Reality (AR), we deliver top-notch AR software swiftly. Our team crafts cutting-edge virtual reality solutions, harnessing the latest tools and advancements.",
+      "Building trust is essential for ecommerce success, and it starts with secure transactions. We seamlessly integrate top-notch payment gateways, guaranteeing that your customers can shop with confidence, knowing their personal information is safeguarded. ",
   },
   {
     logo: logo6,
-    title: "Marketing Automation Solutions",
+    title: "Optimal Performance on Mobile Devices",
     description:
-      "Catering to diverse user needs, our team develops Native applications that precisely align with their business requirements. Leveraging the finest native app development platform, we ensure optimal results for every project.",
+      "Considering the significant volume of online traffic from mobile devices, optimization for smartphones and tablets is indispensable. Our meticulous approach ensures that our ecommerce websites are fully optimized for seamless shopping experiences across different devices.",
   },
 ];
 
@@ -54,8 +54,6 @@ const lightColors = [
   "#FFC6C6",
   "#E0FF9F",
 ]; // You can add more light colors here
-
-
 
 function Section2() {
   const [randomColors, setRandomColors] = useState(lightColors);
@@ -83,14 +81,20 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>The Expertise Of Our Native App Development Service</h1>
+      <h1>Our Method for Developing Ecommerce Websites </h1>
       <p className={style.para}>
-        As a native app development company, we have expertise in developing
-        Native apps for different platforms. Take a look at our expertise:
+        At EasyRyt, we acknowledge that constructing a prosperous application is
+        a dynamic fusion of inventiveness, strategic preparation, and careful
+        implementation. Our diverse group of creators, programmers, and planners
+        work cooperatively to bring your application idea to fruition.
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (
-          <div className={style.card} key={index} style={{ background: randomColors[index] }}>
+          <div
+            className={style.card}
+            key={index}
+            style={{ background: randomColors[index] }}
+          >
             <img className={style.img} src={data.logo} alt={`img${index}`} />
             <h6>{data.title}</h6>
             <p>{data.description}</p>

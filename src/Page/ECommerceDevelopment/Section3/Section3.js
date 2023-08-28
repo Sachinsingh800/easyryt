@@ -1,52 +1,67 @@
-import React, { useState, useEffect } from 'react';
-import style from './Section3.module.css';
+import React from 'react'
+import style from "./Section3.module.css"
+import Tilt from "react-parallax-tilt";
+import { GiSkills } from 'react-icons/gi';
+import { GiCrafting } from 'react-icons/gi';
+import { MdPersonalInjury } from 'react-icons/md';
+import { SiClaris } from 'react-icons/si';
+import { TbTruckDelivery } from 'react-icons/tb';
+import { FaInnosoft } from 'react-icons/fa';
 
-const Section3 = () => {
-  const features = [
-    'Seamless Performance',
-    'Native User Interface',
-    'Offline Functionality',
-    'Enhanced Security',
-    'Access to Device Features',
-    'Better User Engagement',
-    'App Store Optimization',
-    'Faster Development',
-    'Long-Term Support',
-    'High-Quality Graphics',
-    'Security',
-  ];
+function Section3() {
 
-  const [currentFeatureIndex, setCurrentFeatureIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentFeatureIndex(getRandomIndex(features.length));
-    }, 2000); // 2-second delay
-
-    return () => clearInterval(interval);
-  }, []);
-
-  const getRandomIndex = (length) => {
-    return Math.floor(Math.random() * length);
-  };
-
+  const data=[
+    {
+      icon:<GiSkills/>,
+      title:"Established Expertise: ",
+      des:"Our collection of work speaks volumes. We have effectively created and launched numerous online shopping platforms across various sectors, each meticulously crafted to boost sales and establish brand recognition."
+    },
+    {
+      icon:<GiCrafting/>,
+      title:"Uniqueness at the Core: ",
+      des:"We recognize that your business stands out. Our approach revolves around creating personalized solutions that meet your specific requirements, ensuring your online store encompasses the essence of your brand."
+    },
+    {
+      icon:<MdPersonalInjury/>,
+      title:"Magento Specialists: ",
+      des:"Our mastery of Magento distinguishes us. We utilize the full potential of this framework to develop online shopping websites that are rich in features, adaptable, and aligned with your objectives. "
+    },
+    {
+      icon:<SiClaris/>,
+      title:"Openness and Collaboration: ",
+      des:"We highly value partnerships. Throughout the development journey, we maintain an open line of communication, consistently keeping you informed and actively involving you at every phase. "
+    },
+    {
+      icon:<TbTruckDelivery/>,
+      title:"Data-Driven Enhancement:",
+      des:"Our online commercial platforms are constructed to adapt and progress. We consistently examine user conduct, performance indicators, and market tendencies to enhance your platform for optimal conversions."
+    },
+    {
+      icon:<FaInnosoft/>,
+      title:"Smooth User Journey: ",
+      des:"The experience of your consumers is of utmost importance to us. We devise digital marketplaces that are effortless to navigate, responsive, and crafted to guide visitors seamlessly towards completing a transaction."
+    },
+   
+  ]
   return (
     <div className={style.main}>
-      <h1>Features Of Native App Development Services</h1>
-      <p className={style.para}>
-        The Following Are Essential  Native App Development Services Featurees To Considen
-        When Developing a Successful Application For Your Company
-      </p>
-      <div className={style.innerbox}>
-        {features.map((feature, index) => (
-          <p key={index} className={index === currentFeatureIndex ? style.active : ''}>
-            ☑&#8193;{feature}
-          </p>
-        ))}
+      <h2>Why Select EasyRyt for Ecommerce Website Development?</h2>
+      <div className={style.card_container} >
+      {data.map((item,id)=>
+
+   <Tilt glareEnable={true} tiltMaxAngleX={20} 
+   tiltMaxAngleY={20} perspective={1000} >
+       <div className={style.card}>
+        <h1>{item?.icon}</h1>
+          <h5 className={style.title}>{item?.title}</h5>
+          <p className={style.des}>{item?.des}</p>
+       </div>
+   </Tilt>
+
+      )}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Section3;
-
+export default Section3
