@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Associate Advertising Specialists: ",
-      des:"We comprehend the subtleties of associate marketing and how to build optimized websites for increasing conversions and revenue generation.."
+      title:"Skilled iOS Designers: ",
+      des:"Our proficient designers have a strong command of iOS design principles and possess extensive expertise in crafting interfaces that align with the most current trends and user preferences."
     },
     {
       icon:<GiCrafting/>,
-      title:"WordPress Mastery:",
-      des:"With a deep understanding of the WordPress platform, we utilize its capabilities to craft dynamic and high-performing Affiliate marketing websites."
+      title:"User-Focused Approach: ",
+      des:"Users are at the heart of our designs. We make it a priority to understand your audience, creating designs that cater to their needs and expectations for optimal engagement and satisfaction."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Conversion-Focused Designs:  ",
-      des:"Our designers prioritize crafting designs that stimulate clicks, interactions, and ultimately, purchases of Affiliate products. "
+      title:"Collaborative Approach: ",
+      des:"We believe in the power of collaboration. Throughout the design process, we actively involve you to ensure that the final product aligns with your vision and goals. "
     },
     {
       icon:<SiClaris/>,
-      title:"Seamless Integration:  ",
-      des:"We ensure that the Affiliate products smoothly integrate into your website, enhancing the user experience and driving engagement. "
+      title:"Innovative Advancements:   ",
+      des:"Our team stays up-to-date with the latest iOS design trends, guaranteeing that your app not only meets industry standards but also stands out as inventive and forward-thinking. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Technical Expertise:  ",
-      des:"Our developers guarantee that your Affiliate marketing website is technically optimized for speed, performance, and security."
+      title:"Strategic Design Thinking:  ",
+      des:"Our designs are not only visually appealing; they are thoughtfully crafted to enhance user engagement, retention, and conversions."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Continuous Assistance:   ",
-      des:"Beyond development, we offer ongoing support to ensure that your Affiliate marketing website is always up to date and operating at its best."
+      title:"Proven Outcomes: ",
+      des:"With a strong track record of successful iOS UI/UX design projects across various industries, we have the skills and expertise to deliver designs that contribute to the success of your app."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Affiliate Marketing Website?</h2>
+      <h2>Why Choose us for iOS UI/UX Design Services ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

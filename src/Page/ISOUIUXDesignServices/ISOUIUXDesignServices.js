@@ -27,16 +27,17 @@ function ISOUIUXDesignServices() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>WordPress Affiliate Marketing Website Development Services</h1>
+          <h1>iOS UI/UX Design Services</h1>
           <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            Welcome to EasyRyt’s dedicated WordPress Affiliate Marketing Website
-            Development solutions, where originality, creative flair, and
-            technical expertise unite to elevate your affiliate marketing
-            pursuits to unprecedented levels. With a profound comprehension of
-            affiliate tactics and unrivalled proficiency in WordPress, we
-            construct websites that not only spotlight your affiliate
-            merchandise but also generate conversions and income.
+            Welcome to EasyRyt, where we are dedicated to delivering remarkable
+            iOS UI/UX design solutions that enthral users and enhance the
+            performance of your app. As a top-notch provider of UI/UX design
+            services, our focus lies in producing aesthetically pleasing and
+            intuitive interfaces for iOS applications. Leveraging our
+            proficiency and groundbreaking methodology, we breathe vitality into
+            your app's concept, guaranteeing its prominence amidst the cutthroat
+            App Store terrain.
           </p>
           <button
             type="submit"

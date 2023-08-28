@@ -50,16 +50,19 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          The Influence of a Devoted Affiliate Marketing Website
+          Importance of iOS UI/UX Design
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          In the realm of online trade, possessing a devoted platform for
-          Affiliate marketing is crucial. A WordPress Affiliate marketing
-          website furnishes the optimal groundwork for efficiently promoting
-          Affiliate goods, monitoring performance, and captivating your
-          audience. It's not solely about showcasing links – it's about
-          constructing an immersive Affiliate experience that seamlessly binds
-          products with prospective purchasers.
+          In the increasingly competitive field of iOS applications, outstanding
+          UI/UX design can make all the difference. An expertly crafted User
+          Interface (UI) and User Experience (UX) design are pivotal in
+          attracting user interest, fostering trust, and promoting user
+          engagement. By investing in professional iOS UI/UX design, you can
+          guarantee that your app differentiates itself, provides a flawless
+          experience, and optimizes user contentment. At EasyRyt, we acknowledge
+          the fundamental significance of UI/UX design in app triumph and are
+          committed to developing iOS encounters that captivate users and boost
+          app efficacy.
         </p>
       </div>
     </div>
