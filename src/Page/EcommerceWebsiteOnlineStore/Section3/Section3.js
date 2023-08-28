@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Proficiency and Superiority :",
-      des:"Our team of experienced back-end programmers possesses years of knowledge in developing solutions that empower seamless digital experiences."
+      title:"WordPress ECommerce Specialists: ",
+      des:"Our team consists of experienced developers skilled in building successful ECommerce websites on the WordPress platform."
     },
     {
       icon:<GiCrafting/>,
-      title:"Personalization at the Core:  ",
-      des:"We comprehend that your project is one-of-a-kind. Our approach revolves around developing solutions that are customized to meet your specific requirements, guaranteeing optimal functionality."
+      title:"WooCommerce Proficiency:   ",
+      des:"We are well-versed in utilizing the full potential of WooCommerce to create online stores that are feature-rich and meet your specific needs."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Comprehensive Project Comprehension: ",
-      des:"We don't simply write code; we grasp the broader perspective. Our back-end programmers work closely with designers, front-end developers, and stakeholders to ensure a cohesive and synchronized development process. "
+      title:"Personalized Approach:",
+      des:"We recognize that every ECommerce business is distinct. Our solutions are custom-tailored to match your products, brand image, and target market. "
     },
     {
       icon:<SiClaris/>,
-      title:"Continuous Innovation: ",
-      des:"The digital market is moving at a high speed and so are we. Our developers constantly stay ahead of industry trends, continuously innovating to provide cutting-edge solutions. "
+      title:"Design Excellence: ",
+      des:"Our designers seamlessly blend innovation with functionality, crafting ECommerce websites that captivate attention and provide seamless user experiences. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Partnership and Communication: ",
-      des:"We value teamwork. We ensure that you are involved and well-informed throughout the development process, making sure that your vision is transformed into reality."
+      title:"Safe Transactions:  ",
+      des:"We prioritize the safety of your customers by implementing strong measures to safeguard their sensitive information during transactions."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Scalability and Future-Proofing:  ",
-      des:"Our back-end solutions are designed with scalability in mind. We guarantee that your digital ecosystem can accommodate growth and adapt to evolving technological trends."
+      title:"Ongoing Assistance:  ",
+      des:"Beyond just development, we provide continuous support to ensure that your WordPress ECommerce website remains up-to-date and optimized."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Back-End Programming?</h2>
+      <h2>Why Choose us for WordPress ECommerce Website Development Solutions? </h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

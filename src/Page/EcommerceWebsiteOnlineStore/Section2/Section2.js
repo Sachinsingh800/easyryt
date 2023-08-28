@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Framework ",
+    title: "Strategic Preparation",
     description:
-      "We start by comprehending the distinct requirements of your project. Our developers collaborate to devise a framework that is not only scalable but also tailored to your existing and future needs.  ",
+      "We begin by comprehending your business, merchandise, and target audience. This lays the foundation for our approach, guaranteeing that your ECommerce website aligns with your objectives.  ",
   },
   {
     logo: logo2,
-    title: "Personalized Solutions  ",
+    title: " Tailoring and Personalization ",
     description:
-      "Each project is unique. We craft bespoke backend solutions that align with your objectives, whether it's an online retail platform, web application, or content management system.",
+      "Each business possesses its distinct identity. Our ECommerce solutions are custom-built to mirror your brand, ensuring that your online store stands out and resonates with your customers.",
   },
   {
     logo: logo3,
-    title: "Data Handling ",
+    title: "Captivating Design",
     description:
-      "Your data holds immense value. We design and manage databases that efficiently store, organize, and retrieve information, ensuring seamless user experiences and precise analytics. ",
+      "Our designers skilfully merge aesthetics and functionality to craft engaging ECommerce websites. We prioritize user-friendly navigation, visually appealing elements, and seamless experiences that drive conversions. ",
   },
   {
     logo: logo4,
-    title: "Server Setup ",
+    title: "Smooth Integration with WooCommerce",
     description:
-      "Performance is crucial. Our developers optimize server configurations to handle sudden increases in traffic, minimize loading times, and deliver a smooth browsing experience. ",
+      "We leverage the capabilities of WooCommerce to create enriching ECommerce experiences. From managing inventory to establishing secure payment gateways, we ensure that your store operates flawlessly. ",
   },
   {
     logo: logo5,
-    title: "API Integration",
+    title: "Prioritizing Mobile Users",
     description:
-      "In the interconnected digital realm, Application Programming Interfaces act as connectors between different systems. We seamlessly incorporate APIs, enabling your application to effectively communicate with external services and platforms. ",
+      "As the number of mobile users continues to increase, we give utmost importance to optimizing your website for mobile devices. This ensures that your ECommerce site delivers a seamless and intuitive experience on all types of devices. ",
   },
   {
     logo: logo6,
-    title: "Strengthening Security Measures:  ",
+    title: "Uninterrupted Assistance  ",
     description:
-      "Cybersecurity is an absolute necessity. We implement robust measures to fortify the protection of user data, prevent breaches, and ensure a secure digital environment.",
+      "Our dedication extends beyond the development stage. We offer ongoing support and maintenance services to ensure that your website remains updated, secure, and ready to adapt to future growth.",
   },
 ];
 
@@ -81,12 +81,12 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Backend Development</h1>
+      <h1>Our Approach to Developing a WordPress ECommerce Website</h1>
       <p className={style.para}>
-        At EasyRyt, we acknowledge that constructing a prosperous application is
-        a dynamic fusion of inventiveness, strategic preparation, and careful
-        implementation. Our diverse group of creators, programmers, and planners
-        work cooperatively to bring your application idea to fruition.
+        When it comes to building a successful WordPress ECommerce website, our
+        strategy is rooted in careful planning, ingenuity, and dedication to
+        achieving great outcomes. Here's how we go above and beyond to make your
+        ECommerce journey outstanding.
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (

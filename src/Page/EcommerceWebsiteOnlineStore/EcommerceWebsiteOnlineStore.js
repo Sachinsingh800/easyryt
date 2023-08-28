@@ -27,17 +27,19 @@ function EcommerceWebsiteOnlineStore() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Back-End Web Development Services</h1>
-          <h6>Crafting Revolutionary Mobile Experiences</h6>
+          <h1>WordPress eCommerce Website Development</h1>
+          <h6>
+            Unlock the Potential of your Enterprise with Development of
+            WordPress ECommerce Websites
+          </h6>
           <p>
-            Welcome to our Back-End Web Development Services, where creativity
-            merges with functionality to design sturdy and dynamic digital
-            experiences. Serving as the backbone of your digital presence, the
-            back end plays a vital role in guaranteeing the seamless, secure,
-            and efficient operation of your website or application. With an
-            in-depth understanding of back end development, we stand as your
-            allies in creating influential solutions that propel your online
-            endeavours forward.
+            We invite you to explore, the exclusive services dedicated to
+            WordPress ECommerce Website Development. At EasyRyt, we utilize the
+            capabilities of WordPress, WooCommerce, and our refined knowledge to
+            construct captivating online shops that leave a lasting impact.
+            Through the perfect fusion of cutting-edge technology, innovative
+            design, and user-friendly interfaces, we bring your ECommerce
+            aspirations to life, fuelling profitability and expansion.
           </p>
           <button
             type="submit"
