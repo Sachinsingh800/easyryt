@@ -13,28 +13,28 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Associate Advertising Specialists: ",
-      des:"We comprehend the subtleties of associate marketing and how to build optimized websites for increasing conversions and revenue generation.."
+      title:"Experienced Design Team: ",
+      des:"Our proficient designers specialize in creating website user interface and user experience designs that align with the most recent design trends and user preferences."
     },
     {
       icon:<GiCrafting/>,
-      title:"WordPress Mastery:",
-      des:"With a deep understanding of the WordPress platform, we utilize its capabilities to craft dynamic and high-performing Affiliate marketing websites."
+      title:"User-Focused Philosophy: ",
+      des:"We believe in working together. Throughout the design process, we engage with you to guarantee that the final product reflects your vision and goals."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Conversion-Focused Designs:  ",
-      des:"Our designers prioritize crafting designs that stimulate clicks, interactions, and ultimately, purchases of Affiliate products. "
+      title:"Innovative Solutions:  ",
+      des:"Our team remains up-to-date with the latest design trends, ensuring that your website stands out as pioneering and forward-thinking. "
     },
     {
       icon:<SiClaris/>,
-      title:"Seamless Integration:  ",
-      des:"We ensure that the Affiliate products smoothly integrate into your website, enhancing the user experience and driving engagement. "
+      title:"Outcome-Oriented Designs:  ",
+      des:"Our designs are meticulously crafted to enhance user involvement, conversions, and overall website performance. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Technical Expertise:  ",
-      des:"Our developers guarantee that your Affiliate marketing website is technically optimized for speed, performance, and security."
+      title:"Established Track Record: ",
+      des:"With a history of successful website user interface and user experience design projects across various industries, we possess the expertise to deliver designs that contribute to your online accomplishments."
     },
     {
       icon:<FaInnosoft/>,
@@ -45,7 +45,7 @@ function Section3() {
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Affiliate Marketing Website?</h2>
+      <h2>Why Choose us for Website UI/UX Design ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

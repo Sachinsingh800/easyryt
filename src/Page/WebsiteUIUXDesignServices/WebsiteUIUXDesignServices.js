@@ -27,16 +27,18 @@ function WebsiteUIUXDesignServices() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>WordPress Affiliate Marketing Website Development Services</h1>
+          <h1>Website UI/UX Design Services</h1>
           <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            Welcome to EasyRyt’s dedicated WordPress Affiliate Marketing Website
-            Development solutions, where originality, creative flair, and
-            technical expertise unite to elevate your affiliate marketing
-            pursuits to unprecedented levels. With a profound comprehension of
-            affiliate tactics and unrivalled proficiency in WordPress, we
-            construct websites that not only spotlight your affiliate
-            merchandise but also generate conversions and income.
+            Welcome to EasyRyt, your collaborator in developing captivating
+            UI/UX designs for websites that enrich user involvement and foster
+            triumph in the digital realm. As a distinguished supplier of design
+            services for user interfaces, we concentrate on fabricating
+            aesthetically pleasing and intuitive frameworks that make a
+            permanent impact on individuals exploring your online platform.
+            Through our proficiency, inventiveness, and emphasis on user
+            satisfaction, we metamorphose your website into an immersive digital
+            odyssey.
           </p>
           <button
             type="submit"
