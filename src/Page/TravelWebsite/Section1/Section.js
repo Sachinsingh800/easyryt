@@ -50,17 +50,17 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          The Importance of Back End Development
+          Why an Exclusive Travel Website Matters ?
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          While the front-end captures attention, the back end enables
-          functionality. It serves as the powerhouse that handles data
-          processing, user interactions, and ensures a seamless experience
-          behind the curtain. A well-organized and optimized back end is crucial
-          for delivering user contentment, safeguarding data, and achieving peak
-          performance. From managing databases to configuring servers, our
-          Back-End Web Development Services establish the bedrock for digital
-          triumph.
+          In today's digital era, having an exclusive travel website is your
+          entrance to a worldwide audience, providing a virtual getaway that
+          captures the true essence of various destinations and fuels the
+          aspirations of travellers. A WordPress travel website acts as a
+          vibrant canvas for storytelling, inspiring thrilling adventures, and
+          providing valuable insights to curious explorers. It's more than just
+          information – it's about creating a digital environment that sparks
+          the wanderlust within.
         </p>
       </div>
     </div>

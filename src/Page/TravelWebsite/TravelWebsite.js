@@ -27,17 +27,19 @@ function TravelWebsite() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Back-End Web Development Services</h1>
-          <h6>Crafting Revolutionary Mobile Experiences</h6>
+          <h1>WordPress Travel Website Development Services</h1>
+          <h6>
+            Embark on Digital Journeys with Professional WordPress Travel
+            Website Development Solutions
+          </h6>
           <p>
-            Welcome to our Back-End Web Development Services, where creativity
-            merges with functionality to design sturdy and dynamic digital
-            experiences. Serving as the backbone of your digital presence, the
-            back end plays a vital role in guaranteeing the seamless, secure,
-            and efficient operation of your website or application. With an
-            in-depth understanding of back end development, we stand as your
-            allies in creating influential solutions that propel your online
-            endeavours forward.
+            Welcome to EasyRyt,s specialized WordPress Travel Website
+            Development services, where creativity, design brilliance, and
+            technical expertise merge to build captivating online platforms that
+            evoke the desire to wander. With a comprehensive understanding of
+            the travel industry and proficiency in WordPress, we design websites
+            that not only highlight travel destinations but also immerse
+            visitors in unforgettable virtual travel encounters.
           </p>
           <button
             type="submit"

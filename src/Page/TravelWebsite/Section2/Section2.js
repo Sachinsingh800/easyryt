@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Framework ",
+    title: "Thorough Exploration",
     description:
-      "We start by comprehending the distinct requirements of your project. Our developers collaborate to devise a framework that is not only scalable but also tailored to your existing and future needs.  ",
+      "We delve deeply into the travel niche you are targeting, thoroughly understanding the unique adventures and information that travellers are in search of.  ",
   },
   {
     logo: logo2,
-    title: "Personalized Solutions  ",
+    title: " Visual Storytelling: ",
     description:
-      "Each project is unique. We craft bespoke backend solutions that align with your objectives, whether it's an online retail platform, web application, or content management system.",
+      "Our talented designers seamlessly incorporate captivating imagery and design elements into your website, weaving together compelling travel narratives.",
   },
   {
     logo: logo3,
-    title: "Data Handling ",
+    title: "Showcasing Destinations",
     description:
-      "Your data holds immense value. We design and manage databases that efficiently store, organize, and retrieve information, ensuring seamless user experiences and precise analytics. ",
+      "We flawlessly integrate destination details, maps, itineraries, and more, allowing visitors to effortlessly explore your featured locations. ",
   },
   {
     logo: logo4,
-    title: "Server Setup ",
+    title: "Intuitive Navigation",
     description:
-      "Performance is crucial. Our developers optimize server configurations to handle sudden increases in traffic, minimize loading times, and deliver a smooth browsing experience. ",
+      "Navigating your travel website should be as easy as planning a journey. Our user-centric design ensures that visitors can find information effortlessly. ",
   },
   {
     logo: logo5,
-    title: "API Integration",
+    title: "Responsive Design",
     description:
-      "In the interconnected digital realm, Application Programming Interfaces act as connectors between different systems. We seamlessly incorporate APIs, enabling your application to effectively communicate with external services and platforms. ",
+      "Travelers access websites from a variety of devices. Our responsive design guarantees optimal presentation on desktops, tablets, and smartphones. ",
   },
   {
     logo: logo6,
-    title: "Strengthening Security Measures:  ",
+    title: "SEO Optimization ",
     description:
-      "Cybersecurity is an absolute necessity. We implement robust measures to fortify the protection of user data, prevent breaches, and ensure a secure digital environment.",
+      "To expand the reach of your travel website, we implement effective SEO strategies that enhance its visibility across search engines.",
   },
 ];
 
@@ -81,12 +81,13 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Backend Development</h1>
+      <h1>Our WordPress Travel Website Development Approach</h1>
       <p className={style.para}>
-        At EasyRyt, we acknowledge that constructing a prosperous application is
-        a dynamic fusion of inventiveness, strategic preparation, and careful
-        implementation. Our diverse group of creators, programmers, and planners
-        work cooperatively to bring your application idea to fruition.
+        Developing a travel website that transports visitors to new frontiers
+        requires a strategic and innovative approach that boosts its visibility
+        on search engines, attracting a broader audience. We prioritize
+        collaboration, creativity, and a commitment to delivering extraordinary
+        travel experiences:
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (
