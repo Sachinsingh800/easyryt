@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Proficiency and Superiority :",
-      des:"Our team of experienced back-end programmers possesses years of knowledge in developing solutions that empower seamless digital experiences."
+      title:"Associate Advertising Specialists: ",
+      des:"We comprehend the subtleties of associate marketing and how to build optimized websites for increasing conversions and revenue generation.."
     },
     {
       icon:<GiCrafting/>,
-      title:"Personalization at the Core:  ",
-      des:"We comprehend that your project is one-of-a-kind. Our approach revolves around developing solutions that are customized to meet your specific requirements, guaranteeing optimal functionality."
+      title:"WordPress Mastery:",
+      des:"With a deep understanding of the WordPress platform, we utilize its capabilities to craft dynamic and high-performing Affiliate marketing websites."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Comprehensive Project Comprehension: ",
-      des:"We don't simply write code; we grasp the broader perspective. Our back-end programmers work closely with designers, front-end developers, and stakeholders to ensure a cohesive and synchronized development process. "
+      title:"Conversion-Focused Designs:  ",
+      des:"Our designers prioritize crafting designs that stimulate clicks, interactions, and ultimately, purchases of Affiliate products. "
     },
     {
       icon:<SiClaris/>,
-      title:"Continuous Innovation: ",
-      des:"The digital market is moving at a high speed and so are we. Our developers constantly stay ahead of industry trends, continuously innovating to provide cutting-edge solutions. "
+      title:"Seamless Integration:  ",
+      des:"We ensure that the Affiliate products smoothly integrate into your website, enhancing the user experience and driving engagement. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Partnership and Communication: ",
-      des:"We value teamwork. We ensure that you are involved and well-informed throughout the development process, making sure that your vision is transformed into reality."
+      title:"Technical Expertise:  ",
+      des:"Our developers guarantee that your Affiliate marketing website is technically optimized for speed, performance, and security."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Scalability and Future-Proofing:  ",
-      des:"Our back-end solutions are designed with scalability in mind. We guarantee that your digital ecosystem can accommodate growth and adapt to evolving technological trends."
+      title:"Continuous Assistance:   ",
+      des:"Beyond development, we offer ongoing support to ensure that your Affiliate marketing website is always up to date and operating at its best."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Back-End Programming?</h2>
+      <h2>Why Select EasyRyt for Affiliate Marketing Website?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

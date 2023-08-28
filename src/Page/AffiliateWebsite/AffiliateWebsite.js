@@ -27,17 +27,16 @@ function AffiliateWebsite() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Affiliate Website</h1>
+          <h1>WordPress Affiliate Marketing Website Development Services</h1>
           <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            Welcome to our Back-End Web Development Services, where creativity
-            merges with functionality to design sturdy and dynamic digital
-            experiences. Serving as the backbone of your digital presence, the
-            back end plays a vital role in guaranteeing the seamless, secure,
-            and efficient operation of your website or application. With an
-            in-depth understanding of back end development, we stand as your
-            allies in creating influential solutions that propel your online
-            endeavours forward.
+            Welcome to EasyRyt’s dedicated WordPress Affiliate Marketing Website
+            Development solutions, where originality, creative flair, and
+            technical expertise unite to elevate your affiliate marketing
+            pursuits to unprecedented levels. With a profound comprehension of
+            affiliate tactics and unrivalled proficiency in WordPress, we
+            construct websites that not only spotlight your affiliate
+            merchandise but also generate conversions and income.
           </p>
           <button
             type="submit"

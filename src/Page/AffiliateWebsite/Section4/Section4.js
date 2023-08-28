@@ -6,13 +6,13 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        In the digital world, the rear part is the powerhouse that propels
-        triumph. Collaborate with EasyRyt to build a strong back end development
-        that not only sustains your digital endeavours but also propels them
-        ahead. Our Back End Development Services go beyond mere code - they are
-        the cogs that drive your digital revolution. Get in touch with us now
-        for a discussion, and together let's construct a rear part that
-        guarantees your digital accomplishments!
+        Beyond development, we offer ongoing support to ensure that your
+        Affiliate marketing website is always up to date and operating at its
+        best. Enhance Your Affiliate Marketing Performance with WordPress
+        Excellence: Are you prepared to stand out in the field of affiliate
+        marketing? EasyRyt’s specialized WordPress Development services for
+        Affiliate Marketing Websites are designed for affiliates who desire a
+        remarkable online platform for their promotional activities.
       </p>
       <h2>Get in touch with us today</h2>
       <p>

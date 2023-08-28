@@ -50,17 +50,16 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          The Importance of Back End Development
+          The Influence of a Devoted Affiliate Marketing Website
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          While the front-end captures attention, the back end enables
-          functionality. It serves as the powerhouse that handles data
-          processing, user interactions, and ensures a seamless experience
-          behind the curtain. A well-organized and optimized back end is crucial
-          for delivering user contentment, safeguarding data, and achieving peak
-          performance. From managing databases to configuring servers, our
-          Back-End Web Development Services establish the bedrock for digital
-          triumph.
+          In the realm of online trade, possessing a devoted platform for
+          Affiliate marketing is crucial. A WordPress Affiliate marketing
+          website furnishes the optimal groundwork for efficiently promoting
+          Affiliate goods, monitoring performance, and captivating your
+          audience. It's not solely about showcasing links – it's about
+          constructing an immersive Affiliate experience that seamlessly binds
+          products with prospective purchasers.
         </p>
       </div>
     </div>
