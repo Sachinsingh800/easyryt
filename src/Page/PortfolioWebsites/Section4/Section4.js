@@ -6,13 +6,13 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        In the digital world, the rear part is the powerhouse that propels
-        triumph. Collaborate with EasyRyt to build a strong back end development
-        that not only sustains your digital endeavours but also propels them
-        ahead. Our Back End Development Services go beyond mere code - they are
-        the cogs that drive your digital revolution. Get in touch with us now
-        for a discussion, and together let's construct a rear part that
-        guarantees your digital accomplishments!
+        Are you prepared to enhance your artistic adventure? EasyRyt’s WordPress
+        Portfolio Website Development solutions are custom-made for artists,
+        designers, and imaginative individuals who desire an extraordinary
+        platform to display their creations. Get in touch with us now to
+        converse about your undertaking, and let's join forces to fabricate a
+        WordPress portfolio website that mesmerizes, motivates, and establishes
+        your virtual existence!
       </p>
       <h2>Get in touch with us today</h2>
       <p>

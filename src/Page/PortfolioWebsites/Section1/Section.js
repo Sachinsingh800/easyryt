@@ -50,17 +50,17 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          The Importance of Back End Development
+          The Importance of a Dedicated Portfolio Website
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          While the front-end captures attention, the back end enables
-          functionality. It serves as the powerhouse that handles data
-          processing, user interactions, and ensures a seamless experience
-          behind the curtain. A well-organized and optimized back end is crucial
-          for delivering user contentment, safeguarding data, and achieving peak
-          performance. From managing databases to configuring servers, our
-          Back-End Web Development Services establish the bedrock for digital
-          triumph.
+          In this digital era, having a dedicated portfolio website serves as
+          your online introduction. It offers a centralized platform to present
+          your creative talents effectively. When it comes to artists,
+          designers, photographers, and other creative professionals, a
+          WordPress portfolio website provides the perfect medium for displaying
+          your work. It goes beyond merely presenting images; it involves
+          curating an immersive experience that showcases your style,
+          demonstrates your expertise, and resonates with your target audience.
         </p>
       </div>
     </div>

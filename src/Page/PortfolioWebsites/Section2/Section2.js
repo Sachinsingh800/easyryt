@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Framework ",
+    title: "Comprehensive Research",
     description:
-      "We start by comprehending the distinct requirements of your project. Our developers collaborate to devise a framework that is not only scalable but also tailored to your existing and future needs.  ",
+      "We thoroughly examine your distinct style, goals, and target audience in order to design a portfolio website that perfectly aligns with your creative vision.  ",
   },
   {
     logo: logo2,
-    title: "Personalized Solutions  ",
+    title: "Compelling Visuals ",
     description:
-      "Each project is unique. We craft bespoke backend solutions that align with your objectives, whether it's an online retail platform, web application, or content management system.",
+      "Our designers combine their creativity with design principles that enhance your work, guaranteeing that your portfolio leaves a lasting impression on visitors.",
   },
   {
     logo: logo3,
-    title: "Data Handling ",
+    title: "Seamless Presentation ",
     description:
-      "Your data holds immense value. We design and manage databases that efficiently store, organize, and retrieve information, ensuring seamless user experiences and precise analytics. ",
+      "We seamlessly integrate your projects, enabling visitors to effortlessly navigate through your portfolio and fully immerse themselves in your creations. ",
   },
   {
     logo: logo4,
-    title: "Server Setup ",
+    title: "User-Friendly Interface ",
     description:
-      "Performance is crucial. Our developers optimize server configurations to handle sudden increases in traffic, minimize loading times, and deliver a smooth browsing experience. ",
+      "Ensuring that your portfolio website is easy to navigate is crucial. Our design approach prioritizes the user, providing a seamless and enjoyable experience across all devices. ",
   },
   {
     logo: logo5,
-    title: "API Integration",
+    title: "Dynamic Layout",
     description:
-      "In the interconnected digital realm, Application Programming Interfaces act as connectors between different systems. We seamlessly incorporate APIs, enabling your application to effectively communicate with external services and platforms. ",
+      "Your portfolio deserves to stand out on all devices. Our dynamic layout ensures an engaging presentation on desktops, tablets, and smartphones. ",
   },
   {
     logo: logo6,
-    title: "Strengthening Security Measures:  ",
+    title: " Search Engine Optimization (SEO) ",
     description:
-      "Cybersecurity is an absolute necessity. We implement robust measures to fortify the protection of user data, prevent breaches, and ensure a secure digital environment.",
+      "To enhance your online visibility, we implement SEO strategies that boost your website's rankings on search engines, expanding your reach to a wider audience.",
   },
 ];
 
@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Backend Development</h1>
+      <h1>Our Approach to Developing a Portfolio Website in WordPress</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

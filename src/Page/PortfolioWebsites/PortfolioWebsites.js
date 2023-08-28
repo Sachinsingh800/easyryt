@@ -27,17 +27,19 @@ function PortfolioWebsites() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Back-End Web Development Services</h1>
-          <h6>Crafting Revolutionary Mobile Experiences</h6>
+          <h1>WordPress Portfolio Website Development Services</h1>
+          <h6>
+            Display Your Skills with Professional WordPress Portfolio Website
+            Development Services
+          </h6>
           <p>
-            Welcome to our Back-End Web Development Services, where creativity
-            merges with functionality to design sturdy and dynamic digital
-            experiences. Serving as the backbone of your digital presence, the
-            back end plays a vital role in guaranteeing the seamless, secure,
-            and efficient operation of your website or application. With an
-            in-depth understanding of back end development, we stand as your
-            allies in creating influential solutions that propel your online
-            endeavours forward.
+            Welcome to EasyRyt’s specialized services for developing expert
+            WordPress portfolio websites. We bring together innovation, finesse
+            in design, and technical proficiency to create captivating online
+            portfolios that highlight your distinctive abilities. With our
+            extensive knowledge of WordPress and its capabilities, we design
+            websites that not only showcase your work but also make a lasting
+            impact on your visitors.
           </p>
           <button
             type="submit"
