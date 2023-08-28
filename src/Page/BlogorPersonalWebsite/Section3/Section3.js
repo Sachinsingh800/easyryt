@@ -13,28 +13,28 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Proficiency and Superiority :",
-      des:"Our team of experienced back-end programmers possesses years of knowledge in developing solutions that empower seamless digital experiences."
+      title:"WordPress Expertise: ",
+      des:"Our team of specialists in WordPress has vast knowledge in crafting sophisticated and operative websites on the WordPress platform."
     },
     {
       icon:<GiCrafting/>,
-      title:"Personalization at the Core:  ",
-      des:"We comprehend that your project is one-of-a-kind. Our approach revolves around developing solutions that are customized to meet your specific requirements, guaranteeing optimal functionality."
+      title:"Innovative Excellence:   ",
+      des:"We value the importance of Wordpress design. Our inventive designers collaborate with developers to generate visually impressive websites that resonate with your target audience."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Comprehensive Project Comprehension: ",
-      des:"We don't simply write code; we grasp the broader perspective. Our back-end programmers work closely with designers, front-end developers, and stakeholders to ensure a cohesive and synchronized development process. "
+      title:"User-Focused Approach: ",
+      des:"User experience is fundamental to our designs. We produce websites that not only possess aesthetic appeal but also function seamlessly. "
     },
     {
       icon:<SiClaris/>,
-      title:"Continuous Innovation: ",
-      des:"The digital market is moving at a high speed and so are we. Our developers constantly stay ahead of industry trends, continuously innovating to provide cutting-edge solutions. "
+      title:"Personalization:",
+      des:"We customize our solutions to align with your vision and goals, guaranteeing that your WordPress website is exclusively yours. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Partnership and Communication: ",
-      des:"We value teamwork. We ensure that you are involved and well-informed throughout the development process, making sure that your vision is transformed into reality."
+      title:"Cooperative Partnership:  ",
+      des:"Continuous communication maintains your involvement throughout the development process, assuring that your vision is brought to fruition. Punctual Delivery: We recognize the significance of deadlines. Our development process is streamlined, guaranteeing that your website is launched on time."
     },
     {
       icon:<FaInnosoft/>,
@@ -45,7 +45,7 @@ function Section3() {
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Back-End Programming?</h2>
+      <h2>Why Choose us for WordPress Blog and Individual Website Development ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

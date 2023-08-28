@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Framework ",
+    title: "Tailored Design ",
     description:
-      "We start by comprehending the distinct requirements of your project. Our developers collaborate to devise a framework that is not only scalable but also tailored to your existing and future needs.  ",
+      "There is no one-size-fits-all solution. Our WordPress developers craft designs that reflect your distinctive style, ensuring your website flourishes amidst the vast online landscape.  ",
   },
   {
     logo: logo2,
-    title: "Personalized Solutions  ",
+    title: "User-Centric Development  ",
     description:
-      "Each project is unique. We craft bespoke backend solutions that align with your objectives, whether it's an online retail platform, web application, or content management system.",
+      "User experience takes precedence. Our designs are user-friendly and adaptable, ensuring seamless navigation across all devices for your visitors.",
   },
   {
     logo: logo3,
-    title: "Data Handling ",
+    title: "Harnessing the Power of Add-ons",
     description:
-      "Your data holds immense value. We design and manage databases that efficiently store, organize, and retrieve information, ensuring seamless user experiences and precise analytics. ",
+      "With WordPress, the possibilities are boundless. We incorporate add-ons to augment functionality, whether it's for social media integration, e-commerce capabilities, contact forms, or even more extensive features. ",
   },
   {
     logo: logo4,
-    title: "Server Setup ",
+    title: "Simplicity in Managing Content ",
     description:
-      "Performance is crucial. Our developers optimize server configurations to handle sudden increases in traffic, minimize loading times, and deliver a smooth browsing experience. ",
+      "We provide you with the necessary resources to effortlessly handle your content. Whether you are publishing blog articles or refreshing your portfolio, WordPress ensures an uncomplicated process.. ",
   },
   {
     logo: logo5,
-    title: "API Integration",
+    title: "Adaptable Layout",
     description:
-      "In the interconnected digital realm, Application Programming Interfaces act as connectors between different systems. We seamlessly incorporate APIs, enabling your application to effectively communicate with external services and platforms. ",
+      "Your website will display and operate smoothly on various devices - from computers to mobile phones - guaranteeing a consistent encounter for all users. ",
   },
   {
     logo: logo6,
-    title: "Strengthening Security Measures:  ",
+    title: "Enhanced SEO  ",
     description:
-      "Cybersecurity is an absolute necessity. We implement robust measures to fortify the protection of user data, prevent breaches, and ensure a secure digital environment.",
+      "A well designed website is only effective if it can be found. Our WordPress experts optimize your website for search engines, elevating your visibility and enabling you to connect with your desired audience.",
   },
 ];
 
@@ -81,12 +81,14 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Backend Development</h1>
+      <h1>Our Method for WordPress Blog and Personal Website Development: </h1>
       <p className={style.para}>
-        At EasyRyt, we acknowledge that constructing a prosperous application is
-        a dynamic fusion of inventiveness, strategic preparation, and careful
-        implementation. Our diverse group of creators, programmers, and planners
-        work cooperatively to bring your application idea to fruition.
+        At EasyRyt, we firmly believe that a WordPress website is more than just
+        a compilation of pages – it symbolizes your digital presence. Our
+        approach revolves around comprehending your objectives, aesthetics, and
+        aspirations. We collaborate closely with you to transform your concepts
+        into an immersive online journey that captivates your visitors. Here's
+        how we steer you towards WordPress supremacy:
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (
