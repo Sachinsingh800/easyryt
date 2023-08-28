@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Associate Advertising Specialists: ",
-      des:"We comprehend the subtleties of associate marketing and how to build optimized websites for increasing conversions and revenue generation.."
+      title:"Skilled Design Team:  ",
+      des:"Our talented team of user interface/experience designers possesses extensive experience. They have worked across various industries, guaranteeing that the design of your Android app is customized to your target audience and aligned with current industry patterns."
     },
     {
       icon:<GiCrafting/>,
-      title:"WordPress Mastery:",
-      des:"With a deep understanding of the WordPress platform, we utilize its capabilities to craft dynamic and high-performing Affiliate marketing websites."
+      title:"User-Focused Approach: ",
+      des:"Users lie at the heart of our designs. By conducting thorough research and employing empathetic design strategies, we produce experiences that deeply resonate with your target audience, ultimately boosting engagement and satisfaction."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Conversion-Focused Designs:  ",
-      des:"Our designers prioritize crafting designs that stimulate clicks, interactions, and ultimately, purchases of Affiliate products. "
+      title:"Collaborative Partnership:  ",
+      des:"We place a strong emphasis on teamwork. Throughout the design process, we work closely with you, valuing your insights and involving you in every decision. Your vision and feedback serve as guiding principles for our design approach. "
     },
     {
       icon:<SiClaris/>,
-      title:"Seamless Integration:  ",
-      des:"We ensure that the Affiliate products smoothly integrate into your website, enhancing the user experience and driving engagement. "
+      title:"Personalized Solutions:   ",
+      des:"We understand that every client is unique. Therefore, we tailor our solutions to meet your specific requirements and goals. Our design process is adaptive, ensuring that the final product aligns with your aspirations. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Technical Expertise:  ",
-      des:"Our developers guarantee that your Affiliate marketing website is technically optimized for speed, performance, and security."
+      title:"Attention to Detail:  ",
+      des:"We believe in delivering excellence. Our team pays meticulous attention to every detail, ensuring that the design of your Android app is visually appealing, user-friendly, and seamless in its functionality."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Continuous Assistance:   ",
-      des:"Beyond development, we offer ongoing support to ensure that your Affiliate marketing website is always up to date and operating at its best."
+      title:"Timely Delivery:   ",
+      des:"We understand the importance of meeting deadlines. With our efficient project management, we ensure that your Android app UI/UX design is completed within the agreed-upon timeframe, without compromising on quality."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Affiliate Marketing Website?</h2>
+      <h2>Why Select EasyRyt for  Android Application User Interface ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

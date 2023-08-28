@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Blueprint ",
+    title: "User-Oriented Research ",
     description:
-      "We thoroughly analyse your affiliate marketing objectives, comprehending your target audience and the merchandise you endorse. This understanding lays the groundwork for our strategy, assuring that your website is in line with your affiliate goals.  ",
+      "We commence by thoroughly understanding your target audience including their preferences, behaviour patterns, and pain points. This insightful research heavily influences our design choices to ensure that every component caters to your users' requirements.  ",
   },
   {
     logo: logo2,
-    title: "Design with a Focus on Conversion  ",
+    title: "Strategic Blueprint Creation",
     description:
-      "Our designers combine inventiveness with conversion-centred design principles to construct layouts that drive action. We optimize your website's arrangement to maximize clicks and engagement.",
+      "Our skilled designers create a blueprint that outlines the structural framework and user flow of the app. This step allows us to identify potential obstacles early on and refine the user journey, resulting in optimal usability.",
   },
   {
     logo: logo3,
-    title: "Effortless Integration of Products ",
+    title: "Engaging UI Design",
     description:
-      "We seamlessly incorporate affiliate products, presenting them in an orderly and aesthetically appealing manner. Your visitors will effortlessly explore and purchase the endorsed merchandise. ",
+      "Utilizing our knowledge of your brand and user base, we carefully develop visually captivating UI designs that strongly resonate with your target audience. Each colour, icon, and element is thoughtfully selected to create a cohesive and visually pleasing interface. ",
   },
   {
     logo: logo4,
-    title: "User-Friendly Experience ",
+    title: "Intuitive Interaction Design",
     description:
-      "Easily navigating your affiliate marketing site should be a breeze. Our design centred around the user ensures that visitors effortlessly discover what they desire, elevating their overall experience and motivating them to engage. ",
+      "Our team concentrates on crafting interactions that create a user-friendly and pleasurable experience when utilizing your application. We integrate gestures, animations, and transitions that elevate the overall encounter, guaranteeing smooth navigation for users. ",
   },
   {
     logo: logo5,
-    title: "Adaptive Design",
+    title: "Prototype Testing",
     description:
-      "It is paramount that your affiliate marketing website seamlessly functions on various devices. Our approach to design ensures an optimal encounter whether users access your site through computers, tablets, or smartphones. ",
+      "We construct interactive prototypes that imitate the functionality of your application. This permits us to obtain early user input, enabling us to enhance the design before proceeding with development. ",
   },
   {
     logo: logo6,
-    title: "Optimization for Search Engines  ",
+    title: "Continuous Enhancement  ",
     description:
-      "To amplify the reach of your affiliate marketing, we implement effective SEO strategies that heighten visibility on search engines, expanding the audience that can access your affiliate content.",
+      "We believe in ongoing improvement. Throughout the design procedure, we value your feedback and iterate on the design based on user insights and our proficiency. This iterative approach guarantees that the ultimate design perfectly aligns with your vision.",
   },
 ];
 
@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for  Developing a WordPress Website for Affiliate Marketing</h1>
+      <h1>Our Method for  Developing a Android App UI/UX Design  </h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

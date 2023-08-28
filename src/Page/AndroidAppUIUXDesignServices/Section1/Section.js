@@ -50,16 +50,21 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          The Influence of a Devoted Affiliate Marketing Website
+          The importance of Android App UI/UX Design
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          In the realm of online trade, possessing a devoted platform for
-          Affiliate marketing is crucial. A WordPress Affiliate marketing
-          website furnishes the optimal groundwork for efficiently promoting
-          Affiliate goods, monitoring performance, and captivating your
-          audience. It's not solely about showcasing links – it's about
-          constructing an immersive Affiliate experience that seamlessly binds
-          products with prospective purchasers.
+          The Significance of Android Application Interface and User Experience
+          Design In the highly competitive realm of Android applications,
+          outstanding UI/UX design has the potential to revolutionize the game.
+          An artfully crafted User Interface (UI) guarantees a favourable
+          initial impression, while User Experience (UX) design ensures seamless
+          interactions and user contentment. Amidst a plethora of options,
+          making an investment in UI/UX design constitutes a strategic manoeuvre
+          that heightens user involvement, nurtures trust, and distinguishes
+          your application. Here at EasyRyt, we acknowledge the importance of
+          this aspect and pledge to provide Android application experiences that
+          leave a long-lasting imprint on users, fostering both loyalty and
+          triumph.
         </p>
       </div>
     </div>
