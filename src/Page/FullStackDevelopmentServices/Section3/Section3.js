@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Expertise and Experience:",
-      des:"Our group comprises of skilled backend developers with immense experience in developing various and complicated app backends. We stay up to date with the cutting-edge technologies and trends to provide you with present day solutions."
+      title:"All-encompassing Proficiency: ",
+      des:"Our team of Pile Developers possesses an extensive skill set that covers both the front-end and back-end technologies. This guarantees a smooth integration of design and functionality."
     },
     {
       icon:<GiCrafting/>,
-      title:"Custom Solutions:",
-      des:"We understand that every app is unique. Our solutions are tailor-made to your precise requirements, ensuring that your app's backend aligns flawlessly with your imagination."
+      title:"All-inclusive Solutions: ",
+      des:"We offer comprehensive solutions, covering all stages from idea generation to implementation. With our Full Stack Web Development Services, we serve as your trusted companion capable of managing every element of your undertaking."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Agile Development:",
-      des:"We observe an agile development methodology, permitting us to confirm to changing necessities and deliver effective backend solutions. This method fosters collaboration, transparency, and quicker shipping. "
+      title:"Customization at the Core:",
+      des:"Each project is distinct. Our strategy revolves around crafting solutions that are tailored to the specific objectives of your business, guaranteeing optimum functionality. "
     },
     {
       icon:<SiClaris/>,
-      title:"Quality Assurance:",
-      des:"We are committed to delivering solutions after rigorous testing. Best warranty procedures are an imperative part of our improvement cycle. "
+      title:"Collaborative Approach: ",
+      des:"We work closely with designers, front-end developers, and stakeholders to ensure that the final outcome aligns with your vision and delivers an exceptional user experience.  "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Timely Delivery:",
-      des:"We apprehend the significance of timely app launches. Our efficient time management guarantees that we supply results inside agreed-upon timelines."
+      title:"Performance Optimization:",
+      des:"Our Stack Engineers optimize both the front-end and back-end elements for efficiency, ensuring that your application operates smoothly and offers a seamless user experience."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Client-Centric Approach: ",
-      des:"Your satisfaction is our priority. We maintain open communication throughout the development system, keeping you updated and involved at every stage."
+      title:"Innovation and Adaptation: ",
+      des:"The digital landscape progresses swiftly, and so do we. Our Stack Engineers stay updated with the latest trends and technologies in the industry, ensuring that your project remains at the forefront of innovation."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for App Backend Development Creation?</h2>
+      <h2>Why Select EasyRyt for  Full Stack Web Development?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

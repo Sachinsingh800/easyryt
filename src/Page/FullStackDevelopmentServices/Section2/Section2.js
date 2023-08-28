@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Requirement Analysis and Planning",
+    title: "Comprehensive Mastery",
     description:
-      "We begin by getting to know about your app's necessities and goals. Our crew collaborates with you to accumulate insights into the preferred capabilities, user interactions, and statistics drift. This analysis is the muse of our backend development approach.  ",
+      "Our Full Stack Web Developers possess profound expertise in both the front-end and back-end technologies. This extensive skillset empowers us to seamlessly take your project from conception to completion, without missing a single detail.  ",
   },
   {
     logo: logo2,
-    title: "Database Design and Management",
+    title: "Strategic Framework",
     description:
-      "Efficient records control is on the centre of a successful app. Our mobile app backend development team designs and enforces database systems that optimize data garage, retrieval, and control. Our knowledge consists of relational databases, NoSQL databases, and statistics caching mechanisms to ensure clean and fast facts transactions.",
+      "We begin by thoroughly understanding the objectives and requirements of your project. Our Full Stack Developers meticulously craft a strategic framework that ensures your application not only captivates visually but also stands robustly in terms of its structure.",
   },
   {
     logo: logo3,
-    title: "API Development",
+    title: "Dynamic Interfaces",
     description:
-      "Robust APIs (Application Programming Interfaces) are the bridge among the frontend and backend of your app. We develop APIs that enable seamless communication among extraordinary components of your app, making sure easy and efficient information trade takes place. ",
+      "User engagement starts with the front end. With our Full Stack Web Development Services, we create interfaces that are not only visually captivating but also responsive across various devices, guaranteeing a consistent and delightful experience. ",
   },
   {
     logo: logo4,
-    title: "Security Implementation",
+    title: "Efficient Data Management",
     description:
-      "Security is paramount in the virtual landscape. Our mobile app backend development specialists employ the best safety practices to shield consumer statistics, prevent unauthorized admission, guarding the app against potential threats. We implement authentication, authorization, encryption, and other safety features to make certain, that the integrity of your app's backend is strong. ",
+      "The back end is the driving force behind the functionality. We proficiently develop and optimize databases, ensuring efficient management and retrieval of data. This seamless interaction between the front end and the data layer enhances the overall performance of your application. ",
   },
   {
     logo: logo5,
-    title: "Scalability and Performance Optimization",
+    title: "Server-Side Scripting",
     description:
-      "We recognize that apps want to scale. Our backend development focuses on scalability and performance optimization, making sure that your app can manage increased visitors and utilization without compromising on its pace or capability. ",
+      "Our Full Stack Developers possess a high level of proficiency in server-side scripting languages such as Node.js, Python, and PHP. This expertise enables the facilitation of dynamic interactions, processing, and data administration. ",
   },
   {
     logo: logo6,
-    title: "Integration of Third-Party Services",
+    title: "API Integration",
     description:
-      "To beautify your app's competencies, we combine 1/3-birthday party services like price gateways, social media systems, and analytics tools. These integrations increase consumer experiences and offer treasured insights in your commercial enterprise growth.",
+      "In the interconnected digital realm, APIs function as bridges between various systems. Our Full Stack Developers seamlessly integrate APIs, facilitating communication between your application and external services.",
   },
 ];
 
@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Cross-Platform App Development</h1>
+      <h1>Our Method for Full Stack Development</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful
