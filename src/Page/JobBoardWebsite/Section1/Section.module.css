@@ -1,0 +1,50 @@
+.main {
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     place-items: center;
+       background-size: cover;
+       background-blend-mode: multiply;
+       background-color: rgb(57, 65, 98);
+       color: white;
+       width: 100vw;
+       text-align: left;
+       height: 30rem;
+     }
+     .main h1{
+       font-weight: 400;
+       transition-delay: 2s ease-in-out;
+     }
+   
+   .innercontain{
+       display: flex;
+       width: 90%;
+   }
+   
+   
+   .img{
+   height: 25rem;
+   filter: drop-shadow(-2px 0px 2px );
+   transition-delay: 3s ease-in-out;
+   margin-top: 6rem;
+   }
+   @media (max-width:784px){
+     .img{
+       height: 20rem;
+     }
+   }
+   @media (max-width:500px){
+     .main{
+       height: 35rem;
+       overflow: hidden;
+       padding-top: 8rem;
+   
+   }
+   .para{
+     height: 15rem;
+     overflow: hidden;
+   }
+   .img{
+     height: 15rem;
+   }
+   }
