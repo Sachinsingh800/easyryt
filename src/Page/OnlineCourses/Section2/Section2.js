@@ -81,12 +81,12 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Backend Development</h1>
+      <h1>Our Approach to WordPress Online Website Development</h1>
       <p className={style.para}>
-        At EasyRyt, we acknowledge that constructing a prosperous application is
-        a dynamic fusion of inventiveness, strategic preparation, and careful
-        implementation. Our diverse group of creators, programmers, and planners
-        work cooperatively to bring your application idea to fruition.
+        Building a WordPress online site that genuinely represents your brand
+        and resonates with your target audience necessitates a considerate
+        approach. Our approach circles around cooperation, innovation, and
+        meticulous attention to particulars:
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (

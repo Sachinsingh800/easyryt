@@ -27,17 +27,19 @@ function PodcastWebsite() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Back-End Web Development Services</h1>
-          <h6>Crafting Revolutionary Mobile Experiences</h6>
+          <h1>WordPress Podcast Website Development Services</h1>
+          <h6>
+            Amplify Your Voice with Expert WordPress Podcast Website Creation
+            Solutions
+          </h6>
           <p>
-            Welcome to our Back-End Web Development Services, where creativity
-            merges with functionality to design sturdy and dynamic digital
-            experiences. Serving as the backbone of your digital presence, the
-            back end plays a vital role in guaranteeing the seamless, secure,
-            and efficient operation of your website or application. With an
-            in-depth understanding of back end development, we stand as your
-            allies in creating influential solutions that propel your online
-            endeavours forward.
+            Step into EasyRyt’s tailor-made WordPress Podcast Website Creation
+            solutions, where ingenuity, superior design, and profound technical
+            know-how combine to enhance your influence in the online sphere.
+            With an extensive comprehension of the podcasting industry and a
+            profound expertise in WordPress, we fashion websites that not only
+            display your material but also generate captivating encounters for
+            your audience.
           </p>
           <button
             type="submit"

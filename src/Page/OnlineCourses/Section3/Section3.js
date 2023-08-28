@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Proficiency and Superiority :",
-      des:"Our team of experienced back-end programmers possesses years of knowledge in developing solutions that empower seamless digital experiences."
+      title:"Thorough Exploration",
+      des:"We commence by immersing ourselves in your brand's identity, grasping your objectives, target audience, and unique selling points."
     },
     {
       icon:<GiCrafting/>,
-      title:"Personalization at the Core:  ",
-      des:"We comprehend that your project is one-of-a-kind. Our approach revolves around developing solutions that are customized to meet your specific requirements, guaranteeing optimal functionality."
+      title:" Customized Solutions ",
+      des:"Each business possesses individuality, and we have faith in constructing websites that mirror that distinctiveness. Our WordPress developers’ fashion personalized solutions that align with your brand's principles and aims."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Comprehensive Project Comprehension: ",
-      des:"We don't simply write code; we grasp the broader perspective. Our back-end programmers work closely with designers, front-end developers, and stakeholders to ensure a cohesive and synchronized development process. "
+      title:"Design Excellence",
+      des:"Our designers combine ingenuity and user-centred design principles to fabricate visually remarkable websites that enthral and captivate visitors. "
     },
     {
       icon:<SiClaris/>,
-      title:"Continuous Innovation: ",
-      des:"The digital market is moving at a high speed and so are we. Our developers constantly stay ahead of industry trends, continuously innovating to provide cutting-edge solutions. "
+      title:"Flawless WordPress Incorporation",
+      des:"Harnessing the potential of WordPress, we assure that your website not only appears astonishing but also operates seamlessly on various devices and browsers. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Partnership and Communication: ",
-      des:"We value teamwork. We ensure that you are involved and well-informed throughout the development process, making sure that your vision is transformed into reality."
+      title:"Expertise in WooCommerce ",
+      des:"For companies aiming to establish an online store, we seamlessly incorporate WooCommerce, offering a reliable framework for safe transactions and efficient product administration."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Scalability and Future-Proofing:  ",
-      des:"Our back-end solutions are designed with scalability in mind. We guarantee that your digital ecosystem can accommodate growth and adapt to evolving technological trends."
+      title:"Continuous Assistance ",
+      des:"Our dedication goes beyond just development. We provide ongoing support and upkeep to ensure your website remains up-to-date, secure, and operating at its best."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Back-End Programming?</h2>
+      <h2>Why Select EasyRyt for Online Courses Development ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

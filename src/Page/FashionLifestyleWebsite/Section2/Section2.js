@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Framework ",
+    title: "Aesthetic Analysis",
     description:
-      "We start by comprehending the distinct requirements of your project. Our developers collaborate to devise a framework that is not only scalable but also tailored to your existing and future needs.  ",
+      "We closely examine the aesthetic and values of your brand, comprehending your distinct style in order to design a website that authentically reflects your fashion identity.  ",
   },
   {
     logo: logo2,
-    title: "Personalized Solutions  ",
+    title: "Visual Allure",
     description:
-      "Each project is unique. We craft bespoke backend solutions that align with your objectives, whether it's an online retail platform, web application, or content management system.",
+      "Our team of designers injects boundless creativity into every element, crafting visually captivating designs that effectively convey the essence of your fashion lifestyle.",
   },
   {
     logo: logo3,
-    title: "Data Handling ",
+    title: "Showcasing Collections",
     description:
-      "Your data holds immense value. We design and manage databases that efficiently store, organize, and retrieve information, ensuring seamless user experiences and precise analytics. ",
+      "We seamlessly integrate your collections, enabling visitors to effortlessly explore and engage with your fashion creations through an intuitive browsing experience. ",
   },
   {
     logo: logo4,
-    title: "Server Setup ",
+    title: "User-Friendly Navigation",
     description:
-      "Performance is crucial. Our developers optimize server configurations to handle sudden increases in traffic, minimize loading times, and deliver a smooth browsing experience. ",
+      "Just as a fashionista navigates trends effortlessly, we ensure that visitors can seamlessly navigate your website. Our user-centric design guarantees a smooth and enjoyable browsing journey. ",
   },
   {
     logo: logo5,
-    title: "API Integration",
+    title: "Mobile-Friendly Design",
     description:
-      "In the interconnected digital realm, Application Programming Interfaces act as connectors between different systems. We seamlessly incorporate APIs, enabling your application to effectively communicate with external services and platforms. ",
+      "Presentation is paramount in the fashion world. That's why our design is responsive, ensuring that your website looks stunning on desktops, tablets, and smartphones a like. ",
   },
   {
     logo: logo6,
-    title: "Strengthening Security Measures:  ",
+    title: "Search Engine Optimization (SEO) ",
     description:
-      "Cybersecurity is an absolute necessity. We implement robust measures to fortify the protection of user data, prevent breaches, and ensure a secure digital environment.",
+      "To amplify the digital reach of your fashion brand, we implement SEO strategies that enhance your website's visibility on search engines, driving organic traffic and boosting online presence.",
   },
 ];
 
@@ -81,12 +81,12 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Backend Development</h1>
+      <h1>Our Approach for Developing a Unique Fashion Lifestyle Website</h1>
       <p className={style.para}>
-        At EasyRyt, we acknowledge that constructing a prosperous application is
-        a dynamic fusion of inventiveness, strategic preparation, and careful
-        implementation. Our diverse group of creators, programmers, and planners
-        work cooperatively to bring your application idea to fruition.
+        To create a fashion lifestyle website that connects with style-conscious
+        audiences, we adopt a strategic and innovative approach. Our process
+        focuses on collaboration, originality, and an unwavering commitment to
+        delivering exceptional online experiences.
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (

@@ -6,13 +6,14 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        In the digital world, the rear part is the powerhouse that propels
-        triumph. Collaborate with EasyRyt to build a strong back end development
-        that not only sustains your digital endeavours but also propels them
-        ahead. Our Back End Development Services go beyond mere code - they are
-        the cogs that drive your digital revolution. Get in touch with us now
-        for a discussion, and together let's construct a rear part that
-        guarantees your digital accomplishments!
+        Are you prepared to elevate your podcast to unprecedented levels?
+        EasyRyt’s specialized services in WordPress Development for Podcast
+        Websites are specifically designed for podcasters who desire an
+        extraordinary online platform for their valuable content. Reach out to
+        us at the present time to initiate a conversation about your venture,
+        and together let us collaborate to fashion a WordPress podcast website
+        that deeply connects with your audience and solidifies your online
+        presence!
       </p>
       <h2>Get in touch with us today</h2>
       <p>

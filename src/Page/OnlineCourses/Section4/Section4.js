@@ -6,13 +6,14 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        In the digital world, the rear part is the powerhouse that propels
-        triumph. Collaborate with EasyRyt to build a strong back end development
-        that not only sustains your digital endeavours but also propels them
-        ahead. Our Back End Development Services go beyond mere code - they are
-        the cogs that drive your digital revolution. Get in touch with us now
-        for a discussion, and together let's construct a rear part that
-        guarantees your digital accomplishments!
+        Enhance Your Online Image with Remarkable WordPress: It's the perfect
+        moment to establish your brand for triumph in the digital realm. At
+        EasyRyt, we provide exceptional services for WordPress Online Website
+        Development aim to uplift your virtual portrayal, grab your viewer's
+        interest, and stimulate progress. Get in touch with us now to converse
+        about your venture, and let's collaborate in constructing a unique
+        WordPress website that shines amidst the virtual scenery, forming a
+        captivating connection between your brand and its online viewership!
       </p>
       <h2>Get in touch with us today</h2>
       <p>

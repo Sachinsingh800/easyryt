@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Framework ",
+    title: "Comprehensive Examination",
     description:
-      "We start by comprehending the distinct requirements of your project. Our developers collaborate to devise a framework that is not only scalable but also tailored to your existing and future needs.  ",
+      "We thoroughly analyse your objectives for the job board, gaining a deep understanding of the industries you cater to, the types of jobs available, and the user experience you aim to provide.  ",
   },
   {
     logo: logo2,
-    title: "Personalized Solutions  ",
+    title: "User-Focused Design",
     description:
-      "Each project is unique. We craft bespoke backend solutions that align with your objectives, whether it's an online retail platform, web application, or content management system.",
+      "Our skilled designers concentrate on crafting designs that prioritize the needs of the users, making it effortless for job seekers to browse, search, and apply for positions.",
   },
   {
     logo: logo3,
-    title: "Data Handling ",
+    title: "Smooth Integration of Job Listings",
     description:
-      "Your data holds immense value. We design and manage databases that efficiently store, organize, and retrieve information, ensuring seamless user experiences and precise analytics. ",
+      "We seamlessly incorporate the functionalities required for posting job listings, streamlining the process for employers to advertise positions and for job seekers to submit applications. ",
   },
   {
     logo: logo4,
-    title: "Server Setup ",
+    title: "Efficient Applicant Management System ",
     description:
-      "Performance is crucial. Our developers optimize server configurations to handle sudden increases in traffic, minimize loading times, and deliver a smooth browsing experience. ",
+      "Our job board websites come equipped with tools that facilitate efficient management of applicants, enabling employers to review, communicate with, and hire candidates seamlessly. ",
   },
   {
     logo: logo5,
-    title: "API Integration",
+    title: " Mobile-Friendly Design",
     description:
-      "In the interconnected digital realm, Application Programming Interfaces act as connectors between different systems. We seamlessly incorporate APIs, enabling your application to effectively communicate with external services and platforms. ",
+      "Job seekers and employers access job boards using a variety of devices. Our responsive design ensures optimal performance across desktops, tablets, and smartphones. ",
   },
   {
     logo: logo6,
-    title: "Strengthening Security Measures:  ",
+    title: "Search Engine Optimization  ",
     description:
-      "Cybersecurity is an absolute necessity. We implement robust measures to fortify the protection of user data, prevent breaches, and ensure a secure digital environment.",
+      "In order to optimize the visibility of job listings, we employ techniques that optimize your website's rankings on search engines, attracting a wider audience.",
   },
 ];
 
@@ -81,12 +81,12 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Backend Development</h1>
+      <h1>Our Approach to Developing a Job Board Website on WordPress</h1>
       <p className={style.para}>
-        At EasyRyt, we acknowledge that constructing a prosperous application is
-        a dynamic fusion of inventiveness, strategic preparation, and careful
-        implementation. Our diverse group of creators, programmers, and planners
-        work cooperatively to bring your application idea to fruition.
+        Creating a platform for job seekers and employers that caters to their
+        unique needs demands a well-thought-out and imaginative strategy. Our
+        process revolves around collaboration, innovation, and a commitment to
+        delivering outstanding results. Here's how we do it.
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (

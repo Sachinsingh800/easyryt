@@ -27,17 +27,19 @@ function JobBoardWebsite() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Back-End Web Development Services</h1>
-          <h6>Crafting Revolutionary Mobile Experiences</h6>
+          <h1>WordPress Job Board Website Development Services</h1>
+          <h6>
+            Unleash Employment Opportunities with Professional WordPress Job
+            Board Website Development Services
+          </h6>
           <p>
-            Welcome to our Back-End Web Development Services, where creativity
-            merges with functionality to design sturdy and dynamic digital
-            experiences. Serving as the backbone of your digital presence, the
-            back end plays a vital role in guaranteeing the seamless, secure,
-            and efficient operation of your website or application. With an
-            in-depth understanding of back end development, we stand as your
-            allies in creating influential solutions that propel your online
-            endeavours forward.
+            Welcome to EasyRyt’s specialized WordPress Job Board Website
+            Development services, where ingenuity, design prowess, and technical
+            expertise merge to fabricate influential platforms for connecting
+            individuals searching for employment and employers. With an
+            extensive comprehension of the employment market and proficiency in
+            WordPress, we fashion websites that not only streamline job listings
+            but also promote meaningful associations.
           </p>
           <button
             type="submit"

@@ -6,13 +6,12 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        In the digital world, the rear part is the powerhouse that propels
-        triumph. Collaborate with EasyRyt to build a strong back end development
-        that not only sustains your digital endeavours but also propels them
-        ahead. Our Back End Development Services go beyond mere code - they are
-        the cogs that drive your digital revolution. Get in touch with us now
-        for a discussion, and together let's construct a rear part that
-        guarantees your digital accomplishments!
+        Prepared to exert a substantial influence in the employment market? EasyRyt’s
+        WordPress Job Board Website Development solutions are crafted to enable
+        individuals searching for jobs and recruiters alike. Get in touch with
+        us now to converse about your venture, and let's cooperate to establish
+        a WordPress employment platform that simplifies the recruitment
+        procedure and links skilled individuals with potential!
       </p>
       <h2>Get in touch with us today</h2>
       <p>

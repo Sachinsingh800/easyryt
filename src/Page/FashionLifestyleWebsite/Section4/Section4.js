@@ -6,13 +6,12 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        In the digital world, the rear part is the powerhouse that propels
-        triumph. Collaborate with EasyRyt to build a strong back end development
-        that not only sustains your digital endeavours but also propels them
-        ahead. Our Back End Development Services go beyond mere code - they are
-        the cogs that drive your digital revolution. Get in touch with us now
-        for a discussion, and together let's construct a rear part that
-        guarantees your digital accomplishments!
+        Ready to leave a mark in the realm of fashion? EasyRyt’s Fashion
+        Lifestyle Website Creation services are tailored to capture the grace of
+        your brand and engage fashion enthusiasts. Reach out to us today to
+        discuss your project, and let's collaborate to create a WordPress
+        fashion lifestyle website that resonates with style connoisseurs and
+        sets your brand apart!
       </p>
       <h2>Get in touch with us today</h2>
       <p>

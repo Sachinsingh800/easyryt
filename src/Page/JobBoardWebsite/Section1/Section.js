@@ -50,17 +50,16 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          The Importance of Back End Development
+          The Importance of a Devoted Job Board Website
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          While the front-end captures attention, the back end enables
-          functionality. It serves as the powerhouse that handles data
-          processing, user interactions, and ensures a seamless experience
-          behind the curtain. A well-organized and optimized back end is crucial
-          for delivering user contentment, safeguarding data, and achieving peak
-          performance. From managing databases to configuring servers, our
-          Back-End Web Development Services establish the bedrock for digital
-          triumph.
+          In the digital era, a devoted employment directory is an indispensable
+          tool for both individuals searching for employment and employers. A
+          WordPress employment directory website offers the ideal platform for
+          publishing job vacancies, managing applications, and facilitating the
+          recruitment procedure. It transcends mere listings – it's about
+          building a central point that effectively unites talent with
+          opportunities.
         </p>
       </div>
     </div>

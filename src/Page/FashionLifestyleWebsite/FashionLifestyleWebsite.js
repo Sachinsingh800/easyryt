@@ -27,17 +27,19 @@ function FashionLifestyleWebsite() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Back-End Web Development Services</h1>
-          <h6>Crafting Revolutionary Mobile Experiences</h6>
+          <h1>WordPress Fashion Website Development Services</h1>
+          <h6>
+            Elevate Your Brand with Professional Fashion Lifestyle Website
+            Development Services
+          </h6>
           <p>
-            Welcome to our Back-End Web Development Services, where creativity
-            merges with functionality to design sturdy and dynamic digital
-            experiences. Serving as the backbone of your digital presence, the
-            back end plays a vital role in guaranteeing the seamless, secure,
-            and efficient operation of your website or application. With an
-            in-depth understanding of back end development, we stand as your
-            allies in creating influential solutions that propel your online
-            endeavours forward.
+            Welcome to EasyRyt’s specialized Fashion Lifestyle Website
+            Development services, where creativity, aesthetic excellence, and
+            technological expertise come together to create captivating online
+            platforms that embody the essence of elegance and lifestyle. With a
+            profound understanding of the fashion industry and web development
+            proficiency, we design websites that not only display current trends
+            but also inspire and captivate fashion enthusiasts.
           </p>
           <button
             type="submit"
