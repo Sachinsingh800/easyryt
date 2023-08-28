@@ -1,20 +1,24 @@
-import React , { useState } from "react";
+import React, { useState } from "react";
 import style from "./BusinessWebsite.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/App UI.UX Design Services 1.png";
-import Section1 from "./Section1/Section1";
-import Section2 from "../FirstPage/Section2/Section2";
-import Section3 from "../FirstPage/Section3/Section3";
-import TenthSection from "../../Section/TenthSection/TenthSection";
+import Section2 from "./Section2/Section2";
+import Section3 from "./Section3/Section3";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
+import Section4 from "./Section4/Section4";
+import ForthSection from "../../Section/ForthSection/ForthSection";
+import ServiceForm from "../../Component/ServiceForm/ServiceForm";
+import Section5 from "./Section5/Section5";
+import Section from "./Section1/Section";
 
 function BusinessWebsite() {
   const [showPopup, setShowPopup] = useState(false);
 
+  //popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
   };
@@ -23,11 +27,15 @@ function BusinessWebsite() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Business Website Development Services</h1>
+          <h1>WordPress Business Development Services</h1>
+          <h6>Revamp Your Enterprise with Our Extensive WordPress Corporate</h6>
           <p>
-            We specialize in crafting professional and dynamic business
-            websites. Our expert team designs and develops tailored solutions to
-            enhance online presence, drive growth, and maximize success.
+            Welcome to the domain of our WordPress Corporate Website Creation,
+            where creativity, expertise in design, and technical proficiency
+            unite to propel your enterprise towards online recognition. Equipped
+            with WordPress as our primary instrument and your ambitions as our
+            compass, we fabricate digital platforms that go beyond mere
+            functionality - they become driving forces for expansion.
           </p>
           <button
             type="submit"
@@ -37,24 +45,31 @@ function BusinessWebsite() {
             Get Started
           </button>
         </div>
-        <div>
+        <div className={style.img_box}>
           <img className={style.img} src={img} alt="img" />
         </div>
       </div>
-      <Section1 />
+      <Section />
       <Section2 />
       <Section3 />
-      <TenthSection />
+      <Section4 />
+      <ServiceForm />
+      <ForthSection />
       <SixthSection />
       <EleventhSection />
-      <CallButton/>
+      <Section5 />
+      <CallButton />
       <Footer />
-            {/* Popup window */}
-            {showPopup && (
+      {showPopup && (
         <>
-        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
-      <PopupOption/>
-      </>
+          <button
+            onClick={() => setShowPopup(false)}
+            className={style.closebtn}
+          >
+            Close
+          </button>
+          <PopupOption />
+        </>
       )}
     </div>
   );

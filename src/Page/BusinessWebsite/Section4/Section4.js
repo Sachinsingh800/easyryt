@@ -6,13 +6,11 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        In the digital world, the rear part is the powerhouse that propels
-        triumph. Collaborate with EasyRyt to build a strong back end development
-        that not only sustains your digital endeavours but also propels them
-        ahead. Our Back End Development Services go beyond mere code - they are
-        the cogs that drive your digital revolution. Get in touch with us now
-        for a discussion, and together let's construct a rear part that
-        guarantees your digital accomplishments!
+        This is the perfect moment to enhance your online existence and elevate
+        your brand to unprecedented levels with EasyRyt! Our WordPress Business
+        Website Development offerings are meticulously crafted to empower your
+        brand with an impactful website that captivates audiences, fosters
+        interaction, and fosters achievement.
       </p>
       <h2>Get in touch with us today</h2>
       <p>

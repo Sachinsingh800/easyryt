@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Framework ",
+    title: "Exploration and Tactics",
     description:
-      "We start by comprehending the distinct requirements of your project. Our developers collaborate to devise a framework that is not only scalable but also tailored to your existing and future needs.  ",
+      "We thoroughly immerse ourselves in comprehending your brand, goals, and intended readership. This understanding establishes the groundwork of our approach, enabling us to develop a tailored roadmap for your triumph.  ",
   },
   {
     logo: logo2,
-    title: "Personalized Solutions  ",
+    title: "Conceptualization and Implementation ",
     description:
-      "Each project is unique. We craft bespoke backend solutions that align with your objectives, whether it's an online retail platform, web application, or content management system.",
+      "Equipped with a well-thought-out plan, we embark on a voyage of creativity. Our designers meticulously formulate visually striking ideas, while our developers breathe life into these designs using their expertise in coding and mastery of the WordPress platform.",
   },
   {
     logo: logo3,
-    title: "Data Handling ",
+    title: "Personalization and Functionality ",
     description:
-      "Your data holds immense value. We design and manage databases that efficiently store, organize, and retrieve information, ensuring seamless user experiences and precise analytics. ",
+      "Your website isn't merely a digital pamphlet – it's a vibrant encounter. We leverage the capabilities of WordPress plugins to customize functionality, encompassing everything from e-commerce solutions to interactive forms, ensuring that each element seamlessly aligns with your objectives. ",
   },
   {
     logo: logo4,
-    title: "Server Setup ",
+    title: " Enhancement and Search Engine Optimization",
     description:
-      "Performance is crucial. Our developers optimize server configurations to handle sudden increases in traffic, minimize loading times, and deliver a smooth browsing experience. ",
+      "A captivating website is only effective if it can be easily discovered. We enhance every aspect of your website, including its speed and responsiveness, and infuse it with SEO strategies that amplify your online presence. ",
   },
   {
     logo: logo5,
-    title: "API Integration",
+    title: " Safety and Dependability",
     description:
-      "In the interconnected digital realm, Application Programming Interfaces act as connectors between different systems. We seamlessly incorporate APIs, enabling your application to effectively communicate with external services and platforms. ",
+      "We comprehend the significance of protecting your digital investment. Our intricate security measures guarantee that your website remains fortified against potential threats, providing you with a sense of serenity. ",
   },
   {
     logo: logo6,
-    title: "Strengthening Security Measures:  ",
+    title: "Launch and Continuation  ",
     description:
-      "Cybersecurity is an absolute necessity. We implement robust measures to fortify the protection of user data, prevent breaches, and ensure a secure digital environment.",
+      "The introduction of your website is merely the commencement. Our dedication extends through ongoing assistance and upkeep, ensuring that your website remains current, secure, and entirely functional.",
   },
 ];
 
@@ -81,12 +81,12 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Backend Development</h1>
+      <h1>Our Approach: Creating Excellence with Every Pixel</h1>
       <p className={style.para}>
-        At EasyRyt, we acknowledge that constructing a prosperous application is
-        a dynamic fusion of inventiveness, strategic preparation, and careful
-        implementation. Our diverse group of creators, programmers, and planners
-        work cooperatively to bring your application idea to fruition.
+        Crafting a WordPress platform that connects with your target audience
+        and achieves your business goals necessitates a thorough method. Our
+        process revolves around collaboration, innovation, and unwavering
+        commitment to delivering exceptional outcomes:
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (
