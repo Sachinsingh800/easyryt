@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Experienced AWS Professionals:  ",
-      des:"Our team consists of AWS-certified experts with extensive knowledge in designing, implementing, and managing AWS solutions. Utilizing our track record of success, we bring a vast amount of expertise to assist in your transformation."
+      title:" Expertise and Proficiency:  ",
+      des:"Our team consists of skilled experts in Python development with a proven history of successful projects. Their expertise guarantees that your projects are carried out with accuracy and mastery. "
     },
     {
       icon:<GiCrafting/>,
-      title:"End-to-End Solutions: ",
-      des:"We go beyond mere services and provide comprehensive solutions. Our all-encompassing approach ensures a seamless journey with AWS, covering every aspect of your transformation from initial assessment to continued support."
+      title:"Tailored Solutions:  ",
+      des:"We recognize the importance of customization. Our Python solutions are meticulously tailored to align with your unique business requirements, resulting in applications that are as exclusive as your brand."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Client-Focused Approach:  ",
-      des:"Your triumph is our utmost priority. We deeply comprehend your business requirements, tailoring our solutions to align with your objectives. Each step we take is dedicated to contributing to your growth and prosperity. "
+      title:"Efficiency and Excellence:  ",
+      des:"By merging Python's capabilities with our development prowess, we create applications that excel in both functionality and user experience, delivering optimal outcomes. "
     },
     {
       icon:<SiClaris/>,
-      title:"Innovative Solutions:  ",
-      des:"We are pioneers in AWS advancements. Our team doesn't simply follow trends; we pioneer novel methods to harness the capabilities of AWS. This enables us to offer you solutions that provide a competitive edge in your industry. "
+      title:"Scalability and Innovation:  ",
+      des:"We design solutions with scalability and adaptability in mind, allowing your applications to evolve alongside your business. Our innovative approach ensures long-term success.  "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Collaborative Alliance:  ",
-      des:"Our approach goes beyond delivering solutions; we foster partnerships. Collaborating closely with your team, we incorporate your perspectives and input, guaranteeing that the solutions we offer are tailored to your distinct corporate character."
+      title:"Collaborative Partnership: ",
+      des:"Collaboration lies at the heart of our process. We closely cooperate with you to integrate your insights and feedback, ensuring that your vision guides the journey of development. "
     },
     {
       icon:<FaInnosoft/>,
-      title:"Enduring Benefits:   ",
-      des:"Our dedication surpasses short-term outcomes. We devise solutions that expand, adjust, and advance in parallel with your business. By teaming up with us, you are investing in AWS services that provide continual worth and progression."
+      title:"Comprehensive Support:  ",
+      des:"Our commitment extends beyond development. We provide continuous support, ensuring the smooth operation of your Python applications, troubleshooting issues, and providing updates as necessary."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Amazon Web?</h2>
+      <h2>Why Choose us for Python Development ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

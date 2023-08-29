@@ -27,18 +27,17 @@ function Python() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Amazon Web Services</h1>
+          <h1>Python Development Services</h1>
           <h6>Discover Our Extensive Array of AWS Solutions</h6>
           <p>
-            Step into the realm of EasyRyt’s specialized AWS offerings, granting
-            you access to harness the exceptional capabilities of Amazon Web
-            Services. Are you prepared to propel your enterprise towards the
-            forefront of the industry, equipped with the flexibility,
-            protection, and ingenuity that AWS provides? Search no more. Our
-            comprehensive selection of AWS solutions is crafted with meticulous
-            precision to accommodate businesses in pursuit of digital revolution
-            and a leading position in the ever-evolving contemporary
-            environment.
+            Welcome to EasyRyt’s specialized page for Python Development
+            Services. Here, the convergence of creativity and coding prowess
+            takes place. Are you prepared to leverage the complete potential of
+            Python for your software engineering requirements? There is no need
+            to search elsewhere. Our highly skilled group of Python developers
+            is available to convert your concepts into vibrant and adaptable
+            solutions that redefine user interactions and propel your business
+            to new heights.
           </p>
           <button
             type="submit"
