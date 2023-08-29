@@ -27,18 +27,16 @@ function PerformanceOptimization() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Amazon Web Services</h1>
+          <h1>Performance Optimization Services</h1>
           <h6>Discover Our Extensive Array of AWS Solutions</h6>
           <p>
-            Step into the realm of EasyRyt’s specialized AWS offerings, granting
-            you access to harness the exceptional capabilities of Amazon Web
-            Services. Are you prepared to propel your enterprise towards the
-            forefront of the industry, equipped with the flexibility,
-            protection, and ingenuity that AWS provides? Search no more. Our
-            comprehensive selection of AWS solutions is crafted with meticulous
-            precision to accommodate businesses in pursuit of digital revolution
-            and a leading position in the ever-evolving contemporary
-            environment.
+            Welcome to EasyRyt’s specialized page for Expert Performance
+            Enhancement Services, where creativity intersects with peak
+            performance solutions. Are you prepared to unlock the genuine
+            capacity of your digital platforms? Explore no further. Our skilled
+            group of specialists in performance optimization is here to enhance
+            your online existence by optimizing speed, effectiveness, and user
+            delight.
           </p>
           <button
             type="submit"

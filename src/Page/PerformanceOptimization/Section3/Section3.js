@@ -13,39 +13,38 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Experienced AWS Professionals:  ",
-      des:"Our team consists of AWS-certified experts with extensive knowledge in designing, implementing, and managing AWS solutions. Utilizing our track record of success, we bring a vast amount of expertise to assist in your transformation."
+      title:"Expertise and Experience:  ",
+      des:"Our team of skilled performance optimizers brings vast knowledge and a wealth of experience to the table, ensuring that your projects are executed with meticulous precision and unmatched mastery."
     },
     {
       icon:<GiCrafting/>,
-      title:"End-to-End Solutions: ",
-      des:"We go beyond mere services and provide comprehensive solutions. Our all-encompassing approach ensures a seamless journey with AWS, covering every aspect of your transformation from initial assessment to continued support."
+      title:"Tailored Solutions: ",
+      des:"We recognize and acknowledge that every digital platform possesses distinct requirements. Our approach focuses on developing optimization strategies that seamlessly align with your specific needs, guaranteeing a seamless and harmonious integration."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Client-Focused Approach:  ",
-      des:"Your triumph is our utmost priority. We deeply comprehend your business requirements, tailoring our solutions to align with your objectives. Each step we take is dedicated to contributing to your growth and prosperity. "
+      title:"Efficiency and Velocity:   ",
+      des:"Our solutions are meticulously crafted to enhance platform speed, responsiveness, and resource efficiency, promising an uninterrupted and swift user experience. "
     },
     {
       icon:<SiClaris/>,
-      title:"Innovative Solutions:  ",
-      des:"We are pioneers in AWS advancements. Our team doesn't simply follow trends; we pioneer novel methods to harness the capabilities of AWS. This enables us to offer you solutions that provide a competitive edge in your industry. "
+      title:"Cutting-Edge Techniques:   ",
+      des:"We harness the power of the latest techniques and technologies to fine-tune your digital properties, ensuring they meet contemporary standards and perform optimally."
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Collaborative Alliance:  ",
-      des:"Our approach goes beyond delivering solutions; we foster partnerships. Collaborating closely with your team, we incorporate your perspectives and input, guaranteeing that the solutions we offer are tailored to your distinct corporate character."
+      title:"Insights Driven by Data: ",
+      des:"Our performance optimization practices rely on comprehensive data analysis. We diligently identify performance bottlenecks and inefficiencies to implement targeted enhancements."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Enduring Benefits:   ",
-      des:"Our dedication surpasses short-term outcomes. We devise solutions that expand, adjust, and advance in parallel with your business. By teaming up with us, you are investing in AWS services that provide continual worth and progression."
-    },
+      title:"Collaborative Partnership:  ",
+      des:"Communication lies at the core of our approach. Throughout the optimization process, we foster a close working relationship with you, ensuring that your objectives guide each step and that we highly value your feedback." },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Amazon Web?</h2>
+      <h2>Why Choose us for Performance Optimization ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
