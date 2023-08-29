@@ -27,18 +27,15 @@ function ServerArchitectureandConfiguration() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Amazon Web Services</h1>
+          <h1>Expert Server Architecture and Configuration Services</h1>
           <h6>Discover Our Extensive Array of AWS Solutions</h6>
           <p>
-            Step into the realm of EasyRyt’s specialized AWS offerings, granting
-            you access to harness the exceptional capabilities of Amazon Web
-            Services. Are you prepared to propel your enterprise towards the
-            forefront of the industry, equipped with the flexibility,
-            protection, and ingenuity that AWS provides? Search no more. Our
-            comprehensive selection of AWS solutions is crafted with meticulous
-            precision to accommodate businesses in pursuit of digital revolution
-            and a leading position in the ever-evolving contemporary
-            environment.
+            Welcome to EasyRyt’s specialized Server Structure and Setup
+            Solutions page, where expertise converges with streamlined server
+            performance. Are you ready to unleash the complete capabilities of
+            your server framework? You need search no more. Our seasoned team of
+            server planners is here to metamorphose your server ecosystem into a
+            dominant force of effectiveness, expandability, and dependability.
           </p>
           <button
             type="submit"

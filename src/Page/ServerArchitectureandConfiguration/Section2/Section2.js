@@ -10,38 +10,38 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Holistic Evaluation ",
-    description:"We embark on the journey of your AWS by gaining a profound comprehension of your commercial necessities and objectives. Our crew conducts an extensive evaluation of your present foundation and procedures to devise personalized AWS resolutions that harmonize flawlessly with your goals. ",
+    title: "Thorough Evaluation of Requirements",
+    description:"Our first step is to deeply comprehend the needs and goals of your business. Our team works closely together with you to fully understand the scale, workload, and performance expectations of your server setup.",
   },
   {
     logo: logo2,
-    title: "Strategic Plan ",
+    title: "Customized Design and Planning",
     description:
-      "Equipped with discernments from the evaluation, we manufacture a strategic plan that delineates the migration, implementation, and optimization stages. This roadmap serves as a compass, guaranteeing an organized and seamless AWS metamorphosis that minimizes disruptions and maximizes advantages.",
+      "Recognizing that each business is unique, we take a personalized approach to create server architectures that are tailored precisely to meet your specific requirements. This ensures maximum efficiency in every aspect.",
   },
   {
     logo: logo3,
-    title: "Tailored Resolutions",
+    title: "Efficient Implementation and Configuration",
     description:
-      "Recognizing that each enterprise is distinct, we specialize in fashioning customized AWS solutions. Whether it involves selecting the appropriate AWS services, designing an adaptable infrastructure, or enriching application performance, our resolutions are tailored to suit your precise requirements. ",
+      "Our team of skilled professionals transform designs into reality with meticulous attention to detail. We ensure that your servers are set up efficiently, following industry-leading practices for optimal performance and security.",
   },
   {
     logo: logo4,
-    title: "Collaborative Implementation ",
+    title: "Optimization for Peak Performance",
     description:
-      "Collaboration lies at the core of our methodology. We closely collaborate with your team to implement AWS solutions. Regular meetings, open communication, and immediate feedback ensure that the implementation stays on course and effectively tackles any obstacles. ",
+      "We fine-tune server configurations to allocate resources effectively, resulting in optimal speed, responsiveness, and efficient data processing. Our solutions are designed to handle heavy workloads seamlessly. ",
   },
   {
     logo: logo5,
-    title: "Continual Improvement",
+    title: "Scalability and Future-Proofing",
     description:
-      "Our dedication exceeds the primary deployment. We offer continuous supervision and improvement facilities to ensure that your AWS ecosystem functions at its highest effectiveness. Routine evaluations and refinement ensure that you are extracting the maximum benefits from your AWS venture. ",
+      "Our architecture designs are built to accommodate growth. We plan for scalability, ensuring that your solutions can adapt as your business expands, all while maintaining high levels of performance.",
   },
   {
     logo: logo6,
-    title: "Empowering through Knowledge Exchange ",
+    title: "Comprehensive Security Measures ",
     description:
-      "In addition to technical resolutions, we advocate for empowering your workforce with the abilities and understanding to proficiently oversee and optimize AWS utilities. By means of training, interactive sessions, and comprehensive documentation, we equip your team to confidently navigate the AWS realm.",
+      "Data security is of utmost importance to us. We implement robust security protocols, regular updates, and adhere to industry standards to safeguard your server environment and protect your valuable information.",
   },
 ];
 
@@ -80,7 +80,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Approach to Amazon Web Services</h1>
+      <h1>Our Approach to Providing Exceptional Services for Server Infrastructure and Configuration</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

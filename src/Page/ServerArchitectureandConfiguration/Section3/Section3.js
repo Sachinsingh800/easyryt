@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Experienced AWS Professionals:  ",
-      des:"Our team consists of AWS-certified experts with extensive knowledge in designing, implementing, and managing AWS solutions. Utilizing our track record of success, we bring a vast amount of expertise to assist in your transformation."
+      title:"Expertise and Experience:   ",
+      des:"Our team of knowledgeable server architects brings vast experience to the table, guaranteeing your projects are carried out with accuracy and expertise. "
     },
     {
       icon:<GiCrafting/>,
-      title:"End-to-End Solutions: ",
-      des:"We go beyond mere services and provide comprehensive solutions. Our all-encompassing approach ensures a seamless journey with AWS, covering every aspect of your transformation from initial assessment to continued support."
+      title:"Tailored Solutions:  ",
+      des:"We comprehend that each business possesses distinct server necessities. Our approach revolves around constructing structures that harmonize flawlessly with your specific requirements, improving performance."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Client-Focused Approach:  ",
-      des:"Your triumph is our utmost priority. We deeply comprehend your business requirements, tailoring our solutions to align with your objectives. Each step we take is dedicated to contributing to your growth and prosperity. "
+      title:"Efficiency and Reliability:   ",
+      des:"Our solutions are not solely functional; they are optimized for rapidity, responsiveness, and effective resource utilization, assuring uninterrupted operations.  "
     },
     {
       icon:<SiClaris/>,
-      title:"Innovative Solutions:  ",
-      des:"We are pioneers in AWS advancements. Our team doesn't simply follow trends; we pioneer novel methods to harness the capabilities of AWS. This enables us to offer you solutions that provide a competitive edge in your industry. "
+      title:"Scalability and Adaptability: ",
+      des:"We design server architectures that can advance alongside your business, ensuring you are prepared for growth and scientific progress.  "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Collaborative Alliance:  ",
-      des:"Our approach goes beyond delivering solutions; we foster partnerships. Collaborating closely with your team, we incorporate your perspectives and input, guaranteeing that the solutions we offer are tailored to your distinct corporate character."
+      title:"Collaborative Partnership: ",
+      des:"Transparency and communication are vital. Throughout the development and maintenance process, we collaborate closely with you to ensure your vision influences each step."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Enduring Benefits:   ",
-      des:"Our dedication surpasses short-term outcomes. We devise solutions that expand, adjust, and advance in parallel with your business. By teaming up with us, you are investing in AWS services that provide continual worth and progression."
+      title:"Comprehensive Support:   ",
+      des:"Our dedication surpasses mere implementation. We offer ongoing monitoring, troubleshooting, and updates to ensure your servers uphold their dependability and security. By selecting us for your server architecture and configuration needs, you are choosing a partner committed to maximizing your server potential, enhancing performance, and guaranteeing security. Witness the transformative impact of efficient server environments with a team that is fully devoted to your triumph."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Amazon Web?</h2>
+      <h2>Why Choose us for Our Services in Server Architecture and Configuration? </h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
