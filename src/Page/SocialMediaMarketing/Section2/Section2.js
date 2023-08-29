@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Creating Your Content Marketing Plan",
+    title: "Strategy Development",
     description:
-      "A successful content marketing plan is a guide that steers your brand towards its objectives. Our team of content marketing professionals collaborates closely with you to create a customized plan that encompasses all aspects of your brand's identity and objectives.  ",
+      "We initiate our process by conducting a thorough analysis of your business, current industry patterns, and the specific audience you aim to target. This extensive research lays the groundwork for a personalized social media marketing strategy that outlines the ideal platforms to focus on, thematic content creation, optimal posting schedules, and more.  ",
   },
   {
     logo: logo2,
-    title: "Content Conceptualization and Generation",
+    title: "Content Creation",
     description:
-      "Our innovative team brainstorms and enhances concepts for content that matches your brand's tone and connects with your audience. Whether it's informative blog articles, captivating videos, or engaging content for social media, we craft pieces that educate, entertain, and motivate action.",
+      "The key to a triumphant social media marketing campaign lies in creating compelling and captivating content. Our skilled team of content creators develop visually captivating materials, persuasive written copy, and interactive multimedia content that deeply resonates with your audience, ultimately reinforcing your brand's unique identity.",
   },
   {
     logo: logo3,
-    title: "Content Enhancement",
+    title: "Community Engagement",
     description:
-      "Producing excellent content is only part of the tale; optimizing it for search engines and enhancing the user experience is equally crucial. We apply the best practices of search engine optimization to ensure that your content attains the visibility it deserves, driving organic traffic and enhancing your brand's online presence. ",
+      "Cultivating a devoted online community necessitates consistent and meaningful interaction. We expertly manage all comments, messages, and interactions across platforms to ensure that your audience feels acknowledged and esteemed. This active engagement fosters a positive and favourable perception of your brand, while also prompting increased audience involvement.  ",
   },
   {
     logo: logo4,
-    title: "Distribution Approach",
+    title: "Paid Social Media Advertising",
     description:
-      "Generating content is merely the starting point. Our distribution approach guarantees that your content reaches the appropriate platforms and audiences, maximizing its influence. ",
+      "Amplify your reach and successfully target specific demographics with our well-crafted paid advertising campaigns. Through careful optimization of ad placements, audience targeting, and ad formats, we are able to maximize your return on investment (ROI) and effectively channel traffic to your desired destinations. ",
   },
   {
     logo: logo5,
-    title: "Content Promotion",
+    title: "Analytics and Insights",
     description:
-      "Even the exceptional substance necessitates a boost to reach its intended target group. Our services focusing on the promotion of valuable materials involve strategic outreach across multiple platforms, ranging from social networking sites to email marketing campaigns. We firmly believe in delivering your content to the online spaces frequented by your audience. ",
+      "At our core, we believe in harnessing the power of data to drive our strategies forward. Our dedicated team diligently monitors and analyses key performance metrics, consistently providing comprehensive reports that shed light on the efficacy of our efforts. This invaluable insight empowers us to continually refine our strategies for continuous improvement. ",
   },
   {
     logo: logo6,
-    title: "Evaluation and Enhancement",
+    title: "Our Services Platform Management",
     description:
-      "Data serves as the guiding force behind our endeavours. We scrupulously monitor essential indicators to gauge the impact of our content marketing approach. Our team consistently scrutinizes the findings and makes necessary adjustments to keep the strategy harmonious with your objectives.",
+      "We offer an extensive range of social media platforms, encompassing, but not limited to, Facebook, Instagram, Twitter, LinkedIn, and TikTok. Each platform necessitates a tailored approach, and we possess the expertise to effectively handle multiple accounts.",
   },
 ];
 
@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Content Marketing</h1>
+      <h1>Our Method for Social Media Marketing Services</h1>
       <p className={style.para}>
         It goes without saying that our approach to content marketing and
         promotion goes beyond ordinary blog posts or updates on social media

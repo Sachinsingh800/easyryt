@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Strategic Method:",
-      des:"Our approach to content marketing is based on a well-thought-out plan. Every piece of content we produce serves a specific purpose, whether it's generating website traffic, enhancing engagement, or converting potential customers."
+      title:"Proficiency and Background: ",
+      des:"Our specialists in social networking platforms possess a vast reservoir of knowledge and skill. They have effectively devised and implemented promotional approaches on various online platforms for enterprises operating in diverse sectors."
     },
     {
       icon:<GiCrafting/>,
-      title:"Excellent Content:",
-      des:"Content reigns supreme, and we proudly wear the crown. Our content creators are experts in their respective domains, delivering not only informative content but also content that deeply connects with your target audience on a personal level."
+      title:"Creative Brilliance: ",
+      des:"Innovation is at the heart of what we do. Our team of content producers and designers work together to craft visually captivating and emotionally evocative content that captivates and engages your target audience."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Comprehensive Strategy: ",
-      des:"We don't just create content in isolation. Our strategy incorporates content creation, optimization, and promotion, ensuring a unified and impactful approach that produces results. "
+      title:"Personalization: ",
+      des:"We don't believe in one-size-fits-all solutions. Our approaches are tailor-made to fit your distinct business requirements.  "
     },
     {
       icon:<SiClaris/>,
-      title:"Audience-Focused: ",
-      des:"Your audience comes first. We delve deep into understanding their challenges, preferences, and behaviours, enabling us to develop content that truly resonates. "
+      title:"Data-Driven: ",
+      des:"Our choices are grounded in data and analytics, guaranteeing that we are on the correct path to achieve your objectives.  "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Seasoned Team: ",
-      des:"Our team comprises experienced content strategists, writers, designers, and digital marketers who have honed their skills in creating and promoting captivating content across various industries."
+      title:"Openness: ",
+      des:"We uphold transparent communication with our clients, offering regular updates and reports on campaign performance. "
     },
     {
       icon:<FaInnosoft/>,
-      title:"Transparency:  ",
-      des:"We believe in transparent communication. Regular reporting and valuable insights keep you informed, allowing you to witness the direct impact of our efforts."
+      title:"Genuine Involvement:  ",
+      des:"Authenticity holds great importance. We interact with your target audience in a sincere and significant manner, constructing trust and nurturing allegiance to your brand."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2> Why Select EasyRyt’s Content Marketing Services?</h2>
+      <h2> Why Select EasyRyt for Social Media Marketing Services?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
