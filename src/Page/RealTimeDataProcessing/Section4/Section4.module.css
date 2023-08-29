@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: max-content;
+    padding: 3rem 8rem;
+}
+.main p{
+    font-size: 1.2rem;
+}
+.btn{
+    padding: .5rem 1rem;
+    border-radius: 15px;
+    border: none;
+    background-color: aquamarine;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
