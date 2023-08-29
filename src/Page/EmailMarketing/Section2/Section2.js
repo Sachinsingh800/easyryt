@@ -10,33 +10,33 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Requirement Analysis and Planning",
+    title: "Audience Segmentation",
     description:
-      "We begin by getting to know about your app's necessities and goals. Our crew collaborates with you to accumulate insights into the preferred capabilities, user interactions, and statistics drift. This analysis is the muse of our backend development approach.  ",
+      "Our Email Marketing Strategy involves dividing your electronic mail list into pertinent segments based on demographics, behaviours, preferences, and more. This ensures that each electronic mail is highly targeted, enhancing the chances of engagement and conversion ",
   },
   {
     logo: logo2,
-    title: "Database Design and Management",
+    title: "Captivating Content",
     description:
-      "Efficient records control is on the centre of a successful app. Our mobile app backend development team designs and enforces database systems that optimize data garage, retrieval, and control. Our knowledge consists of relational databases, NoSQL databases, and statistics caching mechanisms to ensure clean and fast facts transactions.",
+      "Our team of skilled writers creates captivating, relevant, and valuable content for your electronic mails. From attention-grabbing subject lines to persuasive body copy, we ensure that every word serves a purpose. ",
   },
   {
     logo: logo3,
-    title: "API Development",
+    title: "Strategic Design",
     description:
-      "Robust APIs (Application Programming Interfaces) are the bridge among the frontend and backend of your app. We develop APIs that enable seamless communication among extraordinary components of your app, making sure easy and efficient information trade takes place. ",
+      "Visual appeal matters. Our designers craft electronic mail templates that are not only visually appealing but also optimized for various devices. A coherent and professional design enhances your brand's credibility.  ",
   },
   {
     logo: logo4,
-    title: "Security Implementation",
+    title: "Automation",
     description:
-      "Security is paramount in the virtual landscape. Our mobile app backend development specialists employ the best safety practices to shield consumer statistics, prevent unauthorized admission, guarding the app against potential threats. We implement authentication, authorization, encryption, and other safety features to make certain, that the integrity of your app's backend is strong. ",
+      "We set up automated electronic mail workflows that deliver the right message at the right time. Whether it's a welcome series for new subscribers or a nurturing sequence for leads, automation streamlines your communication. ",
   },
   {
     logo: logo5,
-    title: "Scalability and Performance Optimization",
+    title: "Testing and Optimization",
     description:
-      "We recognize that apps want to scale. Our backend development focuses on scalability and performance optimization, making sure that your app can manage increased visitors and utilization without compromising on its pace or capability. ",
+      "We continuously test different elements of your electronic mails to optimize for better results. This includes A/B testing subject lines, content variations, send times, and more. ",
   },
   {
     logo: logo6,
@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Cross-Platform App Development</h1>
+      <h1>Our Approach</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

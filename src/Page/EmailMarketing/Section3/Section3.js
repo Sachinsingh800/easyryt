@@ -13,23 +13,23 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Expertise and Experience:",
-      des:"Our group comprises of skilled backend developers with immense experience in developing various and complicated app backends. We stay up to date with the cutting-edge technologies and trends to provide you with present day solutions."
+      title:"List Organization and Segmentation: ",
+      des:"Constructing a high-quality email list is crucial. We assist you in effectively managing your list and dividing it for precise targeting."
     },
     {
       icon:<GiCrafting/>,
-      title:"Custom Solutions:",
-      des:"We understand that every app is unique. Our solutions are tailor-made to your precise requirements, ensuring that your app's backend aligns flawlessly with your imagination."
+      title:"Captivating Content Development:",
+      des:"Our content experts create engaging content that connects with your audience and motivates action."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Agile Development:",
-      des:"We observe an agile development methodology, permitting us to confirm to changing necessities and deliver effective backend solutions. This method fosters collaboration, transparency, and quicker shipping. "
+      title:"Responsive Design: ",
+      des:"Your emails will appear stunning on any device, ensuring that your message effectively reaches a varied audience. "
     },
     {
       icon:<SiClaris/>,
-      title:"Quality Assurance:",
-      des:"We are committed to delivering solutions after rigorous testing. Best warranty procedures are an imperative part of our improvement cycle. "
+      title:"Automation Setup:",
+      des:"Save time and enhance efficiency with automated email workflows that nurture potential leads and maintain customer engagement.  "
     },
     {
       icon:<TbTruckDelivery/>,
@@ -38,14 +38,14 @@ function Section3() {
     },
     {
       icon:<FaInnosoft/>,
-      title:"Client-Centric Approach: ",
-      des:"Your satisfaction is our priority. We maintain open communication throughout the development system, keeping you updated and involved at every stage."
+      title:"Performance Tracking and Reporting: ",
+      des:"We offer detailed analytics to monitor the success of your campaigns. This data-oriented approach enables us to make informed decisions and refine strategies."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for App Backend Development Creation?</h2>
+      <h2>Why Select EasyRyt for Email Marketing Services ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
