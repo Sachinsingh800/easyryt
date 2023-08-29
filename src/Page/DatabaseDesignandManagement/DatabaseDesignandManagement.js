@@ -27,18 +27,18 @@ function DatabaseDesignandManagement() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Amazon Web Services</h1>
+          <h1>Database Design and Management Services</h1>
           <h6>Discover Our Extensive Array of AWS Solutions</h6>
           <p>
-            Step into the realm of EasyRyt’s specialized AWS offerings, granting
-            you access to harness the exceptional capabilities of Amazon Web
-            Services. Are you prepared to propel your enterprise towards the
-            forefront of the industry, equipped with the flexibility,
-            protection, and ingenuity that AWS provides? Search no more. Our
-            comprehensive selection of AWS solutions is crafted with meticulous
-            precision to accommodate businesses in pursuit of digital revolution
-            and a leading position in the ever-evolving contemporary
-            environment.
+            Welcome to EasyRyt’s exclusive page for Professional Database
+            Creation and Administration Services. On this dedicated platform, we
+            merge cutting-edge techniques with streamlined data structure to
+            provide you with unmatched database solutions. Are you ready to
+            enhance the way you store, retrieve, and handle your valuable
+            information? Your search ends here. Our team of skilled database
+            professionals is ready to revolutionize your data needs, offering
+            you state-of-the-art, flexible, and well-arranged database solutions
+            that redefine productivity and enhance your decision-making process.
           </p>
           <button
             type="submit"

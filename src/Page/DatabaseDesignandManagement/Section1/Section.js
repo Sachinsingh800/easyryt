@@ -50,24 +50,23 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          The Importance of AWS Solutions for Your Business
+          The Importance of Designing and Managing Databases
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          In the rapidly evolving realm of digital transformation, adopting
-          Amazon Web Services (AWS) is not just a decision; it's a strategic
-          necessity. AWS solutions provide a range of advantages that can
-          significantly influence your business's effectiveness, scalability,
-          and ingenuity. With AWS, you obtain the capability to adjust your
-          resources dynamically, allowing for agility in a competitive market.
-          The robust security characteristics and compliance procedures instil
-          trust in safeguarding your confidential information. AWS's advanced
-          data management and analytics abilities empower data-based
-          decision-making, propelling your business ahead. Furthermore, AWS's
-          cloud-native approach expedites application development and
-          deployment, enabling you to remain ahead in a swiftly changing realm.
-          By adopting AWS solutions, you are not only embracing the present but
-          also securing a foundation that is prepared for the future success of
-          your business.
+          In the modern era, information is crucial for making well-informed
+          decisions and achieving operational excellence. Efficiently designing
+          and managing databases play a key role in accomplishing these goals. A
+          well-organized database guarantees that vital information for your
+          organization is structured, easily obtainable, and safeguarded. It
+          empowers you to swiftly acquire valuable insights, make data-guided
+          choices, and promptly adapt to evolving market conditions. Proficient
+          database management facilitates collaboration, streamlines procedures,
+          and establishes the groundwork for innovation. By embracing
+          professional database design and management, you not only optimize the
+          storage and retrieval of your data but also lay the foundation for
+          future growth and prosperity. It represents a strategic investment in
+          harnessing the complete potential of your data to propel your
+          organization forward.
         </p>
       </div>
     </div>
