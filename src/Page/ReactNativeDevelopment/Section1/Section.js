@@ -50,16 +50,21 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          The Influence of a Devoted Affiliate Marketing Website
+          The Importance of React Native in Mobile Development
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          In the realm of online trade, possessing a devoted platform for
-          Affiliate marketing is crucial. A WordPress Affiliate marketing
-          website furnishes the optimal groundwork for efficiently promoting
-          Affiliate goods, monitoring performance, and captivating your
-          audience. It's not solely about showcasing links – it's about
-          constructing an immersive Affiliate experience that seamlessly binds
-          products with prospective purchasers.
+          React Native has become a crucial technology in contemporary mobile
+          application development, revolutionizing the process of building and
+          experiencing applications across various platforms. Its significance
+          lies in simplifying development, enhancing user interaction, and
+          enabling compatibility across multiple platforms. React Native enables
+          businesses to create visually captivating applications that seamlessly
+          operate on both iOS and Android devices. Its cross-platform attributes
+          and component-oriented structure improve development effectiveness,
+          while its emphasis on performance guarantees flawless user
+          experiences. By integrating React Native, businesses can provide
+          remarkable mobile experiences that engage users and optimize their
+          presence across a wide range of platforms.
         </p>
       </div>
     </div>

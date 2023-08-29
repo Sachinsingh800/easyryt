@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Blueprint ",
+    title: "Strategic Planning  ",
     description:
-      "We thoroughly analyse your affiliate marketing objectives, comprehending your target audience and the merchandise you endorse. This understanding lays the groundwork for our strategy, assuring that your website is in line with your affiliate goals.  ",
+      "Our approach to developing React Native apps starts with a comprehensive understanding of the objectives and target audience of your project. Through strategic planning, we guarantee that every aspect of the application aligns seamlessly with your business goals.  ",
   },
   {
     logo: logo2,
-    title: "Design with a Focus on Conversion  ",
+    title: "User-Centric Design  ",
     description:
-      "Our designers combine inventiveness with conversion-centred design principles to construct layouts that drive action. We optimize your website's arrangement to maximize clicks and engagement.",
+      "Our priority is to create interfaces centred around the user, which not only have an appealing visual aesthetic, but also enhance user engagement and satisfaction. Our design strategies focus on providing smooth and intuitive user experiences.",
   },
   {
     logo: logo3,
-    title: "Effortless Integration of Products ",
+    title: "Cross-Platform Excellence  ",
     description:
-      "We seamlessly incorporate affiliate products, presenting them in an orderly and aesthetically appealing manner. Your visitors will effortlessly explore and purchase the endorsed merchandise. ",
+      "By leveraging the cross-platform capabilities of React Native, we ensure that your app functions flawlessly on both iOS and Android devices. This approach saves time and reduces costs while expanding your reach to a wider audience. ",
   },
   {
     logo: logo4,
-    title: "User-Friendly Experience ",
+    title: "Component Reusability  ",
     description:
-      "Easily navigating your affiliate marketing site should be a breeze. Our design centred around the user ensures that visitors effortlessly discover what they desire, elevating their overall experience and motivating them to engage. ",
+      "The component-based structure of React Native allows us to reuse code components across multiple platforms, improving development efficiency and maintaining design consistency and functionality. ",
   },
   {
     logo: logo5,
-    title: "Adaptive Design",
+    title: "Performance Optimization ",
     description:
-      "It is paramount that your affiliate marketing website seamlessly functions on various devices. Our approach to design ensures an optimal encounter whether users access your site through computers, tablets, or smartphones. ",
+      "We take advantage of React Native's native components to guarantee quick loading times and responsive interactions, providing users with a smooth and captivating experience. ",
   },
   {
     logo: logo6,
-    title: "Optimization for Search Engines  ",
+    title: "Ongoing Support ",
     description:
-      "To amplify the reach of your affiliate marketing, we implement effective SEO strategies that heighten visibility on search engines, expanding the audience that can access your affiliate content.",
+      "Our commitment extends beyond development. We offer continuous maintenance, updates, and support to keep your React Native app running flawlessly and adapting to evolving user expectations.",
   },
 ];
 
@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for  Developing a WordPress Website for Affiliate Marketing</h1>
+      <h1>Our Approach to React Native Development</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

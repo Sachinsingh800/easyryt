@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Associate Advertising Specialists: ",
-      des:"We comprehend the subtleties of associate marketing and how to build optimized websites for increasing conversions and revenue generation.."
+      title:"Expertise in React Native:  ",
+      des:"Our team consists of skilled developers who possess a deep understanding of the intricacies of the framework. With hands-on experience and a proven track record, we offer unparalleled proficiency in app development using React Native. "
     },
     {
       icon:<GiCrafting/>,
-      title:"WordPress Mastery:",
-      des:"With a deep understanding of the WordPress platform, we utilize its capabilities to craft dynamic and high-performing Affiliate marketing websites."
+      title:"Tailored Solutions: ",
+      des:"We understand that each project is distinct. Our approach involves creating customized solutions using React Native that align seamlessly with your business objectives, ensuring that your app caters to your specific requirements."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Conversion-Focused Designs:  ",
-      des:"Our designers prioritize crafting designs that stimulate clicks, interactions, and ultimately, purchases of Affiliate products. "
+      title:"Cross-Platform Proficiency:  ",
+      des:"Our team excels in utilizing the cross-platform capabilities of React Native, guaranteeing flawless performance on both iOS and Android devices. This strategy maximizes your app's accessibility and enhances user engagement. "
     },
     {
       icon:<SiClaris/>,
-      title:"Seamless Integration:  ",
-      des:"We ensure that the Affiliate products smoothly integrate into your website, enhancing the user experience and driving engagement. "
+      title:"Component Reusability:   ",
+      des:"The component-based architecture of React Native empowers us to develop reusable components that maintain consistency and efficiency across platforms, resulting in accelerated development and a unified user interface. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Technical Expertise:  ",
-      des:"Our developers guarantee that your Affiliate marketing website is technically optimized for speed, performance, and security."
+      title:"Excellence in Performance:  ",
+      des:"We optimize the loading times and responsiveness of your app by utilizing the native components of React Native. This ensures a superior user experience that captivates and retains users."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Continuous Assistance:   ",
-      des:"Beyond development, we offer ongoing support to ensure that your Affiliate marketing website is always up to date and operating at its best."
+      title:"Ongoing Collaboration: ",
+      des:"We consider our clients as partners in the development journey. Our transparent and collaborative approach ensures that your insights and feedback shape the project, resulting in an app that truly reflects your vision and goals."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Affiliate Marketing Website?</h2>
+      <h2>Why Choose us for React Native Development ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

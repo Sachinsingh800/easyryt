@@ -1,20 +1,24 @@
-import React , { useState } from "react";
+import React, { useState } from "react";
 import style from "./ReactNativeDevelopment.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/React Js Development 1.png";
-import Section1 from "./Section1/Section1";
-import Section2 from "../FirstPage/Section2/Section2";
-import Section3 from "../FirstPage/Section3/Section3";
-import TenthSection from "../../Section/TenthSection/TenthSection";
+import Section2 from "./Section2/Section2";
+import Section3 from "./Section3/Section3";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
+import Section4 from "./Section4/Section4";
+import ForthSection from "../../Section/ForthSection/ForthSection";
+import ServiceForm from "../../Component/ServiceForm/ServiceForm";
+import Section5 from "./Section5/Section5";
+import Section from "./Section1/Section";
 
 function ReactNativeDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
 
+  //popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
   };
@@ -24,11 +28,18 @@ function ReactNativeDevelopment() {
       <div className={style.container}>
         <div>
           <h1>React Native Development Services</h1>
+          <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            Expert React Native development services for cross-platform mobile
-            app solutions, combining native performance with JavaScript ease.
-            Seamless user experiences and rapid deployment for your business
-            needs.
+            Welcome to EasyRyt’s Services in Building React Native Applications.
+            Explore the realm of flexible and captivating mobile apps with our
+            expert React Native App Development Services. As trailblazers in the
+            field of React and React Native application development, we
+            transform your concepts into reality by crafting user-friendly and
+            cutting-edge apps that cater to the demands of contemporary mobile
+            users. Whether you imagine a vibrant one-page app or a comprehensive
+            solution that spans multiple platforms, our talented team of React
+            Native specialists is dedicated to transforming your mobile vision
+            into a tangible masterpiece.
           </p>
           <button
             type="submit"
@@ -38,24 +49,31 @@ function ReactNativeDevelopment() {
             Get Started
           </button>
         </div>
-        <div>
+        <div className={style.img_box}>
           <img className={style.img} src={img} alt="img" />
         </div>
       </div>
-      <Section1 />
+      <Section />
       <Section2 />
       <Section3 />
-      <TenthSection />
+      <Section4 />
+      <ServiceForm />
+      <ForthSection />
       <SixthSection />
       <EleventhSection />
-      <CallButton/>
+      <Section5 />
+      <CallButton />
       <Footer />
-            {/* Popup window */}
-            {showPopup && (
+      {showPopup && (
         <>
-        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
-      <PopupOption/>
-      </>
+          <button
+            onClick={() => setShowPopup(false)}
+            className={style.closebtn}
+          >
+            Close
+          </button>
+          <PopupOption />
+        </>
       )}
     </div>
   );
