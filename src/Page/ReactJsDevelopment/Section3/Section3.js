@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Associate Advertising Specialists: ",
-      des:"We comprehend the subtleties of associate marketing and how to build optimized websites for increasing conversions and revenue generation.."
+      title:"Expert React Developers:",
+      des:"Our team consists of skilled React engineers who have a deep understanding of the complexities of the framework. They possess extensive knowledge of best practices and the most recent trends, resulting in the delivery of exceptional development work."
     },
     {
       icon:<GiCrafting/>,
-      title:"WordPress Mastery:",
-      des:"With a deep understanding of the WordPress platform, we utilize its capabilities to craft dynamic and high-performing Affiliate marketing websites."
+      title:"Proven History of Success: ",
+      des:"Through a collection of accomplished React JS projects, we showcase a consistent ability to provide outstanding applications that not only meet but surpass client expectations."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Conversion-Focused Designs:  ",
-      des:"Our designers prioritize crafting designs that stimulate clicks, interactions, and ultimately, purchases of Affiliate products. "
+      title:"Customized Solutions:   ",
+      des:"We recognize the distinctiveness of each project. Our solutions are tailor-made to meet your specific business requirements, guaranteeing that your application effectively addresses your objectives. "
     },
     {
       icon:<SiClaris/>,
-      title:"Seamless Integration:  ",
-      des:"We ensure that the Affiliate products smoothly integrate into your website, enhancing the user experience and driving engagement. "
+      title:"Comprehensive Approach:   ",
+      des:"From conceptualization to deployment and even beyond, we offer all-encompassing solutions. Our comprehensive approach covers everything from design and development to testing, deployment, and ongoing support, ensuring a seamless and integrated experience. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Technical Expertise:  ",
-      des:"Our developers guarantee that your Affiliate marketing website is technically optimized for speed, performance, and security."
+      title:"Collaborative Partnership: ",
+      des:"We consider our clients as partners in the journey of development. We highly value your input, encourage open communication, and ensure that your insights are incorporated throughout the entire development process."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Continuous Assistance:   ",
-      des:"Beyond development, we offer ongoing support to ensure that your Affiliate marketing website is always up to date and operating at its best."
+      title:"Innovation and Flexibility:   ",
+      des:"Our team thrives on innovation and adaptability. We remain up-to-date with the latest technologies and methodologies, ensuring that your application benefits from cutting-edge solutions that can readily adapt to evolving needs."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Affiliate Marketing Website?</h2>
+      <h2>Why Choose us for React JS Development ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

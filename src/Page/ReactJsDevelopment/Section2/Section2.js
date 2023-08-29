@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Blueprint ",
+    title: "User-Focused Design: ",
     description:
-      "We thoroughly analyse your affiliate marketing objectives, comprehending your target audience and the merchandise you endorse. This understanding lays the groundwork for our strategy, assuring that your website is in line with your affiliate goals.  ",
+      "Our approach revolves around creating interfaces that prioritize the needs of the user. We carefully design and prototype applications to ensure a seamless and captivating user experience that aligns with the preferences of your target audience.  ",
   },
   {
     logo: logo2,
-    title: "Design with a Focus on Conversion  ",
+    title: "Component Versatility: ",
     description:
-      "Our designers combine inventiveness with conversion-centred design principles to construct layouts that drive action. We optimize your website's arrangement to maximize clicks and engagement.",
+      "We harness the capabilities of Reacts component-based architecture to develop elements that are reusable and easily adaptable. This not only speeds up development time but also reduces unnecessary repetition and maintains a cohesive design throughout your application.",
   },
   {
     logo: logo3,
-    title: "Effortless Integration of Products ",
+    title: "Agile Software Development: ",
     description:
-      "We seamlessly incorporate affiliate products, presenting them in an orderly and aesthetically appealing manner. Your visitors will effortlessly explore and purchase the endorsed merchandise. ",
+      "We embrace an agile software development methodology, breaking projects into manageable iterations. This agile approach allows for flexibility, quick feedback loops, and continuous improvement, ensuring that your vision is effectively brought to life. ",
   },
   {
     logo: logo4,
-    title: "User-Friendly Experience ",
+    title: "Performance Enhancement: ",
     description:
-      "Easily navigating your affiliate marketing site should be a breeze. Our design centred around the user ensures that visitors effortlessly discover what they desire, elevating their overall experience and motivating them to engage. ",
+      "Performance is a fundamental aspect of our development process. By leveraging Reacts virtual DOM, we guarantee smooth performance for your application, facilitating rapid updates and seamless interactions that keep users engaged. ",
   },
   {
     logo: logo5,
-    title: "Adaptive Design",
+    title: "Continuous Growth: ",
     description:
-      "It is paramount that your affiliate marketing website seamlessly functions on various devices. Our approach to design ensures an optimal encounter whether users access your site through computers, tablets, or smartphones. ",
+      "Our commitment doesn't end at deployment. We provide ongoing maintenance, updates, and support to ensure the flawless operation of your application. We stay up-to-date with the latest advancements in React to continually enhance your application's performance and features. ",
   },
   {
     logo: logo6,
-    title: "Optimization for Search Engines  ",
+    title: "Collaborative Partnership:  ",
     description:
-      "To amplify the reach of your affiliate marketing, we implement effective SEO strategies that heighten visibility on search engines, expanding the audience that can access your affiliate content.",
+      "Our team works closely with yours, fostering open communication, shared objectives, and a deep understanding of your project's requirements.",
   },
 ];
 
@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for  Developing a WordPress Website for Affiliate Marketing</h1>
+      <h1>Our Approach to React JS Development</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

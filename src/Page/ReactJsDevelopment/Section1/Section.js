@@ -50,16 +50,20 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          The Influence of a Devoted Affiliate Marketing Website
+          The Significance of React JS Development
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          In the realm of online trade, possessing a devoted platform for
-          Affiliate marketing is crucial. A WordPress Affiliate marketing
-          website furnishes the optimal groundwork for efficiently promoting
-          Affiliate goods, monitoring performance, and captivating your
-          audience. It's not solely about showcasing links – it's about
-          constructing an immersive Affiliate experience that seamlessly binds
-          products with prospective purchasers.
+          The Importance of React JS in Contemporary Web Development React JS
+          has become a fundamental aspect in up-to-date web development,
+          revolutionizing the way applications are created and improving user
+          interactions. Its structure based on components simplifies
+          development, increasing productivity and the ability to maintain code.
+          The virtual DOM guarantees seamless updates in real time, crucial for
+          designing captivating user interfaces. Reacts compatibility with
+          search engine optimization (SEO) and expansive array of resources
+          further emphasize its significance, empowering businesses to generate
+          inventive and effective web applications that excel in the dynamic
+          digital environment of today.
         </p>
       </div>
     </div>

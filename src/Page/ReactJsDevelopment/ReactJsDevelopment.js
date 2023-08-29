@@ -30,13 +30,15 @@ function ReactJsDevelopment() {
           <h1>React Js Development</h1>
           <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            Welcome to EasyRyt’s dedicated WordPress Affiliate Marketing Website
-            Development solutions, where originality, creative flair, and
-            technical expertise unite to elevate your affiliate marketing
-            pursuits to unprecedented levels. With a profound comprehension of
-            affiliate tactics and unrivalled proficiency in WordPress, we
-            construct websites that not only spotlight your affiliate
-            merchandise but also generate conversions and income.
+            Welcome to EasyRyt’s Services for Developing React JS Applications.
+            Are you searching for creating state-of-the-art web applications
+            that provide smooth user experiences and outstanding execution? Our
+            Services for Developing React JS Applications are customized to
+            fulfil your distinct business requirements, regardless of whether
+            you're initiating a fresh venture or improving an already existing
+            one. With a group of proficient React programmers and a verified
+            history of prosperous endeavours, we are here to transform your
+            concept into actuality.
           </p>
           <button
             type="submit"
