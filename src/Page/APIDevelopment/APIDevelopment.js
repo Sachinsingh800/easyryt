@@ -27,18 +27,16 @@ function APIDevelopment() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Amazon Web Services</h1>
+          <h1>API Development Services</h1>
           <h6>Discover Our Extensive Array of AWS Solutions</h6>
           <p>
-            Step into the realm of EasyRyt’s specialized AWS offerings, granting
-            you access to harness the exceptional capabilities of Amazon Web
-            Services. Are you prepared to propel your enterprise towards the
-            forefront of the industry, equipped with the flexibility,
-            protection, and ingenuity that AWS provides? Search no more. Our
-            comprehensive selection of AWS solutions is crafted with meticulous
-            precision to accommodate businesses in pursuit of digital revolution
-            and a leading position in the ever-evolving contemporary
-            environment.
+            Welcome to EasyRyt’s specialized page for API creation services,
+            where originality blends with coding expertise. Are you prepared to
+            unleash the possibilities of smooth connectivity and information
+            sharing? Search no more. Our skilled group of API creators is
+            available to convert your business concepts into dynamic and
+            reliable API solutions that redefine user interactions and enhance
+            your online footprint.
           </p>
           <button
             type="submit"

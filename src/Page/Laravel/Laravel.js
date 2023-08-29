@@ -27,18 +27,16 @@ function Laravel() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Amazon Web Services</h1>
+          <h1>Laravel Development Services</h1>
           <h6>Discover Our Extensive Array of AWS Solutions</h6>
           <p>
-            Step into the realm of EasyRyt’s specialized AWS offerings, granting
-            you access to harness the exceptional capabilities of Amazon Web
-            Services. Are you prepared to propel your enterprise towards the
-            forefront of the industry, equipped with the flexibility,
-            protection, and ingenuity that AWS provides? Search no more. Our
-            comprehensive selection of AWS solutions is crafted with meticulous
-            precision to accommodate businesses in pursuit of digital revolution
-            and a leading position in the ever-evolving contemporary
-            environment.
+            Welcome to EasyRyt’s specialized Laravel Development Services page,
+            where creativity combines with coding expertise. Are you prepared to
+            unlock the complete capabilities of Laravel for your web application
+            development requirements? Look no more. Our skilled group of Laravel
+            developers is here to convert your ideas into dynamic and expandable
+            web applications that redefine user encounters and drive your
+            business ahead.
           </p>
           <button
             type="submit"

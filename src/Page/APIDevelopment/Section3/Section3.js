@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Experienced AWS Professionals:  ",
-      des:"Our team consists of AWS-certified experts with extensive knowledge in designing, implementing, and managing AWS solutions. Utilizing our track record of success, we bring a vast amount of expertise to assist in your transformation."
+      title:"Expertise and Experience:   ",
+      des:"Our team comprises skilled developers who have a vast amount of knowledge and expertise in creating APIs. With a well-established history of success, we guarantee that your projects will be executed with meticulousness and proficiency."
     },
     {
       icon:<GiCrafting/>,
-      title:"End-to-End Solutions: ",
-      des:"We go beyond mere services and provide comprehensive solutions. Our all-encompassing approach ensures a seamless journey with AWS, covering every aspect of your transformation from initial assessment to continued support."
+      title:"Customized Solutions: ",
+      des:"We recognize that each business is distinctive. Therefore, our approach centres around designing APIs that are tailored to meet your specific requirements, resulting in seamless integration within your ecosystem."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Client-Focused Approach:  ",
-      des:"Your triumph is our utmost priority. We deeply comprehend your business requirements, tailoring our solutions to align with your objectives. Each step we take is dedicated to contributing to your growth and prosperity. "
+      title:"Streamlined Performance:  ",
+      des:"We prioritize both the functionality and efficiency of our APIs. Our designs are optimized for speed, responsiveness, and user satisfaction, ensuring exceptional performance. "
     },
     {
       icon:<SiClaris/>,
-      title:"Innovative Solutions:  ",
-      des:"We are pioneers in AWS advancements. Our team doesn't simply follow trends; we pioneer novel methods to harness the capabilities of AWS. This enables us to offer you solutions that provide a competitive edge in your industry. "
+      title:"Robust Security and Compliance:  ",
+      des:"The safeguarding of data is of paramount importance to us. We employ strong security measures, including authentication, encryption, and adherence to industry standards, in order to ensure the protection of your data. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Collaborative Alliance:  ",
-      des:"Our approach goes beyond delivering solutions; we foster partnerships. Collaborating closely with your team, we incorporate your perspectives and input, guaranteeing that the solutions we offer are tailored to your distinct corporate character."
+      title:"Collaborative Partnership: ",
+      des:"We firmly believe in transparent and continuous communication. Throughout the development process, we actively involve you, integrate your feedback, and work towards achieving your vision."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Enduring Benefits:   ",
-      des:"Our dedication surpasses short-term outcomes. We devise solutions that expand, adjust, and advance in parallel with your business. By teaming up with us, you are investing in AWS services that provide continual worth and progression."
+      title:"End-to-End Excellence:   ",
+      des:"Our commitment extends beyond development. We provide comprehensive support that includes detailed documentation, efficient troubleshooting, and ongoing maintenance, guaranteeing the reliability and up-to-datedness of your APIs."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Amazon Web?</h2>
+      <h2>Why Choose us for API Development ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
