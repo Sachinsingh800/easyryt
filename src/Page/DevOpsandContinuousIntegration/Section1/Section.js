@@ -50,24 +50,19 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          The Importance of AWS Solutions for Your Business
+          The Importance of DevOps and CI/CD
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          In the rapidly evolving realm of digital transformation, adopting
-          Amazon Web Services (AWS) is not just a decision; it's a strategic
-          necessity. AWS solutions provide a range of advantages that can
-          significantly influence your business's effectiveness, scalability,
-          and ingenuity. With AWS, you obtain the capability to adjust your
-          resources dynamically, allowing for agility in a competitive market.
-          The robust security characteristics and compliance procedures instil
-          trust in safeguarding your confidential information. AWS's advanced
-          data management and analytics abilities empower data-based
-          decision-making, propelling your business ahead. Furthermore, AWS's
-          cloud-native approach expedites application development and
-          deployment, enabling you to remain ahead in a swiftly changing realm.
-          By adopting AWS solutions, you are not only embracing the present but
-          also securing a foundation that is prepared for the future success of
-          your business.
+          In the domain of software development, DevOps and Continuous
+          Integration/Continuous Deployment (CI/CD) hold great significance.
+          DevOps encourages teamwork, enhancing communication and expediting
+          innovation. In the meantime, CI/CD automates code merging, testing,
+          and rollout, resulting in expedited and dependable software launches.
+          These methodologies empower organizations to promptly adapt to market
+          requirements, refine software excellence, and cultivate a culture of
+          never-ending enhancement. With streamlined procedures and automated
+          workflows, enterprises can efficaciously deliver software, diminish
+          errors, and remain competitive in the ever-evolving digital realm.
         </p>
       </div>
     </div>

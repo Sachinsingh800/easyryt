@@ -10,38 +10,38 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Holistic Evaluation ",
-    description:"We embark on the journey of your AWS by gaining a profound comprehension of your commercial necessities and objectives. Our crew conducts an extensive evaluation of your present foundation and procedures to devise personalized AWS resolutions that harmonize flawlessly with your goals. ",
+    title: "Comprehensive Assessment",
+    description:"We initiate by comprehending your current workflows and software development procedures. Our team collaborates closely with you to pinpoint areas for enhancement.  ",
   },
   {
     logo: logo2,
-    title: "Strategic Plan ",
+    title: "Tailored Strategy Development",
     description:
-      "Equipped with discernments from the evaluation, we manufacture a strategic plan that delineates the migration, implementation, and optimization stages. This roadmap serves as a compass, guaranteeing an organized and seamless AWS metamorphosis that minimizes disruptions and maximizes advantages.",
+      "Taking into consideration that each organization is distinct, we create a personalized DevOps and CI/CD strategy that aligns with your objectives and business requirements. ",
   },
   {
     logo: logo3,
-    title: "Tailored Resolutions",
+    title: "Automated CI/CD Pipelines",
     description:
-      "Recognizing that each enterprise is distinct, we specialize in fashioning customized AWS solutions. Whether it involves selecting the appropriate AWS services, designing an adaptable infrastructure, or enriching application performance, our resolutions are tailored to suit your precise requirements. ",
+      "We devise and deploy robust CI/CD pipelines that automate code integration, testing, and deployment, decreasing manual errors and accelerating releases.  ",
   },
   {
     logo: logo4,
-    title: "Collaborative Implementation ",
+    title: "Infrastructure as Code (IaC) Implementation",
     description:
-      "Collaboration lies at the core of our methodology. We closely collaborate with your team to implement AWS solutions. Regular meetings, open communication, and immediate feedback ensure that the implementation stays on course and effectively tackles any obstacles. ",
+      "We facilitate the adoption of IaC, automating infrastructure provisioning for consistent and repeatable deployments across environments. ",
   },
   {
     logo: logo5,
-    title: "Continual Improvement",
+    title: "Containerization and Orchestration Expertise",
     description:
-      "Our dedication exceeds the primary deployment. We offer continuous supervision and improvement facilities to ensure that your AWS ecosystem functions at its highest effectiveness. Routine evaluations and refinement ensure that you are extracting the maximum benefits from your AWS venture. ",
+      "Our team harnesses containerization technologies such as Docker and orchestration tools like Kubernetes to optimize resource usage and scalability. ",
   },
   {
     logo: logo6,
-    title: "Empowering through Knowledge Exchange ",
+    title: "Continuous Monitoring and Optimization",
     description:
-      "In addition to technical resolutions, we advocate for empowering your workforce with the abilities and understanding to proficiently oversee and optimize AWS utilities. By means of training, interactive sessions, and comprehensive documentation, we equip your team to confidently navigate the AWS realm.",
+      "We establish continuous monitoring mechanisms to track performance and discover areas for improvement, guaranteeing ongoing enhancement of your DevOps and CI/CD procedures.",
   },
 ];
 
@@ -80,7 +80,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Approach to Amazon Web Services</h1>
+      <h1>Our Approach to Effective DevOps and CI/CD Implementation</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

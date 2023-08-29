@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Experienced AWS Professionals:  ",
-      des:"Our team consists of AWS-certified experts with extensive knowledge in designing, implementing, and managing AWS solutions. Utilizing our track record of success, we bring a vast amount of expertise to assist in your transformation."
+      title:"Proficient DevOps Specialists:   ",
+      des:"Our squad consists of talented DevOps specialists with vast expertise, guaranteeing seamless execution of DevOps and CI/CD methodologies."
     },
     {
       icon:<GiCrafting/>,
-      title:"End-to-End Solutions: ",
-      des:"We go beyond mere services and provide comprehensive solutions. Our all-encompassing approach ensures a seamless journey with AWS, covering every aspect of your transformation from initial assessment to continued support."
+      title:"Tailored Solutions: ",
+      des:"We acknowledge the unique requirements of each organization. Our approach revolves around crafting solutions that perfectly align with your specific needs. "
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Client-Focused Approach:  ",
-      des:"Your triumph is our utmost priority. We deeply comprehend your business requirements, tailoring our solutions to align with your objectives. Each step we take is dedicated to contributing to your growth and prosperity. "
+      title:"Effectiveness and Velocity:   ",
+      des:"Our solutions are designed to expedite software delivery, diminishing development cycles and empowering you to gain an edge in a competitive environment. "
     },
     {
       icon:<SiClaris/>,
-      title:"Innovative Solutions:  ",
-      des:"We are pioneers in AWS advancements. Our team doesn't simply follow trends; we pioneer novel methods to harness the capabilities of AWS. This enables us to offer you solutions that provide a competitive edge in your industry. "
+      title:"Trustworthiness and Automation: ",
+      des:"We prioritize dependability through automation. Our CI/CD pipelines and IaC implementations ensure consistent and flaw-free deployments.  "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Collaborative Alliance:  ",
-      des:"Our approach goes beyond delivering solutions; we foster partnerships. Collaborating closely with your team, we incorporate your perspectives and input, guaranteeing that the solutions we offer are tailored to your distinct corporate character."
+      title:"Expandability and Resource Optimization:  ",
+      des:"We deploy containerization and orchestration solutions that facilitate efficient resource utilization and effortless scalability. "
     },
     {
       icon:<FaInnosoft/>,
-      title:"Enduring Benefits:   ",
-      des:"Our dedication surpasses short-term outcomes. We devise solutions that expand, adjust, and advance in parallel with your business. By teaming up with us, you are investing in AWS services that provide continual worth and progression."
+      title:"Collaborative Partnership:  ",
+      des:"Communication is key. Throughout the entire DevOps and CI/CD implementation, we collaborate closely with you, making sure your objectives guide every step of the way."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Amazon Web?</h2>
+      <h2>What Choose us for Our DevOps and CI/CD Services ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

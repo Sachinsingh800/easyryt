@@ -27,18 +27,21 @@ function DevOpsandContinuousIntegration() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Amazon Web Services</h1>
+          <h1>
+            Expert DevOps and Continuous Integration/Continuous Deployment
+            (CI/CD) Services
+          </h1>
           <h6>Discover Our Extensive Array of AWS Solutions</h6>
           <p>
-            Step into the realm of EasyRyt’s specialized AWS offerings, granting
-            you access to harness the exceptional capabilities of Amazon Web
-            Services. Are you prepared to propel your enterprise towards the
-            forefront of the industry, equipped with the flexibility,
-            protection, and ingenuity that AWS provides? Search no more. Our
-            comprehensive selection of AWS solutions is crafted with meticulous
-            precision to accommodate businesses in pursuit of digital revolution
-            and a leading position in the ever-evolving contemporary
-            environment.
+            Welcome to EasyRyt’s dedicated page for Professional DevOps and
+            Continuous Integration/Continuous Deployment (CI/CD) Solutions. We
+            specialize in providing cutting-edge services that bring together
+            innovation and streamlined workflows. If you are ready to accelerate
+            the delivery of your software, improve collaboration, and constantly
+            enhance your processes, you have come to the right place. Our team
+            of skilled DevOps engineers is here to fine-tune your development
+            lifecycle, guaranteeing efficiency, dependability, and continuous
+            innovation.
           </p>
           <button
             type="submit"
