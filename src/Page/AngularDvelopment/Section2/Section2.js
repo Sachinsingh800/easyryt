@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import style from "./Section2.module.css";
 import logo1 from "../../../Image/chart.gif";
 import logo2 from "../../../Image/date.gif";
@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Android App",
+    title: "Strategic Planning ",
     description:
-      "Our Android applications are renowned for their captivating User Interface UI/UX, rapid loading speeds, and reliable performance.",
+      "Our approach to developing with AngularJS starts with a comprehensive examination of your project's goals and needs. The strategic planning process ensures that every aspect of the application aligns perfectly with your company's objectives.  ",
   },
   {
     logo: logo2,
-    title: "iOS App",
+    title: "User-Centric Design",
     description:
-      "Our iOS apps embody innovative concepts, featuring intuitive GUIs. With our proficient iPhone application development team, you'll find the perfect solution for your needs.",
+      "Our priority is to create interfaces that are centred around the needs of the user. These interfaces not only have a visually appealing design but also improve user engagement and satisfaction. Our design strategies aim to deliver flawless and user-friendly experiences.",
   },
   {
     logo: logo3,
-    title: "Tablet App development",
+    title: "Experienced Framework Proficiency ",
     description:
-      "We offer extensive tablet app development solutions to diverse industries, catering to startups and leading enterprises alike.",
+      "Leveraging the expertise of our team of skilled AngularJS developers, we utilize the capabilities of this well-established framework to construct robust and scalable applications. Our proficiency guarantees that your application adheres to industry best practices and meets the required standards. ",
   },
   {
     logo: logo4,
-    title: "iPad App Development",
+    title: "Modular Architecture",
     description:
-      "With years of proficiency in native app development, our team can fulfill your unique requirements. We provide impeccable, visually appealing iPad app development services using Flutter.",
+      "With AngularJS' modular architecture, we promote greater code reusability and maintainability. We focus on developing modular components that not only enhance development efficiency but also facilitate future scalability. ",
   },
   {
     logo: logo5,
-    title: "AR App Development",
+    title: "Agile Development",
     description:
-      "Benefiting from over 15 years of expertise in 3D modeling and Augmented Reality (AR), we deliver top-notch AR software swiftly. Our team crafts cutting-edge virtual reality solutions, harnessing the latest tools and advancements.",
+      "Following an agile development methodology, we prioritize collaboration, adaptability, and regular feedback. This approach ensures that your project evolves based on your input and changing requirements. ",
   },
   {
     logo: logo6,
-    title: "Marketing Automation Solutions",
+    title: "Continuous Support",
     description:
-      "Catering to diverse user needs, our team develops Native applications that precisely align with their business requirements. Leveraging the finest native app development platform, we ensure optimal results for every project.",
+      "We provide ongoing maintenance, updates, and support to ensure the smooth and efficient operation of your AngularJS application over the long term.",
   },
 ];
 
@@ -54,8 +54,6 @@ const lightColors = [
   "#FFC6C6",
   "#E0FF9F",
 ]; // You can add more light colors here
-
-
 
 function Section2() {
   const [randomColors, setRandomColors] = useState(lightColors);
@@ -83,14 +81,20 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>The Expertise Of Our Native App Development Service</h1>
+      <h1>Our Approach to Angular JS Development</h1>
       <p className={style.para}>
-        As a native app development company, we have expertise in developing
-        Native apps for different platforms. Take a look at our expertise:
+        At EasyRyt, we acknowledge that constructing a prosperous application is
+        a dynamic fusion of inventiveness, strategic preparation, and careful
+        implementation. Our diverse group of creators, programmers, and planners
+        work cooperatively to bring your application idea to fruition.
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (
-          <div className={style.card} key={index} style={{ background: randomColors[index] }}>
+          <div
+            className={style.card}
+            key={index}
+            style={{ background: randomColors[index] }}
+          >
             <img className={style.img} src={data.logo} alt={`img${index}`} />
             <h6>{data.title}</h6>
             <p>{data.description}</p>
