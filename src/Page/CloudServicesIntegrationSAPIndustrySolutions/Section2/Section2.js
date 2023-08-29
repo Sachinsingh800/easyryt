@@ -10,38 +10,38 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Holistic Evaluation ",
-    description:"We embark on the journey of your AWS by gaining a profound comprehension of your commercial necessities and objectives. Our crew conducts an extensive evaluation of your present foundation and procedures to devise personalized AWS resolutions that harmonize flawlessly with your goals. ",
+    title: "Detailed Analysis",
+    description:"We start by thoroughly examining your business requirements and current systems. Our team works closely with you to grasp the breadth and objectives of the integration.  ",
   },
   {
     logo: logo2,
-    title: "Strategic Plan ",
+    title: "Customized Integration Strategy",
     description:
-      "Equipped with discernments from the evaluation, we manufacture a strategic plan that delineates the migration, implementation, and optimization stages. This roadmap serves as a compass, guaranteeing an organized and seamless AWS metamorphosis that minimizes disruptions and maximizes advantages.",
+      "Recognizing the distinctiveness of each enterprise, our approach involves devising a tailored integration strategy that seamlessly aligns with your specific needs. ",
   },
   {
     logo: logo3,
-    title: "Tailored Resolutions",
+    title: "Efficient Implementation of Integration",
     description:
-      "Recognizing that each enterprise is distinct, we specialize in fashioning customized AWS solutions. Whether it involves selecting the appropriate AWS services, designing an adaptable infrastructure, or enriching application performance, our resolutions are tailored to suit your precise requirements. ",
+      "Our skilled professionals convert strategy into action with careful execution. We ensure the smooth and secure integration of your cloud services.  ",
   },
   {
     logo: logo4,
-    title: "Collaborative Implementation ",
+    title: "Excellence in Data Migration",
     description:
-      "Collaboration lies at the core of our methodology. We closely collaborate with your team to implement AWS solutions. Regular meetings, open communication, and immediate feedback ensure that the implementation stays on course and effectively tackles any obstacles. ",
+      "Effortlessly transfer your data to the cloud with our expertise. We prioritize data integrity during the migration process, guaranteeing accurate and seamless transfer and transformation of your information.  ",
   },
   {
     logo: logo5,
-    title: "Continual Improvement",
+    title: "Real-time Connectivity",
     description:
-      "Our dedication exceeds the primary deployment. We offer continuous supervision and improvement facilities to ensure that your AWS ecosystem functions at its highest effectiveness. Routine evaluations and refinement ensure that you are extracting the maximum benefits from your AWS venture. ",
+      "Our approach facilitates real-time data exchange and connectivity among different cloud services, ensuring effortless collaboration and streamlined workflows.  ",
   },
   {
     logo: logo6,
-    title: "Empowering through Knowledge Exchange ",
+    title: "Continuous Monitoring and Support ",
     description:
-      "In addition to technical resolutions, we advocate for empowering your workforce with the abilities and understanding to proficiently oversee and optimize AWS utilities. By means of training, interactive sessions, and comprehensive documentation, we equip your team to confidently navigate the AWS realm.",
+      "Our commitment extends beyond integration. We provide continuous monitoring, troubleshooting, and support to ensure optimal performance of your integrated cloud services.",
   },
 ];
 
@@ -80,7 +80,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Approach to Amazon Web Services</h1>
+      <h1>Our Approach to Smooth Integration of Cloud Services </h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

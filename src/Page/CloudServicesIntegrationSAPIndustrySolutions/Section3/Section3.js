@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Experienced AWS Professionals:  ",
-      des:"Our team consists of AWS-certified experts with extensive knowledge in designing, implementing, and managing AWS solutions. Utilizing our track record of success, we bring a vast amount of expertise to assist in your transformation."
+      title:"Expertise and Proficiency:   ",
+      des:"Our proficient team of cloud integration specialists brings extensive knowledge to the table, guaranteeing precise and skilful execution of your projects."
     },
     {
       icon:<GiCrafting/>,
-      title:"End-to-End Solutions: ",
-      des:"We go beyond mere services and provide comprehensive solutions. Our all-encompassing approach ensures a seamless journey with AWS, covering every aspect of your transformation from initial assessment to continued support."
+      title:"Customized Solutions:  ",
+      des:"We recognize that each business has distinctive integration requirements. Our approach revolves around crafting customized solutions that seamlessly align with your specific needs."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Client-Focused Approach:  ",
-      des:"Your triumph is our utmost priority. We deeply comprehend your business requirements, tailoring our solutions to align with your objectives. Each step we take is dedicated to contributing to your growth and prosperity. "
+      title:"Efficiency and Connectivity:  ",
+      des:"Our integration solutions are optimized to enhance efficiency and enable uninterrupted data flow, guaranteeing seamless collaboration among your cloud services."
     },
     {
       icon:<SiClaris/>,
-      title:"Innovative Solutions:  ",
-      des:"We are pioneers in AWS advancements. Our team doesn't simply follow trends; we pioneer novel methods to harness the capabilities of AWS. This enables us to offer you solutions that provide a competitive edge in your industry. "
+      title:"Scalability and Future-Proofing: ",
+      des:"We devise integration solutions that can adapt and grow alongside your business, ensuring you can meet evolving demands without compromising performance. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Collaborative Alliance:  ",
-      des:"Our approach goes beyond delivering solutions; we foster partnerships. Collaborating closely with your team, we incorporate your perspectives and input, guaranteeing that the solutions we offer are tailored to your distinct corporate character."
+      title:"Collaborative Partnership: ",
+      des:"Transparency and effective communication are fundamental to our approach. Throughout the integration process, we work closely with you, ensuring your vision guides every step."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Enduring Benefits:   ",
-      des:"Our dedication surpasses short-term outcomes. We devise solutions that expand, adjust, and advance in parallel with your business. By teaming up with us, you are investing in AWS services that provide continual worth and progression."
+      title:"Comprehensive Support:  ",
+      des:"Our commitment extends beyond implementation. We offer continuous monitoring, troubleshooting, and updates to ensure the reliability and security of your integrated cloud services."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Amazon Web?</h2>
+      <h2>Why Choose us for Our Cloud Services Integration Solutions ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
