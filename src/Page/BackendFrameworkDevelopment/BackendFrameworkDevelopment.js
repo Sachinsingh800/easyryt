@@ -27,18 +27,16 @@ function BackendFrameworkDevelopment() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Amazon Web Services</h1>
+          <h1>Backend Framework Development Services</h1>
           <h6>Discover Our Extensive Array of AWS Solutions</h6>
           <p>
-            Step into the realm of EasyRyt’s specialized AWS offerings, granting
-            you access to harness the exceptional capabilities of Amazon Web
-            Services. Are you prepared to propel your enterprise towards the
-            forefront of the industry, equipped with the flexibility,
-            protection, and ingenuity that AWS provides? Search no more. Our
-            comprehensive selection of AWS solutions is crafted with meticulous
-            precision to accommodate businesses in pursuit of digital revolution
-            and a leading position in the ever-evolving contemporary
-            environment.
+            Welcome to EasyRyt’s dedicated page for Professional Development
+            Services in Backend Framework. Here, a blend of creativity and
+            strong backend solutions await you. Are you ready to enhance your
+            online presence with a top-notch backend framework? Rest assured,
+            your search ends right here. Our proficient team of backend
+            developers is ready to turn your ideas into vibrant, efficient
+            backend frameworks that power your applications and platforms.
           </p>
           <button
             type="submit"

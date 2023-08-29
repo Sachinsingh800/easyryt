@@ -10,38 +10,38 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Holistic Evaluation ",
-    description:"We embark on the journey of your AWS by gaining a profound comprehension of your commercial necessities and objectives. Our crew conducts an extensive evaluation of your present foundation and procedures to devise personalized AWS resolutions that harmonize flawlessly with your goals. ",
+    title: "Inclusive Necessities Assessment",
+    description:"We commence by comprehending your project objectives and business prerequisites. Our team collaborates closely with you to grasp the crux of your web app's purpose and functionalities. ",
   },
   {
     logo: logo2,
-    title: "Strategic Plan ",
+    title: "Tailored Development Blueprint ",
     description:
-      "Equipped with discernments from the evaluation, we manufacture a strategic plan that delineates the migration, implementation, and optimization stages. This roadmap serves as a compass, guaranteeing an organized and seamless AWS metamorphosis that minimizes disruptions and maximizes advantages.",
+      "Acknowledging the singularity of each project, our methodology involves crafting a personalized development blueprint that aligns with your specific requirements and goals. ",
   },
   {
     logo: logo3,
-    title: "Tailored Resolutions",
+    title: "Holistic Full-Stack Development",
     description:
-      "Recognizing that each enterprise is distinct, we specialize in fashioning customized AWS solutions. Whether it involves selecting the appropriate AWS services, designing an adaptable infrastructure, or enriching application performance, our resolutions are tailored to suit your precise requirements. ",
+      "Seamlessly integrating frontend and backend expertise, we ensure your web app is crafted as a complete, operational, and cohesive entity.  ",
   },
   {
     logo: logo4,
-    title: "Collaborative Implementation ",
+    title: "User-Focused UI/UX Design",
     description:
-      "Collaboration lies at the core of our methodology. We closely collaborate with your team to implement AWS solutions. Regular meetings, open communication, and immediate feedback ensure that the implementation stays on course and effectively tackles any obstacles. ",
+      "Prioritizing user experiences, we create intuitive and visually captivating interfaces that captivate users and guarantee effortless navigation through your web applications.  ",
   },
   {
     logo: logo5,
-    title: "Continual Improvement",
+    title: "Efficiency and Performance Enhancement",
     description:
-      "Our dedication exceeds the primary deployment. We offer continuous supervision and improvement facilities to ensure that your AWS ecosystem functions at its highest effectiveness. Routine evaluations and refinement ensure that you are extracting the maximum benefits from your AWS venture. ",
+      "We optimize for velocity and responsiveness, ensuring your web app delivers a seamless user experience, even during periods of high traffic.  ",
   },
   {
     logo: logo6,
-    title: "Empowering through Knowledge Exchange ",
+    title: "Scalability and Future-Proofing",
     description:
-      "In addition to technical resolutions, we advocate for empowering your workforce with the abilities and understanding to proficiently oversee and optimize AWS utilities. By means of training, interactive sessions, and comprehensive documentation, we equip your team to confidently navigate the AWS realm.",
+      "Our approach is forward-thinking. We engineer web applications that can adapt alongside your business, accommodating heightened user demands and future refinements.",
   },
 ];
 
@@ -80,7 +80,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Approach to Amazon Web Services</h1>
+      <h1>Our Approach to Web Application Development Services</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

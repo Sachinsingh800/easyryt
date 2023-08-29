@@ -10,38 +10,38 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Holistic Evaluation ",
-    description:"We embark on the journey of your AWS by gaining a profound comprehension of your commercial necessities and objectives. Our crew conducts an extensive evaluation of your present foundation and procedures to devise personalized AWS resolutions that harmonize flawlessly with your goals. ",
+    title: "Thoroughly Assessing Your Requirements ",
+    description:"We kick off the process by comprehending your project goals and needs. Our team works closely with you to understand the extent, features, and aims of your backend framework. ",
   },
   {
     logo: logo2,
-    title: "Strategic Plan ",
+    title: "Customized Solution Design ",
     description:
-      "Equipped with discernments from the evaluation, we manufacture a strategic plan that delineates the migration, implementation, and optimization stages. This roadmap serves as a compass, guaranteeing an organized and seamless AWS metamorphosis that minimizes disruptions and maximizes advantages.",
+      "Recognizing the distinctiveness of each project, we adopt an approach that involves crafting backend frameworks specifically tailored to meet your individual demands, thus ensuring optimal effectiveness. ",
   },
   {
     logo: logo3,
-    title: "Tailored Resolutions",
+    title: "Efficient Development and Integration",
     description:
-      "Recognizing that each enterprise is distinct, we specialize in fashioning customized AWS solutions. Whether it involves selecting the appropriate AWS services, designing an adaptable infrastructure, or enriching application performance, our resolutions are tailored to suit your precise requirements. ",
+      "Our skilled developers transform designs into reality through meticulous coding and seamless integration. We ensure that your backend framework is developed with efficiency and seamlessly integrates with other components.",
   },
   {
     logo: logo4,
-    title: "Collaborative Implementation ",
+    title: "Scalability and Performance Optimization",
     description:
-      "Collaboration lies at the core of our methodology. We closely collaborate with your team to implement AWS solutions. Regular meetings, open communication, and immediate feedback ensure that the implementation stays on course and effectively tackles any obstacles. ",
+      "We proactively design for growth. Our approach encompasses optimizing backend frameworks to handle increased loads while maintaining excellent performance.  ",
   },
   {
     logo: logo5,
-    title: "Continual Improvement",
+    title: "Implementation of Security Measures",
     description:
-      "Our dedication exceeds the primary deployment. We offer continuous supervision and improvement facilities to ensure that your AWS ecosystem functions at its highest effectiveness. Routine evaluations and refinement ensure that you are extracting the maximum benefits from your AWS venture. ",
+      "We implement robust security measures, including encryption, authentication, and secure data handling, to protect your backend framework.  ",
   },
   {
     logo: logo6,
-    title: "Empowering through Knowledge Exchange ",
+    title: "Ongoing Maintenance and Enhancement",
     description:
-      "In addition to technical resolutions, we advocate for empowering your workforce with the abilities and understanding to proficiently oversee and optimize AWS utilities. By means of training, interactive sessions, and comprehensive documentation, we equip your team to confidently navigate the AWS realm.",
+      "Our commitment extends beyond development. We provide continuous monitoring, troubleshooting, and updates to maintain the reliability and currency of your backend framework.",
   },
 ];
 
@@ -80,7 +80,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Approach to Amazon Web Services</h1>
+      <h1>Our Approach for Backend Framework Development Services</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

@@ -27,18 +27,15 @@ function WebApplicationDevelopment() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Amazon Web Services</h1>
+          <h1>Web Application Development Services</h1>
           <h6>Discover Our Extensive Array of AWS Solutions</h6>
           <p>
-            Step into the realm of EasyRyt’s specialized AWS offerings, granting
-            you access to harness the exceptional capabilities of Amazon Web
-            Services. Are you prepared to propel your enterprise towards the
-            forefront of the industry, equipped with the flexibility,
-            protection, and ingenuity that AWS provides? Search no more. Our
-            comprehensive selection of AWS solutions is crafted with meticulous
-            precision to accommodate businesses in pursuit of digital revolution
-            and a leading position in the ever-evolving contemporary
-            environment.
+            Welcome to EasyRyt’s dedicated page for specialized services in
+            developing web applications, where creativity combines with advanced
+            web solutions. Are you prepared to convert your concepts into
+            interactive web applications? Search no more. Our skilled team of
+            web developers is present to design extraordinary web applications
+            that enhance your online presence.
           </p>
           <button
             type="submit"

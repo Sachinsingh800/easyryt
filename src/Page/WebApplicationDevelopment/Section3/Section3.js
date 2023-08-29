@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Experienced AWS Professionals:  ",
-      des:"Our team consists of AWS-certified experts with extensive knowledge in designing, implementing, and managing AWS solutions. Utilizing our track record of success, we bring a vast amount of expertise to assist in your transformation."
+      title:"Proficiency and Know-how:  ",
+      des:"Our team of proficient web developers brings vast experience and expertise to the table, guaranteeing the meticulous and skilled execution of your projects. "
     },
     {
       icon:<GiCrafting/>,
-      title:"End-to-End Solutions: ",
-      des:"We go beyond mere services and provide comprehensive solutions. Our all-encompassing approach ensures a seamless journey with AWS, covering every aspect of your transformation from initial assessment to continued support."
+      title:"Customized Solutions:  ",
+      des:"We comprehend that each project possesses distinct requirements. Our approach revolves around constructing web applications that seamlessly align with your precise needs."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Client-Focused Approach:  ",
-      des:"Your triumph is our utmost priority. We deeply comprehend your business requirements, tailoring our solutions to align with your objectives. Each step we take is dedicated to contributing to your growth and prosperity. "
+      title:"Productivity and Performance:  ",
+      des:"Our solutions are not solely functional; they are optimized for rapidity, responsiveness, and efficient utilization of resources, assuring seamless user experiences.  "
     },
     {
       icon:<SiClaris/>,
-      title:"Innovative Solutions:  ",
-      des:"We are pioneers in AWS advancements. Our team doesn't simply follow trends; we pioneer novel methods to harness the capabilities of AWS. This enables us to offer you solutions that provide a competitive edge in your industry. "
+      title:"Cutting-Edge Design: ",
+      des:"We prioritize user-centric design, ensuring that your web application enthrals users and fosters significant interactions, ultimately enhancing engagement and conversions.  "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Collaborative Alliance:  ",
-      des:"Our approach goes beyond delivering solutions; we foster partnerships. Collaborating closely with your team, we incorporate your perspectives and input, guaranteeing that the solutions we offer are tailored to your distinct corporate character."
+      title:"Scalability and Adaptability:  ",
+      des:"We develop web applications with future growth in mind, allowing your systems to adapt alongside your business, accommodating forthcoming enhancements and technological advancements. "
     },
     {
       icon:<FaInnosoft/>,
-      title:"Enduring Benefits:   ",
-      des:"Our dedication surpasses short-term outcomes. We devise solutions that expand, adjust, and advance in parallel with your business. By teaming up with us, you are investing in AWS services that provide continual worth and progression."
+      title:"Collaborative Partnership:   ",
+      des:"Communication is vital. Throughout the development process, we collaborate closely with you, ensuring that your vision guides each step and your feedback holds utmost importance."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Amazon Web?</h2>
+      <h2>Why Choose us for Web Application Development ? </h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
