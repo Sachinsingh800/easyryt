@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Blueprint ",
+    title: "Thorough Evaluation ",
     description:
-      "We thoroughly analyse your affiliate marketing objectives, comprehending your target audience and the merchandise you endorse. This understanding lays the groundwork for our strategy, assuring that your website is in line with your affiliate goals.  ",
+      "We commence by fully comprehending the distinctive demands and objectives of your enterprise. Our team conducts an extensive evaluation of your current framework, applications, and procedures to customize Azure solutions that perfectly align with your aims.  ",
   },
   {
     logo: logo2,
-    title: "Design with a Focus on Conversion  ",
+    title: "Strategic Plan",
     description:
-      "Our designers combine inventiveness with conversion-centred design principles to construct layouts that drive action. We optimize your website's arrangement to maximize clicks and engagement.",
+      "Equipped with insights from the evaluation, we formulate a strategic plan outlining the migration, establishment, and enhancement phases. This plan serves as a blueprint for a smooth and organized Azure journey that minimizes disruptions and maximizes advantages.",
   },
   {
     logo: logo3,
-    title: "Effortless Integration of Products ",
+    title: "Personalized Solutions",
     description:
-      "We seamlessly incorporate affiliate products, presenting them in an orderly and aesthetically appealing manner. Your visitors will effortlessly explore and purchase the endorsed merchandise. ",
+      "There is no universal approach when it comes to Azure services. We take pride in tailoring solutions that are precisely customized to your requirements. Whether it's selecting the appropriate Azure services, designing an infrastructure, or developing cloud-native applications, our solutions are as exceptional as your enterprise. ",
   },
   {
     logo: logo4,
-    title: "User-Friendly Experience ",
+    title: "Collaborative Implementation ",
     description:
-      "Easily navigating your affiliate marketing site should be a breeze. Our design centred around the user ensures that visitors effortlessly discover what they desire, elevating their overall experience and motivating them to engage. ",
+      "Collaboration lies at the core of our approach. We work closely with your team to carry out Azure solutions. Regular milestones, transparent communication, and real-time feedback ensure that the implementation stays on track, tackles any obstacles, and fulfils your evolving demands. ",
   },
   {
     logo: logo5,
-    title: "Adaptive Design",
+    title: "Continuous Observation and Enhancement",
     description:
-      "It is paramount that your affiliate marketing website seamlessly functions on various devices. Our approach to design ensures an optimal encounter whether users access your site through computers, tablets, or smartphones. ",
+      "Our dedication doesn't stop with execution. We deliver continuous observation and enhancement solutions to guarantee that your azure surroundings are functioning at their best capacity. Consistent evaluations and fine-tuning assure that you are maximizing the benefits of your azure investments. ",
   },
   {
     logo: logo6,
-    title: "Optimization for Search Engines  ",
+    title: "Enabling Your Team  ",
     description:
-      "To amplify the reach of your affiliate marketing, we implement effective SEO strategies that heighten visibility on search engines, expanding the audience that can access your affiliate content.",
+      "As we collaborate, we firmly believe in empowering your team with the abilities and understanding to efficiently handle and utilize azure services. By means of training, interactive sessions, and comprehensive documents, we equip your team with the necessary resources to navigate and take advantage of the potential of azure.",
   },
 ];
 
@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for  Developing a WordPress Website for Affiliate Marketing</h1>
+      <h1>Our Approach to Azure Services</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

@@ -1,20 +1,24 @@
-import React , { useState } from "react";
+import React, { useState } from "react";
 import style from "./Azure.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/Azure 1.png";
-import Section1 from "./Section1/Section1";
-import Section2 from "../FirstPage/Section2/Section2";
-import Section3 from "../FirstPage/Section3/Section3";
-import TenthSection from "../../Section/TenthSection/TenthSection";
+import Section2 from "./Section2/Section2";
+import Section3 from "./Section3/Section3";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
+import Section4 from "./Section4/Section4";
+import ForthSection from "../../Section/ForthSection/ForthSection";
+import ServiceForm from "../../Component/ServiceForm/ServiceForm";
+import Section5 from "./Section5/Section5";
+import Section from "./Section1/Section";
 
 function Azure() {
   const [showPopup, setShowPopup] = useState(false);
 
+  //popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
   };
@@ -24,11 +28,18 @@ function Azure() {
       <div className={style.container}>
         <div>
           <h1>Azure Services</h1>
+          <h6>
+            Unleash the Potential of Your Business with State-of-the-Art Azure
+            Solutions
+          </h6>
           <p>
-            Azure is Microsoft's cloud computing platform, offering a
-            comprehensive suite of services for computing, storage, analytics,
-            and more. It empowers businesses with scalable, secure, and flexible
-            solutions for digital transformation.
+            Welcome to EasyRyt’s all-inclusive Azure Solutions page, where you
+            embark on your path to fully leverage the power of cloud technology.
+            Are you prepared to propel your enterprise into the forefront of the
+            future, utilizing the unmatched capabilities of Microsoft Azure?
+            Search no more. Our array of Azure solutions is carefully crafted to
+            satisfy the needs of businesses in search of creativity,
+            productivity, and expansion in the digital realm.
           </p>
           <button
             type="submit"
@@ -38,24 +49,31 @@ function Azure() {
             Get Started
           </button>
         </div>
-        <div>
+        <div className={style.img_box}>
           <img className={style.img} src={img} alt="img" />
         </div>
       </div>
-      <Section1 />
+      <Section />
       <Section2 />
       <Section3 />
-      <TenthSection />
+      <Section4 />
+      <ServiceForm />
+      <ForthSection />
       <SixthSection />
       <EleventhSection />
-      <CallButton/>
+      <Section5 />
+      <CallButton />
       <Footer />
-            {/* Popup window */}
-            {showPopup && (
+      {showPopup && (
         <>
-        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
-      <PopupOption/>
-      </>
+          <button
+            onClick={() => setShowPopup(false)}
+            className={style.closebtn}
+          >
+            Close
+          </button>
+          <PopupOption />
+        </>
       )}
     </div>
   );

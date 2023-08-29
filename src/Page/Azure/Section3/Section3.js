@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Associate Advertising Specialists: ",
-      des:"We comprehend the subtleties of associate marketing and how to build optimized websites for increasing conversions and revenue generation.."
+      title:"Proven Proficiency:  ",
+      des:"Our group consists of experienced Azure experts with a wealth of knowledge in designing, implementing, and managing Azure solutions. Our history of successful Azure projects speaks volumes about our proficiency."
     },
     {
       icon:<GiCrafting/>,
-      title:"WordPress Mastery:",
-      des:"With a deep understanding of the WordPress platform, we utilize its capabilities to craft dynamic and high-performing Affiliate marketing websites."
+      title:"Comprehensive Approach: ",
+      des:"We don't only provide services; we offer end-to-end solutions. From initial evaluation to continuous support, we encompass every aspect of your Azure journey, ensuring a smooth and all-encompassing transformation."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Conversion-Focused Designs:  ",
-      des:"Our designers prioritize crafting designs that stimulate clicks, interactions, and ultimately, purchases of Affiliate products. "
+      title:"Client-Focused Emphasis:  ",
+      des:"Your triumph is our primary motivation. We prioritize your distinct requirements and business objectives, tailoring our solutions to deliver results that directly align with your vision and ambitions. "
     },
     {
       icon:<SiClaris/>,
-      title:"Seamless Integration:  ",
-      des:"We ensure that the Affiliate products smoothly integrate into your website, enhancing the user experience and driving engagement. "
+      title:"Catalysts of Innovation:  ",
+      des:"We don't merely follow trends; we shape them. Our team is at the forefront of Azure advancements, enabling us to offer you state-of-the-art solutions that give you a competitive advantage in your sector. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Technical Expertise:  ",
-      des:"Our developers guarantee that your Affiliate marketing website is technically optimized for speed, performance, and security."
+      title:"Collaborative Alliance:  ",
+      des:"We have faith in genuine cooperation. We operate alongside your team, attentively considering your observations and incorporating your input at each phase. This alliance method guarantees that the resolutions we provide genuinely mirror your business character. "
     },
     {
       icon:<FaInnosoft/>,
-      title:"Continuous Assistance:   ",
-      des:"Beyond development, we offer ongoing support to ensure that your Affiliate marketing website is always up to date and operating at its best."
+      title:"Sustained Worth:   ",
+      des:"Our pledge extends beyond immediate outcomes. We devise resolutions that are expandable, adjustable, and prepared for the future. Your expenditure in Azure services with us changes into long-standing worth and continuous expansion."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Affiliate Marketing Website?</h2>
+      <h2>Why Choose us for Azure Services ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
