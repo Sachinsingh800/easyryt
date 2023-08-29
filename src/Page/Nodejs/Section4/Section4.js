@@ -6,17 +6,20 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        At EasyRyt, we are not simply offering AWS services; we are presenting
-        you with a pathway to imagination and advancement. With our expertise,
-        customized solutions, and commitment to your prosperity, we are prepared
-        to accompany you on this ground-breaking voyage. As you enter the realm
-        of AWS, our collaboration surpasses mere solutions – it revolves around
-        crafting strategies that harmonize with your vision. From smooth
-        transitions to robust frameworks, our approach is meticulously designed
-        to empower your success. Why choose us? Our all-inclusive approach,
-        proven accomplishments, and unwavering devotion make us the perfect
-        companion for your AWS revolution. Get in contact via to commence your
-        AWS journey!
+        Within the realm of digital progress, Node.js serves as a dominant force
+        in technology, and at EasyRyt, our offerings extend beyond just Node.js
+        development services. We provide you with a pathway to manifesting
+        cutting-edge applications from your visionary concepts. Through our
+        established expertise, customized solutions, and unwavering commitment
+        to excellence, we are poised to become your trusted ally on this
+        revolutionary journey. As you embark on the world of Node.js, our
+        collaboration surpasses conventional development; it is about
+        architecting solutions that redefine user encounters and propel your
+        enterprise forward. What sets us apart? The foundation of our approach
+        lies in thorough analysis, tailoring, performance optimization, and a
+        partnership that guarantees the complete realization of your vision.
+        Discover the ingenuity and efficacy that Node.js can infuse into your
+        applications. Your metamorphosis commences right here with EasyRyt.
       </p>
       <h2>Get in touch with us today</h2>
       <p>

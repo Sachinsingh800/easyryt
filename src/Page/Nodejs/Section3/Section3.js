@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Experienced AWS Professionals:  ",
-      des:"Our team consists of AWS-certified experts with extensive knowledge in designing, implementing, and managing AWS solutions. Utilizing our track record of success, we bring a vast amount of expertise to assist in your transformation."
+      title:"Expertise and Skill:   ",
+      des:"Our team comprises of proficient developers who specialize in Node.js and possess a vast amount of knowledge in developing outstanding applications. With a proven history of success, we guarantee the competence of your project. "
     },
     {
       icon:<GiCrafting/>,
-      title:"End-to-End Solutions: ",
-      des:"We go beyond mere services and provide comprehensive solutions. Our all-encompassing approach ensures a seamless journey with AWS, covering every aspect of your transformation from initial assessment to continued support."
+      title:"Customized Solutions: ",
+      des:"We comprehend that each project is distinctive. Our solutions are meticulously crafted to align with your precise objectives, guaranteeing that your applications perfectly cater to your business requirements. "
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Client-Focused Approach:  ",
-      des:"Your triumph is our utmost priority. We deeply comprehend your business requirements, tailoring our solutions to align with your objectives. Each step we take is dedicated to contributing to your growth and prosperity. "
+      title:"Performance-Focused Strategy:  ",
+      des:"We are committed to delivering top-notch applications that excel in performance. By utilizing the swiftness of Node.js, we create applications that are not only speedy but also highly responsive and user-friendly. "
     },
     {
       icon:<SiClaris/>,
-      title:"Innovative Solutions:  ",
-      des:"We are pioneers in AWS advancements. Our team doesn't simply follow trends; we pioneer novel methods to harness the capabilities of AWS. This enables us to offer you solutions that provide a competitive edge in your industry. "
+      title:"Scalability as the Core Principle:   ",
+      des:"The scalability offered by Node.js serves as the cornerstone of our methodology. We design applications that effortlessly handle increasing user demands, ensuring that your solutions maintain their robustness as your business expands."
     },
     {
       icon:<TbTruckDelivery/>,
       title:"Collaborative Alliance:  ",
-      des:"Our approach goes beyond delivering solutions; we foster partnerships. Collaborating closely with your team, we incorporate your perspectives and input, guaranteeing that the solutions we offer are tailored to your distinct corporate character."
+      des:"We have faith in open and ongoing dialogue. During the progress of development, we engage you, integrate your input, and ensure the complete fulfilment of your vision. "
     },
     {
       icon:<FaInnosoft/>,
-      title:"Enduring Benefits:   ",
-      des:"Our dedication surpasses short-term outcomes. We devise solutions that expand, adjust, and advance in parallel with your business. By teaming up with us, you are investing in AWS services that provide continual worth and progression."
+      title:"Comprehensive Superiority:  ",
+      des:"Our methodology surpasses mere coding. We prioritize meticulous testing, streamlined coding techniques, and meticulousness, guaranteeing that your node.js applications attain utmost excellence."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Amazon Web?</h2>
+      <h2>Why Choose us for Node.js Development Services ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

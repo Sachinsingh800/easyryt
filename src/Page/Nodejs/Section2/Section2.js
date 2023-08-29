@@ -10,38 +10,38 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Holistic Evaluation ",
-    description:"We embark on the journey of your AWS by gaining a profound comprehension of your commercial necessities and objectives. Our crew conducts an extensive evaluation of your present foundation and procedures to devise personalized AWS resolutions that harmonize flawlessly with your goals. ",
+    title: "Thorough Examination",
+    description:"Our process commences with a deep understanding of your project prerequisites and objectives. Our team conducts a thorough analysis to recognize the most suitable strategies and approaches to cater to your specific requirements. ",
   },
   {
     logo: logo2,
-    title: "Strategic Plan ",
+    title: "Personalized Solution Design",
     description:
-      "Equipped with discernments from the evaluation, we manufacture a strategic plan that delineates the migration, implementation, and optimization stages. This roadmap serves as a compass, guaranteeing an organized and seamless AWS metamorphosis that minimizes disruptions and maximizes advantages.",
+      "Each project is exceptional and distinctive. We create customized Node.js solutions that perfectly align with your aspirations. Whether it involves a web application, API, or real-time application, our designs are specifically tailored to meet your needs. ",
   },
   {
     logo: logo3,
-    title: "Tailored Resolutions",
+    title: "Skilled Development",
     description:
-      "Recognizing that each enterprise is distinct, we specialize in fashioning customized AWS solutions. Whether it involves selecting the appropriate AWS services, designing an adaptable infrastructure, or enriching application performance, our resolutions are tailored to suit your precise requirements. ",
+      "Our proficient Node.js developers possess extensive knowledge in harnessing the potential of this technology. We guarantee immaculate, effective, and optimized code that translates into high-performance applications. ",
   },
   {
     logo: logo4,
-    title: "Collaborative Implementation ",
+    title: "Uninterrupted Communication",
     description:
-      "Collaboration lies at the core of our methodology. We closely collaborate with your team to implement AWS solutions. Regular meetings, open communication, and immediate feedback ensure that the implementation stays on course and effectively tackles any obstacles. ",
+      "Collaboration is the foundation of our method. We constantly keep you informed at every stage of development, ensuring transparency, addressing queries, and incorporating your feedback to refine our solutions. ",
   },
   {
     logo: logo5,
-    title: "Continual Improvement",
+    title: "Priority as Focus ",
     description:
-      "Our dedication exceeds the primary deployment. We offer continuous supervision and improvement facilities to ensure that your AWS ecosystem functions at its highest effectiveness. Routine evaluations and refinement ensure that you are extracting the maximum benefits from your AWS venture. ",
+      "Node.js is well-known for its emphasis on scalability, and we fully leverage this ability. Our solutions are crafted to accommodate expansion, empowering your applications to effortlessly handle growing user requirements",
   },
   {
     logo: logo6,
-    title: "Empowering through Knowledge Exchange ",
+    title: "Comprehensive Testing",
     description:
-      "In addition to technical resolutions, we advocate for empowering your workforce with the abilities and understanding to proficiently oversee and optimize AWS utilities. By means of training, interactive sessions, and comprehensive documentation, we equip your team to confidently navigate the AWS realm.",
+      "We thoroughly examine our applications to detect and address possible concerns. This method ensures that your Node.js applications are not solely swift and responsive, but also unwaveringly robust and dependable.",
   },
 ];
 
@@ -80,7 +80,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Approach to Amazon Web Services</h1>
+      <h1>Our Approach to Node.js Development Services</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

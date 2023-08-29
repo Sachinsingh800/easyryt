@@ -27,18 +27,16 @@ function Nodejs() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Amazon Web Services</h1>
+          <h1>Node.js Development Services</h1>
           <h6>Discover Our Extensive Array of AWS Solutions</h6>
           <p>
-            Step into the realm of EasyRyt’s specialized AWS offerings, granting
-            you access to harness the exceptional capabilities of Amazon Web
-            Services. Are you prepared to propel your enterprise towards the
-            forefront of the industry, equipped with the flexibility,
-            protection, and ingenuity that AWS provides? Search no more. Our
-            comprehensive selection of AWS solutions is crafted with meticulous
-            precision to accommodate businesses in pursuit of digital revolution
-            and a leading position in the ever-evolving contemporary
-            environment.
+            Welcome to EasyRyt’s specialized page for Node.js software
+            development services, where creativity intersects with
+            effectiveness. Are you prepared to utilize the complete potential of
+            Node.js for your application development requirements? Look no more.
+            Our committed team of Node.js specialists is here to convert your
+            concepts into dynamic and adaptable applications that redefine user
+            encounters and propel your business advancement.
           </p>
           <button
             type="submit"

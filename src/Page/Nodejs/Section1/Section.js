@@ -50,24 +50,23 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          The Importance of AWS Solutions for Your Business
+          Importance of Node.js Development
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          In the rapidly evolving realm of digital transformation, adopting
-          Amazon Web Services (AWS) is not just a decision; it's a strategic
-          necessity. AWS solutions provide a range of advantages that can
-          significantly influence your business's effectiveness, scalability,
-          and ingenuity. With AWS, you obtain the capability to adjust your
-          resources dynamically, allowing for agility in a competitive market.
-          The robust security characteristics and compliance procedures instil
-          trust in safeguarding your confidential information. AWS's advanced
-          data management and analytics abilities empower data-based
-          decision-making, propelling your business ahead. Furthermore, AWS's
-          cloud-native approach expedites application development and
-          deployment, enabling you to remain ahead in a swiftly changing realm.
-          By adopting AWS solutions, you are not only embracing the present but
-          also securing a foundation that is prepared for the future success of
-          your business.
+          In the rapidly evolving realm of web and app development, Node.js
+          emerges as a revolutionary force, providing a plethora of benefits
+          that can profoundly influence the online presence of your company.
+          Node.js, constructed on Chrome's V8 JavaScript engine, is renowned for
+          its exceptional swiftness and efficiency, making it an optimal
+          selection for crafting high-performance applications. Its
+          non-blocking, event-driven architecture guarantees that your apps can
+          handle simultaneous connections without compromising their
+          responsiveness. This is particularly critical in today's age of
+          instantaneous interactions and dynamic user experiences. By embracing
+          Node.js development, you unlock the capability to generate flexible,
+          expandable, and real-time applications that cater to the requirements
+          of present-day users, bestowing upon your company a competitive
+          advantage in an ever-changing digital landscape.
         </p>
       </div>
     </div>
