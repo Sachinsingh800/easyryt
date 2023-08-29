@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Associate Advertising Specialists: ",
-      des:"We comprehend the subtleties of associate marketing and how to build optimized websites for increasing conversions and revenue generation.."
+      title:"Extensive Knowledge in Vue.js: ",
+      des:"Our team consists of highly skilled Vue.js developers who possess a deep understanding of the framework's capabilities. With practical experience and a proven track record of successful projects, we offer unparalleled expertise in Vue.js development."
     },
     {
       icon:<GiCrafting/>,
-      title:"WordPress Mastery:",
-      des:"With a deep understanding of the WordPress platform, we utilize its capabilities to craft dynamic and high-performing Affiliate marketing websites."
+      title:"Customized Solutions: ",
+      des:"We acknowledge that each project is distinctive. Our methodology involves tailoring Vue.js solutions to seamlessly align with your business objectives, ensuring a truly personalized application that caters to your specific requirements."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Conversion-Focused Designs:  ",
-      des:"Our designers prioritize crafting designs that stimulate clicks, interactions, and ultimately, purchases of Affiliate products. "
+      title:"Exceptional Performance:  ",
+      des:"We recognize the paramount importance of performance in today's digital landscape. Our focus on harnessing Vue.js's lightweight architecture guarantees applications with exceptional loading speed and responsiveness. "
     },
     {
       icon:<SiClaris/>,
-      title:"Seamless Integration:  ",
-      des:"We ensure that the Affiliate products smoothly integrate into your website, enhancing the user experience and driving engagement. "
+      title:"User-Focused Approach: ",
+      des:"Our design and development strategies prioritize the creation of user-centric interfaces that not only have a visually appealing design but also foster user engagement and satisfaction, enhancing the overall user experience."
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Technical Expertise:  ",
-      des:"Our developers guarantee that your Affiliate marketing website is technically optimized for speed, performance, and security."
+      title:"Coordinated Partnership:  ",
+      des:"We consider our clients as partners in the development journey. Our transparent and collaborative approach ensures that your insights and feedback play an integral role throughout the development process. "
     },
     {
       icon:<FaInnosoft/>,
-      title:"Continuous Assistance:   ",
-      des:"Beyond development, we offer ongoing support to ensure that your Affiliate marketing website is always up to date and operating at its best."
+      title:"Continuous Excellence:   ",
+      des:"Our commitment extends beyond the completion of development. We provide ongoing support, maintenance, and updates to ensure that your Vue.js application maintains peak performance and adapts to evolving needs."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Affiliate Marketing Website?</h2>
+      <h2>Why Choose us for Vue JS Development  ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

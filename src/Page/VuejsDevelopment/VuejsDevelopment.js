@@ -1,20 +1,24 @@
-import React, { useState }  from "react";
+import React, { useState } from "react";
 import style from "./VuejsDevelopment.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/Vue js Development 1.png";
-import Section1 from "./Section1/Section1";
-import Section2 from "../FirstPage/Section2/Section2";
-import Section3 from "../FirstPage/Section3/Section3";
-import TenthSection from "../../Section/TenthSection/TenthSection";
+import Section2 from "./Section2/Section2";
+import Section3 from "./Section3/Section3";
 import SixthSection from "../../Section/SixthSection/SixthSection";
 import EleventhSection from "../../Section/EleventhSection/EleventhSection";
 import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
+import Section4 from "./Section4/Section4";
+import ForthSection from "../../Section/ForthSection/ForthSection";
+import ServiceForm from "../../Component/ServiceForm/ServiceForm";
+import Section5 from "./Section5/Section5";
+import Section from "./Section1/Section";
 
 function VuejsDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
 
+  //popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
   };
@@ -23,12 +27,19 @@ function VuejsDevelopment() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Vue.js Development Services</h1>
+          <h1>Vue JS Development Services</h1>
+          <h6>
+            Unleash the capabilities of your web applications with our
+            state-of-the-art Vue.js Development Services
+          </h6>
           <p>
-            Vue.js Development Services: Expert Vue.js development for
-            interactive, efficient, and scalable web applications. Custom
-            components, seamless integration, and optimized user experiences to
-            elevate your online presence.
+            Greetings to EasyRyt’s Vue.js Development Services! As innovators in
+            the digital sphere, we are experts in utilizing the potential of
+            Vue.js to fabricate vibrant and engaging applications that connect
+            with your desired users. Whether your objective is to construct a
+            flexible one-page application or augment the performance of an
+            ongoing project, our adept Vue.js professionals are at your service
+            to manifest your creative concepts.
           </p>
           <button
             type="submit"
@@ -38,24 +49,31 @@ function VuejsDevelopment() {
             Get Started
           </button>
         </div>
-        <div>
+        <div className={style.img_box}>
           <img className={style.img} src={img} alt="img" />
         </div>
       </div>
-      <Section1 />
+      <Section />
       <Section2 />
       <Section3 />
-      <TenthSection />
+      <Section4 />
+      <ServiceForm />
+      <ForthSection />
       <SixthSection />
       <EleventhSection />
-      <CallButton/>
+      <Section5 />
+      <CallButton />
       <Footer />
-            {/* Popup window */}
-            {showPopup && (
+      {showPopup && (
         <>
-        <button onClick={()=>setShowPopup(false)} className={style.closebtn}>Close</button>
-      <PopupOption/>
-      </>
+          <button
+            onClick={() => setShowPopup(false)}
+            className={style.closebtn}
+          >
+            Close
+          </button>
+          <PopupOption />
+        </>
       )}
     </div>
   );

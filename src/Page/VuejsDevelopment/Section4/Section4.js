@@ -6,13 +6,24 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        Beyond development, we offer ongoing support to ensure that your
-        Affiliate marketing website is always up to date and operating at its
-        best. Enhance Your Affiliate Marketing Performance with WordPress
-        Excellence: Are you prepared to stand out in the field of affiliate
-        marketing? EasyRyt’s specialized WordPress Development services for
-        Affiliate Marketing Websites are designed for affiliates who desire a
-        remarkable online platform for their promotional activities.
+        At EasyRyt, our Vue.js Development Services open doors for
+        groundbreaking and alluring web applications. Our approach is rooted in
+        expertise, creativity, and a dedication to delivering superior results.
+        With a team of skilled Vue.js developers, a proven track record of
+        successful endeavours, and a comprehensive development process, we are
+        your perfect companion for crafting extraordinary digital solutions. By
+        selecting us, you're not merely opting for a development service; you're
+        embarking on a cooperative journey where your vision takes centre stage.
+        Our emphasis on efficiency, user-focused design, and continuous support
+        guarantees that your Vue.js application not only meets industry
+        benchmarks but surpasses them in captivating your audience. Whether
+        you're initiating a fresh project or enriching an existing one, our
+        Vue.js Development Services are crafted to elevate your online presence.
+        Allow us to assist you in harnessing the potential of Vue.js to create
+        applications that blend technical excellence with enthralling user
+        experiences. Reach out to us today to discuss your Vue.js project and
+        witness the transformation firsthand. Your digital triumph is our
+        pledge!
       </p>
       <h2>Get in touch with us today</h2>
       <p>

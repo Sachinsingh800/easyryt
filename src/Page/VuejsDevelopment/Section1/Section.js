@@ -50,16 +50,19 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          The Influence of a Devoted Affiliate Marketing Website
+          The Importance of Vue.js in Website Development
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          In the realm of online trade, possessing a devoted platform for
-          Affiliate marketing is crucial. A WordPress Affiliate marketing
-          website furnishes the optimal groundwork for efficiently promoting
-          Affiliate goods, monitoring performance, and captivating your
-          audience. It's not solely about showcasing links – it's about
-          constructing an immersive Affiliate experience that seamlessly binds
-          products with prospective purchasers.
+          Vue.js has become a significant technology in contemporary website
+          development, transforming the way we create dynamic and interactive
+          applications. Its significance lies in its capacity to simplify
+          development, enhance user experiences, and guarantee outstanding
+          performance. With an advanced framework, Vue.js provides efficient
+          integration and a lightweight structure, leading to quick loading
+          durations and captivating user interfaces. By selecting Vue.js,
+          businesses embrace a technology that harmonizes technical expertise
+          with user-focused design, making their online presence both
+          competitive and immersive.
         </p>
       </div>
     </div>

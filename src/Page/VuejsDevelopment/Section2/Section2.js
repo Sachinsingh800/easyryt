@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Blueprint ",
+    title: "Strategic Preparation ",
     description:
-      "We thoroughly analyse your affiliate marketing objectives, comprehending your target audience and the merchandise you endorse. This understanding lays the groundwork for our strategy, assuring that your website is in line with your affiliate goals.  ",
+      "We commence each Vue.js project with a comprehensive analysis of your goals and needs. Our strategy revolves around careful planning to ensure that your application perfectly aligns with your business aspirations.  ",
   },
   {
     logo: logo2,
-    title: "Design with a Focus on Conversion  ",
+    title: "User-Focused Creation ",
     description:
-      "Our designers combine inventiveness with conversion-centred design principles to construct layouts that drive action. We optimize your website's arrangement to maximize clicks and engagement.",
+      "Our design philosophy centres on building interfaces that are not only visually appealing but also enhance user involvement and contentment. We prioritize seamless user experiences that promote interaction",
   },
   {
     logo: logo3,
-    title: "Effortless Integration of Products ",
+    title: "Effectiveness and Efficiency",
     description:
-      "We seamlessly incorporate affiliate products, presenting them in an orderly and aesthetically appealing manner. Your visitors will effortlessly explore and purchase the endorsed merchandise. ",
+      "We harness Vue.js's lightweight nature to guarantee optimal loading speeds and exceptional performance. Our emphasis on efficiency ensures the development of swift and responsive applications. ",
   },
   {
     logo: logo4,
-    title: "User-Friendly Experience ",
+    title: "Gradual Integration",
     description:
-      "Easily navigating your affiliate marketing site should be a breeze. Our design centred around the user ensures that visitors effortlessly discover what they desire, elevating their overall experience and motivating them to engage. ",
+      "Our approach embraces Vue.js's progressive framework, enabling effortless integration into both current and upcoming projects. This adaptable approach ensures a smooth development process and minimal disruptions. ",
   },
   {
     logo: logo5,
-    title: "Adaptive Design",
+    title: "Agile Development",
     description:
-      "It is paramount that your affiliate marketing website seamlessly functions on various devices. Our approach to design ensures an optimal encounter whether users access your site through computers, tablets, or smartphones. ",
+      "We adhere to an agile development methodology that encourages collaboration and adaptability. This approach allows for fast feedback loops, continuous enhancements, and the ability to adapt to evolving project requirements. ",
   },
   {
     logo: logo6,
-    title: "Optimization for Search Engines  ",
+    title: "Continuous Support ",
     description:
-      "To amplify the reach of your affiliate marketing, we implement effective SEO strategies that heighten visibility on search engines, expanding the audience that can access your affiliate content.",
+      "Our commitment extends beyond development. We provide ongoing support, updates, and maintenance to ensure the smooth operation and long-lasting performance of your Vue.js application.",
   },
 ];
 
@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for  Developing a WordPress Website for Affiliate Marketing</h1>
+      <h1>Our Approach for Vue JS Development </h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful
