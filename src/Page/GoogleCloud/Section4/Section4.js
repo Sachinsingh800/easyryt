@@ -6,13 +6,21 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        Beyond development, we offer ongoing support to ensure that your
-        Affiliate marketing website is always up to date and operating at its
-        best. Enhance Your Affiliate Marketing Performance with WordPress
-        Excellence: Are you prepared to stand out in the field of affiliate
-        marketing? EasyRyt’s specialized WordPress Development services for
-        Affiliate Marketing Websites are designed for affiliates who desire a
-        remarkable online platform for their promotional activities.
+        In an era where progress in technology drives the prosperity of
+        enterprises, Google Cloud Platform (GCP) stands as a shining example of
+        originality and possibilities. At EasyRyt, we don't just offer Google
+        Cloud services; we grant you a pathway to redefine the capabilities of
+        your business. With our proven expertise, customer-centric approach, and
+        unwavering commitment to innovation, we are prepared to be your
+        companion on this groundbreaking journey. As you embark on the realm of
+        Google Cloud, our collaboration surpasses providing solutions; it
+        revolves around co-creating strategies that align with your vision. From
+        smooth transitions to dynamic infrastructures, our approach aims to
+        empower your expedition. Why select us? Our comprehensive methodology,
+        history of achievements, and steadfast dedication position us as the
+        ideal partner for your Google Cloud revolution. Reveal the boundless
+        possibilities with Google Cloud, guided by EasyRyt. Your digital
+        metamorphosis awaits!
       </p>
       <h2>Get in touch with us today</h2>
       <p>

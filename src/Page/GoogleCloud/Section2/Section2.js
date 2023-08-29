@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Blueprint ",
+    title: "Thorough Evaluation",
     description:
-      "We thoroughly analyse your affiliate marketing objectives, comprehending your target audience and the merchandise you endorse. This understanding lays the groundwork for our strategy, assuring that your website is in line with your affiliate goals.  ",
+      "We commence by acquiring an in-depth comprehension of your organization's exclusive requirements and goals. Our team carries out a comprehensive evaluation of your present framework, applications, and workflows to tailor solutions from Google Cloud that seamlessly align with your objectives.  ",
   },
   {
     logo: logo2,
-    title: "Design with a Focus on Conversion  ",
+    title: "Strategic Development  ",
     description:
-      "Our designers combine inventiveness with conversion-centred design principles to construct layouts that drive action. We optimize your website's arrangement to maximize clicks and engagement.",
+      "Equipped with insights from the evaluation, we formulate a strategic blueprint that delineates the migration, implementation, and optimization phases. This blueprint acts as a roadmap for a streamlined and structured voyage with Google Cloud that minimizes disruptions and maximizes advantages.",
   },
   {
     logo: logo3,
-    title: "Effortless Integration of Products ",
+    title: "Customized Approaches",
     description:
-      "We seamlessly incorporate affiliate products, presenting them in an orderly and aesthetically appealing manner. Your visitors will effortlessly explore and purchase the endorsed merchandise. ",
+      "Acknowledging the individuality of each business, we specialize in creating personalized Google Cloud approaches. Whether it involves selecting the fitting Google Cloud services, designing an adaptable infrastructure, or enhancing application effectiveness, our approaches are crafted to suit your exact specifications. ",
   },
   {
     logo: logo4,
-    title: "User-Friendly Experience ",
+    title: "Collaborative Execution ",
     description:
-      "Easily navigating your affiliate marketing site should be a breeze. Our design centred around the user ensures that visitors effortlessly discover what they desire, elevating their overall experience and motivating them to engage. ",
+      "Collaboration lies at the core of our methodology. We closely collaborate with your team to execute Google Cloud solutions. Regular communication, transparent feedback loops, and real-time adjustments ensure that the execution remains on course and effectively tackles challenges. ",
   },
   {
     logo: logo5,
-    title: "Adaptive Design",
+    title: "Continuous Enhancement",
     description:
-      "It is paramount that your affiliate marketing website seamlessly functions on various devices. Our approach to design ensures an optimal encounter whether users access your site through computers, tablets, or smartphones. ",
+      "Our dedication expands further than execution. We offer persistent surveillance and enhancement amenities to guarantee that your Google Cloud setting operates at its highest efficiency. Consistent evaluations and refining ensure that you're obtaining utmost worth from your Google Cloud investment. ",
   },
   {
     logo: logo6,
-    title: "Optimization for Search Engines  ",
+    title: "Empowering Your Staff ",
     description:
-      "To amplify the reach of your affiliate marketing, we implement effective SEO strategies that heighten visibility on search engines, expanding the audience that can access your affiliate content.",
+      "Above and beyond technological resolutions, we have faith in empowering your staff with the understanding and abilities to proficiently handle and utilize Google Cloud amenities. Via training, workshops, and documentation, we equip your team to confidently traverse the Google Cloud terrain.",
   },
 ];
 
@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for  Developing a WordPress Website for Affiliate Marketing</h1>
+      <h1>Our Approach to Google Cloud Services</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

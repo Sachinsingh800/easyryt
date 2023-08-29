@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Associate Advertising Specialists: ",
-      des:"We comprehend the subtleties of associate marketing and how to build optimized websites for increasing conversions and revenue generation.."
+      title:"Demonstrated Proficiency: ",
+      des:"Our team is comprised of skilled experts in Google Cloud services who bring a wealth of wisdom to the table. With a history of triumphant projects in the realm of Google Cloud, we possess the proficiency to guide your journey of transformation."
     },
     {
       icon:<GiCrafting/>,
-      title:"WordPress Mastery:",
-      des:"With a deep understanding of the WordPress platform, we utilize its capabilities to craft dynamic and high-performing Affiliate marketing websites."
+      title:"All-Encompassing Solutions: ",
+      des:"We provide comprehensive solutions that encompass every facet of your expedition with Google Cloud. From initial evaluation to ongoing assistance, our comprehensive approach ensures a seamless and triumphant transformation."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Conversion-Focused Designs:  ",
-      des:"Our designers prioritize crafting designs that stimulate clicks, interactions, and ultimately, purchases of Affiliate products. "
+      title:"Customer-Centric Approach:   ",
+      des:"Your triumph is of utmost importance to us. We invest time in comprehending your business requirements and customize our solutions to perfectly align with your objectives, guaranteeing that each step contributes to your prosperity. "
     },
     {
       icon:<SiClaris/>,
-      title:"Seamless Integration:  ",
-      des:"We ensure that the Affiliate products smoothly integrate into your website, enhancing the user experience and driving engagement. "
+      title:"Innovative Solutions:  ",
+      des:"We don't settle for just keeping up with trends; we establish them. Our team stays one step ahead of advancements in Google Cloud, enabling us to offer you state-of-the-art solutions that keep you ahead of industry developments. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Technical Expertise:  ",
-      des:"Our developers guarantee that your Affiliate marketing website is technically optimized for speed, performance, and security."
+      title:"Collaborative Alliance:   ",
+      des:"We do not merely offer services; we forge alliances. By closely collaborating with your team, we merge your perspectives and input, guaranteeing that the solutions we provide harmoniously match your distinct corporate character."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Continuous Assistance:   ",
-      des:"Beyond development, we offer ongoing support to ensure that your Affiliate marketing website is always up to date and operating at its best."
+      title:"Enduring Benefit:   ",
+      des:"Our dedication does not conclude with instant outcomes. We devise solutions that are expandable, flexible, and well-positioned for upcoming times. When you select us for your Google Cloud metamorphosis, you are investing in a collaborator that presents continuous benefit and advancement."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Affiliate Marketing Website?</h2>
+      <h2>Why Choose us for Google Cloud Services ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
