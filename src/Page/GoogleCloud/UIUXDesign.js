@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import style from "./Aws.module.css";
+import style from "./UIUXDesign.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
-import img from "../../Image/Aws 1.png";
+import img from "../../Image/UI.UX Design 1.png";
 import Section2 from "./Section2/Section2";
 import Section3 from "./Section3/Section3";
 import SixthSection from "../../Section/SixthSection/SixthSection";
@@ -15,7 +15,7 @@ import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
 
-function Aws() {
+function UIUXDesign() {
   const [showPopup, setShowPopup] = useState(false);
 
   //popup
@@ -27,18 +27,16 @@ function Aws() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Amazon Web Services</h1>
-          <h6>Discover Our Extensive Array of AWS Solutions</h6>
+          <h1>WordPress Affiliate Marketing Website Development Services</h1>
+          <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
-            Step into the realm of EasyRyt’s specialized AWS offerings, granting
-            you access to harness the exceptional capabilities of Amazon Web
-            Services. Are you prepared to propel your enterprise towards the
-            forefront of the industry, equipped with the flexibility,
-            protection, and ingenuity that AWS provides? Search no more. Our
-            comprehensive selection of AWS solutions is crafted with meticulous
-            precision to accommodate businesses in pursuit of digital revolution
-            and a leading position in the ever-evolving contemporary
-            environment.
+            Welcome to EasyRyt’s dedicated WordPress Affiliate Marketing Website
+            Development solutions, where originality, creative flair, and
+            technical expertise unite to elevate your affiliate marketing
+            pursuits to unprecedented levels. With a profound comprehension of
+            affiliate tactics and unrivalled proficiency in WordPress, we
+            construct websites that not only spotlight your affiliate
+            merchandise but also generate conversions and income.
           </p>
           <button
             type="submit"
@@ -78,4 +76,4 @@ function Aws() {
   );
 }
 
-export default Aws;
+export default UIUXDesign;
