@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import style from "./Section2.module.css";
 import logo1 from "../../../Image/chart.gif";
 import logo2 from "../../../Image/date.gif";
@@ -10,39 +10,38 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Android App",
-    description:
-      "Our Android applications are renowned for their captivating User Interface UI/UX, rapid loading speeds, and reliable performance.",
+    title: "Holistic Evaluation ",
+    description:"We embark on the journey of your AWS by gaining a profound comprehension of your commercial necessities and objectives. Our crew conducts an extensive evaluation of your present foundation and procedures to devise personalized AWS resolutions that harmonize flawlessly with your goals. ",
   },
   {
     logo: logo2,
-    title: "iOS App",
+    title: "Strategic Plan ",
     description:
-      "Our iOS apps embody innovative concepts, featuring intuitive GUIs. With our proficient iPhone application development team, you'll find the perfect solution for your needs.",
+      "Equipped with discernments from the evaluation, we manufacture a strategic plan that delineates the migration, implementation, and optimization stages. This roadmap serves as a compass, guaranteeing an organized and seamless AWS metamorphosis that minimizes disruptions and maximizes advantages.",
   },
   {
     logo: logo3,
-    title: "Tablet App development",
+    title: "Tailored Resolutions",
     description:
-      "We offer extensive tablet app development solutions to diverse industries, catering to startups and leading enterprises alike.",
+      "Recognizing that each enterprise is distinct, we specialize in fashioning customized AWS solutions. Whether it involves selecting the appropriate AWS services, designing an adaptable infrastructure, or enriching application performance, our resolutions are tailored to suit your precise requirements. ",
   },
   {
     logo: logo4,
-    title: "iPad App Development",
+    title: "Collaborative Implementation ",
     description:
-      "With years of proficiency in native app development, our team can fulfill your unique requirements. We provide impeccable, visually appealing iPad app development services using Flutter.",
+      "Collaboration lies at the core of our methodology. We closely collaborate with your team to implement AWS solutions. Regular meetings, open communication, and immediate feedback ensure that the implementation stays on course and effectively tackles any obstacles. ",
   },
   {
     logo: logo5,
-    title: "AR App Development",
+    title: "Continual Improvement",
     description:
-      "Benefiting from over 15 years of expertise in 3D modeling and Augmented Reality (AR), we deliver top-notch AR software swiftly. Our team crafts cutting-edge virtual reality solutions, harnessing the latest tools and advancements.",
+      "Our dedication exceeds the primary deployment. We offer continuous supervision and improvement facilities to ensure that your AWS ecosystem functions at its highest effectiveness. Routine evaluations and refinement ensure that you are extracting the maximum benefits from your AWS venture. ",
   },
   {
     logo: logo6,
-    title: "Marketing Automation Solutions",
+    title: "Empowering through Knowledge Exchange ",
     description:
-      "Catering to diverse user needs, our team develops Native applications that precisely align with their business requirements. Leveraging the finest native app development platform, we ensure optimal results for every project.",
+      "In addition to technical resolutions, we advocate for empowering your workforce with the abilities and understanding to proficiently oversee and optimize AWS utilities. By means of training, interactive sessions, and comprehensive documentation, we equip your team to confidently navigate the AWS realm.",
   },
 ];
 
@@ -54,8 +53,6 @@ const lightColors = [
   "#FFC6C6",
   "#E0FF9F",
 ]; // You can add more light colors here
-
-
 
 function Section2() {
   const [randomColors, setRandomColors] = useState(lightColors);
@@ -83,14 +80,20 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>The Expertise Of Our Native App Development Service</h1>
+      <h1>Our Approach to Amazon Web Services</h1>
       <p className={style.para}>
-        As a native app development company, we have expertise in developing
-        Native apps for different platforms. Take a look at our expertise:
+        At EasyRyt, we acknowledge that constructing a prosperous application is
+        a dynamic fusion of inventiveness, strategic preparation, and careful
+        implementation. Our diverse group of creators, programmers, and planners
+        work cooperatively to bring your application idea to fruition.
       </p>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (
-          <div className={style.card} key={index} style={{ background: randomColors[index] }}>
+          <div
+            className={style.card}
+            key={index}
+            style={{ background: randomColors[index] }}
+          >
             <img className={style.img} src={data.logo} alt={`img${index}`} />
             <h6>{data.title}</h6>
             <p>{data.description}</p>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "./Aws.module.css";
+import style from "./DevOpsandContinuousIntegration.module.css";
 import NavBar from "../../Component/NavBar/NavBar";
 import img from "../../Image/DevOps and Continuous Integration Continuous Deployment (CI.CD), 1.png";
 import Section2 from "./Section2/Section2";

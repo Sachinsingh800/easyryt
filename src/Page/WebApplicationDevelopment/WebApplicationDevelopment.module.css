@@ -9,6 +9,9 @@
     width: 100vw;
     display: flex;
 }
+.img_box{
+    overflow: hidden;
+}
 .container div{
     width: 50%;
     display: flex;
@@ -18,10 +21,10 @@
     background-color: aliceblue;
 }
 .container h1{
-    width: 20rem;
+    width: 30rem;
 }
 .container p{
-    width: 35rem;
+    width: 38rem;
 }
 .img{
    width: 30rem;
@@ -96,7 +99,8 @@
             padding-left: 1rem;
          }
     }
-    @media (max-width:360px){
+    @media (max-width:500px){
+        
         .img{
             width: 19rem;
             position: absolute;
@@ -111,6 +115,8 @@
          }
          .container p{
             width: 15rem;
+            height: 15rem;
+            overflow: hidden;
         }
         .container h1{
             width: 15rem;
@@ -124,22 +130,7 @@
         border: none;
         border-radius: 5px;
         padding: 10px 15px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: 99;
-    }
-    .closebtn:hover{
-        background-color: #555;
-    }   .closebtn{
-        margin-top: 10px;
-        cursor: pointer;
-        color: #fff;
-        background-color: #333;
-        border: none;
-        border-radius: 5px;
-        padding: 10px 15px;
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         z-index: 99;
