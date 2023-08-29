@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Blueprint ",
+    title: "Strategic Strategy",
     description:
-      "We thoroughly analyse your affiliate marketing objectives, comprehending your target audience and the merchandise you endorse. This understanding lays the groundwork for our strategy, assuring that your website is in line with your affiliate goals.  ",
+      "We commence each endeavour with a comprehensive comprehension of your objectives and target market. Our approach involves detailed strategizing to guarantee that the Next.js application aligns flawlessly with your business goals.  ",
   },
   {
     logo: logo2,
-    title: "Design with a Focus on Conversion  ",
+    title: "Design Distinction",
     description:
-      "Our designers combine inventiveness with conversion-centred design principles to construct layouts that drive action. We optimize your website's arrangement to maximize clicks and engagement.",
+      "Our creative team merges ingenuity with practicality. We create user-friendly interfaces that not only allure users but also enhance the overall user experience, nurturing engagement and contentment.",
   },
   {
     logo: logo3,
-    title: "Effortless Integration of Products ",
+    title: "Optimized Efficiency ",
     description:
-      "We seamlessly incorporate affiliate products, presenting them in an orderly and aesthetically appealing manner. Your visitors will effortlessly explore and purchase the endorsed merchandise. ",
+      "We leverage Nextjs's server-side rendering to ensure rapid loading speed and flawless user interactions. Our emphasis on performance enhancement ensures that your application stands out in terms of swiftness and responsiveness. ",
   },
   {
     logo: logo4,
-    title: "User-Friendly Experience ",
+    title: "SEO Incorporation ",
     description:
-      "Easily navigating your affiliate marketing site should be a breeze. Our design centred around the user ensures that visitors effortlessly discover what they desire, elevating their overall experience and motivating them to engage. ",
+      "Acknowledging the significance of search engine visibility, our approach capitalizes on Next.js's server-side rendering to enhance SEO rankings, amplifying organic traffic and guaranteeing that your content reaches a wider audience. ",
   },
   {
     logo: logo5,
-    title: "Adaptive Design",
+    title: "Agile Progress",
     description:
-      "It is paramount that your affiliate marketing website seamlessly functions on various devices. Our approach to design ensures an optimal encounter whether users access your site through computers, tablets, or smartphones. ",
+      "Our agile development methodology prioritizes collaboration and adaptability. We operate in iterative cycles, enabling prompt feedback, continuous improvements, and the ability to adapt to evolving requirements. ",
   },
   {
     logo: logo6,
-    title: "Optimization for Search Engines  ",
+    title: "Comprehensive Support ",
     description:
-      "To amplify the reach of your affiliate marketing, we implement effective SEO strategies that heighten visibility on search engines, expanding the audience that can access your affiliate content.",
+      "Our dedication extends beyond deployment. We provide continuous maintenance, updates, and assistance to keep your Next.js application running smoothly, ensuring its sustained performance and technological forefront.",
   },
 ];
 
@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for  Developing a WordPress Website for Affiliate Marketing</h1>
+      <h1> Our Approach to Next JS Development</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

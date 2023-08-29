@@ -6,13 +6,24 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        Beyond development, we offer ongoing support to ensure that your
-        Affiliate marketing website is always up to date and operating at its
-        best. Enhance Your Affiliate Marketing Performance with WordPress
-        Excellence: Are you prepared to stand out in the field of affiliate
-        marketing? EasyRyt’s specialized WordPress Development services for
-        Affiliate Marketing Websites are designed for affiliates who desire a
-        remarkable online platform for their promotional activities.
+        At EasyRyt, our Development Services utilizing Next.js offer a gateway
+        to the future of web applications. Our approach is rooted in expertise,
+        creativity, and a dedication to delivering exceptional outcomes. With a
+        team of talented developers specializing in Next.js, a history of
+        successful projects, and a comprehensive development process, we are
+        prepared to turn your digital goals into a reality that resonates with
+        your target audience. By choosing us, you are not only partnering with a
+        development service, but you are also collaborating with a team devoted
+        to crafting extraordinary web experiences. Our focus on performance,
+        user-friendly design, and continuous support ensures that your Next.js
+        application is not only functional but also optimized for speed, user
+        engagement, and long-term triumph. Whether you are initiating a new
+        project or enhancing an existing one, our customized Development
+        Services using Next.js are designed to enhance your online presence.
+        Allow us to assist you in harnessing the potential of Next.js to create
+        applications that stand out in today's ever-evolving digital landscape.
+        Get in touch with us today to embark on a transformative journey where
+        innovation meets excellence. Your digital triumph is our pledge!nex
       </p>
       <h2>Get in touch with us today</h2>
       <p>

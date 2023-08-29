@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Associate Advertising Specialists: ",
-      des:"We comprehend the subtleties of associate marketing and how to build optimized websites for increasing conversions and revenue generation.."
+      title:"Expertise in Next.js: ",
+      des:"Our team consists of experienced Next.js developers who are highly skilled in harnessing the capabilities of the framework to their maximum potential. With a proven track record of successful projects, we bring unparalleled expertise to every development undertaking."
     },
     {
       icon:<GiCrafting/>,
-      title:"WordPress Mastery:",
-      des:"With a deep understanding of the WordPress platform, we utilize its capabilities to craft dynamic and high-performing Affiliate marketing websites."
+      title:"Tailored Solutions: ",
+      des:"We understand that each project is distinctive. Our approach involves tailoring Next.js solutions specifically to align seamlessly with your individual business objectives and requirements, ensuring a truly personalized application."
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Conversion-Focused Designs:  ",
-      des:"Our designers prioritize crafting designs that stimulate clicks, interactions, and ultimately, purchases of Affiliate products. "
+      title:"Performance-Driven Approach:  ",
+      des:"We acknowledge the paramount significance of performance in today's digital landscape. Our focus on utilizing Next.js's server-side rendering ensures applications with outstanding speed and responsiveness, providing a competitive advantage. "
     },
     {
       icon:<SiClaris/>,
-      title:"Seamless Integration:  ",
-      des:"We ensure that the Affiliate products smoothly integrate into your website, enhancing the user experience and driving engagement. "
+      title:"User-Centric Design: ",
+      des:"Our design philosophy revolves around creating interfaces that prioritize the user, not only in terms of visual appeal but also in enhancing user engagement and satisfaction, fostering a smooth and enjoyable browsing experience. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Technical Expertise:  ",
-      des:"Our developers guarantee that your Affiliate marketing website is technically optimized for speed, performance, and security."
+      title:"Collaborative Partnership: ",
+      des:"Through our transparent and collaborative approach, we ensure that your insights and feedback play an integral role in the development process, resulting in a solution that resonates with your vision."
     },
     {
       icon:<FaInnosoft/>,
-      title:"Continuous Assistance:   ",
-      des:"Beyond development, we offer ongoing support to ensure that your Affiliate marketing website is always up to date and operating at its best."
+      title:"Ongoing Excellence:   ",
+      des:"Our commitment goes beyond development. We offer continuous support, maintenance, and updates to keep your Next.js application operating at its peak performance, guaranteeing that it consistently meets evolving user expectations and industry standards."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Affiliate Marketing Website?</h2>
+      <h2>Why Choose us for Next JS Development ?</h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 
