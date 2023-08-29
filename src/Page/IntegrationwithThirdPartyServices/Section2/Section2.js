@@ -10,38 +10,38 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Holistic Evaluation ",
-    description:"We embark on the journey of your AWS by gaining a profound comprehension of your commercial necessities and objectives. Our crew conducts an extensive evaluation of your present foundation and procedures to devise personalized AWS resolutions that harmonize flawlessly with your goals. ",
+    title: "Analysis ",
+    description:"We initiate the process by comprehending your business aims and the third-party services you desire to incorporate. Our team closely collaborates with you to identify the most appropriate opportunities for collaboration.  ",
   },
   {
     logo: logo2,
-    title: "Strategic Plan ",
+    title: "Customized Collaboration Planning",
     description:
-      "Equipped with discernments from the evaluation, we manufacture a strategic plan that delineates the migration, implementation, and optimization stages. This roadmap serves as a compass, guaranteeing an organized and seamless AWS metamorphosis that minimizes disruptions and maximizes advantages.",
+      "Acknowledging the distinctiveness of each collaboration, our approach involves devising a tailor-made strategy that caters to specific requirements and aligns with your objectives. ",
   },
   {
     logo: logo3,
-    title: "Tailored Resolutions",
+    title: "Streamlined API Collaboration",
     description:
-      "Recognizing that each enterprise is distinct, we specialize in fashioning customized AWS solutions. Whether it involves selecting the appropriate AWS services, designing an adaptable infrastructure, or enriching application performance, our resolutions are tailored to suit your precise requirements. ",
+      "Effortlessly link your systems with external APIs. We guarantee seamless communication, data exchange, and functionality improvement. ",
   },
   {
     logo: logo4,
-    title: "Collaborative Implementation ",
+    title: "Data Protection and Compliance",
     description:
-      "Collaboration lies at the core of our methodology. We closely collaborate with your team to implement AWS solutions. Regular meetings, open communication, and immediate feedback ensure that the implementation stays on course and effectively tackles any obstacles. ",
+      "We prioritize the security of your data and adhere to regulatory standards. Our professionals implement secure collaboration protocols to safeguard confidential information. ",
   },
   {
     logo: logo5,
-    title: "Continual Improvement",
+    title: "Thorough Testing and Quality Assurance",
     description:
-      "Our dedication exceeds the primary deployment. We offer continuous supervision and improvement facilities to ensure that your AWS ecosystem functions at its highest effectiveness. Routine evaluations and refinement ensure that you are extracting the maximum benefits from your AWS venture. ",
+      "Meticulous testing forms the foundation of our approach. We extensively test collaborations to ensure seamless operation without any disruptions to existing systems.",
   },
   {
     logo: logo6,
-    title: "Empowering through Knowledge Exchange ",
+    title: "Continuous Support ",
     description:
-      "In addition to technical resolutions, we advocate for empowering your workforce with the abilities and understanding to proficiently oversee and optimize AWS utilities. By means of training, interactive sessions, and comprehensive documentation, we equip your team to confidently navigate the AWS realm.",
+      "Our approach encompasses ongoing assistance after integration. We are readily available to address any concerns, provide updates, and ensure the smooth operation of your integrated systems.",
   },
 ];
 
@@ -80,7 +80,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Approach to Amazon Web Services</h1>
+      <h1>Our Approach for a Smooth Third-Party Collaboration </h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

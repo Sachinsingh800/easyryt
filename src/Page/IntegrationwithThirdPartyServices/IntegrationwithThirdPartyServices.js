@@ -27,18 +27,15 @@ function IntegrationwithThirdPartyServices() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Amazon Web Services</h1>
+          <h1>Integration with Third Party Services</h1>
           <h6>Discover Our Extensive Array of AWS Solutions</h6>
           <p>
-            Step into the realm of EasyRyt’s specialized AWS offerings, granting
-            you access to harness the exceptional capabilities of Amazon Web
-            Services. Are you prepared to propel your enterprise towards the
-            forefront of the industry, equipped with the flexibility,
-            protection, and ingenuity that AWS provides? Search no more. Our
-            comprehensive selection of AWS solutions is crafted with meticulous
-            precision to accommodate businesses in pursuit of digital revolution
-            and a leading position in the ever-evolving contemporary
-            environment.
+            Welcome to EasyRyt’s dedicated page on Seamless Compatibility with
+            External Services. Here, creativity intersects with adaptability and
+            effectiveness. Are you prepared to broaden your online boundaries by
+            flawlessly linking with external services? Search no more. Our
+            skilled team of integration experts is here to build a cohesive and
+            effective digital environment that unlocks fresh opportunities.
           </p>
           <button
             type="submit"
