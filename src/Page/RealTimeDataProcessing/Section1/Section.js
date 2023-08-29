@@ -50,24 +50,24 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          The Importance of AWS Solutions for Your Business
+          The Importance of Processing Data in Real-Time
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          In the rapidly evolving realm of digital transformation, adopting
-          Amazon Web Services (AWS) is not just a decision; it's a strategic
-          necessity. AWS solutions provide a range of advantages that can
-          significantly influence your business's effectiveness, scalability,
-          and ingenuity. With AWS, you obtain the capability to adjust your
-          resources dynamically, allowing for agility in a competitive market.
-          The robust security characteristics and compliance procedures instil
-          trust in safeguarding your confidential information. AWS's advanced
-          data management and analytics abilities empower data-based
-          decision-making, propelling your business ahead. Furthermore, AWS's
-          cloud-native approach expedites application development and
-          deployment, enabling you to remain ahead in a swiftly changing realm.
-          By adopting AWS solutions, you are not only embracing the present but
-          also securing a foundation that is prepared for the future success of
-          your business.
+          In the fast-paced world of modern business, being able to process and
+          analyse data in real-time has become a crucial advantage. Real-time
+          data processing provides organizations with the ability to make quick
+          and informed decisions, responding instantly to changing circumstances
+          and emerging opportunities. It allows businesses to identify
+          abnormalities, detect trends, and recognize patterns as they occur,
+          enabling them to take proactive actions. By leveraging real-time
+          insights, organizations can improve operational efficiency, optimize
+          resource allocation, and deliver personalized experiences to their
+          customers. Real-time data processing is a valuable tool for
+          maintaining competitiveness, ensuring flexibility, and maximizing the
+          value of data-centric strategies. Investing in professional services
+          for real-time data processing equips businesses with the necessary
+          resources to make the most of their data, transforming it into
+          actionable intelligence that drives growth and fosters innovation.
         </p>
       </div>
     </div>

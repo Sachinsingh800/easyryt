@@ -13,39 +13,39 @@ function Section3() {
   const data=[
     {
       icon:<GiSkills/>,
-      title:"Experienced AWS Professionals:  ",
-      des:"Our team consists of AWS-certified experts with extensive knowledge in designing, implementing, and managing AWS solutions. Utilizing our track record of success, we bring a vast amount of expertise to assist in your transformation."
+      title:"Expertise and Knowledge:  ",
+      des:"Our team of proficient developers in mobile backend guarantees that your projects are carried out with accuracy and proficiency, as we bring along a wealth of experience. "
     },
     {
       icon:<GiCrafting/>,
-      title:"End-to-End Solutions: ",
-      des:"We go beyond mere services and provide comprehensive solutions. Our all-encompassing approach ensures a seamless journey with AWS, covering every aspect of your transformation from initial assessment to continued support."
+      title:"Customized Solutions: ",
+      des:"We comprehend that each application possesses distinctive backend requirements. Our strategy revolves around developing backend systems that seamlessly align with the specific needs of your app. "
     },
     {
       icon:<MdPersonalInjury/>,
-      title:"Client-Focused Approach:  ",
-      des:"Your triumph is our utmost priority. We deeply comprehend your business requirements, tailoring our solutions to align with your objectives. Each step we take is dedicated to contributing to your growth and prosperity. "
+      title:"Efficiency and Reliability:  ",
+      des:"Our solutions are finely tuned to maximize speed, responsiveness, and efficient use of resources, ensuring smooth app operations."
     },
     {
       icon:<SiClaris/>,
-      title:"Innovative Solutions:  ",
-      des:"We are pioneers in AWS advancements. Our team doesn't simply follow trends; we pioneer novel methods to harness the capabilities of AWS. This enables us to offer you solutions that provide a competitive edge in your industry. "
+      title:"Security and Adherence: ",
+      des:"Ensuring data security and compliance with regulations is our top priority. Our backend solutions are meticulously designed to safeguard user data and adhere to industry standards. "
     },
     {
       icon:<TbTruckDelivery/>,
-      title:"Collaborative Alliance:  ",
-      des:"Our approach goes beyond delivering solutions; we foster partnerships. Collaborating closely with your team, we incorporate your perspectives and input, guaranteeing that the solutions we offer are tailored to your distinct corporate character."
+      title:"Scalability and Flexibility: ",
+      des:"We construct backend systems that can easily accommodate the growth of your app, guaranteeing top-notch performance even as user numbers soar. "
     },
     {
       icon:<FaInnosoft/>,
-      title:"Enduring Benefits:   ",
-      des:"Our dedication surpasses short-term outcomes. We devise solutions that expand, adjust, and advance in parallel with your business. By teaming up with us, you are investing in AWS services that provide continual worth and progression."
+      title:" Collaborative Partnership: ",
+      des:"Communication is essential. Throughout the development and maintenance process, we collaborate closely with you, ensuring that your app's vision guides every step and your feedback is highly valued."
     },
    
   ]
   return (
     <div className={style.main}>
-      <h2>Why Select EasyRyt for Amazon Web?</h2>
+      <h2>Why Choose us for Our Services in Mobile Backend Development ? </h2>
       <div className={style.card_container} >
       {data.map((item,id)=>
 

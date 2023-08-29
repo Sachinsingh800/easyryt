@@ -6,17 +6,20 @@ function Section4() {
   return (
     <div className={style.main}>
       <p>
-        At EasyRyt, we are not simply offering AWS services; we are presenting
-        you with a pathway to imagination and advancement. With our expertise,
-        customized solutions, and commitment to your prosperity, we are prepared
-        to accompany you on this ground-breaking voyage. As you enter the realm
-        of AWS, our collaboration surpasses mere solutions – it revolves around
-        crafting strategies that harmonize with your vision. From smooth
-        transitions to robust frameworks, our approach is meticulously designed
-        to empower your success. Why choose us? Our all-inclusive approach,
-        proven accomplishments, and unwavering devotion make us the perfect
-        companion for your AWS revolution. Get in contact via to commence your
-        AWS journey!
+        At EasyRyt, we offer more than just mobile back-end development; we
+        offer you the key to unlocking the full potential of your mobile
+        application. With a team of skilled programmers, a dedication to
+        customization, and an unwavering commitment to excellence, we are ready
+        to be your partner on this transformative journey. As you venture into
+        the world of mobile back-end development, our collaboration goes beyond
+        coding; it's about optimizing functionality, enhancing user experiences,
+        and ensuring data security. Why choose us? Because our approach is
+        rooted in strategic planning, innovation, scalability, and a partnership
+        that guarantees your mobile application's back-end is prepared to meet
+        the needs of today and the future. Observe the integration of technology
+        and expertise to create mobile applications that redefine user
+        experiences and drive digital triumph. With EasyRyt, mobile back-end
+        development is a journey of empowerment and accomplishment!
       </p>
       <h2>Get in touch with us today</h2>
       <p>

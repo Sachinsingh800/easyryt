@@ -27,18 +27,17 @@ function MobileBackendDevelopment() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>Amazon Web Services</h1>
+          <h1>Mobile Backend Development Services</h1>
           <h6>Discover Our Extensive Array of AWS Solutions</h6>
           <p>
-            Step into the realm of EasyRyt’s specialized AWS offerings, granting
-            you access to harness the exceptional capabilities of Amazon Web
-            Services. Are you prepared to propel your enterprise towards the
-            forefront of the industry, equipped with the flexibility,
-            protection, and ingenuity that AWS provides? Search no more. Our
-            comprehensive selection of AWS solutions is crafted with meticulous
-            precision to accommodate businesses in pursuit of digital revolution
-            and a leading position in the ever-evolving contemporary
-            environment.
+            Welcome to EasyRyt’s dedicated page for specialized services in
+            developing backends for mobile applications. Here, we bring together
+            cutting-edge ideas with strong backend solutions. If you are looking
+            to enhance the capabilities of your mobile app by implementing a
+            robust backend infrastructure, you have come to the right place. Our
+            team of knowledgeable backend developers is ready to craft flawless
+            and high-performing backend systems that power the functionality of
+            your mobile app.
           </p>
           <button
             type="submit"

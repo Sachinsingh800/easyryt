@@ -10,38 +10,38 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Holistic Evaluation ",
-    description:"We embark on the journey of your AWS by gaining a profound comprehension of your commercial necessities and objectives. Our crew conducts an extensive evaluation of your present foundation and procedures to devise personalized AWS resolutions that harmonize flawlessly with your goals. ",
+    title: "Strategic Examination",
+    description:"We initiate by comprehending your business goals and data sources. Our team collaborates closely with you to identify the most pertinent data streams for live processing.  ",
   },
   {
     logo: logo2,
-    title: "Strategic Plan ",
+    title: "Personalized Solution Design",
     description:
-      "Equipped with discernments from the evaluation, we manufacture a strategic plan that delineates the migration, implementation, and optimization stages. This roadmap serves as a compass, guaranteeing an organized and seamless AWS metamorphosis that minimizes disruptions and maximizes advantages.",
+      "Acknowledging the distinctiveness of each business, our approach encompasses crafting tailor-made data processing solutions that precisely align with your specific requirements. ",
   },
   {
     logo: logo3,
-    title: "Tailored Resolutions",
+    title: "Streamlined Data Integration",
     description:
-      "Recognizing that each enterprise is distinct, we specialize in fashioning customized AWS solutions. Whether it involves selecting the appropriate AWS services, designing an adaptable infrastructure, or enriching application performance, our resolutions are tailored to suit your precise requirements. ",
+      "Seamlessly combine data from diverse sources into a cohesive platform. We guarantee that your data flows seamlessly, empowering quick and precise processing.  ",
   },
   {
     logo: logo4,
-    title: "Collaborative Implementation ",
+    title: "Cutting-Edge Analytics and Algorithms",
     description:
-      "Collaboration lies at the core of our methodology. We closely collaborate with your team to implement AWS solutions. Regular meetings, open communication, and immediate feedback ensure that the implementation stays on course and effectively tackles any obstacles. ",
+      "We employ state-of-the-art analytics and algorithms to process and scrutinize data in real-time. This empowers us to unearth insights, patterns, and trends as they transpire.  ",
   },
   {
     logo: logo5,
-    title: "Continual Improvement",
+    title: "Automated Event Detection",
     description:
-      "Our dedication exceeds the primary deployment. We offer continuous supervision and improvement facilities to ensure that your AWS ecosystem functions at its highest effectiveness. Routine evaluations and refinement ensure that you are extracting the maximum benefits from your AWS venture. ",
+      "Our approach incorporates establishing automated systems that identify occurrences and triggers in real-time. This ensures prompt notifications and facilitates proactive decision-making. ",
   },
   {
     logo: logo6,
-    title: "Empowering through Knowledge Exchange ",
+    title: "Expandable Architecture ",
     description:
-      "In addition to technical resolutions, we advocate for empowering your workforce with the abilities and understanding to proficiently oversee and optimize AWS utilities. By means of training, interactive sessions, and comprehensive documentation, we equip your team to confidently navigate the AWS realm.",
+      "We devise data processing frameworks that can expand alongside your data volumes. Our solutions are engineered to handle increased workloads without compromising performance.",
   },
 ];
 
@@ -80,7 +80,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Approach to Amazon Web Services</h1>
+      <h1>Our Approach to Efficient Real-Time Data Processing </h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful
