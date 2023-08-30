@@ -50,16 +50,21 @@ function Section() {
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          The Influence of a Devoted Affiliate Marketing Website
+          Importance of UI/UX Designs
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
-          In the realm of online trade, possessing a devoted platform for
-          Affiliate marketing is crucial. A WordPress Affiliate marketing
-          website furnishes the optimal groundwork for efficiently promoting
-          Affiliate goods, monitoring performance, and captivating your
-          audience. It's not solely about showcasing links – it's about
-          constructing an immersive Affiliate experience that seamlessly binds
-          products with prospective purchasers.
+          In today's digital environment, outstanding UI/UX design plays a
+          pivotal role in achieving success. A meticulously crafted User
+          Interface (UI) and User Experience (UX) design not only establish
+          favourable initial impressions but also ensure instinctive and
+          pleasurable interactions. In a fiercely competitive market, investing
+          in UI/UX design services is a deliberate decision that enriches user
+          involvement, cultivates loyalty, and differentiates your brand. At
+          EasyRyt, we acknowledge the crucial function of UI/UX design in
+          shaping user perspectives and encounters. Our proficient team is
+          committed to producing designs that merge beauty with utility,
+          providing a profound digital presence that resonates with users and
+          propels business expansion.
         </p>
       </div>
     </div>

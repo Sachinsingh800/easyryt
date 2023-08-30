@@ -10,39 +10,39 @@ import logo6 from "../../../Image/message.gif";
 const cardData = [
   {
     logo: logo1,
-    title: "Strategic Blueprint ",
+    title: "User-Focused Investigation",
     description:
-      "We thoroughly analyse your affiliate marketing objectives, comprehending your target audience and the merchandise you endorse. This understanding lays the groundwork for our strategy, assuring that your website is in line with your affiliate goals.  ",
+      "We commence by comprehending the requirements, actions, and inclinations of your intended audience. This approach driven by insightful understanding becomes the basis for our design choices, guaranteeing that every component caters to your users.  ",
   },
   {
     logo: logo2,
-    title: "Design with a Focus on Conversion  ",
+    title: "Strategic Blueprinting  ",
     description:
-      "Our designers combine inventiveness with conversion-centred design principles to construct layouts that drive action. We optimize your website's arrangement to maximize clicks and engagement.",
+      "Our designers construct detailed diagrams outlining the structure and progression of your digital offering. This plan aids us in envisioning the user's path and identifying potential areas for enhancement. ",
   },
   {
     logo: logo3,
-    title: "Effortless Integration of Products ",
+    title: "Enthralling Appearance ",
     description:
-      "We seamlessly incorporate affiliate products, presenting them in an orderly and aesthetically appealing manner. Your visitors will effortlessly explore and purchase the endorsed merchandise. ",
+      "Our UI designers foreground their artistic expertise, crafting visually captivating interfaces that embody your brand's identity. We maintain uniformity in design elements, ensuring a harmonious and captivating user encounter. ",
   },
   {
     logo: logo4,
-    title: "User-Friendly Experience ",
+    title: "Intuitive Interaction Design ",
     description:
-      "Easily navigating your affiliate marketing site should be a breeze. Our design centred around the user ensures that visitors effortlessly discover what they desire, elevating their overall experience and motivating them to engage. ",
+      "We concentrate on creating interactions that make utilizing your digital creation effortless and enjoyable. From seamless transitions to instinctive gestures, we enhance the overall user experience. ",
   },
   {
     logo: logo5,
-    title: "Adaptive Design",
+    title: "Progressive Prototyping",
     description:
-      "It is paramount that your affiliate marketing website seamlessly functions on various devices. Our approach to design ensures an optimal encounter whether users access your site through computers, tablets, or smartphones. ",
+      "We devise interactive prototypes to simulate the user's encounter. This enables us to gather valuable feedback early on and refine the design based on genuine user insights. ",
   },
   {
     logo: logo6,
-    title: "Optimization for Search Engines  ",
+    title: "User-Focused Enhancement ",
     description:
-      "To amplify the reach of your affiliate marketing, we implement effective SEO strategies that heighten visibility on search engines, expanding the audience that can access your affiliate content.",
+      "Feedback plays an integral role in our procedure. We highly value your input and integrate it into the design journey, guaranteeing the final product perfectly aligns with your vision and objectives.",
   },
 ];
 
@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for  Developing a WordPress Website for Affiliate Marketing</h1>
+      <h1>Our Method for  Developing  UI/UX Designs</h1>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful
