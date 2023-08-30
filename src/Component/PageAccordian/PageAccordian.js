@@ -626,39 +626,1097 @@ export function GoogleAdvertising() {
 
       <Accordion.Item eventKey="15">
         <Accordion.Header>
-          *6.How do you determine the appropriate target audience for my social
-          network advertisements ? *
+          *6.How is keyword targeting utilized in Google advertising ? *
         </Accordion.Header>
         <Accordion.Body>
-          The process of defining the target audience involves analysing
-          demographics, interests, behaviours, and psychographics of your
-          potential customers. Professional social network advertising services
-          utilize data-driven insights to pinpoint your ideal audience.
+          Keyword targeting involves the selection of pertinent keywords
+          associated with your business. When users search for those particular
+          keywords, your advertisements will be displayed. Choosing suitable
+          keywords is of utmost importance to effectively connect with your
+          target audience.
         </Accordion.Body>
       </Accordion.Item>
 
       <Accordion.Item eventKey="17">
         <Accordion.Header>
-          *7. What types of advertisement formats are available on social
-          network platforms ? *
+          *7. What is the Quality Score in Google Ads ? *
         </Accordion.Header>
         <Accordion.Body>
-          Social network platforms offer a range of advertisement formats,
-          including visual ads, video ads, carousel ads, slideshow ads, story
-          ads, lead generation ads, and more. Each format possesses unique
-          strengths for various marketing objectives.
+          The Quality Score serves as a metric that Google employs to assess the
+          excellence and relevance of your keywords, advertisement content, and
+          landing page. A higher Quality Score can potentially result in greater
+          ad placements and reduced costs per click.
         </Accordion.Body>
       </Accordion.Item>
 
       <Accordion.Item eventKey="18">
         <Accordion.Header>
-          *8.How much does social network advertising cost ? *
+          *8.Can I establish a budget for my Google advertising campaign ? *
         </Accordion.Header>
         <Accordion.Body>
-          The cost varies based on factors such as the platform, advertisement
-          format, competition, and targeting. You establish a budget that aligns
-          with your objectives, and you are charged based on impressions,
-          clicks, or other metrics of engagement.
+          Certainly, Google Ads offers the option to set a daily or monthly
+          budget. This grants you the ability to govern your expenses, and once
+          your designated budget is depleted, your advertisements will cease to
+          appear until the subsequent budget cycle.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+
+export function FacebookInstagramAdvertising() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1. What is Facebook & Instagram promotion ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Facebook & Instagram promotion involves creating and running paid
+          campaigns to boost your company, products, or services on these social
+          media platforms. It enables you to connect with a specific audience
+          and captivate users through diverse advertising styles.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2.How does Facebook & Instagram promotion function? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Advertisers generate adverts utilizing pictures, videos, or carousel
+          designs and define their target audience based on demographics,
+          interests, behaviours, and more. The adverts are then displayed to
+          users within their feeds, stories, or sidebars.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.Why should I consider Facebook & Instagram promotion services ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Facebook & Instagram promotion offers accurate targeting, captivating
+          visuals, measurable outcomes, and the capability to reach a large user
+          base. It is effective for establishing brand awareness, generating
+          leads, and driving traffic to your website.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4. What varieties of advertising styles are obtainable on Facebook &
+          Instagram? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Both platforms offer a wide array of advertising styles, including
+          image ads, video ads, carousel ads, slideshow ads, story ads,
+          collection ads, and more. Each style serves different marketing
+          objectives.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.Is it possible to target specific audiences using Facebook and
+          Instagram advertising ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Absolutely, one of the notable features of these platforms is their
+          extensive range of targeting options. You have the ability to define
+          your desired audience based on various factors like age, geographical
+          location, interests, behaviours, connections, and more.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.How much does advertising on Facebook and Instagram cost ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          The cost may vary depending on multiple factors, which include your
+          target audience, the format of the advertisement, competition, and
+          bidding strategy. You have the flexibility to set a budget, and your
+          expenses are based on metrics like impressions, clicks, or other types
+          of engagement.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7. Can I establish a budget for my ad campaign on Facebook and
+          Instagram? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Certainly, you can allocate a specific budget either on a daily basis
+          or for the entire duration of your campaign. Once your designated
+          budget has been exhausted, your ads will cease to run until the next
+          budget cycle begins.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.What is the process for creating captivating ad content on these
+          platforms ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Captivating ad content should possess visually stimulating elements,
+          be succinct, and resonate with your intended audience. It should
+          effectively convey your message while also including a clear and
+          compelling call to action.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+
+export function ContentMarketing() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header> *1. What is content promotion ? *</Accordion.Header>
+        <Accordion.Body>
+          Content promotion involves producing and distributing valuable,
+          relevant information to attract and engage a specific group of people.
+          Its objective is to offer solutions, address issues, and establish
+          credibility, ultimately leading to increased customer participation
+          and conversions.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2.How do content marketing solutions operate ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Content marketing solutions entail devising, generating,
+          disseminating, and evaluating information across multiple platforms.
+          This may encompass online journal entries, write-ups, visuals, data
+          visualizations, digital books, and other tailored materials to
+          effectively connect with your intended audience.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.Why should I invest in content marketing solutions ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Content marketing establishes your brand as an industry expert,
+          enhances search engine optimization (SEO), nurtures potential
+          prospects, and cultivates customer loyalty. It is a long-term approach
+          that generates organic website traffic and valuable connections with
+          your audience.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4. What types of materials are included in content marketing
+          solutions ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Materials can range from online journal entries, write-ups, in-depth
+          reports, case analyses, visuals, podcasts, social media updates, and
+          additional formats. The choice of materials depends on your objectives
+          and target audience.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.How can content marketing enhance SEO ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          High-quality content featuring relevant keywords and valuable
+          information attracts organic traffic. Search engines acknowledge
+          valuable content and reward it with higher rankings, resulting in
+          increased visibility.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.What entails a content marketing plan ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          A content marketing strategy encompasses your objectives, target
+          audience, various content formats, channels for distribution, and a
+          comprehensive plan for continuous creation and promotion.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7.How can content marketing services benefit my company ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Content marketing offers numerous advantages to your business,
+          including enhanced brand awareness, increased website traffic,
+          improved audience engagement, positioning your brand as an industry
+          leader, and nurturing leads throughout the sales funnel.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.What is the recommended frequency for creating new content ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          The frequency of content creation should be determined by your
+          available resources and objectives. Whether it's weekly, bi-weekly, or
+          monthly, consistency is crucial. However, the quality of the content
+          is more important than the quantity.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+
+export function SocialMediaMarketing() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1. What is marketing through online platforms ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Marketing through online platforms involves utilizing various digital
+          platforms to promote your brand, products, or services. It encompasses
+          creating and sharing unique content, actively engaging with your
+          target audience, and utilizing targeted advertisements to achieve your
+          marketing objectives.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2.How does the provision of marketing through online platforms work ?
+          *
+        </Accordion.Header>
+        <Accordion.Body>
+          The provision of marketing through online platforms involves
+          developing a comprehensive strategy, producing captivating content,
+          effectively managing your digital accounts, analysing performance
+          metrics, and implementing paid advertising campaigns across multiple
+          platforms.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.Why should I allocate resources to marketing through online
+          platforms ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Investing in marketing through online platforms offers numerous
+          benefits, including increased brand recognition, fostering customer
+          relationships, driving traffic to your website, improving lead
+          generation, and providing a direct channel for communication with your
+          target audience.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4.Which online platforms are encompassed in these marketing services
+          ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Marketing through online platforms covers a wide range of platforms,
+          including popular ones such as Facebook, Instagram, Twitter, LinkedIn,
+          Pinterest, as well as emerging platforms tailored to your specific
+          target audience and industry.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.How does the utilization of social media marketing enhance the
+          visibility of my brand ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          By consistently sharing pertinent content, engaging with users, and
+          employing appropriate hashtags, your brand acquires visibility among
+          both existing supporters and potential customers
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.Can social media marketing enhance the level of engagement with
+          customers ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Indeed, social media platforms provide direct avenues for
+          communication with your audience through comments, likes, shares, and
+          messages. Captivating content fosters meaningful connections.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7.How do social media marketing services contribute to the success of
+          my business ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Social media marketing amplifies website traffic, enhances customer
+          loyalty, offers insights into audience preferences, drives
+          conversions, and establishes your brand as an authoritative figure in
+          the industry.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.What types of content are typically generated for social media
+          marketing ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Content can encompass a variety of visuals, such as images and videos,
+          informative blog posts, behind-the-scenes narratives, surveys,
+          competitions, and user-generated content.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+
+export function EmailMarketing() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1. What is electronic mail advertising ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Electronic mail advertising is a digital promotional strategy that
+          entails sending tailored electronic messages to a cluster of
+          recipients with the intention of endorsing products, services,
+          exchanging content, and fostering customer connections.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2.How do electronic mail advertising services operate ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Electronic mail advertising services involve designing, generating,
+          and dispatching electronic messages to a segmented audience. It
+          entails crafting captivating content, optimizing for various devices,
+          monitoring engagement, and analysing outcomes.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.Why should I invest in electronic mail advertising services ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Electronic mail advertising is a direct and personalized approach to
+          interact with your target audience. It aids in driving conversions,
+          fostering brand devotion, nurturing leads, and maintaining ongoing
+          communication with customers.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4.How do electronic mail advertising services benefit my enterprise ?
+          *
+        </Accordion.Header>
+        <Accordion.Body>
+          Electronic mail advertising boosts website traffic, augments sales,
+          assists in lead generation, nurtures customer relations, and delivers
+          valuable insights into user behaviour and preferences.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.What are the various kinds of emails that can be sent through the
+          services related to marketing via electronic mails ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Categories of emails encompass bulletins, advertisements, declarations
+          on products, reception emails, notifications about abandoned shopping
+          carts, surveys, and many more, all tailored to suit your objectives
+          and target audience.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.How can you develop captivating electronic mail content ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Captivating electronic mail content entails captivating subject lines
+          that grab attention, concise and pertinent text, visually appealing
+          graphics, a transparent call to action, and customization based on
+          users' behaviours.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7.Can services related to marketing through electronic mails assist
+          with the management of your contact directory ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Yes, such services often comprise handling and categorizing your
+          subscriber roster to guarantee spot-on and relevant communication with
+          distinct groups of recipients.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.How can you gauge the accomplishment of your advertising campaigns
+          via electronic mail ?*
+        </Accordion.Header>
+        <Accordion.Body>
+          Indicators of success incorporate open rates, click-through rates
+          (CTR), conversion rates, bounce rates, and unsubscribe rates. These
+          metrics aid in evaluating the effectiveness of your campaigns.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+
+export function AnalyticsandReporting() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1. What are data analysis and reporting solutions ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Data analysis and reporting solutions involve the collection and
+          examination of information to gain insights into the performance of
+          your marketing efforts. This includes tracking various metrics and
+          presenting them in easily understandable reports.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2. How do data analysis and reporting solutions function? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Data analysis solutions entail the establishment of tracking tools,
+          gathering data from multiple sources such as websites, social media
+          platforms, and advertisements, and examining this data to derive
+          actionable insights. Reporting services then compile this information
+          into comprehensible reports.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.Why should I invest in data analysis and reporting solutions? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Investing in data analysis and reporting helps you comprehend the
+          efficacy of your marketing strategies, pinpoint areas for improvement,
+          make informed decisions based on data, and measure your return on
+          investment (ROI).
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4. What varieties of data can be analysed through these solutions ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Data that can be analysed through these solutions encompasses website
+          traffic, user behaviour, engagement rates, conversion rates,
+          click-through rates (CTR), interactions on social media, campaign
+          performance, and more.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.What are the advantages of utilizing analytics services for my
+          business ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Analytics offer a comprehensive comprehension of your target audience,
+          enabling you to enhance your marketing approaches, allocate resources
+          efficiently, optimize campaigns, and ultimately enhance your overall
+          business performance.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.What does a typical package for analytics and reporting services
+          include ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          It may encompass the establishment of tracking tools, continuous
+          monitoring and analysis of data, creation of personalized reports,
+          identification of key performance indicators (KPIs), and provision of
+          actionable suggestions.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7.How frequently should I expect to receive reports on analytics ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          The frequency of reports relies on your business objectives and the
+          pace of your marketing endeavours. Monthly reports are commonly
+          provided, yet more or less frequent reports can be tailored to suit
+          your specific requirements.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.How do you ensure the accuracy of the collected data ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Professional analytics services rely on dependable tracking tools,
+          accurate implementation of tracking codes, and regular data audits to
+          guarantee precision and consistency.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+
+export function WebsiteTrafficAdvertising() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1. What is "Website Visitor Advertising"? *
+        </Accordion.Header>
+        <Accordion.Body>
+          The service called "Website Visitor Advertising" focuses on creating
+          targeted advertising campaigns specifically targeted towards
+          individuals who have previously visited your website. It employs
+          retargeting strategies to re-engage these users and drive conversions.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2. How does “Advertising for Website Visitors” work? *
+        </Accordion.Header>
+        <Accordion.Body>
+          This service utilizes tracking technology such as cookies to identify
+          individuals who have visited your website. It then presents customized
+          advertisements to these users as they navigate other websites,
+          encouraging them to revisit and take desired actions.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.What benefits does a business have for using “Website Visitor
+          Advertising"? *
+        </Accordion.Header>
+        <Accordion.Body>
+          The "Website Visitor Advertising" service helps recapture potentially
+          missed opportunities, enhances brand recognition, personalizes user
+          experiences, improves conversion rates, and boosts the return on
+          investment (ROI) of your advertising endeavours.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4. What kinds of advertisements are displayed to past website
+          visitors? *
+        </Accordion.Header>
+        <Accordion.Body>
+          The ads can include recommendations for products, promotions,
+          reminders, and personalized messages to entice users to return to your
+          website and complete any abandoned actions they may have started
+          before.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.How do you guarantee that the advertisements pertain to each
+          individual? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Attaining pertinent ads is accomplished through retargeting
+          technology, which monitors the actions of users on your site. This
+          information is utilized to exhibit ads tailored to their engagements
+          and inclinations.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.Can "Promoting to Visitors of the Website" amplify conversions and
+          sales? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Indeed, this service is proficient in reconnecting with users who have
+          previously displayed interest in your offerings. By reminding them
+          about your brand and products, you heighten the probability of
+          conversions and sales.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7.How do you manage user confidentiality and safeguard their data? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Professional services comply with privacy regulations by implementing
+          transparent policies on cookies and respecting the preferences of
+          users. Personal data is handled with the utmost consideration and
+          protection.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.How do you evaluate the triumph of campaigns for "Advertising to
+          Website Visitors"? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Triumph is gauged using metrics such as click-through rates (CTR),
+          conversion rates, return on ad spend (ROAS), and cost per acquisition
+          (CPA). These metrics exhibit the effectiveness of the ads in yielding
+          results.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+
+export function ECommerceAdvertising() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1. What are E-commerce Marketing Solutions? *
+        </Accordion.Header>
+        <Accordion.Body>
+          E-commerce Marketing Solutions encompass the creation and management
+          of tailored promotional campaigns that aim to boost product visibility
+          and generate sales for online businesses.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2. How do E-commerce Marketing Solutions operate? *
+        </Accordion.Header>
+        <Accordion.Body>
+          These solutions leverage diverse advertising channels and techniques
+          to effectively showcase your products to a relevant customer base.
+          They involve campaign setup, precise targeting selection, and
+          optimization for maximum conversions.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.What are the benefits of investing in E-commerce Marketing
+          Solutions? *
+        </Accordion.Header>
+        <Accordion.Body>
+          By investing in E-commerce Marketing Solutions, you can significantly
+          enhance the online presence of your store, attract quality traffic,
+          skyrocket sales, and achieve a solid return on investment (ROI) by
+          efficiently reaching potential buyers.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4. What kinds of advertisements are displayed to past website
+          visitors? *
+        </Accordion.Header>
+        <Accordion.Body>
+          The ads can include recommendations for products, promotions,
+          reminders, and personalized messages to entice users to return to your
+          website and complete any abandoned actions they may have started
+          before.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.Which advertising platforms are commonly utilized in E-commerce
+          Marketing? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Commonly used platforms comprise Google Ads, Facebook Ads, Instagram
+          Ads, Pinterest Ads, and Amazon Advertising. The selection of platforms
+          depends on your specific target audience and the nature of your
+          products.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.What are the advantages of utilizing E-commerce Advertising
+          Services for my online store? *
+        </Accordion.Header>
+        <Accordion.Body>
+          These services have the potential to significantly enhance the
+          visibility of your store, attract prospective purchasers, reconnect
+          with past visitors, optimize the allocation of advertising funds, and
+          enhance the overall performance of your online business.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7.Which varieties of ad layouts can be employed for E-commerce
+          Advertising? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Ad layouts encompass product listing advertisements, carousel
+          advertisements, dynamic advertisements, video advertisements, and
+          display advertisements. These layouts effectively showcase your
+          merchandise and captivate the attention of users.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.How can you ensure that my products are displayed to the
+          appropriate audience? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Professional E-commerce Advertising Services employ sophisticated
+          targeting options, such as demographics, interests, behaviours, and
+          retargeting techniques, to guarantee that your advertisements reach
+          individuals who have a genuine interest in your offerings.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+
+export function AppInstallAdvertising() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1.What are Services for Promoting Mobile App Downloads? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Services for Promoting Mobile App Downloads involve creating and
+          managing targeted campaigns to endorse mobile applications and
+          encourage users to acquire and set them up from app stores.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2. How do Services for Promoting Mobile App Downloads function? *
+        </Accordion.Header>
+        <Accordion.Body>
+          These services utilize different advertising platforms and strategies
+          to exhibit captivating advertisements to pertinent audiences,
+          propelling them to acquire and install your mobile application from
+          app stores
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.Why should I invest in Services for Promoting Mobile App Downloads?
+          *
+        </Accordion.Header>
+        <Accordion.Body>
+          Services for Promoting Mobile App Downloads can swiftly augment app
+          visibility, amplify downloads, optimize app store rankings, and
+          provide a substantial return on investment (ROI) by effectively
+          reaching potential users
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4.Which platforms are commonly employed for Services for Promoting
+          Mobile App Downloads? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Common platforms include Google Ads, Facebook Ads, Instagram Ads,
+          Apple Search Ads, and diverse ad networks. The selection depends on
+          your target audience and app genre
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.How do Services for Promoting Mobile App Downloads benefit my
+          mobile app? *
+        </Accordion.Header>
+        <Accordion.Body>
+          These services can significantly heighten your app's visibility,
+          allure potential users, optimize ad expenditure, ameliorate download
+          rates, and enhance the overall performance of your mobile application
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.What sorts of advertisement formats can be utilized for Services
+          for Promoting Mobile App Downloads? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Advertisement formats encompass app promotion ads, video ads,
+          interactive ads, and playable ads. These formats showcase your app's
+          characteristics and encourage users to take action.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7.How do you guarantee my app is exposed to the appropriate audience?
+          *
+        </Accordion.Header>
+        <Accordion.Body>
+          Professional Services for Promoting Mobile App Downloads employ
+          advanced targeting options such as demographics, interests,
+          behaviours, device types, and app categories to reach users who are
+          likely to exhibit interest in your app
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.Can Services for Promoting Mobile App Downloads assist with app
+          store optimization (ASO)? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Yes, numerous services offer recommendations for app store
+          optimization to enhance your app's visibility within app stores,
+          leading to greater organic downloads.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+
+export function AndroidAppAdvertising() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1.What are App Install Promotion Services? *
+        </Accordion.Header>
+        <Accordion.Body>
+          App Install Promotion Services involve creating and managing targeted
+          campaigns to market mobile applications and encourage users to
+          download and install them from app stores.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2. How do App Install Promotion Services operate? *
+        </Accordion.Header>
+        <Accordion.Body>
+          These services utilize various advertising platforms and strategies to
+          showcase captivating advertisements to relevant audiences, prompting
+          them to download and install your mobile application from app stores
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.Why should I invest in App Install Promotion Services? *
+        </Accordion.Header>
+        <Accordion.Body>
+          App Install Promotion Services can swiftly enhance app visibility,
+          amplify downloads, enhance app store rankings, and provide a
+          substantial return on investment (ROI) by effectively reaching
+          potential users.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4.Which platforms are commonly utilized for App Install Promotion? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Popular platforms include Google Ads, Facebook Ads, Instagram Ads,
+          Apple Search Ads, and various ad networks. The selection depends on
+          your target audience and application type
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.How do App Install Promotion Services benefit my mobile
+          application? *
+        </Accordion.Header>
+        <Accordion.Body>
+          These services can significantly amplify your application's
+          visibility, attract potential users, optimize advertising expenditure,
+          improve download rates, and enhance the overall performance of your
+          mobile application
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.What types of advertising formats can be employed for App Install
+          Promotion? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Advertising formats include application install advertisements, video
+          advertisements, interactive advertisements, and playable
+          advertisements. These formats showcase your application's features and
+          motivate users to take action
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7.How do you ensure my application is displayed to the appropriate
+          audience? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Professional App Install Promotion Services employ advanced targeting
+          options such as demographics, interests, behaviours, device types, and
+          application categories to reach users who are likely to be interested
+          in your application
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.Can App Install Promotion Services assist with app store
+          optimization (ASO)? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Yes, many services provide app store optimization recommendations to
+          enhance your application's visibility within app stores, resulting in
+          increased organic downloads.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+
+
+
+
+export function AndroidAppAdvertising() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1.What are App Install Promotion Services? *
+        </Accordion.Header>
+        <Accordion.Body>
+          App Install Promotion Services involve creating and managing targeted
+          campaigns to market mobile applications and encourage users to
+          download and install them from app stores.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2. How do App Install Promotion Services operate? *
+        </Accordion.Header>
+        <Accordion.Body>
+          These services utilize various advertising platforms and strategies to
+          showcase captivating advertisements to relevant audiences, prompting
+          them to download and install your mobile application from app stores
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.Why should I invest in App Install Promotion Services? *
+        </Accordion.Header>
+        <Accordion.Body>
+          App Install Promotion Services can swiftly enhance app visibility,
+          amplify downloads, enhance app store rankings, and provide a
+          substantial return on investment (ROI) by effectively reaching
+          potential users.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4.Which platforms are commonly utilized for App Install Promotion? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Popular platforms include Google Ads, Facebook Ads, Instagram Ads,
+          Apple Search Ads, and various ad networks. The selection depends on
+          your target audience and application type
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.How do App Install Promotion Services benefit my mobile
+          application? *
+        </Accordion.Header>
+        <Accordion.Body>
+          These services can significantly amplify your application's
+          visibility, attract potential users, optimize advertising expenditure,
+          improve download rates, and enhance the overall performance of your
+          mobile application
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.What types of advertising formats can be employed for App Install
+          Promotion? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Advertising formats include application install advertisements, video
+          advertisements, interactive advertisements, and playable
+          advertisements. These formats showcase your application's features and
+          motivate users to take action
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7.How do you ensure my application is displayed to the appropriate
+          audience? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Professional App Install Promotion Services employ advanced targeting
+          options such as demographics, interests, behaviours, device types, and
+          application categories to reach users who are likely to be interested
+          in your application
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.Can App Install Promotion Services assist with app store
+          optimization (ASO)? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Yes, many services provide app store optimization recommendations to
+          enhance your application's visibility within app stores, resulting in
+          increased organic downloads.
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
