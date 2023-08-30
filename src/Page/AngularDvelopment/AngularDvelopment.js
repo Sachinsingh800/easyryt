@@ -11,6 +11,7 @@ import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
 import Section from "./Section1/Section";
+import Section5 from "./Section5/Section5";
 
 function AngularDvelopment() {
   const [showPopup, setShowPopup] = useState(false);
@@ -53,6 +54,7 @@ function AngularDvelopment() {
       <TenthSection />
       <SixthSection />
       <EleventhSection />
+      <Section5/>
       <CallButton />
       <Footer />
       {/* Popup window */}

@@ -3902,7 +3902,7 @@ export function VueJSDevelopment() {
 
 
 
-export function AngularJSDevelopment() {
+export function AngularDvelopment() {
   return (
     <Accordion>
       {/* Question 1 */}
