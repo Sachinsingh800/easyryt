@@ -1721,3 +1721,401 @@ export function IOSAppAdvertising() {
     </Accordion>
   );
 }
+
+export function ECommerceDevelopment() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1.What are E-commerce Website Development Solutions? *
+        </Accordion.Header>
+        <Accordion.Body>
+          E-commerce Website Development Solutions involve the creation and
+          design of online platforms that enable businesses to offer their
+          products or services to customers through the internet
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2. How do E-commerce Website Development Solutions operate? *
+        </Accordion.Header>
+        <Accordion.Body>
+          These solutions encompass the design, development, and launch of an
+          e-commerce website that includes functionalities such as product
+          listings, shopping carts, reliable payment gateways, and efficient
+          order management systems
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.Why should I invest in E-commerce Website Development Solutions? *
+        </Accordion.Header>
+        <Accordion.Body>
+          E-commerce websites provide a global stage for your business, expand
+          customer outreach, enhance sales opportunities, and offer a
+          user-friendly shopping experience
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4.What functionalities can be incorporated into an E-commerce
+          website? *
+        </Accordion.Header>
+        <Accordion.Body>
+          E-commerce websites can include product catalogues, search and filter
+          options, user profiles, secure payment gateways, inventory management,
+          order tracking, feedback systems, and more
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.Which platforms are commonly used for E-commerce website
+          development? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Popular platforms include WooCommerce (WordPress), Shopify, Magento,
+          BigCommerce, and tailored solutions customized to meet your specific
+          business requirements
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.How do E-commerce Website Development Solutions benefit my
+          business? *
+        </Accordion.Header>
+        <Accordion.Body>
+          These solutions establish your online presence, drive sales growth,
+          improve customer engagement, allow for targeted marketing, and provide
+          valuable insights into user behaviour
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7.Can E-commerce websites be optimized for mobile devices? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Absolutely, professional E-commerce Website Development Solutions
+          ensure that your website is responsive and optimized for different
+          screen sizes, providing a seamless mobile shopping experience
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.How do you guarantee the security of customer data and
+          transactions? *
+        </Accordion.Header>
+        <Accordion.Body>
+          E-commerce websites implement SSL certificates, secure payment
+          gateways, encryption protocols, and adhere to industry best practices
+          to safeguard customer data and ensure secure transactions.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+export function FrontEndDevelopment() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1.What are the services for developing user-facing components? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Services for developing user-facing components involve the creation
+          and design of the visual and interactive aspects of a website or web
+          application that users directly engage with.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2. How do these services operate? *
+        </Accordion.Header>
+        <Accordion.Body>
+          These services focus on coding and implementing the user interface
+          (UI) and user experience (UX) design. Their goal is to ensure that the
+          website or application is visually appealing, functional, and easy to
+          use.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.Why should I invest in these services?*
+        </Accordion.Header>
+        <Accordion.Body>
+          Investing in the development of user-facing components guarantees that
+          your website or application will provide an outstanding user
+          experience, attracting visitors and encouraging them to return. This
+          ultimately leads to higher conversion rates.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4.Which technologies are commonly utilized for this type of
+          development? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Commonly used technologies include HTML, CSS, and JavaScript.
+          Additionally, frameworks like React, Angular, and Vue.js are often
+          employed to create interfaces that are both dynamic and responsive.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.Which components are included in the development of the user
+          interface? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Front development includes designing arrangements, navigation menus,
+          forms, buttons, interactive features, animations, and ensuring
+          consistency on various devices and web browsers.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.What are the advantages of using Front End Development Services for
+          my website or application? *
+        </Accordion.Header>
+        <Accordion.Body>
+          These services enhance user participation, improve visual
+          attractiveness, provide seamless interactions, optimize performance,
+          and contribute to an overall positive user experience.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7.Is it possible to optimize Front End development services for
+          mobile devices? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Absolutely, skilled Front End Development Services guarantee that
+          websites and applications are adaptable and seamlessly adjust to
+          different screen sizes, enhancing the user experience on mobile
+          devices.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.How do professionals ensure compatibility across different web
+          browsers in Front End development? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Experts diligently test and enhance the user interface code to verify
+          proper functionality across various web browsers and versions.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+
+export function BackendDevelopment() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1.What are Services for Development in the Rear? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Services for developing in the rear involve creating and sustaining
+          the components, databases, and logic on the server side that empower
+          the functionality of websites and web applications
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2. How do Development Services in the Rear operate? *
+        </Accordion.Header>
+        <Accordion.Body>
+          These services concentrate on coding and constructing the server,
+          databases, APIs, and other behind-the-scenes components that enable
+          the interaction between the user interface and the server
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.Why should I invest in Services for Development in the Rear? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Investing in development in the rear guarantees that your website or
+          application has secure, scalable, and efficient functionality that can
+          handle user interactions and business transactions
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4.What technologies are frequently used for Development in the Rear?
+          *
+        </Accordion.Header>
+        <Accordion.Body>
+          Common technologies include programming languages like Python, Java,
+          Ruby, PHP, and frameworks like Node.js, Django, Ruby on Rails, and
+          Laravel
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.What components are included in Development in the Rear? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Development in the rear includes creating databases, APIs (Application
+          Programming Interfaces), server logic, authentication systems, data
+          storage, and business logic
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.How do Services for Development in the Rear benefit my website or
+          application? *
+        </Accordion.Header>
+        <Accordion.Body>
+          These services ensure that your website or application can handle user
+          requests, securely store and retrieve data, manage user accounts, and
+          perform complex operations
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7.Can services for Development in the Rear enhance website loading
+          speed? *
+        </Accordion.Header>
+        <Accordion.Body>
+          While front end optimization plays a significant role in loading
+          speed, efficient back-end coding practices and database optimization
+          can contribute to overall performance
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.How is security handled in Development in the Rear? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Security measures include data encryption, user authentication,
+          authorization, input validation, and protection against common
+          vulnerabilities like SQL injection and cross-site scripting (XSS).
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+
+export function FullStackDevelopmentServices() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1.What are FullStack Development Services? *
+        </Accordion.Header>
+        <Accordion.Body>
+          FullStack Development Services encompass comprehensive web application
+          development, encompassing both the front end and back-end aspects to
+          create a holistic and functional digital solution.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2. How do FullStack Development Services function?*
+        </Accordion.Header>
+        <Accordion.Body>
+          These services entail expertise in both the front end (user interface)
+          and back end (server-side) development, enabling the creation of fully
+          functional and interactive web applications.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.Why should I invest in FullStack Development Services? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Investing in full stack development ensures that you possess the
+          capabilities to construct complete web applications, ranging from user
+          interface design to server-side logic, offering a comprehensive and
+          all-encompassing solution.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4.What technologies are commonly utilized for FullStack development?
+          *
+        </Accordion.Header>
+        <Accordion.Body>
+          Full stack developers frequently employ a combination of front-end
+          technologies such as HTML, CSS, JavaScript, and back-end technologies
+          such as Python, Ruby, Node.js, in addition to frameworks and
+          libraries.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.What elements are included in FullStack development? *
+        </Accordion.Header>
+        <Accordion.Body>
+          FullStack development encompasses both the front end and back-end
+          components, encompassing user interface design, user experience,
+          server logic, database management, and system integration.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.How do FullStack Development Services benefit my project? *
+        </Accordion.Header>
+        <Accordion.Body>
+          These services provide a complete solution, enabling you to handle all
+          aspects of application development within a single team. This
+          simplifies communication, expedites development, and guarantees a
+          consistent vision.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7.Can FullStack development services optimize for mobile devices? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Yes, FullStack developers can assure that the user interface is
+          responsive and optimized for various screen sizes, delivering a
+          seamless experience across a variety of devices.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.How do you address security in FullStack development? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Security measures are implemented across both the front end and
+          back-end components, including user authentication, data encryption,
+          input validation, and safeguarding against vulnerabilities.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
