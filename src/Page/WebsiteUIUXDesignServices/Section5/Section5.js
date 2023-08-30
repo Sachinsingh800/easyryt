@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import style from "./Section5.module.css";
-import { CrossPlatformAppAccordian, NativeAppAccordian } from "../../../Component/PageAccordian/PageAccordian";
+import { WebsiteUIUXDesignServices } from "../../../Component/PageAccordian/PageAccordian";
 
 export default function Section5() {
   const [expanded, setExpanded] = React.useState(false);
@@ -18,7 +18,7 @@ export default function Section5() {
         to contact us in case of any query which is not mention below.
       </p>
       <div className={style.container}>
-          <CrossPlatformAppAccordian/>
+          <WebsiteUIUXDesignServices/>
       </div>
     </div>
   );
