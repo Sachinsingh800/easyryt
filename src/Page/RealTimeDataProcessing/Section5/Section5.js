@@ -18,7 +18,7 @@ export default function Section5() {
         to contact us in case of any query which is not mention below.
       </p>
       <div className={style.container}>
-          <CrossPlatformAppAccordian/>
+          <RealTimeDataProcessing/>
       </div>
     </div>
   );
