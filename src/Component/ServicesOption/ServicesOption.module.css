@@ -10,6 +10,7 @@
   .options{
     background-color: white;
     height:max-content;
+
   }
   .optionList {
     list-style: none;
@@ -23,7 +24,8 @@
   }
   
  .optionList  li {
-
+    display: flex;
+    justify-content: space-between;
     cursor: pointer;
     padding: .5rem;
     padding-left: 2rem;

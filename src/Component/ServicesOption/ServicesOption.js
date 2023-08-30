@@ -22,11 +22,11 @@ function ServicesOption() {
             className={hoveredOption === "Option 1" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 1")}
           >
-            Mobile App Development
+            Mobile App Development <span>➡️</span>
             {hoveredOption === "Option 1" && (
               <div className={style.optionContent}>
                  <ul  className={style.options}>
-                <Link to={"/Native-Mobile-App-Development"}> <li>Native Mobile App Development</li></Link> 
+                <Link to={"/Native-Mobile-App-Development"}> <li>Native Mobile App Development </li></Link> 
                 <Link to={"/Cross-Platform-App-Development"}> <li>Cross-Platform App Development</li></Link> 
                <Link to={"/Android-Application-Development-Services"}><li>Android Application Development Services</li></Link>   
                <Link to={"/IOS-Application-Development-Services"}>     <li>IOS Application Development Services</li></Link>          
@@ -46,7 +46,7 @@ function ServicesOption() {
             className={hoveredOption === "Option 2" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 2")}
           >
-           Digital Marketing
+           Digital Marketing<span>➡️</span>
             {hoveredOption === "Option 2" && (
               <div className={style.optionContent1}>
                   <ul  className={style.options}>
@@ -75,7 +75,7 @@ function ServicesOption() {
             className={hoveredOption === "Option 3" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 3")}
           >
-        Website Development
+        Website Development<span>➡️</span>
             {hoveredOption === "Option 3" && (
               <div className={style.optionContent2}>
                 <ul  className={style.options}>
@@ -92,7 +92,7 @@ function ServicesOption() {
             className={hoveredOption === "Option 4" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 4")}
           >
-     WordPress Development
+     WordPress Development<span>➡️</span>
             {hoveredOption === "Option 4" && (
               <div className={style.optionContent3}>
                  <ul  className={style.options}>
@@ -118,7 +118,7 @@ function ServicesOption() {
             className={hoveredOption === "Option 5" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 5")}
           >
-      UI/UX Design
+      UI/UX Design<span>➡️</span>
             {hoveredOption === "Option 5" && (
               <div className={style.optionContent4}>
                 <ul  className={style.options}>
@@ -136,7 +136,7 @@ function ServicesOption() {
             className={hoveredOption === "Option 6" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 6")}
           >
-Front End Development
+Front End Development<span>➡️</span>
             {hoveredOption === "Option 6" && (
               <div className={style.optionContent5}>
                 <ul  className={style.options}>
@@ -153,7 +153,7 @@ Front End Development
             className={hoveredOption === "Option 7" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 7")}
           >
-      Backend Development
+      Backend Development<span>➡️</span>
             {hoveredOption === "Option 7" && (
               <div className={style.optionContent6}>
              <ul  className={style.options}>
@@ -181,7 +181,7 @@ Front End Development
             className={hoveredOption === "Option 8" ? style.active : ""}
             onMouseOver={() => handleOptionHover("Option 8")}
           >
-  Cloud
+  Cloud<span>➡️</span>
             {hoveredOption === "Option 8" && (
               <div className={style.optionContent7}>
                 <ul  className={style.options}>

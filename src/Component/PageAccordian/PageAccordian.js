@@ -236,3 +236,431 @@ export function CrossPlatformAppAccordian() {
     </Accordion>
   );
 }
+
+// Digital marketing
+
+export function SearchEngineOptimization() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1. What are search engine optimization (SEO) services? *
+        </Accordion.Header>
+        <Accordion.Body>
+          SEO services encompass a variety of strategies and techniques
+          implemented by professionals to enhance a website's visibility on
+          search engines. The objective is to enhance the website's position in
+          search results, resulting in increased organic (unpaid) traffic and
+          potential clientele.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2.Why do I require SEO services for my website ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          SEO services are indispensable as they assist in increasing your
+          website's discoverability to users seeking the products or services
+          you provide. Enhanced visibility translates to higher organic traffic,
+          improved brand recognition, and a greater potential for increased
+          sales and leads.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>*3.How do SEO services operate ? *</Accordion.Header>
+        <Accordion.Body>
+          SEO services function by analysing your website's structure, content,
+          keywords, and other components to align them with search engine
+          algorithms. This encompasses on-page optimization, off-page link
+          building, technical enhancements, and content improvements to boost
+          your website's overall search engine ranking.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4. What is incorporated in an SEO package ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          SEO packages may vary, but generally include keyword research, on-page
+          optimization, content creation, backlink building, technical SEO
+          enhancements, regular audits, and performance tracking. The specifics
+          are dependent on the package you choose and the unique needs of your
+          website.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5. 5. How much time does it take to witness outcomes from SEO
+          endeavours ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          SEO is a prolonged approach, and outcomes may differ depending on
+          factors like the present condition of your website, the level of
+          competition, and the selected keywords. Generally, noticeable
+          enhancements may become apparent within a few months, while
+          significant achievements might require between 6 months to a year.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>*6.Are SEO outcomes enduring ? *</Accordion.Header>
+        <Accordion.Body>
+          SEO outcomes are not completely everlasting. Although a well-executed
+          SEO strategy can sustain your website's position for a substantial
+          period, search engine algorithms evolve, and competitors adapt.
+          Regular updates and maintenance are imperative to remain competitive.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7. Can I personally conduct SEO, or do I need professional assistance
+          ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          While fundamental SEO techniques can be implemented by website owners
+          themselves, professional SEO services provide extensive expertise,
+          industry knowledge, and the most recent methodologies to attain
+          optimal results. Complex technical aspects and ongoing algorithmic
+          changes often necessitate professional intervention.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.How do you select the appropriate keywords for my business ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Finding the right keywords for your business involves comprehending
+          your industry, target audience, and analysing search patterns.
+          Professional SEO services employ diverse tools to identify pertinent
+          keywords that strike a balance between search volume and competition,
+          ensuring maximum impact.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+
+export function PayPerClick() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1. What is pay-per-click (PPC) advertising ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          PPC advertising is a digital marketing strategy in which advertisers
+          pay a fee each time someone clicks on their ad. It is a method of
+          purchasing website visits instead of obtaining them organically.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2.How does PPC advertising operate ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          PPC ads are exhibited on search engines and various online platforms.
+          Advertisers compete for specific keywords that are relevant to their
+          business. When users search for those keywords, the ads will appear
+          either at the top or bottom of the search results page or on relevant
+          websites. Advertisers are only charged when someone actually clicks on
+          their ad.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.What are the advantages of utilizing PPC advertising services ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          PPC advertising offers immediate visibility, precise targeting,
+          control over ad expenditure, measurable outcomes, and the ability to
+          optimize campaigns in real-time. It is an effective approach to
+          generate website traffic, leads, and sales.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4. Do I require PPC advertising if I am already implementing SEO ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          While SEO concentrates on organic search rankings, PPC provides
+          immediate visibility at the top of search results. Both strategies
+          complement one another and can enhance overall online visibility and
+          increase traffic.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.Which platforms support pay-per-click (PPC) advertising ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Major platforms that offer PPC advertising include Google Ads, Bing
+          Ads, Facebook Ads, Instagram Ads, Twitter Ads, LinkedIn Ads, and more.
+          The selection of the platform depends on the specific audience you are
+          targeting and the objectives of your business.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.How do you determine the most suitable keywords for my PPC campaign
+          ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Keyword research involves identifying pertinent keywords with a
+          substantial search volume and aligning them with your business
+          objectives. Professional services specializing in PPC advertising
+          employ tools and data analysis to choose keywords that can effectively
+          drive targeted traffic to your website.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7. What is the purpose of ad targeting ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Ad targeting allows you to define your audience based on various
+          factors, such as demographics, location, interests, and online
+          behaviour. This ensures that your advertisements are displayed to the
+          most relevant potential customers.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.What is the cost of PPC advertising ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          The cost of PPC advertising varies depending on factors like your
+          industry, competition, chosen keywords, and the quality of your ads.
+          You can set a budget that suits your requirements, and charges only
+          apply when someone clicks on your ad.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+
+export function SocialMediaAdvertising() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>
+          {" "}
+          *1. What is advertisement on social networks ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Advertising on social networks involves promoting your products,
+          services, or content on various platforms for social networking. It
+          enables you to target specific audiences based on demographics,
+          interests, and behaviours.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2.How does advertisement on social networks operate ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Advertisements on social networks are presented to users as sponsored
+          content in their feeds, stories, or sidebars. Advertisers create
+          campaigns, choose targeting parameters, establish budgets, and compete
+          for ad placements. They are billed when users interact with or click
+          on the advertisements.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.Why should I invest in services for advertising on social networks
+          ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Advertising on social networks provides targeted exposure, precise
+          audience segmentation, captivating visual interactions, measurable
+          outcomes, and the opportunity to enhance brand recognition, drive
+          traffic, and generate leads.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4. Which platforms for social networking support advertising ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Major platforms such as Facebook, Instagram, Twitter, LinkedIn,
+          Pinterest, and TikTok offer options for advertising. The selection of
+          a platform depends on your target audience and business goals.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.Can social network advertising aid my business alongside organic
+          social efforts ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Absolutely, social network advertising complements organic efforts by
+          providing immediate visibility and wider reach. It can amplify your
+          content, attract fresh followers, and drive traffic while organic
+          efforts focus on engaging with the community.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.How do you determine the appropriate target audience for my social
+          network advertisements ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          The process of defining the target audience involves analysing
+          demographics, interests, behaviours, and psychographics of your
+          potential customers. Professional social network advertising services
+          utilize data-driven insights to pinpoint your ideal audience.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7. What types of advertisement formats are available on social
+          network platforms ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Social network platforms offer a range of advertisement formats,
+          including visual ads, video ads, carousel ads, slideshow ads, story
+          ads, lead generation ads, and more. Each format possesses unique
+          strengths for various marketing objectives.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.How much does social network advertising cost ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          The cost varies based on factors such as the platform, advertisement
+          format, competition, and targeting. You establish a budget that aligns
+          with your objectives, and you are charged based on impressions,
+          clicks, or other metrics of engagement.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}
+
+export function GoogleAdvertising() {
+  return (
+    <Accordion>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header> *1. What is Google promotion ? *</Accordion.Header>
+        <Accordion.Body>
+          Google promotion, commonly known as Google Ads, is a paid marketing
+          platform that enables businesses to showcase their promotions on
+          Google's search engine outcomes pages, partner websites, and diverse
+          Google offerings.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          *2.How does Google promotion operate ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Google Ads functions on a pay-per-click (PPC) model. Advertisers
+          compete for keywords relating to their products or services. When
+          users search for those keywords, promotions appear at the uppermost or
+          lowermost section of the search results. Advertisers are billed once
+          users click on their promotions.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>
+          *3.Why should I contemplate Google marketing services ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Google promotion offers instantaneous visibility, precise targeting,
+          quantifiable outcomes, and the opportunity to connect with users who
+          are actively searching for products or services. It can generate
+          website traffic, leads, and sales.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>
+          *4. What varieties of promotions can I design using Google marketing ?
+          *
+        </Accordion.Header>
+        <Accordion.Body>
+          Google Ads provides diverse promotional layouts encompassing search
+          promotions, display promotions, video promotions (YouTube), shopping
+          promotions, and app promotion promotions. Each layout caters to
+          distinct marketing goals.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>
+          *5.What is the Google Display Network ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          The Google Display Network enables you to showcase advertisements
+          across an extensive network of websites, blogs, and apps that
+          collaborate with Google. This broadens your outreach beyond search
+          results and allows you to captivate users with visually captivating
+          and dynamic advertisements.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>
+          *6.How do you determine the appropriate target audience for my social
+          network advertisements ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          The process of defining the target audience involves analysing
+          demographics, interests, behaviours, and psychographics of your
+          potential customers. Professional social network advertising services
+          utilize data-driven insights to pinpoint your ideal audience.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>
+          *7. What types of advertisement formats are available on social
+          network platforms ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          Social network platforms offer a range of advertisement formats,
+          including visual ads, video ads, carousel ads, slideshow ads, story
+          ads, lead generation ads, and more. Each format possesses unique
+          strengths for various marketing objectives.
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>
+          *8.How much does social network advertising cost ? *
+        </Accordion.Header>
+        <Accordion.Body>
+          The cost varies based on factors such as the platform, advertisement
+          format, competition, and targeting. You establish a budget that aligns
+          with your objectives, and you are charged based on impressions,
+          clicks, or other metrics of engagement.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  );
+}

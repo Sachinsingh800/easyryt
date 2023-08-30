@@ -21,8 +21,6 @@
     width: 30rem;
     justify-content: space-evenly;
     color: white;
-
-
 }
 .innerBox h4{
     font-weight: 100;
@@ -74,6 +72,7 @@
   width: 27rem;
   padding-top: 1rem;
   gap: .5rem;
+
 right: 0;
 position: absolute;
 
