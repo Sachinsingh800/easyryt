@@ -15,6 +15,7 @@ import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section1 from "./Section1/Section";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function AndroidApplicationDevelopmentServices() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,14 @@ function AndroidApplicationDevelopmentServices() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Expert Android App Development</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Expert Android App Development"
+    content="Turn your vision into reality with our top-tier Android app development services. Boost engagement and growth."
+  />
+</Helmet>
       <NavBar />
       <div className={style.container}>
         <div>
