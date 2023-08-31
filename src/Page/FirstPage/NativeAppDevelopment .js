@@ -16,6 +16,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection"
 import FifthSection from "../../Section/FifthSection/FifthSection"
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
+import { Helmet } from "react-helmet";
 
 function NativeAppDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
@@ -25,6 +26,14 @@ function NativeAppDevelopment() {
   };
   return (
     <div className={style.main}>
+            <Helmet>
+        <title>We Transform Digital Solutions</title>
+        <meta charSet="utf-8" />
+        <meta
+          name="Pro React Native Development."
+          content="Unlock seamless cross-platform experiences with our React Native expertise. Elevate your app's performance."
+        />
+      </Helmet>
       <NavBar />
       <div className={style.container}>
         <div>
