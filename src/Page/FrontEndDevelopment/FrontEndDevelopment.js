@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function FrontEndDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,14 @@ function FrontEndDevelopment() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Dynamic Front-End Solutions</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Dynamic Front-End Solutions"
+    content="Crafting engaging interfaces for seamless user experiences. Elevate your digital presence with our expertise."
+  />
+</Helmet>
       <NavBar />
       <div className={style.container}>
         <div>

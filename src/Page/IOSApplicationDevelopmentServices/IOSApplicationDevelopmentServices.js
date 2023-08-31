@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function IOSApplicationDevelopmentServices() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,14 @@ function IOSApplicationDevelopmentServices() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Pro iOS App Development</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Pro iOS App Development"
+    content="Elevate your business with our premier iOS app development services. Delivering excellence through innovation."
+  />
+</Helmet>
       <NavBar />
       <div className={style.container}>
         <div>

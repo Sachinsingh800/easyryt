@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function ReactNativeDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,14 @@ function ReactNativeDevelopment() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Seamless Native App Development</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Seamless Native App Development"
+    content="Crafting top-notch native apps for seamless user experiences. Elevate your digital presence with our expert development services."
+  />
+</Helmet>
       <NavBar />
       <div className={style.container}>
         <div>

@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "../AndroidApplicationDevelopmentServices/Section1/Section";
+import { Helmet } from "react-helmet";
 
 function MobileAppDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,14 @@ function MobileAppDevelopment() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Innovative Mobile App Solutions</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Innovative Mobile App Solutions"
+    content="Crafting impactful mobile experiences to elevate your brand. Expert development for diverse business needs."
+  />
+</Helmet>
       <NavBar />
       <div className={style.container}>
         <div>

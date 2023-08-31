@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function FlutterAppDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,14 @@ function FlutterAppDevelopment() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Expert Flutter App Development</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Expert Flutter App Development"
+    content="Crafting stunning cross-platform apps with Flutter. Elevate user engagement and reach effortlessly."
+  />
+</Helmet>
       <NavBar />
       <div className={style.container}>
         <div>

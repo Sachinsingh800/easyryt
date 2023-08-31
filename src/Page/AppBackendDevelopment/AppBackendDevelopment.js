@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function AppBackendDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,14 @@ function AppBackendDevelopment() {
   };
   return (
     <div className={style.main}>
+            <Helmet>
+  <title>Robust App Backend Solutions</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Robust App Backend Solutions"
+    content="Powering your app with secure and scalable backend development. Elevate user experiences seamlessly."
+  />
+</Helmet>
       <NavBar />
       <div className={style.container}>
         <div>
