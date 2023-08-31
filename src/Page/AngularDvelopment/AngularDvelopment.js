@@ -12,6 +12,7 @@ import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
 import Section from "./Section1/Section";
 import Section5 from "./Section5/Section5";
+import { Helmet } from "react-helmet";
 
 function AngularDvelopment() {
   const [showPopup, setShowPopup] = useState(false);
@@ -21,6 +22,15 @@ function AngularDvelopment() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>AngularJS Development Services</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="AngularJS Development Services"
+    content="Crafting dynamic web experiences with AngularJS expertise. Elevate your digital presence seamlessly."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>

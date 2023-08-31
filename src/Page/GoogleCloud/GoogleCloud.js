@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function GoogleCloud() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function GoogleCloud() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Google Cloud Services</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Google Cloud Services"
+    content="Leverage expert Google Cloud services for seamless digital solutions. Elevate your infrastructure effortlessly."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>

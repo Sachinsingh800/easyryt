@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function OnlineCourses() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,14 @@ function OnlineCourses() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Online Course Mastery Development Services</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Online Course Mastery Development Services"
+    content="Expert WordPress development for engaging online courses. Elevate your educational platform effectively."
+  />
+</Helmet>
       <NavBar />
       <div className={style.container}>
         <div>

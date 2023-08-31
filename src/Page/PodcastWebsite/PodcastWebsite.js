@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function PodcastWebsite() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function PodcastWebsite() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Podcast Website Development</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Podcast Website Development"
+    content="Crafting podcast websites with WordPress expertise. Elevate your audio content's online presence effectively."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>

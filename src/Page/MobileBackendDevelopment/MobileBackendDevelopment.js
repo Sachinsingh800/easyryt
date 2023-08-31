@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function MobileBackendDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function MobileBackendDevelopment() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Mobile Backend Development</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Mobile Backend Development"
+    content="Optimize mobile apps with our backend development services. Elevate performance seamlessly."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>

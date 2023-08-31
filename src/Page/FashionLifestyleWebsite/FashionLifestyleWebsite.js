@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function FashionLifestyleWebsite() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function FashionLifestyleWebsite() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Fashion Website Development</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Fashion Website Development"
+    content="Expert WordPress development for stylish fashion websites. Elevate your brand's sartorial presence."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>

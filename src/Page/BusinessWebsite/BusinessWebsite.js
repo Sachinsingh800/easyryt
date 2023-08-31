@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function BusinessWebsite() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function BusinessWebsite() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>WordPress Business Development Services</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="WordPress Business Development Services"
+    content="Empower your brand with expert WordPress business development services. Elevate online success."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>

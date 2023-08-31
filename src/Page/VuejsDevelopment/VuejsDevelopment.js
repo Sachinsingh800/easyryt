@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function VuejsDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,14 @@ function VuejsDevelopment() {
   };
   return (
     <div className={style.main}>
+            <Helmet>
+  <title>Vue.JS Development Services</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Vue.JS Development Services"
+    content="Crafting dynamic web experiences with Vue.JS expertise. Elevate your digital presence seamlessly."
+  />
+</Helmet>
       <NavBar />
       <div className={style.container}>
         <div>

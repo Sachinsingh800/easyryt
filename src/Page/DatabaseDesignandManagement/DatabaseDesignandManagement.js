@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function DatabaseDesignandManagement() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function DatabaseDesignandManagement() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Database Design & Management</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Database Design & Management"
+    content="Expert services for optimized database solutions. Elevate performance and efficiency seamlessly."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>

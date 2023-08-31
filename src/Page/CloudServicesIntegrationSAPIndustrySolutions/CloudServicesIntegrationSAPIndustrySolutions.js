@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function CloudServicesIntegrationSAPIndustrySolutions() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,14 @@ function CloudServicesIntegrationSAPIndustrySolutions() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Seamless Cloud Integration Services</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Seamless Cloud Integration Services"
+    content="Integrate and optimize with our expert cloud services. Elevate your digital solutions effortlessly."
+  />
+</Helmet>
       <NavBar />
       <div className={style.container}>
         <div>

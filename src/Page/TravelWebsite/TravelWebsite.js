@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function TravelWebsite() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function TravelWebsite() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Travel Site Development</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Travel Site Development"
+    content="Expert WordPress development for captivating travel websites. Elevate your wanderlust platform seamlessly."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>

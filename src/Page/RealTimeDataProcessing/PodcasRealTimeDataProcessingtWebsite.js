@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function PodcasRealTimeDataProcessingtWebsite() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function PodcasRealTimeDataProcessingtWebsite() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Real-Time Data Processing Services</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Real-Time Data Processing Services"
+    content="Efficiently process data in real-time with our expert services. Elevate your digital solutions seamlessly."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>

@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function APIDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,14 @@ function APIDevelopment() {
   };
   return (
     <div className={style.main}>
+                  <Helmet>
+  <title>Custom API Development</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Custom API Development"
+    content="Crafting efficient APIs tailored to your needs. Elevate your digital solutions with expert development services."
+  />
+</Helmet>
       <NavBar />
       <div className={style.container}>
         <div>

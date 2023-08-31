@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function UIUXDesignServices() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function UIUXDesignServices() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Innovative UIUX Design</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Innovative UIUX Design"
+    content="Crafting captivating user experiences. Elevate your product with expert design services."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>

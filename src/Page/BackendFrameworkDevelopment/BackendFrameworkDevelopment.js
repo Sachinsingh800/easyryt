@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function BackendFrameworkDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function BackendFrameworkDevelopment() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Backend Framework Services</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Backend Framework Services"
+    content="Crafting robust backend solutions with expert framework development. Elevate your digital infrastructure seamlessly."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>
