@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "../AndroidApplicationDevelopmentServices/Section1/Section";
+import { Helmet } from "react-helmet";
 
 
 function CrossPlatformAppDevelopment() {
@@ -27,6 +28,14 @@ function CrossPlatformAppDevelopment() {
   };
   return (
     <div className={style.main}>
+        <Helmet>
+        <title>We Transform Digital Solutions</title>
+        <meta charSet="utf-8" />
+        <meta
+          name="Cross-Platform Excellence."
+          content="Crafting versatile apps for maximum reach. Elevate engagement with our expert development services."
+        />
+      </Helmet>
       <NavBar />
       <div className={style.container}>
         <div>

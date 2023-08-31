@@ -18,6 +18,8 @@ import Section from "./Section1/Section";
 function ReactNativeAppDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
 
+
+
   //popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
