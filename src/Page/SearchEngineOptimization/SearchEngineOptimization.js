@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function SearchEngineOptimization() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function SearchEngineOptimization() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Effective SEO Solutions</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Effective SEO Solutions"
+    content="Boost visibility and traffic with our expert SEO services. Elevate your online presence today."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>

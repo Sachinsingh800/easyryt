@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function AppInstallAdvertising() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function AppInstallAdvertising() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Boost App Installs</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Boost App Installs"
+    content="Drive downloads with strategic app install advertising. Elevate your app's reach effectively."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>

@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function AndroidAppAdvertising() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function AndroidAppAdvertising() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Powerful Android App Ads</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Powerful Android App Ads"
+    content="Amplify visibility and installs with expert Android app advertising. Elevate your app's success."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>

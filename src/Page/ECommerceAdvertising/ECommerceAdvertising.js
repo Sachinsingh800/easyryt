@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function ECommerceAdvertising() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function ECommerceAdvertising() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>E-commerce Advertising Expertise</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="E-commerce Advertising Expertise"
+    content="Boost sales with targeted e-commerce advertising services. Elevate your online store's success."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>

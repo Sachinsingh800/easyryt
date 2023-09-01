@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function WebsiteTrafficAdvertising() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function WebsiteTrafficAdvertising() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Advertising for Website Visitors</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Advertising for Website Visitors"
+    content="Turn visitors into customers with strategic advertising. Elevate your conversion rates effectively."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>

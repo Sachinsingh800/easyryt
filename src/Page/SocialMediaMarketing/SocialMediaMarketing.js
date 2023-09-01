@@ -14,6 +14,7 @@ import ForthSection from "../../Section/ForthSection/ForthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import Section from "./Section1/Section";
+import { Helmet } from "react-helmet";
 
 function AppBackendDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
@@ -24,6 +25,15 @@ function AppBackendDevelopment() {
   };
   return (
     <div className={style.main}>
+      <Helmet>
+  <title>Impactful Social Media Marketing</title>
+  <meta charSet="utf-8" />
+  <meta
+    name="Impactful Social Media Marketing"
+    content="Elevate brand presence through strategic social media marketing. Connect, engage, and grow."
+  />
+</Helmet>
+
       <NavBar />
       <div className={style.container}>
         <div>
