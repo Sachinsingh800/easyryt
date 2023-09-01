@@ -12,8 +12,8 @@ import Footer from "../../Component/Footer/Footer";
 import CallButton from "../../Component/CallButton/CallButton";
 import PopupOption from "../../Component/PopupOption/PopupOption";
 import Section4 from "./Section4/Section4";
-import ForthSection from "../../Section/ForthSection/ForthSection"
-import FifthSection from "../../Section/FifthSection/FifthSection"
+import ForthSection from "../../Section/ForthSection/ForthSection";
+import FifthSection from "../../Section/FifthSection/FifthSection";
 import ServiceForm from "../../Component/ServiceForm/ServiceForm";
 import Section5 from "./Section5/Section5";
 import { Helmet } from "react-helmet";
@@ -61,19 +61,15 @@ function NativeAppDevelopment() {
         <title>Pro React Native Development</title>
         <meta charSet="utf-8" />
         <meta
-          name="Pro React Native Development."
+          name="Pro React Native Development"
           content="Unlock seamless cross-platform experiences with our React Native expertise. Elevate your app's performance."
         />
-        <head>
+        {/* Include the JSON-LD script within the head */}
         <script type="application/ld+json">
-        {JSON.stringify(jsonLdScript)}
-      </script>
-        </head>
-      
+          {JSON.stringify(jsonLdScript)}
+        </script>
       </Helmet>
       <NavBar />
-      {/* Include the JSON-LD script within the JSX */}
-   
       <div className={style.container}>
         <div>
           <h1>Native App Development Services</h1>
@@ -104,12 +100,12 @@ function NativeAppDevelopment() {
       <Section1 />
       <Section2 />
       <Section3 />
-      <Section4/>
-     <ServiceForm/>
+      <Section4 />
+      <ServiceForm />
       <ForthSection />
-      <SixthSection/>
-      <EleventhSection/>
-      <Section5/>
+      <SixthSection />
+      <EleventhSection />
+      <Section5 />
       <CallButton />
       <Footer />
       {showPopup && (
