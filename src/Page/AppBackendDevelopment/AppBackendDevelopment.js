@@ -57,7 +57,7 @@ function AppBackendDevelopment() {
           </button>
         </div>
         <div>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="App Backend Development" />
         </div>
       </div>
       <Section />

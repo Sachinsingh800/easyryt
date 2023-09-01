@@ -56,7 +56,7 @@ function AndroidApplicationDevelopmentServices() {
           </button>
         </div>
         <div>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="Expert Android App Development" />
         </div>
       </div>
       

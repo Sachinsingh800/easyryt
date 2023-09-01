@@ -59,7 +59,7 @@ function AndroidAppAdvertising() {
           </button>
         </div>
         <div>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="Powerful Android App Ads" />
         </div>
       </div>
       <Section />

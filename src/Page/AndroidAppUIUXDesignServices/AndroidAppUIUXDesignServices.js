@@ -57,7 +57,7 @@ function AndroidAppUIUXDesignServices() {
           </button>
         </div>
         <div className={style.img_box}>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="Android App Design Services" />
         </div>
       </div>
       <Section />

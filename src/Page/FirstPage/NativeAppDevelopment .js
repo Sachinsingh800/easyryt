@@ -24,9 +24,40 @@ function NativeAppDevelopment() {
   const handleGetStartedClick = () => {
     setShowPopup(true);
   };
+
+  // Define the JSON-LD structured data script
+  const jsonLdScript = {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Native App Development Services",
+    "image": "https://www.easyryt.com/static/media/Mobile-App-Development.f175238bb8f220de6256.png",
+    "brand": {
+      "@type": "Brand",
+      "name": "EasyRyt"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "ratingCount": "1",
+      "reviewCount": "1"
+    },
+    "review": {
+      "@type": "Review",
+      "name": "Excellent Native App Development Services",
+      "reviewBody": "I had a fantastic experience working with this company for my native app development project. Their team of developers was highly skilled and delivered a top-notch mobile app that exceeded my expectations. They were responsive, professional, and always met project deadlines. I highly recommend their native app development services.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "datePublished": "2023-08-26",
+      "author": { "@type": "Person", "name": "Sachin Singh" }
+    }
+  };
+
   return (
     <div className={style.main}>
-            <Helmet>
+      <Helmet>
         <title>Pro React Native Development</title>
         <meta charSet="utf-8" />
         <meta
@@ -35,6 +66,10 @@ function NativeAppDevelopment() {
         />
       </Helmet>
       <NavBar />
+      {/* Include the JSON-LD script within the JSX */}
+      <script type="application/ld+json">
+        {JSON.stringify(jsonLdScript)}
+      </script>
       <div className={style.container}>
         <div>
           <h1>Native App Development Services</h1>
@@ -61,6 +96,7 @@ function NativeAppDevelopment() {
           <img className={style.img} src={img} alt="img" />
         </div>
       </div>
+      {/* Rest of your component content */}
       <Section1 />
       <Section2 />
       <Section3 />

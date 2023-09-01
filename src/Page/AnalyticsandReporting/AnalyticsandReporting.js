@@ -57,7 +57,7 @@ function AnalyticsandReporting() {
           </button>
         </div>
         <div>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="Data Analytics Mastery" />
         </div>
       </div>
       <Section />
