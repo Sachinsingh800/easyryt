@@ -57,7 +57,7 @@ function HybridApplicationDevelopmentServices() {
           </button>
         </div>
         <div>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="Hybrid Application Development" />
         </div>
       </div>
       <Section />

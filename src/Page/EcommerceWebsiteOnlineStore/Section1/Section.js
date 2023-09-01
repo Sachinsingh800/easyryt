@@ -44,13 +44,13 @@ function Section() {
           ref={sectionRef}
           className={style.img}
           src={img}
-          alt="img"
+          alt="Significance of a Powerful Online Commerce Presence"
         />
       </div>
 
       <div>
         <h1 id="header" ref={sectionRef}>
-          The Significance of a Powerful Online Commerce Presence:
+          The Significance of a Powerful Online Commerce Presence
         </h1>
         <p className={style.para} id="header" ref={sectionRef}>
           In the era of digital technology, a sturdy online commerce presence is

@@ -59,7 +59,7 @@ function DatabaseDesignandManagement() {
           </button>
         </div>
         <div className={style.img_box}>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="Database Design and Management Services" />
         </div>
       </div>
       <Section />

@@ -44,14 +44,14 @@ function Section() {
           ref={sectionRef}
           className={style.img}
           src={img}
-          alt="img"
+          alt="WordPress Business Website"
         />
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Importance of A WordPress Business Website
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In today's digital terrain, a finely-crafted online presence is not
           simply a choice - it is an absolute necessity. Your website acts as

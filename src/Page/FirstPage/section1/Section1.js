@@ -46,7 +46,7 @@ function Section1() {
             ref={sectionRef}
             className={style.img}
             src={img}
-            alt="img"
+            alt="Native Mobile Apps"
           />
         </div>
 

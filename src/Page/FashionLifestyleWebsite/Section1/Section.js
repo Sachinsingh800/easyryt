@@ -44,7 +44,7 @@ function Section() {
           ref={sectionRef}
           className={style.img}
           src={img}
-          alt="img"
+          alt=" Dedicated Fashion Lifestyle Website Matters"
         />
       </div>
 

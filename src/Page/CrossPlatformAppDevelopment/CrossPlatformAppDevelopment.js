@@ -62,7 +62,7 @@ function CrossPlatformAppDevelopment() {
           </button>
         </div>
         <div>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="Cross-Platform App Development" />
         </div>
       </div>
      <Section/>

@@ -44,14 +44,14 @@ function Section() {
           ref={sectionRef}
           className={style.img}
           src={img}
-          alt="img"
+          alt="Developing a Backend Framework"
         />
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of Developing a Backend Framework
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the world of software and application creation, a robust backend
           framework acts as the groundwork for seamless functionality,

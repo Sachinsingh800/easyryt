@@ -79,6 +79,7 @@ const Blog = () => {
               <img
                 className={active ? style.active : ""}
                 src={cardsData[0]?.blogImg}
+                alt={cardsData[0]?.heading}
               />
             </div>
             <h5>{cardsData[0]?.heading}</h5>

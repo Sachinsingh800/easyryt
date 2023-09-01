@@ -44,7 +44,7 @@ function Section() {
           ref={sectionRef}
           className={style.img}
           src={img}
-          alt="img"
+          alt="Integrating Cloud Services"
         />
       </div>
 

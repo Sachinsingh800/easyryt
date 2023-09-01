@@ -93,7 +93,7 @@ function NativeAppDevelopment() {
           </button>
         </div>
         <div>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="Native App Development Services" />
         </div>
       </div>
       {/* Rest of your component content */}

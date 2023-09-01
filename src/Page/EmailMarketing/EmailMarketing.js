@@ -59,7 +59,7 @@ function EmailMarketing() {
           </button>
         </div>
         <div>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="Email Marketing Services" />
         </div>
       </div>
       <Section />

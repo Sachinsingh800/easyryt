@@ -58,7 +58,7 @@ function ECommerceAdvertising() {
           </button>
         </div>
         <div>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="E-commerce Advertising Services" />
         </div>
       </div>
       <Section />
