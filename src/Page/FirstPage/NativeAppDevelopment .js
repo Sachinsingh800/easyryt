@@ -64,9 +64,12 @@ function NativeAppDevelopment() {
           name="Pro React Native Development."
           content="Unlock seamless cross-platform experiences with our React Native expertise. Elevate your app's performance."
         />
-           <script type="application/ld+json">
+        <head>
+        <script type="application/ld+json">
         {JSON.stringify(jsonLdScript)}
       </script>
+        </head>
+      
       </Helmet>
       <NavBar />
       {/* Include the JSON-LD script within the JSX */}
