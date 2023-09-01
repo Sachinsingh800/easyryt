@@ -59,7 +59,7 @@ function NextjsDevelopment() {
           </button>
         </div>
         <div className={style.img_box}>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="Next JS Development Services" />
         </div>
       </div>
       <Section />

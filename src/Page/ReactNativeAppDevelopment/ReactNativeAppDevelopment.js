@@ -52,7 +52,7 @@ function ReactNativeAppDevelopment() {
           </button>
         </div>
         <div>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="React Native Development Services" />
         </div>
       </div>
       <Section />

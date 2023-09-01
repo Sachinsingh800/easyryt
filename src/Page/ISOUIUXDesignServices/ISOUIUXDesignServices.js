@@ -37,7 +37,7 @@ function ISOUIUXDesignServices() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>iOS UI/UX Design Services</h1>
+          <h1>IOS UI/UX Design Services</h1>
           <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
             Welcome to EasyRyt, where we are dedicated to delivering remarkable
@@ -58,7 +58,7 @@ function ISOUIUXDesignServices() {
           </button>
         </div>
         <div className={style.img_box}>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="IOS UI/UX Design Services" />
         </div>
       </div>
       <Section />

@@ -63,7 +63,7 @@ function IOSAppAdvertising() {
           </button>
         </div>
         <div>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="iOS App Marketing Services" />
         </div>
       </div>
       <Section />

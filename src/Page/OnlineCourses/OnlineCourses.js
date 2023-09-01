@@ -58,7 +58,7 @@ function OnlineCourses() {
           </button>
         </div>
         <div className={style.img_box}>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="WordPress Online Courses Development Services" />
         </div>
       </div>
       <Section />

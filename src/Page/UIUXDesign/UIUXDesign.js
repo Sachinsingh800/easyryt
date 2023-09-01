@@ -47,7 +47,7 @@ function UIUXDesign() {
           </button>
         </div>
         <div className={style.img_box}>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="Affiliate Marketing Website Development Services" />
         </div>
       </div>
       <Section />

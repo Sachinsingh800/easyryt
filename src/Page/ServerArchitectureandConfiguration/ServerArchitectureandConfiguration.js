@@ -56,7 +56,7 @@ function ServerArchitectureandConfiguration() {
           </button>
         </div>
         <div className={style.img_box}>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="Expert Server Architecture and Configuration Services" />
         </div>
       </div>
       <Section />

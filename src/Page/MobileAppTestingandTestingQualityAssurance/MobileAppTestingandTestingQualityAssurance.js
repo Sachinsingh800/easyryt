@@ -59,7 +59,7 @@ function MobileAppTestingandTestingQualityAssurance() {
           </button>
         </div>
         <div>
-          <img className={style.img} src={img} alt="img" />
+          <img className={style.img} src={img} alt="Mobile Application Testing Services" />
         </div>
       </div>
       <Section />
