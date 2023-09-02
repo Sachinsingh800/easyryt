@@ -16,25 +16,56 @@ import Section5 from "./Section5/Section5";
 import Section from "../AndroidApplicationDevelopmentServices/Section1/Section";
 import { Helmet } from "react-helmet";
 
-
 function CrossPlatformAppDevelopment() {
   const [showPopup, setShowPopup] = useState(false);
 
+  // JSON-LD script
+  const jsonLdScript = {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Cross-Platform App Development",
+    "image": "https://www.easyryt.com/static/media/cross-platform-app-development.00446e7950fca98289b5.png",
+    "description": "In the ever-evolving landscape of cellular applications, cross-platform mobile development has emerged as a sport-changer. With the proliferation of devices, running structures, and consumer expectations, organizations are searching for efficient answers to attain a much broader target market without compromising on person experience.",
+    "brand": {
+      "@type": "Brand",
+      "name": "EasyRyt"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "ratingCount": "1",
+      "reviewCount": "1"
+    },
+    "review": {
+      "@type": "Review",
+      "name": "Outstanding Cross-Platform App Development Services",
+      "reviewBody": "I recently had the pleasure of working with a team of experts who provided Cross-Platform App Development services. Their efficiency, cost-effectiveness, and user-centric design approach were exceptional. I highly recommend their services.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": { "@type": "Person", "name": "Shravani Gosavi" }
+    }
+  };
 
-  //popup
+  // Popup
   const handleGetStartedClick = () => {
     setShowPopup(true);
-    
   };
+
   return (
     <div className={style.main}>
-        <Helmet>
+      <Helmet>
         <title>We Transform Digital Solutions</title>
         <meta charSet="utf-8" />
         <meta
           name="Cross-Platform Excellence."
           content="Crafting versatile apps for maximum reach. Elevate engagement with our expert development services."
         />
+             {/* Include the JSON-LD script within the head */}
+             <script type="application/ld+json">
+          {JSON.stringify(jsonLdScript)}
+        </script>
       </Helmet>
       <NavBar />
       <div className={style.container}>
@@ -65,7 +96,7 @@ function CrossPlatformAppDevelopment() {
           <img className={style.img} src={img} alt="Cross-Platform App Development" />
         </div>
       </div>
-     <Section/>
+      <Section />
       <Section2 />
       <Section3 />
       <Section4 />
