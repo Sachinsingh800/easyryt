@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of API Development for Your Company
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the present interconnected digital environment, APIs (Application
           Programming Interfaces) have a significant role in driving innovation

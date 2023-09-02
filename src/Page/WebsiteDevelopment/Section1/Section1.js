@@ -38,9 +38,9 @@ function Section1() {
 
   return (
     <div className={style.main}>
-      <h1 id="header" ref={sectionRef}>
+      <h2 id="header" ref={sectionRef}>
         Crafting Website Development For Multiple Platforms
-      </h1>
+      </h2>
       <div className={style.innercontain}>
         <div>
           <img

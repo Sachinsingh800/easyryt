@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Why Select Application Backend Creation?
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           Application backend creation serves as the foundation of your
           software, responsible for managing information, user verification,

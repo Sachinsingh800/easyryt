@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Importance of Node.js Development
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the rapidly evolving realm of web and app development, Node.js
           emerges as a revolutionary force, providing a plethora of benefits

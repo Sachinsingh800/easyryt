@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Why Content Advertising is Important?
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In a society overwhelmed with data, content advertising serves as your
           guiding light of genuineness. It goes beyond simply providing facts;

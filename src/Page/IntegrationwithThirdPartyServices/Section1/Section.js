@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of Incorporating Third-Party Services
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In today's interconnected digital world, the ability to smoothly
           incorporate external services has become a crucial element in

@@ -53,9 +53,9 @@ function Section1() {
 
 
         <div >
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
         Why Select Native Mobile Apps?
-      </h1>
+      </h2>
           <p className={style.para} id="header" ref={sectionRef}>
             Native mobile apps are tailored to function exclusively on a
             specific platform, such as iOS or Android. This approach empowers

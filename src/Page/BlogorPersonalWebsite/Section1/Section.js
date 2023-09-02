@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of WordPress Blog and Personal Websites
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In this perpetually evolving digital realm, your online presence
           serves as your unique electronic signature. Whether you are

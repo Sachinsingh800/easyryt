@@ -81,9 +81,9 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>
+      <h2>
       Our Approach to Mobile Application Interface and User Experience (UI/UX) Design 
-      </h1>
+      </h2>
       <p className={style.para}>
         At EasyRyt, we embrace a comprehensive strategy when it comes to
         designing the user interface and user experience for mobile

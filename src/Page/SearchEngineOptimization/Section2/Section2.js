@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Methodology for Search Engine Optimization (SEO) Services </h1>
+      <h2>Our Methodology for Search Engine Optimization (SEO) Services </h2>
       <p className={style.para}>
         At EasyRyt, we firmly believe that efficient SEO constitutes a blend of
         technical proficiency, strategic plotting, and continuous adjustment to

@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Why a Dedicated Fashion Lifestyle Website Matters
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the digital era, a dedicated fashion lifestyle website acts as your
           virtual catwalk, providing a medium to express your brand's identity

@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Why Select Mobile Application Development?
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           Mobile application development goes beyond mere coding; it entails
           comprehending user actions, crafting user-friendly interfaces, and

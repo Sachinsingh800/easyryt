@@ -36,7 +36,7 @@ function AffiliateWebsite() {
       <NavBar />
       <div className={style.container}>
         <div>
-          <h1>WordPress Affiliate Marketing Website Development Services</h1>
+          <h2>WordPress Affiliate Marketing Website Development Services</h2>
           <h6>Crafting Revolutionary Mobile Experiences</h6>
           <p>
             Welcome to EasyRyt’s dedicated WordPress Affiliate Marketing Website

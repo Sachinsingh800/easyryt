@@ -68,7 +68,7 @@ const EleventhSection = () => {
 
   return (
     <div className={style.main}>
-      <h1>Our Recent Project</h1>
+      <h2>Our Recent Project</h2>
       <p className={style.para}>
         Here Are Some Of The MostPresenting The Wide Range Of Solutions That We
         Have Successfully Delivered Our Client With The High Quality Standard

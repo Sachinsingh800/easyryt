@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Significance of a Powerful Online Commerce Presence
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the era of digital technology, a sturdy online commerce presence is
           not only beneficial but also absolutely necessary. With a growing

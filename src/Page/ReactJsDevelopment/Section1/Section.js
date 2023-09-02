@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Significance of React JS Development
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           The Importance of React JS in Contemporary Web Development React JS
           has become a fundamental aspect in up-to-date web development,

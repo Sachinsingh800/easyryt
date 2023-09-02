@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of Front End Development
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           Within the digital domain, the initial interaction point with users is
           the front end. It serves as the entrance through which they engage,

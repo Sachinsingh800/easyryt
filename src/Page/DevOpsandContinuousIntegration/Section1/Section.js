@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of DevOps and CI/CD
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the domain of software development, DevOps and Continuous
           Integration/Continuous Deployment (CI/CD) hold great significance.

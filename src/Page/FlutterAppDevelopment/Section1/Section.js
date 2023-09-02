@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Why Select Flutter App Development?
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           Flutter application development is transforming the way we build
           multi-platform applications. Using a solitary codebase, you can

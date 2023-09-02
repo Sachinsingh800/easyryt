@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of AWS Solutions for Your Business
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the rapidly evolving realm of digital transformation, adopting
           Amazon Web Services (AWS) is not just a decision; it's a strategic

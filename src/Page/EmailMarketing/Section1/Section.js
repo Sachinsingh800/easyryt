@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Importance of Email Marketing?
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           The power of an email lies in its ability to directly reach
           individuals, delivering your message right into their personal sphere.

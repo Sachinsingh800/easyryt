@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of a Devoted Job Board Website
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the digital era, a devoted employment directory is an indispensable
           tool for both individuals searching for employment and employers. A

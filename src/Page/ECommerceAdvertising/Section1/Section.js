@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Harnessing the Influence of Ecommerce Advertising
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           Ecommerce advertising serves as the foundation for any prosperous
           online store. It involves a strategic approach to promoting your

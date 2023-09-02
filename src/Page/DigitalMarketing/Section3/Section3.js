@@ -32,7 +32,7 @@ const Section3 = () => {
 
   return (
     <div className={style.main}>
-      <h1>Features Of Native App Development Services</h1>
+      <h2>Features Of Native App Development Services</h2>
       <p className={style.para}>
         The Following Are Essential  Native App Development Services Featurees To Considen
         When Developing a Successful Application For Your Company

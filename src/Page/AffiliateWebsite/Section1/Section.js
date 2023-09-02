@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Influence of a Devoted Affiliate Marketing Website
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the realm of online trade, possessing a devoted platform for
           Affiliate marketing is crucial. A WordPress Affiliate marketing

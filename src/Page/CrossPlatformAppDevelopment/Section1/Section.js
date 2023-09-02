@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Why Select Cross-Platform App Development?
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           The Potential of Cross Platform Application Development Cross platform
           application development is the skill of crafting applications that are

@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for WordPress Blog and Personal Website Development: </h1>
+      <h2>Our Method for WordPress Blog and Personal Website Development: </h2>
       <p className={style.para}>
         At EasyRyt, we firmly believe that a WordPress website is more than just
         a compilation of pages – it symbolizes your digital presence. Our

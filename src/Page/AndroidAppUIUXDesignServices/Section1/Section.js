@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The importance of Android App UI/UX Design
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           The Significance of Android Application Interface and User Experience
           Design In the highly competitive realm of Android applications,

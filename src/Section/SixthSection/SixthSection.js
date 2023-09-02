@@ -27,7 +27,7 @@ function SixthSection() {
 
   return (
     <div className={style.main}>
-      <h1>TECH STACK</h1>
+      <h2>TECH STACK</h2>
       <p>
         We offer full-cycle technology solutions that streamline your digital
         transformation journey. With cutting-edge technical expertise, complex

@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our WordPress Travel Website Development Approach</h1>
+      <h2>Our WordPress Travel Website Development Approach</h2>
       <p className={style.para}>
         Developing a travel website that transports visitors to new frontiers
         requires a strategic and innovative approach that boosts its visibility

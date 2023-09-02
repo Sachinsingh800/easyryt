@@ -81,7 +81,7 @@ function Section1() {
 
   return (
     <div className={style.main}>
-      <h1>Why Easyryt ?</h1>
+      <h2>Why Easyryt ?</h2>
       <div className={style.innerbox}>
         {cardData.map((data, index) => (
           <div className={style.card} key={index} style={{ background: randomColors[index] }}>

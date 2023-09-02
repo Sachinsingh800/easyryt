@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of Python Development for Your Company
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the realm of software creation, Python stands as an adaptable and
           influential programming language that possesses the potential to

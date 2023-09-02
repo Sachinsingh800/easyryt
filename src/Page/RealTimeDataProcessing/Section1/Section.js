@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of Processing Data in Real-Time
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the fast-paced world of modern business, being able to process and
           analyse data in real-time has become a crucial advantage. Real-time

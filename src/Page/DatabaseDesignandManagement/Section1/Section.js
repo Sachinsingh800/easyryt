@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of Designing and Managing Databases
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the modern era, information is crucial for making well-informed
           decisions and achieving operational excellence. Efficiently designing

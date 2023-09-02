@@ -12,7 +12,7 @@ export default function Section5() {
 
   return (
     <div className={style.main}>
-      <h1>Frequently Asked Questions</h1>
+      <h2>Frequently Asked Questions</h2>
       <p>
         We listen to query and provide solutions that captivate users. Feel free
         to contact us in case of any query which is not mention below.

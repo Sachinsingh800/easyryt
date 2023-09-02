@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Why Advertising for Website Visitors Holds Significance?
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the vast sea of the internet, your website serves as your digital
           shopfront. However, without the correct visitors, even the most

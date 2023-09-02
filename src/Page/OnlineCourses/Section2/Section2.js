@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Approach to WordPress Online Website Development</h1>
+      <h2>Our Approach to WordPress Online Website Development</h2>
       <p className={style.para}>
         Building a WordPress online site that genuinely represents your brand
         and resonates with your target audience necessitates a considerate

@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of Server Architecture and Configuration
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the ever-changing digital world, strong server architecture and
           effective configuration are essential for successful IT operations. A

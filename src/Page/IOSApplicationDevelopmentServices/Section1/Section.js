@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Why Select IOS App development?
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           Developing applications for iOS goes well beyond the realm of coding;
           it entails fashioning an encounter that users thoroughly enjoy

@@ -51,7 +51,7 @@ function Section3() {
    <Tilt glareEnable={true} tiltMaxAngleX={20} 
    tiltMaxAngleY={20} perspective={1000} >
        <div className={style.card}>
-        <h1>{item?.icon}</h1>
+        <h2>{item?.icon}</h2>
           <h5 className={style.title}>{item?.title}</h5>
           <p className={style.des}>{item?.des}</p>
        </div>

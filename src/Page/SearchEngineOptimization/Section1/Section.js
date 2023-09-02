@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
            The Significance of SEO
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           SEO plays a vital role in the world of online marketing. With the vast
           number of internet searches taking place every day, it is crucial to

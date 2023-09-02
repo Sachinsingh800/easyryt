@@ -5,7 +5,7 @@ import style from "./ForthSection.module.css"
 function ForthSection() {
   return (
     <div className={style.main}>
-        <h1>Our clients</h1>
+        <h2>Our clients</h2>
         <Slider/>
     </div>
   )

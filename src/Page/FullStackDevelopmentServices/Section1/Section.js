@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Why Full Stack Development Holds Importance
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In a realm where user expectations are soaring, and technological
           boundaries are continuously expanding, having a Full Stack Web

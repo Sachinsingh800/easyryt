@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           What the Importance of iPhone App Marketing?
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In an era controlled by smartphones, the iOS platform created by Apple
           represents a testament to creativity, sophistication, and

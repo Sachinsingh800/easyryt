@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Approach to Developing a WordPress ECommerce Website</h1>
+      <h2>Our Approach to Developing a WordPress ECommerce Website</h2>
       <p className={style.para}>
         When it comes to building a successful WordPress ECommerce website, our
         strategy is rooted in careful planning, ingenuity, and dedication to

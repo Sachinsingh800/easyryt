@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of Back End Development
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           While the front-end captures attention, the back end enables
           functionality. It serves as the powerhouse that handles data

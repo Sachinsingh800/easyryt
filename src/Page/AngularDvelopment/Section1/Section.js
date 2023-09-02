@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Significance of AngularJS in Modern Web Development
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           AngularJS serves as a fundamental technology in contemporary web
           development, performing a crucial role in shaping the manner in which

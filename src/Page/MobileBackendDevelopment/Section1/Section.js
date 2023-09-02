@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of Mobile Backend Development
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the constantly changing world of mobile applications, the backend
           plays a vital role in delivering a seamless, secure, and reliable user

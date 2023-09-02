@@ -80,7 +80,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Approach to Database Design and Management Services</h1>
+      <h2>Our Approach to Database Design and Management Services</h2>
       <p className={style.para}>
       Welcome to EasyRyt’s exclusive page for Professional Database Creation and Administration Services. On this dedicated platform, we merge cutting-edge techniques with streamlined data structure to provide you with unmatched database solutions. Are you ready to enhance the way you store, retrieve, and handle your valuable information? Your search ends here. Our team of skilled database professionals is ready to revolutionize your data needs, offering you state-of-the-art, flexible, and well-arranged database solutions that redefine productivity and enhance your decision-making process.
       </p>

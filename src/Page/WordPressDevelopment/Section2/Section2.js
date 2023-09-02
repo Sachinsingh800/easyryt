@@ -83,7 +83,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>The Expertise Of Our Native App Development Service</h1>
+      <h2>The Expertise Of Our Native App Development Service</h2>
       <p className={style.para}>
         As a native app development company, we have expertise in developing
         Native apps for different platforms. Take a look at our expertise:

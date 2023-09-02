@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Importance of UI/UX Designs
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In today's digital environment, outstanding UI/UX design plays a
           pivotal role in achieving success. A meticulously crafted User

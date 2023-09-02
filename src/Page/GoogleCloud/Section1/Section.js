@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Significance of Google Cloud Services for Your Company
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In a time of swift technological progress, embracing Google Cloud
           Platform (GCP) is not only a fad, but also a strategic maneuver for

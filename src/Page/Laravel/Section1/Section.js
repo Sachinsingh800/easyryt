@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of Laravel Development for your Business
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the world of web application development, Laravel holds a
           significant role as a fundamental technology that has the potential to

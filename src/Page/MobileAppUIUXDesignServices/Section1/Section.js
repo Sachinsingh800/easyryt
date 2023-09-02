@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The importance of UI/UX in Mobile Apps
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the dynamic realm of mobile applications, the significance of UI/UX
           design cannot be overstated. It plays a crucial role in determining

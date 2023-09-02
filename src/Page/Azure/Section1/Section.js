@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Significance of Azure Services
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the fast-changing digital landscape we operate in today, adopting
           cloud technology is not merely a choice; it is a crucial strategic

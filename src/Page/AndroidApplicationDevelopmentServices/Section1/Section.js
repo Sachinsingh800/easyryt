@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Why Select Android Application Development?
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           The process of Android application creation goes beyond mere coding,
           it involves transforming your ideas into a user-friendly and

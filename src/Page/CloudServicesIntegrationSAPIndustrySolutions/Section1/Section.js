@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of Integrating Cloud Services
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the ever-changing world of business, integration services for cloud
           technology have become a game-changer, presenting the opportunity to

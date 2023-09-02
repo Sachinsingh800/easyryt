@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Approach to Developing a Job Board Website on WordPress</h1>
+      <h2>Our Approach to Developing a Job Board Website on WordPress</h2>
       <p className={style.para}>
         Creating a platform for job seekers and employers that caters to their
         unique needs demands a well-thought-out and imaginative strategy. Our

@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for Social Media Marketing Services</h1>
+      <h2>Our Method for Social Media Marketing Services</h2>
       <p className={style.para}>
         It goes without saying that our approach to content marketing and
         promotion goes beyond ordinary blog posts or updates on social media

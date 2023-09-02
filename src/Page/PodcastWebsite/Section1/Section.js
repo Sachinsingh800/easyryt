@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Importance of a Dedicated Podcast Website
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the age of online content, it is crucial to have a specialized
           website for your podcast. A specific podcast website built with

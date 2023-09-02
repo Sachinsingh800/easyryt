@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Why Select Hybrid App Development?
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           The execution of hybrid app development involves crafting applications
           that can operate on multiple platforms while preserving a seamless

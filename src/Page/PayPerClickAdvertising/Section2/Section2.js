@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Method for to PPC Services</h1>
+      <h2>Our Method for to PPC Services</h2>
       <p className={style.para}>
         At EasyRyt, we comprehend that a victorious PPC campaign is not simply
         about situating advertisements; it's about creating a unified strategy

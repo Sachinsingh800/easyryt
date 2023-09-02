@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           What is the Significance of Google Ads?
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the expansive realm of the internet, Google serves as the guiding
           force directing individuals to their intended destinations. The

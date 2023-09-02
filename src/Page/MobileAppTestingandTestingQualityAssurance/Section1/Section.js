@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Why Select Mobile Application Testing?
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           At EasyRyt, we acknowledge that the success of a mobile app depends on
           its ability to deliver a flawless user experience. Our Mobile App

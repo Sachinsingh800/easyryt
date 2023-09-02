@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of Website UI/UX Design Services
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In the digital realm, flawless Website UI/UX design is a game-changer.
           An appealing User Interface (UI) and seamless User Experience (UX)

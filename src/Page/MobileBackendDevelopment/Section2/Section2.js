@@ -80,7 +80,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Why Choose us for Our Services in Mobile Backend Development?  </h1>
+      <h2>Why Choose us for Our Services in Mobile Backend Development?  </h2>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

@@ -80,7 +80,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Approach to Laravel Development</h1>
+      <h2>Our Approach to Laravel Development</h2>
       <p className={style.para}>
         At EasyRyt, we acknowledge that constructing a prosperous application is
         a dynamic fusion of inventiveness, strategic preparation, and careful

@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of Web Application Creation
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           In today's digital world, the development of web applications acts as
           the life force of enterprises, allowing them to connect and interact

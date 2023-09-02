@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           Importance of Building Ecommerce Websites
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           The realm of digital advancements has completely transformed the
           manner in which businesses function, and electronic commerce is

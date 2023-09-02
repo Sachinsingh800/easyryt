@@ -49,9 +49,9 @@ function Section() {
       </div>
 
       <div>
-        <h1 id="header" ref={sectionRef}>
+        <h2 id="header" ref={sectionRef}>
           The Importance of Next.js in the Field of Web Development
-        </h1>
+        </h2>
         <p className={style.para} id="header" ref={sectionRef}>
           Next.js plays a crucial role in modern web development by seamlessly
           merging the capabilities of React with server-side rendering and

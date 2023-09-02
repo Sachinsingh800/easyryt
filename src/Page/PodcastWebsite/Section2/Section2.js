@@ -81,7 +81,7 @@ function Section2() {
 
   return (
     <div className={style.main}>
-      <h1>Our Approach to Developing a WordPress Podcast Website</h1>
+      <h2>Our Approach to Developing a WordPress Podcast Website</h2>
       <p className={style.para}>
         Creating a podcast website that connects with your listeners requires a
         strategic and imaginative method. Our approach centres around
