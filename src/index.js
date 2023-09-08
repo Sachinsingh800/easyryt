@@ -89,6 +89,7 @@ import FullBlog from './Page/FullBlog/FullBlog';
 import Error from './Page/Error/Error';
 import { Link, useParams } from "react-router-dom";
 import NativeAppDevelopment from './Page/FirstPage/NativeAppDevelopment ';
+import PrivacyPolicy from './Page/PrivacyPolicy/PrivacyPolicy';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -99,6 +100,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+  },
+  {
+    path: "/PrivacyPolicy",
+    element: <PrivacyPolicy/>,
   },
   {
     path: "/Native-Mobile-App-Development",

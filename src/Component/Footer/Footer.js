@@ -74,6 +74,9 @@ function Footer() {
             <Link to={"/Contact-Us"} onClick={scrollToTop}>
               <li>Contact Us</li>
             </Link>
+            <Link to={"/PrivacyPolicy"} onClick={scrollToTop}>
+              <li>Privacy Policy</li>
+            </Link>
             {/* <Link to={""}>
               <li>Portfolio</li>
             </Link> */}

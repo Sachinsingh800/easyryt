@@ -85,6 +85,7 @@ const Blog = () => {
             <h5>{cardsData[0]?.heading}</h5>
             <hr />
             <p className={style.para}> <BlogContent htmlContent={cardsData[0]?.description}/></p>
+            
             <Link to={`/Blog/${urlFriendlyString }`} onClick={scrollToTop}>
               <button className={style.btn}>Continue Reading→</button>
             </Link>
