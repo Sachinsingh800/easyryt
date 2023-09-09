@@ -20,7 +20,8 @@ const ThirteenthSection = () => {
       try {
         const response = await axios.get('https://easyryt.onrender.com/client/getAllBlog');
         setData(response?.data?.data);
-        setCardsData([response?.data?.data[0]]);
+        console.log(response?.data?.data,"blog data")
+        setCardsData(response?.data?.data);
       } catch (error) {
         console.log(error);
       }
@@ -88,7 +89,7 @@ const ThirteenthSection = () => {
             </div>
             <div className={style.infoBox}>
               <h6>{card?.title}</h6>
-            <Link to={"/FullBlog2"} onClick={scrollToTop}><p style={{ color: "blue" }}>View</p></Link>  
+            <Link to={`/Blog/${urlFriendlyString }`} onClick={scrollToTop}><p style={{ color: "blue" }}>View</p></Link>  
             </div>
           </div>
         ))}

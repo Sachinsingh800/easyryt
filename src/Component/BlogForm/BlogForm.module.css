@@ -12,6 +12,7 @@
     padding: 1rem;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 32rem;
 }
 .form button{
     padding: .3rem;
