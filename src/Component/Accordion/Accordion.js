@@ -582,27 +582,8 @@ export function ClientServicesaccordian() {
       </Accordion.Item>
 
 
-      <Accordion.Item eventKey="17">
-        <Accordion.Header>
-          Q. *What makes your WordPress development services stand out?*
-        </Accordion.Header>
-        <Accordion.Body>
-          Our WordPress development services are distinguished by our team's
-          expertise in creating highly functional, visually appealing, and
-          user-friendly websites using the WordPress platform.
-        </Accordion.Body>
-      </Accordion.Item>
+      
 
-      <Accordion.Item eventKey="18">
-        <Accordion.Header>
-          Q. *What makes your WordPress development services stand out?*
-        </Accordion.Header>
-        <Accordion.Body>
-          Our WordPress development services are distinguished by our team's
-          expertise in creating highly functional, visually appealing, and
-          user-friendly websites using the WordPress platform.
-        </Accordion.Body>
-      </Accordion.Item>
 
 
 

@@ -1,42 +1,69 @@
 import React, { useState, useEffect } from "react";
 import style from "./ThirteenthSection.module.css";
-import { Link } from "react-router-dom";
+import { Link ,useParams} from "react-router-dom";
 import { cardsData } from "../../Const/Const";
+import axios from "axios";
+
 
 
 
 const ThirteenthSection = () => {
+  const [cardsData, setCardsData] = useState([]);
+  const [search, setSearch] = useState("");
+  const [initialCardsData, setData] = useState([]);
+  const { blogTitle } = useParams(); // Capture the blogTitle parameter
+
+  console.log(blogTitle,"Blog")
+
+  useEffect(() => {
+    const handlegetData = async () => {
+      try {
+        const response = await axios.get('https://easyryt.onrender.com/client/getAllBlog');
+        setData(response?.data?.data);
+        setCardsData([response?.data?.data[0]]);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    handlegetData();
+  }, []);
+
   function scrollToTop() {
+    localStorage.setItem("BlogName", JSON.stringify(cardsData[0]?.title));
     window.scrollTo({
       top: 0,
       behavior: "smooth", // Adds a smooth scrolling animation
     });
   }
 
-
-
-
-  const [currentCardIndex, setCurrentCardIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentCardIndex((prevIndex) => (prevIndex + 1) % cardsData.length);
-    }, 4000); // 2-second delay
-
-    return () => clearInterval(interval);
-  }, [cardsData.length]);
-
-
-  const BlogContent = ({ htmlContent }) => {
-    return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;
-  };
+  localStorage.setItem("blog2", JSON.stringify(cardsData));
 
   const handleCardClick = (heading) => {
-    const filteredCards = cardsData.filter(
+    const filteredCards = initialCardsData.filter(
       (card) => card.heading === heading
     );
-    localStorage.setItem("blog2",JSON.stringify(filteredCards))
+    setCardsData(filteredCards);
   };
+
+  const [active, setActive] = useState(false);
+
+  useEffect(() => {
+  
+    const toggleActive = () => {
+      setActive((prevActive) => !prevActive);
+    };
+
+    const intervalId = setInterval(toggleActive, 5000);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
+  const BlogContent = ({ htmlContent }) => {
+    return <div className={style.description} dangerouslySetInnerHTML={{ __html: htmlContent }} />;
+  };
+
+  const originalString = cardsData[0]?.title;
+  const urlFriendlyString = originalString?.replace(/\s+/g, '-');
 
   return (
     <div className={style.main}>
@@ -50,19 +77,17 @@ const ThirteenthSection = () => {
           <div
            onClick={()=>handleCardClick(card.heading) }
             key={index}
-            className={`${style.card} ${
-              index === currentCardIndex ? style.active : ""
-            }`}
+       
           >
             <div className={style.imgbox}>
               <img
                 className={style.img2}
-                src={card.blogImg}
+                src={card?.blogImg}
                 alt={`img${index + 1}`}
               />
             </div>
             <div className={style.infoBox}>
-              <h6>{card.title}</h6>
+              <h6>{card?.title}</h6>
             <Link to={"/FullBlog2"} onClick={scrollToTop}><p style={{ color: "blue" }}>View</p></Link>  
             </div>
           </div>
