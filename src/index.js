@@ -1,15 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
 
-
-
+// Import your page components here
+import PrivacyPolicy from './Page/PrivacyPolicy/PrivacyPolicy';
+// import NativeAppDevelopment from './Page/FirstPage/NativeAppDevelopment';
 import CrossPlatformAppDevelopment from './Page/CrossPlatformAppDevelopment/CrossPlatformAppDevelopment';
 import AboutUs from './Page/AboutUs/AboutUs';
 import WhyChooseUs from './Page/WhyChooseUs/WhyChooseUs';
@@ -87,357 +85,110 @@ import WordPressDevelopment from './Page/WordPressDevelopment/WordPressDevelopme
 import UIUXDesign from './Page/UIUXDesign/UIUXDesign';
 import FullBlog from './Page/FullBlog/FullBlog';
 import Error from './Page/Error/Error';
-import { Link, useParams } from "react-router-dom";
 import NativeAppDevelopment from './Page/FirstPage/NativeAppDevelopment ';
-import PrivacyPolicy from './Page/PrivacyPolicy/PrivacyPolicy';
+import { hydrate, render } from "react-dom";
+import { createRoot } from 'react-dom/client';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
 
+const AppRouter = () => (
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+      <Route path="/Native-Mobile-App-Development" element={<NativeAppDevelopment />} />
+      <Route path="/Cross-Platform-App-Development" element={<CrossPlatformAppDevelopment />} />
+      <Route path="/About-Us" element={<AboutUs />} />
+      <Route path="/Why-Choose-Us" element={<WhyChooseUs />} />
+      <Route path="/Blogs" element={<Blog />} />
+      <Route path="/Blog/:blogTitle" element={<FullBlog />} />
+      <Route path="/Contact-Us" element={<ContactUs />} />
+      <Route path="/Affiliate-Website" element={<AffiliateWebsite />} />
+      <Route path="/Android-Application-Development-Services" element={<AndroidApplicationDevelopmentServices />} />
+      <Route path="/Hybrid-Application-Development-Services" element={<HybridApplicationDevelopmentServices />} />
+      <Route path="/Mobile-App-Development" element={<MobileAppDevelopment />} />
+      <Route path="/App-Backend-Development" element={<AppBackendDevelopment />} />
+      <Route path="/Flutter-App-Development" element={<FlutterAppDevelopment />} />
+      <Route path="/React-Native-App-Development" element={<ReactNativeAppDevelopment />} />
+      <Route path="/Mobile-App-Testingand-Testing-Quality-Assurance" element={<MobileAppTestingandTestingQualityAssurance />} />
+      <Route path="/IOS-Application-Development-Services" element={<IOSApplicationDevelopmentServices />} />
+      <Route path="/Search-Engine-Optimization" element={<SearchEngineOptimization />} />
+      <Route path="/Pay-Per-Click-Advertising" element={<PayPerClickAdvertising />} />
+      <Route path="/Social-Media-Advertising" element={<SocialMediaAdvertising />} />
+      <Route path="/Google-Advertising" element={<GoogleAdvertising />} />
+      <Route path="/Facebook-&-Instagram-Advertising" element={<FacebookInstagramAdvertising />} />
+      <Route path="/Content-Marketing" element={<ContentMarketing />} />
+      <Route path="/Social-Media-Marketing" element={<SocialMediaMarketing />} />
+      <Route path="/Email-Marketing" element={<EmailMarketing />} />
+      <Route path="/Analytics-and-Reporting" element={<AnalyticsandReporting />} />
+      <Route path="/Website-Traffic-Advertising" element={<WebsiteTrafficAdvertising />} />
+      <Route path="/E-Commerce-Advertising" element={<ECommerceAdvertising />} />
+      <Route path="/App-Install-Advertising" element={<AppInstallAdvertising />} />
+      <Route path="/Android-App-Advertising" element={<AndroidAppAdvertising />} />
+      <Route path="/IOS-App-Advertising" element={<IOSAppAdvertising />} />
+      <Route path="/E-Commerce-Development" element={<ECommerceDevelopment />} />
+      <Route path="/FrontEnd-Development" element={<FrontEndDevelopment />} />
+      <Route path="/Backend-Development" element={<BackendDevelopment />} />
+      <Route path="/FullStack-Development-Services" element={<FullStackDevelopmentServices />} />
+      <Route path="/Blog-or-Personal-Website" element={<BlogorPersonalWebsite />} />
+      <Route path="/Business-Website" element={<BusinessWebsite />} />
+      <Route path="/E-commerce-Website-Online-Store" element={<EcommerceWebsiteOnlineStore />} />
+      <Route path="/Online-Courses" element={<OnlineCourses />} />
+      <Route path="/Podcast-Website" element={<PodcastWebsite />} />
+      <Route path="/JobBoard-Website" element={<JobBoardWebsite />} />
+      <Route path="/Portfolio-Websites" element={<PortfolioWebsites />} />
+      <Route path="/Travel-Website" element={<TravelWebsite />} />
+      <Route path="/Fashion-Life-style-Website" element={<FashionLifestyleWebsite />} />
+      <Route path="/Mobile-App-UIUX-Design-Services" element={<MobileAppUIUXDesignServices />} />
+      <Route path="/Android-App-UIUX-Design-Services" element={<AndroidAppUIUXDesignServices />} />
+      <Route path="/UIUX-Design-Services" element={<UIUXDesignServices />} />
+      <Route path="/ISO-UIUX-Design-Services" element={<ISOUIUXDesignServices />} />
+      <Route path="/Website-UIUX-Design-Services" element={<WebsiteUIUXDesignServices />} />
+      <Route path="/ReactJs-Development" element={<ReactJsDevelopment />} />
+      <Route path="/Nextjs-Development" element={<NextjsDevelopment />} />
+      <Route path="/Vuejs-Development" element={<VuejsDevelopment />} />
+      <Route path="/ReactNative-Development" element={<ReactNativeDevelopment />} />
+      <Route path="/Angular-Dvelopment" element={<AngularDvelopment />} />
+      <Route path="/Nodejs" element={<Nodejs />} />
+      <Route path="/Laravel" element={<Laravel />} />
+      <Route path="/Python" element={<Python />} />
+      <Route path="/API-Development" element={<APIDevelopment />} />
+      <Route path="/Database-Designand-Management" element={<DatabaseDesignandManagement />} />
+      <Route path="/Server-Architecture-and-Configuration" element={<ServerArchitectureandConfiguration />} />
+      <Route path="/Cloud-Services-Integration-SAP-Industry-Solutions" element={<CloudServicesIntegrationSAPIndustrySolutions />} />
+      <Route path="/Backend-Framework-Development" element={<BackendFrameworkDevelopment />} />
+      <Route path="/Web-Application-Development" element={<WebApplicationDevelopment />} />
+      <Route path="/Mobile-Backend-Development" element={<MobileBackendDevelopment />} />
+      <Route path="/Real-TimeData-Processing" element={<RealTimeDataProcessing />} />
+      <Route path="/Performance-Optimization" element={<PerformanceOptimization />} />
+      <Route path="/Integration-with-Third-Party-Services" element={<IntegrationwithThirdPartyServices />} />
+      <Route path="/DevOps-and-Continuous-Integration" element={<DevOpsandContinuousIntegration />} />
+      <Route path="/Azure" element={<Azure />} />
+      <Route path="/Aws" element={<Aws />} />
+      <Route path="/Google-Cloud" element={<GoogleCloud />} />
+      <Route path="/PopupOption" element={<PopupOption />} />
+      <Route path="/App-Development" element={<AppDevelopment />} />
+      <Route path="/Cloud-Solutions" element={<CloudSolutions />} />
+      <Route path="/Digital-Marketing" element={<DigitalMarketing />} />
+      <Route path="/Website-Development" element={<WebsiteDevelopment />} />
+      <Route path="/Word-Press-Development" element={<WordPressDevelopment />} />
+      <Route path="/UIUX-Design" element={<UIUXDesign />} />
+      <Route element={<Error />} />
+    </Routes>
+  </BrowserRouter>
+);
+if (rootElement.hasChildNodes()) {
+  hydrate(AppRouter, rootElement);
+} else {
+  render(AppRouter, rootElement);
+}
 
-
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App/>,
-  },
-  {
-    path: "/PrivacyPolicy",
-    element: <PrivacyPolicy/>,
-  },
-  {
-    path: "/Native-Mobile-App-Development",
-    element: <NativeAppDevelopment />,
-  },
-  {
-    path: "/Cross-Platform-App-Development",
-    element: <CrossPlatformAppDevelopment/>,
-  },
-  {
-    path: "/About-Us",
-    element: <AboutUs/>,
-  },
-  {
-    path: "/Why-Choose-Us",
-    element: <WhyChooseUs />,
-  },
-  {
-    path: "/Blogs",
-    element: <Blog />,
-  },
-
-  {
-    path: "/Blog/:blogTitle",
-    element: <FullBlog />,
-  },
-  {
-    path: "/Contact-Us",
-    element: <ContactUs />,
-  },
-  {
-    path: "/Affiliate-Website",
-    element: <AffiliateWebsite />,
-  },
-  {
-    path: "/Android-Application-Development-Services",
-    element: <AndroidApplicationDevelopmentServices />,
-  },
-  {
-    path: "/Hybrid-Application-Development-Services",
-    element: <HybridApplicationDevelopmentServices/>,
-  },
-  {
-    path: "/Mobile-App-Development",
-    element: <MobileAppDevelopment/>,
-  },
-  {
-    path: "/App-Backend-Development",
-    element: <AppBackendDevelopment />,
-  },
-  {
-    path: "/Flutter-App-Development",
-    element: <FlutterAppDevelopment />,
-  },
-  {
-    path: "/React-Native-App-Development",
-    element: <ReactNativeAppDevelopment/>,
-  },
-  {
-    path: "/Mobile-App-Testingand-Testing-Quality-Assurance",
-    element: <MobileAppTestingandTestingQualityAssurance />,
-  },
-  {
-    path: "/IOS-Application-Development-Services",
-    element: <IOSApplicationDevelopmentServices />,
-  },
-  {
-    path: "/Search-Engine-Optimization",
-    element: <SearchEngineOptimization/>,
-  },
-  {
-    path: "/Pay-Per-Click-Advertising",
-    element: <PayPerClickAdvertising  />,
-  },
-  {
-    path: "/Social-Media-Advertising",
-    element: <SocialMediaAdvertising />,
-  },
-  {
-    path: "/Google-Advertising",
-    element: <GoogleAdvertising />,
-  },
-  {
-    path: "/Facebook-&-Instagram-Advertising",
-    element: <FacebookInstagramAdvertising />,
-  },
-  {
-    path: "/Content-Marketing",
-    element: <ContentMarketing />,
-  },
-  {
-    path: "/Social-Media-Marketing",
-    element: <SocialMediaMarketing />,
-  },
-  {
-    path: "/Email-Marketing",
-    element: <EmailMarketing />,
-  },
-  {
-    path: "/Analytics-and-Reporting",
-    element: <AnalyticsandReporting />,
-  },
-  {
-    path: "/Website-Traffic-Advertising",
-    element: <WebsiteTrafficAdvertising />,
-  },
-  {
-    path: "/E-Commerce-Advertising",
-    element: <ECommerceAdvertising />,
-  },
-  {
-    path: "/App-Install-Advertising",
-    element: <AppInstallAdvertising />,
-  },
-  {
-    path: "/Android-App-Advertising",
-    element: <AndroidAppAdvertising />,
-  },
-  {
-    path: "/IOS-App-Advertising",
-    element: <IOSAppAdvertising/>,
-  },
-  {
-    path: "/E-Commerce-Development",
-    element: <ECommerceDevelopment />,
-  },
-  {
-    path: "/FrontEnd-Development",
-    element: <FrontEndDevelopment />,
-  },
-  {
-    path: "/Backend-Development",
-    element: <BackendDevelopment />,
-  },
-  {
-    path: "/FullStack-Development-Services",
-    element: <FullStackDevelopmentServices />,
-  },
-  {
-    path: "/Blog-or-Personal-Website",
-    element: <BlogorPersonalWebsite />,
-  },
-  {
-    path: "/Business-Website",
-    element: <BusinessWebsite/>,
-  },
-  {
-    path: "/E-commerce-Website-Online-Store",
-    element: <EcommerceWebsiteOnlineStore/>,
-  },
-  {
-    path: "/Online-Courses",
-    element: <OnlineCourses/>,
-  },
-  {
-    path: "/Podcast-Website",
-    element: <PodcastWebsite/>,
-  },
-  {
-    path: "/Affiliate-Website",
-    element: <AffiliateWebsite/>,
-  },
-  {
-    path: "/JobBoard-Website",
-    element: <JobBoardWebsite/>,
-  },
-  {
-    path: "/Portfolio-Websites",
-    element: <PortfolioWebsites/>,
-  },
-  {
-    path: "/Travel-Website",
-    element: <TravelWebsite/>,
-  },
-  {
-    path: "/Fashion-Life-style-Website",
-    element: <FashionLifestyleWebsite/>,
-  },
-  {
-    path: "/Mobile-App-UIUX-Design-Services",
-    element: <MobileAppUIUXDesignServices/>,
-  },
-  {
-    path: "/Android-App-UIUX-Design-Services",
-    element: <AndroidAppUIUXDesignServices/>,
-  },
-  {
-    path: "/UIUX-Design-Services",
-    element: <UIUXDesignServices/>,
-  },
-  {
-    path: "/ISO-UIUX-Design-Services",
-    element: <ISOUIUXDesignServices/>,
-  },
-  {
-    path: "/Website-UIUX-Design-Services",
-    element: <WebsiteUIUXDesignServices/>,
-  },
-  {
-    path: "/ReactJs-Development",
-    element: <ReactJsDevelopment/>,
-  },
-  {
-    path: "/Nextjs-Development",
-    element: <NextjsDevelopment/>,
-  },
-  {
-    path: "/Vuejs-Development",
-    element: <VuejsDevelopment/>,
-  },
-  {
-    path: "/ReactNative-Development",
-    element: <ReactNativeDevelopment/>,
-  },
-  {
-    path: "/Angular-Dvelopment",
-    element: <AngularDvelopment/>,
-  },
-  {
-    path: "/Nodejs",
-    element: <Nodejs/>,
-  },
-  {
-    path: "/Laravel",
-    element: <Laravel/>,
-  },
-  {
-    path: "/Python",
-    element: <Python/>,
-  },
-  {
-    path: "/API-Development",
-    element: <APIDevelopment />,
-  },
-  {
-    path: "/Database-Designand-Management",
-    element: <DatabaseDesignandManagement />,
-  },
-  {
-    path: "/Server-Architecture-and-Configuration",
-    element: <ServerArchitectureandConfiguration />,
-  },
-  {
-    path: "/Cloud-Services-Integration-SAP-Industry-Solutions",
-    element: <CloudServicesIntegrationSAPIndustrySolutions/>,
-  },
-  {
-    path: "/Backend-Framework-Development",
-    element: <BackendFrameworkDevelopment/>,
-  },
-  {
-    path: "/Web-Application-Development",
-    element: <WebApplicationDevelopment />,
-  },
-  {
-    path: "/Mobile-Backend-Development",
-    element: <MobileBackendDevelopment/>,
-  },
-  {
-    path: "/Real-TimeData-Processing",
-    element: <RealTimeDataProcessing />,
-  },
-  {
-    path: "/Performance-Optimization",
-    element: <PerformanceOptimization />,
-  },
-  {
-    path: "/Integration-with-Third-Party-Services",
-    element: <IntegrationwithThirdPartyServices />,
-  },
-  {
-    path: "/DevOps-and-Continuous-Integration",
-    element: <DevOpsandContinuousIntegration />,
-  },
-  {
-    path: "/Azure",
-    element: <Azure/>,
-  },
-  {
-    path: "/Aws",
-    element: <Aws  />,
-  },
-  {
-    path: "/Google-Cloud",
-    element: <GoogleCloud  />,
-  },
-  {
-    path: "/PopupOption",
-    element: <PopupOption  />,
-  },
-  {
-    path: "/App-Development",
-    element: <AppDevelopment  />,
-  },
-  {
-    path: "/Cloud-Solutions",
-    element: <CloudSolutions />,
-  },
-  {
-    path: "/Digital-Marketing",
-    element: <DigitalMarketing />,
-  },
-  {
-    path: "/Website-Development",
-    element: <WebsiteDevelopment />,
-  },
-  {
-    path: "/Word-Press-Development",
-    element: <WordPressDevelopment />,
-  },
-  {
-    path: "/UIUX-Design",
-    element: <UIUXDesign />,
-  },
-  {
-    path: "*",
-    element: <Error />,
-  },
-]);
-
-root.render(
+ReactDOM.render(
   <React.StrictMode>
- <RouterProvider router={router} />
-  </React.StrictMode>
+    <AppRouter />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
 reportWebVitals();
-
-
-
-
-
-
-
-
-
-
