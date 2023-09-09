@@ -59,9 +59,7 @@ const ThirteenthSection = () => {
     return () => clearInterval(intervalId);
   }, []);
 
-  const BlogContent = ({ htmlContent }) => {
-    return <div className={style.description} dangerouslySetInnerHTML={{ __html: htmlContent }} />;
-  };
+
 
   const originalString = cardsData[0]?.title;
   const urlFriendlyString = originalString?.replace(/\s+/g, '-');
@@ -75,10 +73,10 @@ const ThirteenthSection = () => {
       </p>
       <div className={style.innerbox}>
         {cardsData.map((card, index) => (
-          <div
+          <div className={style.card}
            onClick={()=>handleCardClick(card.heading) }
             key={index}
-       
+             
           >
             <div className={style.imgbox}>
               <img

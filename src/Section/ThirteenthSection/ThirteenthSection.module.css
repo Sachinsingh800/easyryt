@@ -10,8 +10,10 @@
 .innerbox{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 2rem;
+    padding: 3rem;
+    
 }
 .img2{
     height: 100%;
@@ -31,7 +33,7 @@
     background-color:  rgb(240, 240, 241);
     transition: transform 0.3s ease-in-out;
     border-radius: 15px;
-     
+    overflow: hidden;  
 }
 .card:hover{
     transform: scale(1.01);
