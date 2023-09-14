@@ -6,7 +6,7 @@ import whatsapp from "../../Image/whatsapp.png"
 function CallButton() {
     const handleWhatsAppClick = () => {
         // Replace the following phone number with the desired WhatsApp number
-        const phoneNumber = '8287815883';
+        const phoneNumber = '7678109682';
         const message = 'Hello! I have a question.';
         const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
         window.open(url, '_blank');
@@ -14,7 +14,7 @@ function CallButton() {
     
       const handleCallClick = () => {
         // Replace the following phone number with the desired phone number
-        const phoneNumber = '8287815883';
+        const phoneNumber = '7678109682';
         const url = `tel:${phoneNumber}`;
         window.location.href = url;
       };
