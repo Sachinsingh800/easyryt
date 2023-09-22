@@ -65,7 +65,7 @@ function App() {
     provider: {
       '@type': 'Organization',
       name: 'Tutedude',
-      sameAs: 'https://www.tutedude.com/', // Replace with the actual URL
+      sameAs: 'https://www.easyryt.com/', // Replace with the actual URL
     },
   }));
 
@@ -78,7 +78,7 @@ function App() {
     provider: {
       '@type': 'Organization',
       name: 'Tutedude',
-      sameAs: 'https://www.tutedude.com/', // Replace with the actual URL
+      sameAs: 'https://www.easyryt.com/', // Replace with the actual URL
     },
   }));
 
@@ -87,7 +87,6 @@ function App() {
       
 
          <Helmet>
-          
         <script type="application/ld+json">{JSON.stringify(internshipTrackSchema)}</script>
 
         <script type="application/ld+json">{JSON.stringify(courseSchema)}</script>
