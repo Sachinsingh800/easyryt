@@ -36,7 +36,7 @@ const BlogForm = () => {
         text: 'Submitted successfully!',
         icon: 'success',
       });
-      navigate("/Blog")
+      navigate("/")
     } catch (error) {
       
       Swal.fire({
