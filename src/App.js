@@ -87,9 +87,29 @@ function App() {
       
 
          <Helmet>
-        <script type="application/ld+json">{JSON.stringify(internshipTrackSchema)}</script>
+        {/* <script type="application/ld+json">{JSON.stringify(internshipTrackSchema)}</script>
 
-        <script type="application/ld+json">{JSON.stringify(courseSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(courseSchema)}</script> */}
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://www.easyryt.com/",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://www.easyryt.com/search?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            },
+            "sameAs": [
+              "https://www.easyryt.com/our-services",
+              "https://www.easyryt.com/about-us",
+              "https://www.easyryt.com/contact-us",
+              "https://www.easyryt.com/privacypolicy"
+            ]
+          }
+          `}
+        </script>
  
         <title>We Transform Digital Solutions</title>
        
