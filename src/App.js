@@ -87,6 +87,7 @@ function App() {
       
 
          <Helmet>
+          
         <script type="application/ld+json">{JSON.stringify(internshipTrackSchema)}</script>
 
         <script type="application/ld+json">{JSON.stringify(courseSchema)}</script>
