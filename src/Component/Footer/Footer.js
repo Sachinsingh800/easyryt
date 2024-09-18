@@ -86,11 +86,11 @@ function Footer() {
           <h4>Contact For Sales</h4>
           <ul className={style.ul}>
             <li>info@easyryt.com</li>
-            <li>+91 testing</li>
+            <li>+91 9958280709</li>
             <li>
               <h6>Address</h6>
             </li>
-            <li className={style.address}>T-471 Gali, Pahar Wali Gali, Quresh Nagar, Sarai Khalil, Sadar Bazaar, Delhi, 110006</li>
+            <li className={style.address}>Quresh Nagar, Sarai Khalil, Sadar Bazaar, Delhi, 110006</li>
           </ul>
         </div>
       </div>
