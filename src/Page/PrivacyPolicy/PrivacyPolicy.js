@@ -84,7 +84,7 @@ function PrivacyPolicy() {
           Quresh Nagar, Sarai Khalil,
           Sadar Bazaar, Delhi, 110006
           info@easyryt.com
-          +91 7678109682
+          +91 9958280709
         </p>
 
         <p>By using our website or services, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.</p>
