@@ -86,7 +86,7 @@ function Footer() {
           <h4>Contact For Sales</h4>
           <ul className={style.ul}>
             <li>info@easyryt.com</li>
-            <li>+91 7678109682</li>
+            <li>+91 testing</li>
             <li>
               <h6>Address</h6>
             </li>
